@@ -12,9 +12,25 @@
     "eqT:wave"
     "eqT:wavevacuum"
     "eqT:wavevacumm2"
+    "eqT:ttg"
+    "eqT:hzdir"
     "eqT:ct"
     "eqT:t2c"
     "eqT:htrans"
-    "eqT:hbartrans"))
+    "eqT:hbartrans"
+    "eqT:dert"
+    "eqT:dert2"
+    "eqT:lort"
+    "eqT:sol"
+    "eqT:equad"
+    "eqT:quad"
+    "eqT:pjz"
+    "eqT:zhchx"
+    "eqT:zhchxp"
+    "eq:qtp"
+    "eq:aplus"
+    "eq:ax"
+    "eq:STFQ"
+    "eq:2dquad"))
  :latex)
 

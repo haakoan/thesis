@@ -78,24 +78,37 @@ It is clear from the latter form that GWs propagate through spacetime at the spe
 
 \section{The transverse-traceless gauge}
 Even though we introduced the Lorentz gauge earlier, we have not completely removed all superfluous degrees of freedom 
-in the linearised field equations. The transverse-traceless gauge (we will denote quantities in
-the transverse-traceless gauge with by a TT superscript) imposed the following conditons
-\begin{equation}
-h^{0 \mu} = 0, \qquad h^{i}_{i} = 0, \qquad \text{and} \qquad \partial^j h_{ij} = 0
+in the linearised field equations. In vacuum, where the energy-momentum tensor vanishes and Eq.~\ref{eqT:wavevacumm} holds, it is possible
+to simplify the expression for $\munu{h}$. The transverse-traceless gauge (we will denote the transverse-traceless gauge
+with TT and quantities with a TT are understood to be in the TT-gauge) imposed the following conditions
+\begin{equation} \label{eqT:ttg}
+h^{0 \mu} = 0, \qquad h^{i}_{i} = 0, \qquad \text{and} \qquad \partial^j h_{ij} = 0.
 \end{equation}
-To prove that we are free to impose these conditions we observe that a coordinate transformation 
+The solutions to Eq.~\ref{eqT:wavevacumm} are plane wave solutions and in the TT-gauge the 
+solution for a plane wave propagating along the z-axis is given by
+\begin{equation} \label{eqT:hzdir}
+h_{ij}^{TT}=
+  \begin{pmatrix}
+    h_{+} & h_{\times} & 0  \\
+    h_{\times} & -h_{+} & 0 \\
+    0 & 0 & 0
+  \end{pmatrix}_{ij}
+  cos[\omega(t - z/c)].
+\end{equation}
+Here we $t$ denotes time, $\omega$ the angular frequency of the wave,
+$h_+$ denotes the wave strain of the plus-polarised mode and $h_{\times}$ is the strain amplitude of the cross-polarised mode.
+To prove that we can impose the conditions of Eq.~\ref{eqT:ttg} we start by
+realising that the Lorentz gauge does not completely constrain the theory by considering the 
+coordinate transformation 
 \begin{equation} \label{eqT:ct}
 x^{\mu} \rightarrow x^{'\mu} = x^{\mu} + \epsilon^{\mu},
 \end{equation}
 where $\epsilon^{\mu}$ satisfy $\partial_{\gamma} \partial^{\gamma} \epsilon_{\mu} = 0$ 
-and $|\partial_{\nu} \epsilon_{\mu}|$ is at the most on the order of $|\munu{h}|$,
-does not break the condition imposed by the Lorentz gauge (Eq.~\ref{eqT:lor}).
+and $|\partial_{\nu} \epsilon_{\mu}|$ is at the most on the order of $|\munu{h}|$.
 Under an arbitrary coordinate transformation $x^{\mu} \rightarrow x^{'\mu}(x)$ the second rank tensor $\munu{h}$ transforms as
 \begin{equation} \label{eqT:t2c}
 \munu{h} \rightarrow \munu{h'} = \frac{\partial x^{\gamma}}{\partial x^{'\mu}} \frac{\partial x^{\sigma}}{\partial x^{'\nu}} h_{\gamma \sigma}.
 \end{equation}
-Under 
-
 Evaluating Eq.~\ref{eqT:t2c} for the coordinate transformation given by Eq.~\ref{eqT:ct} gives
 \begin{equation} \label{eqT:htrans}
 \munu{h} \rightarrow \munu{h'} = \munu{h} - (\partial_{\mu} \epsilon_{\nu} + \partial_{\nu} \epsilon_{\mu}). 
@@ -104,12 +117,191 @@ By combining Eq.~\ref{eqT:htrans} and Eq.~\ref{eqT:hbar} we find that under Eq.~
 \begin{equation} \label{eqT:hbartrans}
 \munu{\bar{h}} \rightarrow \munu{\bar{h}'} =  \munu{{h}} - (\partial_{\mu} \epsilon_{\nu} + \partial_{\nu} \epsilon_{\mu} - \munu{\eta}\partial_{\gamma} \epsilon^{\gamma}). 
 \end{equation}
-We can now directly see that the Lorentz gauge condition is satisfied, since $(\partial_{\mu} \partial^{\mu})\partial_{\nu} = \partial_{\nu}(\partial_{\mu} \partial^{\mu})$ (the derivatives commute). This means that from the four independent functions $\epsilon_{mu}$ we can construct the functions 
+By applying  $\partial_{\mu}$ to Eq.~\ref{eqT:ct} we find
+\begin{equation} \label{eqT:dert}
+\partial_{\mu} x^{'\mu} = \partial_{\mu} x^{\mu} + \partial_{\mu} \epsilon^{\mu},
+\end{equation}
+since $|\partial_{\mu} \epsilon^{\mu}| \ll 1$ Eq.~\ref{eqT:dert} implies that
+\begin{equation}
+\partial_{\mu} x^{'\mu} = \frac{\partial x^{'\mu} }{\partial x^{\mu}} = 1.
+\end{equation}
+This means that under the transformation given by Eq.~\ref{eqT:ct} the derivatives
+transforms as follows
+\begin{equation} \label{eqT:dert2}
+\partial_{\mu} \rightarrow \partial_{\mu}^{'} = \partial_{\mu}.
+\end{equation}
+We can now calculate how Eq.~\ref{eqT:lor} transform under Eq.~\ref{eqT:ct}
+\begin{align} \label{eqT:lort}
+\partial^{\nu} \munu{\bar{h}} & \rightarrow (\partial^{\nu} \munu{\bar{h}})^{'} \\ \nonumber
+&= \partial^{\nu} \left [ \munu{\bar{h}} - (\partial_{\mu} \epsilon_{\nu} + \partial_{\nu} \epsilon_{\mu} - \munu{\eta}\partial_{\gamma} \epsilon^{\gamma}) \right ] \\
+&= \partial^{\nu} \munu{\bar{h}} - \partial^{\gamma} \partial_{\gamma} \epsilon_{\mu} = 0. \nonumber
+\end{align}
+We can now directly see that the transformation does not break the Lorentz gauge condition.
+
+Instead of thinking about how $\munu{\bar{h}}$ transform under Eq.~\ref{eqT:ct}
+we can instead think about it like this: Eq.~\ref{eqT:hbartrans} tells us that
+that from four independent functions $\epsilon_{mu}$ we can construct the functions 
 \begin{equation}
 \munu{\epsilon} \equiv \partial_{\mu} \epsilon_{\nu} + \partial_{\nu} \epsilon_{\mu} - \munu{\eta}\partial_{\gamma} \epsilon^{\gamma}
 \end{equation}
-and are free to subtract this functions from $\munu{\bar{h}}$ without breaking the gauge condition set by Eq.~\ref{eqT:lor}. 
-With this freedom we can now choose the four functions $\epsilon^{\mu}$ such that they impose four simplifying conditions  $\munu{h}$.
-In the transverse-traceless gauge the four functions are chosen in such a way that $\munut{\eta}\munu{\bar{h}} = 0$ and $\bar{h}^{0 i} = 0$.
-Note that if the trace of $\munu{\bar{h}}$ is zero then $\munu{\bar{h}} = \munu{h}$. Under these conditions the Lorentz gauge condition
-reduces to $\partial^j h_{ij} = 0$.
+and are free to subtract this functions from $\munu{\bar{h}}$ without breaking the gauge condition set by Eq.~\ref{eqT:lor}.
+With this freedom we can now choose the four functions such that they impose four simplifying conditions on  $\munu{h}$.
+In the TT-gauge the four functions are chosen in such a that the trace of $\munu{\bar{h}}$ is zero and
+so that $h^{0i} = 0$. Note that if the trace of $\munu{\bar{h}}$ vanishes then $\munu{\bar{h}} = \munu{h}$.
+These four conditions, together with the Lorentz gauge, is what defines the TT-gauge and results in the
+conditions set by Eq.~\ref{eqT:ttg}.
+
+\section{Generation of gravitational waves}
+We turn now to the to the generation of gravitational waves, in the linearised theory framework,
+we start by writing down of Eq.~\ref{eqT:einlin} for a generic source under the assumption 
+that the gravitational field generated by the source is weak enough to justify the expantion
+around flat spacetime. 
+
+As for any wave equation, the solution of \eq{eqT:einstein} can be found by integrating over the source
+\begin{equation} \label{eqT:sol}
+\munu{\bar{h}}(t,\matbf{x}) = \frac{4G}{c^4} \int \mathrm{d}^3 x' \frac{\munu{T}(t-|\mathbf{x}-\mathbf{x'}|/c}{|\mathbf{x}-\mathbf{x'}|}.
+\end{equation}
+Far way from the source at a distance $D$, if the velocities ($v$) within the source is small compared to the speed of light, \eq{eqT:sol} reduces to the Einsteins famous quadrupole expression. In the TT-gauge the quadrupole expression can be written as follows  
+\begin{equation} \label{eqT:equad}
+\munu{h}(t,\matbf{x}) = \frac{1}{D} \frac{4G}{c^4} \left [P_{im} P_{jn} - \frac{1}{2} P_{ij} P_{mn} \right ] \ddot{Q}_{ij} (t -d/c),
+\end{equation}
+where $Q_{ij}$ is the the mass quadrupole moment that to leading order in $v/c$ is given by
+\begin{equation} \label{eqT:quad}
+Q_{ij} = \int \mathrm{d}^3 x \rho(t,\matbf{x})\left [x_{ij} - \frac{1}{3} \delta^{ij} x_l x_l \right ].
+\end{equation}
+$P_{ij} = \delta_{ij} -n_i n_j$ is the projection operator onto the plane transverse to the direction the wave is propagating in,
+$\hat{n}_i = x_i / \sqrt{x_j _x^j}$. To find the equation describing $h_{+}$ and $h_{\times}$ for a wave propagating in the general direction
+$\hat{n}$ we first consider a wave propagating along the z-axis in a coordinate system with axes $(x,y,z)$. 
+If $\hat{n} = \hat{z}$ then $P_{ij}$ becomes and we find that 
+\begin{equation} \label{eqT:pjz}
+P_{im} P_{jn} - \frac{1}{2} P_{ij} P_{mn} \right ] \ddot{Q}_{ij} = 
+  \begin{pmatrix}
+    (\ddot{Q}_{11}-\ddot{Q}_{22})/2 & \ddot{Q}_{12} & 0  \\
+    \ddot{Q}_{21} & (\ddot{Q}_{22} - \ddot{Q}_{11})/2 & 0 \\
+    0 & 0 & 0
+  \end{pmatrix}_{ij}.
+\end{equation}
+By comparing \eq{eqT:hzdir} and \eq{eqT:pjz} we see that
+\begin{align} \label{eqT:zhchx}
+h_{+}^{TT} &= \frac{G}{c^4 D} (\ddot{Q}_{11}-\ddot{Q}_{22}) \\ \nonumber
+h_{\times}^{TT} &= frac{2G}{c^4 D} \ddot{Q}_{12}.
+\end{align}
+Now consider a wave propegating along the $\hat{n} = (\sin{\theta} \sin{\phi}, \sin{\theta} \cos{\phi},\cos{\theta})$.
+We can view this as a wave propagating along the z'-axis of a coordinate system, with axes $(x',y',z')$, that has been constructed  
+by rotating the original system about the z-axis by an angle $\phi$ and then about the x-axis by an angle $\theta$. $h_{+}$ and $h_{\times}$.
+The rotation matrix R of the two consecutive rotations is
+\begin{equation} \label{eqT:pjz}
+R = 
+  \begin{pmatrix}
+    \cos{\phi} & \sin{\phi} & 0  \\
+    -\sin{\phi} & \cos{\phi} & 0 \\
+    0 & 0 & 0
+  \end{pmatrix}
+  \begin{pmatrix}
+    0 & 0 & 0  \\
+    0& \cos{\theta} & \sin{\theta} \\
+    0 & \cos{\theta} & \cos{\theta}
+  \end{pmatrix}
+\end{equation}
+
+Since the wave propegates along the z'-direction we can use the result from before (\eq{eqT:zhchx})
+\begin{align} \label{eqT:zhchxp}
+h_{+}^{TT} &= \frac{G}{c^4 D} (\ddot{Q}_{11}'-\ddot{Q}_{22}') \\ \nonumber
+h_{\times}^{TT} &= frac{2G}{c^4 D} \ddot{Q}_{12}'.
+\end{align}
+A second rank tensor, like the quadrupole tensor, transforms under as follows
+
+\begin{eqnarray}
+\label{eq:qtp}
+\ddot{Q}_{\theta \phi} =&  \left (\ddot{Q}_{22} - \ddot{Q}_{11} \right ) \cos{\theta}\sin{\phi}\cos{\phi} \nonumber \\
+&+ \ddot{Q}_{12} \cos{\theta} \left (\cos^2 \phi - \sin^2 \phi \right ) \nonumber \\ 
+&+ \ddot{Q}_{13} \sin \theta \sin \phi - \ddot{Q}_{23} \sin \theta \cos\phi,
+\end{eqnarray}
+\begin{eqnarray}
+\ddot{Q}_{\phi \phi} &= \ddot{Q}_{11} \sin^2 \phi + \ddot{Q}_{22} \cos^2 \phi - 2 \ddot{Q}_{12} \sin{\phi}\cos{\phi}
+\end{eqnarray}
+and
+\begin{eqnarray}
+\ddot{Q}_{\theta \theta} &= \left ( \ddot{Q}_{11} \cos^2 \phi + \ddot{Q}_{22} \sin^2 \phi +  2 \ddot{Q}_{12} \sin{\phi} \cos{\phi} \right) \cos^2 \theta \nonumber \\
+&+ \ddot{Q}_{33} \sin^2 \theta - 2 \left (\ddot{Q}_{13} \cos{\phi} + \ddot{Q}_{23} \sin{\phi} \right ) \sin{\theta} \cos{\theta}. 
+\end{eqnarray}
+
+
+In the transverse traceless (TT) gauge and the far-field limit the metric perturbation, $\mathbf{h^\mathrm{TT}}$, 
+can be expressed in terms of the amplitudes of the two independent polarisation modes in the following way,
+\begin{equation}
+\mathbf{h}^\mathrm{TT}(\mathbf{X},t) = \frac{1}{D}   \left [ A_{+} \mathbf{e}_{+} + A_{\times} \mathbf{e}_{\times} \right ].
+\end{equation}
+Here, $D$ denotes the distance between the source and the observer, $A_+$ denotes the wave amplitude of the plus-polarised mode, $A_\times$ is the wave amplitude of the cross-polarised mode and
+$\mathbf{e}_{\times}$ and $\mathbf{e}_{+}$ denote the unit polarisation tensors. The unit polarisation tensors are given by
+\begin{equation}
+\mathbf{e}_{+}  = \mathbf{e}_{\theta} \otimes \mathbf{e}_{\theta} - \mathbf{e}_{\phi} \otimes \mathbf{e}_{\phi},
+\end{equation}
+\begin{equation}
+\mathbf{e_{\times}} = \mathbf{e}_{\theta} \otimes \mathbf{e}_{\phi} + \mathbf{e}_{\phi} \otimes \mathbf{e}_{\theta},
+\end{equation}
+where $\mathbf{e}_{\theta}$ and $\mathbf{e}_{\phi}$ are the unit vectors in the $\theta$ and $\phi$
+direction of a spherical coordinate system and $\otimes$ denotes the tensor product.
+Using the quadrupole approximation in the slow-motion limit, the amplitudes $A_{\times}$ and $A_{+}$ can be computed from the second time derivative 
+of the symmetric trace-free (STF) part of the mass quadrupole tensor $Q$~\citep{oohara_97},
+\begin{equation}
+\label{eq:aplus}
+A_{+} = \ddot{Q}_{\theta \theta} - \ddot{Q}_{\phi \phi},
+\end{equation}
+\begin{equation}
+\label{eq:ax}
+A_{\times} =2 \ddot{Q}_{\theta \phi}.
+\end{equation}
+The components of $Q$ in the orthonormal basis associated with
+spherical polar coordinates used in this formula can be obtained from
+the Cartesian components $\ddot{Q}_{ij}$ of $\ddot{Q}$ \citep{oohara_97,nakamura_87}.  Using the
+continuity and momentum equations to eliminate time derivatives
+\citep{oohara_97,finn_89,blanchet_90}, the Cartesian components can be obtained as:
+\begin{equation} \label{eq:STFQ}
+\ddot{Q}_{ij} =\mathrm{STF} \left [2 \frac{G}{c^4} \int \ud^3 x \, \rho \left ( v_i v_j - x_i \partial_j \Phi \right ) \right].
+\end{equation}
+Here, $G$ is Newton's gravitational constant, $c$ is the speed of
+light, and $v_i$ and $x_i$ are the Cartesian velocity components and
+coordinates ($i = 1,2,3$), respectively. The gravitational potential
+$\Phi$ is the gravitational potential used in the simulations (with post-Newtonian
+corrections taken into account). $\mathrm{STF}$ denotes the projection operator
+onto the symmetric trace-free part.
+The advantage of this form is that
+the second-order time derivatives are transformed into first-order
+spatial derivatives, thus circumventing problems associated with the
+numerical evaluation of second-order time derivatives. 
+Using standard
+coordinate transformations between Cartesian and spherical
+coordinates, we obtain \citep{oohara_97,nakamura_87} the components 
+$\ddot{Q}_{\theta \theta}$, $\ddot{Q}_{\phi \phi}$, and
+$\ddot{Q}_{\theta \phi}$ needed in Eq.~(\ref{eq:aplus}) and (\ref{eq:ax}),
+\begin{eqnarray}
+\label{eq:qtp}
+\ddot{Q}_{\theta \phi} =&  \left (\ddot{Q}_{22} - \ddot{Q}_{11} \right ) \cos{\theta}\sin{\phi}\cos{\phi} \nonumber \\
+&+ \ddot{Q}_{12} \cos{\theta} \left (\cos^2 \phi - \sin^2 \phi \right ) \nonumber \\ 
+&+ \ddot{Q}_{13} \sin \theta \sin \phi - \ddot{Q}_{23} \sin \theta \cos\phi,
+\end{eqnarray}
+\begin{eqnarray}
+\ddot{Q}_{\phi \phi} &= \ddot{Q}_{11} \sin^2 \phi + \ddot{Q}_{22} \cos^2 \phi - 2 \ddot{Q}_{12} \sin{\phi}\cos{\phi}
+\end{eqnarray}
+and
+\begin{eqnarray}
+\ddot{Q}_{\theta \theta} &= \left ( \ddot{Q}_{11} \cos^2 \phi + \ddot{Q}_{22} \sin^2 \phi +  2 \ddot{Q}_{12} \sin{\phi} \cos{\phi} \right) \cos^2 \theta \nonumber \\
+&+ \ddot{Q}_{33} \sin^2 \theta - 2 \left (\ddot{Q}_{13} \cos{\phi} + \ddot{Q}_{23} \sin{\phi} \right ) \sin{\theta} \cos{\theta}. 
+\end{eqnarray}
+
+In axisymmetry the only independent component of $\mathbf{h}^\mathrm{TT}$ is 
+\begin{equation}
+\mathbf{h}^\mathrm{TT}_{\theta \theta} = \frac{1}{8}\sqrt{\frac{15}{\pi}} \sin^2{\theta} \frac{A_{20}^\mathrm{E2}}{D},
+\end{equation}
+where $D$ is the distance to the source, $\theta$ is the inclination angle of the observer with respect to the
+axis of symmetry, and $A_{20}^\mathrm{E2}$ represents the only non-zero quadrupole amplitude.
+In spherical coordinates $A_{20}^\mathrm{E2}$ can be expressed as follows
+\begin{eqnarray} \label{eq:2dquad}
+A_{20}^\mathrm{E2} (t) =  \frac{G}{c^4} \frac{16 \pi^{3/2}}{\sqrt{15}} \int_{-1}^{1}\int^{\infty}_0 \rho \left [ v_r^2(3 z^2 - 1)+ \right. \nonumber \\
+v_{\theta}^2(2-3 z^2) - v_{\phi}^2 - 6 v_r v_{\theta} z\sqrt{1-z^2} + \nonumber \\
+r \partial_r \Phi (3 z^2 - 1) +\left. 3 \partial_{\theta}z\sqrt{1-z^2} \Phi \right ]r^2 dr \, dz.
+\end{eqnarray}
+Here, $v_i$ and $\partial_i$ ($i = r, \theta, \phi$) represent the velocity components and derivatives, respectively, along
+the basis vectors of the spherical coordinate system, and $z \equiv \cos \theta$.
+For details we refer the reader to \cite{mueller_97}.

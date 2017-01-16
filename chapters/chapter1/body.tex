@@ -326,84 +326,84 @@ we only give a concise description of the formalism and refer the reader to
 \cite{mueller_e_12} contains some typos: Their Eq.~(24) is incomplete. The superscript TT is missing from $\ddot{Q}_{ij}$, as is also the case in Eq.~(22) and (23),
 and, more importantly, the trace term is missing.} for a full explanation.
 
-In the transverse traceless (TT) gauge and the far-field limit the metric perturbation, $\mathbf{h^\mathrm{TT}}$, 
-can be expressed in terms of the amplitudes of the two independent polarisation modes in the following way,
-\begin{equation}
-\mathbf{h}^\mathrm{TT}(\mathbf{X},t) = \frac{1}{D}   \left [ A_{+} \mathbf{e}_{+} + A_{\times} \mathbf{e}_{\times} \right ].
-\end{equation}
-Here, $D$ denotes the distance between the source and the observer, $A_+$ denotes the wave amplitude of the plus-polarised mode, $A_\times$ is the wave amplitude of the cross-polarised mode and
-$\mathbf{e}_{\times}$ and $\mathbf{e}_{+}$ denote the unit polarisation tensors. The unit polarisation tensors are given by
-\begin{equation}
-\mathbf{e}_{+}  = \mathbf{e}_{\theta} \otimes \mathbf{e}_{\theta} - \mathbf{e}_{\phi} \otimes \mathbf{e}_{\phi},
-\end{equation}
-\begin{equation}
-\mathbf{e_{\times}} = \mathbf{e}_{\theta} \otimes \mathbf{e}_{\phi} + \mathbf{e}_{\phi} \otimes \mathbf{e}_{\theta},
-\end{equation}
-where $\mathbf{e}_{\theta}$ and $\mathbf{e}_{\phi}$ are the unit vectors in the $\theta$ and $\phi$
-direction of a spherical coordinate system and $\otimes$ denotes the tensor product.
-Using the quadrupole approximation in the slow-motion limit, the amplitudes $A_{\times}$ and $A_{+}$ can be computed from the second time derivative 
-of the symmetric trace-free (STF) part of the mass quadrupole tensor $Q$~\citep{oohara_97},
-\begin{equation}
-\label{eq:aplus}
-A_{+} = \ddot{Q}_{\theta \theta} - \ddot{Q}_{\phi \phi},
-\end{equation}
-\begin{equation}
-\label{eq:ax}
-A_{\times} =2 \ddot{Q}_{\theta \phi}.
-\end{equation}
-The components of $Q$ in the orthonormal basis associated with
-spherical polar coordinates used in this formula can be obtained from
-the Cartesian components $\ddot{Q}_{ij}$ of $\ddot{Q}$ \citep{oohara_97,nakamura_87}.  Using the
-continuity and momentum equations to eliminate time derivatives
-\citep{oohara_97,finn_89,blanchet_90}, the Cartesian components can be obtained as:
-\begin{equation} \label{eq:STFQ}
-\ddot{Q}_{ij} =\mathrm{STF} \left [2 \frac{G}{c^4} \int \ud^3 x \, \rho \left ( v_i v_j - x_i \partial_j \Phi \right ) \right].
-\end{equation}
-Here, $G$ is Newton's gravitational constant, $c$ is the speed of
-light, and $v_i$ and $x_i$ are the Cartesian velocity components and
-coordinates ($i = 1,2,3$), respectively. The gravitational potential
-$\Phi$ is the gravitational potential used in the simulations (with post-Newtonian
-corrections taken into account). $\mathrm{STF}$ denotes the projection operator
-onto the symmetric trace-free part.
-The advantage of this form is that
-the second-order time derivatives are transformed into first-order
-spatial derivatives, thus circumventing problems associated with the
-numerical evaluation of second-order time derivatives. 
-Using standard
-coordinate transformations between Cartesian and spherical
-coordinates, we obtain \citep{oohara_97,nakamura_87} the components 
-$\ddot{Q}_{\theta \theta}$, $\ddot{Q}_{\phi \phi}$, and
-$\ddot{Q}_{\theta \phi}$ needed in Eq.~(\ref{eq:aplus}) and (\ref{eq:ax}),
-\begin{eqnarray}
-\label{eq:qtp}
-\ddot{Q}_{\theta \phi} =&  \left (\ddot{Q}_{22} - \ddot{Q}_{11} \right ) \cos{\theta}\sin{\phi}\cos{\phi} \nonumber \\
-&+ \ddot{Q}_{12} \cos{\theta} \left (\cos^2 \phi - \sin^2 \phi \right ) \nonumber \\ 
-&+ \ddot{Q}_{13} \sin \theta \sin \phi - \ddot{Q}_{23} \sin \theta \cos\phi,
-\end{eqnarray}
-\begin{eqnarray}
-\ddot{Q}_{\phi \phi} &= \ddot{Q}_{11} \sin^2 \phi + \ddot{Q}_{22} \cos^2 \phi - 2 \ddot{Q}_{12} \sin{\phi}\cos{\phi}
-\end{eqnarray}
-and
-\begin{eqnarray}
-\ddot{Q}_{\theta \theta} &= \left ( \ddot{Q}_{11} \cos^2 \phi + \ddot{Q}_{22} \sin^2 \phi +  2 \ddot{Q}_{12} \sin{\phi} \cos{\phi} \right) \cos^2 \theta \nonumber \\
-&+ \ddot{Q}_{33} \sin^2 \theta - 2 \left (\ddot{Q}_{13} \cos{\phi} + \ddot{Q}_{23} \sin{\phi} \right ) \sin{\theta} \cos{\theta}. 
-\end{eqnarray}
+% In the transverse traceless (TT) gauge and the far-field limit the metric perturbation, $\mathbf{h^\mathrm{TT}}$, 
+% can be expressed in terms of the amplitudes of the two independent polarisation modes in the following way,
+% \begin{equation}
+% \mathbf{h}^\mathrm{TT}(\mathbf{X},t) = \frac{1}{D}   \left [ A_{+} \mathbf{e}_{+} + A_{\times} \mathbf{e}_{\times} \right ].
+% \end{equation}
+% Here, $D$ denotes the distance between the source and the observer, $A_+$ denotes the wave amplitude of the plus-polarised mode, $A_\times$ is the wave amplitude of the cross-polarised mode and
+% $\mathbf{e}_{\times}$ and $\mathbf{e}_{+}$ denote the unit polarisation tensors. The unit polarisation tensors are given by
+% \begin{equation}
+% \mathbf{e}_{+}  = \mathbf{e}_{\theta} \otimes \mathbf{e}_{\theta} - \mathbf{e}_{\phi} \otimes \mathbf{e}_{\phi},
+% \end{equation}
+% \begin{equation}
+% \mathbf{e_{\times}} = \mathbf{e}_{\theta} \otimes \mathbf{e}_{\phi} + \mathbf{e}_{\phi} \otimes \mathbf{e}_{\theta},
+% \end{equation}
+% where $\mathbf{e}_{\theta}$ and $\mathbf{e}_{\phi}$ are the unit vectors in the $\theta$ and $\phi$
+% direction of a spherical coordinate system and $\otimes$ denotes the tensor product.
+% Using the quadrupole approximation in the slow-motion limit, the amplitudes $A_{\times}$ and $A_{+}$ can be computed from the second time derivative 
+% of the symmetric trace-free (STF) part of the mass quadrupole tensor $Q$~\citep{oohara_97},
+% \begin{equation}
+% \label{eq:aplus}
+% A_{+} = \ddot{Q}_{\theta \theta} - \ddot{Q}_{\phi \phi},
+% \end{equation}
+% \begin{equation}
+% \label{eq:ax}
+% A_{\times} =2 \ddot{Q}_{\theta \phi}.
+% \end{equation}
+% The components of $Q$ in the orthonormal basis associated with
+% spherical polar coordinates used in this formula can be obtained from
+% the Cartesian components $\ddot{Q}_{ij}$ of $\ddot{Q}$ \citep{oohara_97,nakamura_87}.  Using the
+% continuity and momentum equations to eliminate time derivatives
+% \citep{oohara_97,finn_89,blanchet_90}, the Cartesian components can be obtained as:
+% \begin{equation} \label{eq:STFQ}
+% \ddot{Q}_{ij} =\mathrm{STF} \left [2 \frac{G}{c^4} \int \ud^3 x \, \rho \left ( v_i v_j - x_i \partial_j \Phi \right ) \right].
+% \end{equation}
+% Here, $G$ is Newton's gravitational constant, $c$ is the speed of
+% light, and $v_i$ and $x_i$ are the Cartesian velocity components and
+% coordinates ($i = 1,2,3$), respectively. The gravitational potential
+% $\Phi$ is the gravitational potential used in the simulations (with post-Newtonian
+% corrections taken into account). $\mathrm{STF}$ denotes the projection operator
+% onto the symmetric trace-free part.
+% The advantage of this form is that
+% the second-order time derivatives are transformed into first-order
+% spatial derivatives, thus circumventing problems associated with the
+% numerical evaluation of second-order time derivatives. 
+% Using standard
+% coordinate transformations between Cartesian and spherical
+% coordinates, we obtain \citep{oohara_97,nakamura_87} the components 
+% $\ddot{Q}_{\theta \theta}$, $\ddot{Q}_{\phi \phi}$, and
+% $\ddot{Q}_{\theta \phi}$ needed in Eq.~(\ref{eq:aplus}) and (\ref{eq:ax}),
+% \begin{eqnarray}
+% \label{eq:qtp}
+% \ddot{Q}_{\theta \phi} =&  \left (\ddot{Q}_{22} - \ddot{Q}_{11} \right ) \cos{\theta}\sin{\phi}\cos{\phi} \nonumber \\
+% &+ \ddot{Q}_{12} \cos{\theta} \left (\cos^2 \phi - \sin^2 \phi \right ) \nonumber \\ 
+% &+ \ddot{Q}_{13} \sin \theta \sin \phi - \ddot{Q}_{23} \sin \theta \cos\phi,
+% \end{eqnarray}
+% \begin{eqnarray}
+% \ddot{Q}_{\phi \phi} &= \ddot{Q}_{11} \sin^2 \phi + \ddot{Q}_{22} \cos^2 \phi - 2 \ddot{Q}_{12} \sin{\phi}\cos{\phi}
+% \end{eqnarray}
+% and
+% \begin{eqnarray}
+% \ddot{Q}_{\theta \theta} &= \left ( \ddot{Q}_{11} \cos^2 \phi + \ddot{Q}_{22} \sin^2 \phi +  2 \ddot{Q}_{12} \sin{\phi} \cos{\phi} \right) \cos^2 \theta \nonumber \\
+% &+ \ddot{Q}_{33} \sin^2 \theta - 2 \left (\ddot{Q}_{13} \cos{\phi} + \ddot{Q}_{23} \sin{\phi} \right ) \sin{\theta} \cos{\theta}. 
+% \end{eqnarray}
 
-In axisymmetry the only independent component of $\mathbf{h}^\mathrm{TT}$ is 
-\begin{equation}
-\mathbf{h}^\mathrm{TT}_{\theta \theta} = \frac{1}{8}\sqrt{\frac{15}{\pi}} \sin^2{\theta} \frac{A_{20}^\mathrm{E2}}{D},
-\end{equation}
-where $D$ is the distance to the source, $\theta$ is the inclination angle of the observer with respect to the
-axis of symmetry, and $A_{20}^\mathrm{E2}$ represents the only non-zero quadrupole amplitude.
-In spherical coordinates $A_{20}^\mathrm{E2}$ can be expressed as follows
-\begin{eqnarray} \label{eq:2dquad}
-A_{20}^\mathrm{E2} (t) =  \frac{G}{c^4} \frac{16 \pi^{3/2}}{\sqrt{15}} \int_{-1}^{1}\int^{\infty}_0 \rho \left [ v_r^2(3 z^2 - 1)+ \right. \nonumber \\
-v_{\theta}^2(2-3 z^2) - v_{\phi}^2 - 6 v_r v_{\theta} z\sqrt{1-z^2} + \nonumber \\
-r \partial_r \Phi (3 z^2 - 1) +\left. 3 \partial_{\theta}z\sqrt{1-z^2} \Phi \right ]r^2 dr \, dz.
-\end{eqnarray}
-Here, $v_i$ and $\partial_i$ ($i = r, \theta, \phi$) represent the velocity components and derivatives, respectively, along
-the basis vectors of the spherical coordinate system, and $z \equiv \cos \theta$.
-For details we refer the reader to \cite{mueller_97}.
+% In axisymmetry the only independent component of $\mathbf{h}^\mathrm{TT}$ is 
+% \begin{equation}
+% \mathbf{h}^\mathrm{TT}_{\theta \theta} = \frac{1}{8}\sqrt{\frac{15}{\pi}} \sin^2{\theta} \frac{A_{20}^\mathrm{E2}}{D},
+% \end{equation}
+% where $D$ is the distance to the source, $\theta$ is the inclination angle of the observer with respect to the
+% axis of symmetry, and $A_{20}^\mathrm{E2}$ represents the only non-zero quadrupole amplitude.
+% In spherical coordinates $A_{20}^\mathrm{E2}$ can be expressed as follows
+% \begin{eqnarray} \label{eq:2dquad}
+% A_{20}^\mathrm{E2} (t) =  \frac{G}{c^4} \frac{16 \pi^{3/2}}{\sqrt{15}} \int_{-1}^{1}\int^{\infty}_0 \rho \left [ v_r^2(3 z^2 - 1)+ \right. \nonumber \\
+% v_{\theta}^2(2-3 z^2) - v_{\phi}^2 - 6 v_r v_{\theta} z\sqrt{1-z^2} + \nonumber \\
+% r \partial_r \Phi (3 z^2 - 1) +\left. 3 \partial_{\theta}z\sqrt{1-z^2} \Phi \right ]r^2 dr \, dz.
+% \end{eqnarray}
+% Here, $v_i$ and $\partial_i$ ($i = r, \theta, \phi$) represent the velocity components and derivatives, respectively, along
+% the basis vectors of the spherical coordinate system, and $z \equiv \cos \theta$.
+% For details we refer the reader to \cite{mueller_97}.
 
 In this work, we disregard the contribution of anisotropic neutrino
 emission \citep{epstein_78} to the GW signal. Due
