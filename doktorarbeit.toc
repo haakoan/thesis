@@ -1,0 +1,30 @@
+\select@language {english}
+\select@language {english}
+\contentsline {chapter}{\numberline {1}Theory}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}General relativity}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Linearised theory}{1}{section.1.2}
+\contentsline {section}{\numberline {1.3}The transverse-traceless gauge}{2}{section.1.3}
+\contentsline {chapter}{\numberline {2}First paper}{5}{chapter.2}
+\contentsline {section}{\numberline {2.1}Introduction}{5}{section.2.1}
+\contentsline {section}{\numberline {2.2}Setup and Numerical Methods}{8}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Numerical Methods}{8}{subsection.2.2.1}
+\contentsline {section}{\numberline {2.3}Structure and Origin of the Gravitational Wave Signal}{9}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Supernova Models}{9}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Gravitational Wave Extraction}{12}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Overview of Waveforms}{14}{subsection.2.3.3}
+\contentsline {subsubsection}{\nonumberline Waveforms}{14}{section*.3}
+\contentsline {subsubsection}{\nonumberline Energy Spectra}{15}{section*.4}
+\contentsline {subsubsection}{\nonumberline The Signal in the Time-Frequency Domain}{17}{section*.6}
+\contentsline {subsection}{\numberline {2.3.4}Spatial Location of Underlying Hydrodynamical Instabilities}{18}{subsection.2.3.4}
+\contentsline {subsection}{\numberline {2.3.5}Origin of High-Frequency Emission}{22}{subsection.2.3.5}
+\contentsline {subsection}{\numberline {2.3.6}Comparison of high-frequency emission in 2D and 3D}{24}{subsection.2.3.6}
+\contentsline {subsection}{\numberline {2.3.7}Origin of the Low-Frequency Signal}{29}{subsection.2.3.7}
+\contentsline {subsection}{\numberline {2.3.8}Comparison of the exploding and non-exploding 20 solar mass models}{33}{subsection.2.3.8}
+\contentsline {section}{\numberline {2.4}Detection Prospects}{34}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}General Considerations}{35}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Detection Prospects for Simulated Models}{37}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}Detection Prospects with AdvLIGO}{38}{subsection.2.4.3}
+\contentsline {subsection}{\numberline {2.4.4}Detection Prospects with the Einstein Telescope}{38}{subsection.2.4.4}
+\contentsline {subsection}{\numberline {2.4.5}Interpretation of a Prospective Detection}{38}{subsection.2.4.5}
+\contentsline {section}{\numberline {2.5}Conclusions}{39}{section.2.5}
+\contentsline {chapter}{Bibliography}{45}{section*.20}

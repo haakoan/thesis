@@ -1,0 +1,115 @@
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: "../../doktorarbeit"
+%%% End:
+
+\chapter{Theory}
+
+
+\section{General relativity}
+The total gravitational action is given by the sum of the 
+Einstein action, $S_E$, and the matter action, $S_M$.
+\begin{equation}
+S_E = \frac{c^3}{16 \pi G} \int \mathrm{d}^4 x \sqrt{-g} R
+\end{equation}
+
+
+\section{Linearised theory}
+One of the most straight forward ways to understand 
+GWs is to expand the Einstein equations around the 
+flat Minkowski space. Mathematically this means that we write the
+metric tensor $\munu{g}$ as
+\begin{equation} \label{eqT:metric}
+\munu{g} = \munu{\eta} + \munu{h},
+\end{equation}
+where $\munu{\eta}$ is the Minkowski metric tensor and $\munu{h}$
+is some small perturbation satisfying the condition
+\begin{equation} \label{eqT:hsmall}
+|\munu{h}|  \ll 1.
+\end{equation}
+The condition given by Eq.~\ref{eqT:hsmall} will not hold in a arbitrary 
+reference frame. Therefor, by imposing the smallness condition on $\munu{h}$
+we implicitly chose a frame where the numerical value of the components of $\munu{h}$ is much smaller than one,
+in the region of space which we are interested in. In linearised theory we use the Minkowski metric tensor
+to lower and raise indices. 
+
+The field equations of general relativity can
+be written in terms of the Ricci tensor ($\munu{R}$), the Ricci scalar ($R$), the metric tensor,
+and the energy-momentum tensor ($\munu{T}$) as follows
+\begin{equation} \label{eqT:einstein}
+\munu{R} - \frac{1}{2} \munu{g} R = \frac{8 \pi G}{c^4 } \munu{T}. 
+\end{equation}
+Before we combine Eq.~\ref{eqT:metric} and Eq.~\ref{eqT:einstein} we introduce the simplifying notation
+\begin{equation} \label{eqT:h}
+h = \munut{\eta}\munu{h},
+\end{equation}
+and
+\begin{equation} \label{eqT:hbar}
+\munu{\bar{h}} = \munu{h} - \frac{1}{2}\munu{\eta}h.
+\end{equation}
+By inserting our expression for the metric tensor (Eq.~\ref{eqT:metric}) into Eq.~\ref{eqT:einstein}
+and expand to linear order in $\munu{h}$ we find the linearised version of the Einstein equations
+\begin{equation} \label{eqT:einlin}
+\partial_{\gamma} \partial^{\gamma} \munu{\bar{h}} + \munu{\eta} \partial^{\rho} \partial^{sigma} \bar{h}_{\rho \sigma}
+- \partial^{\rho}\partial_{\nu}\bar{h}_{\mu \sigma} -  \partial^{\rho}\partial_{\mu}\bar{h}_{\nu \sigma}
+= \frac{8 \pi G}{c^4 } \munu{T}.
+\end{equation}
+We can simplify Eq.~\ref{eqT:einlin} by using the gauge freedom of our linearised theory to chose the Lorentz gauge,
+\begin{equation} \label{eqT:lor}
+\partial^{nu} \munu{\bar{h}} = 0.
+\end{equation}
+Under this gauge condition Eq.~\ref{eqT:einlin} reduces to a wave equation 
+\begin{equation} \label{eqT:wave}
+\partial_{\gamma} \partial^{\gamma} \munu{\bar{h}} = \frac{8 \pi G}{c^4 } \munu{T},
+\end{equation}
+since every term, except the first one, on the left hand side vanishes. 
+
+Eq.~\ref{eqT:wave} further simplifies when we are outside of the sources generating
+GWs, in vacuum the energy-momentum tensor vanishes and we get  
+\begin{equation} \label{eqT:wavevacuum}
+\partial_{\gamma} \partial^{\gamma} \munu{\bar{h}} = 0,
+\end{equation}
+which can be rewritten as
+\begin{equation} \label{eqT:wavevacumm2}
+\frac{1}{c^2} \partial_t^2 \munu{\bar{h}} = [ \partial_1^x  + \partial_y^2 + \partial_z^2] \munu{\bar{h}}.
+\end{equation}
+It is clear from the latter form that GWs propagate through spacetime at the speed of light in a wave-like fashion.
+
+\section{The transverse-traceless gauge}
+Even though we introduced the Lorentz gauge earlier, we have not completely removed all superfluous degrees of freedom 
+in the linearised field equations. The transverse-traceless gauge (we will denote quantities in
+the transverse-traceless gauge with by a TT superscript) imposed the following conditons
+\begin{equation}
+h^{0 \mu} = 0, \qquad h^{i}_{i} = 0, \qquad \text{and} \qquad \partial^j h_{ij} = 0
+\end{equation}
+To prove that we are free to impose these conditions we observe that a coordinate transformation 
+\begin{equation} \label{eqT:ct}
+x^{\mu} \rightarrow x^{'\mu} = x^{\mu} + \epsilon^{\mu},
+\end{equation}
+where $\epsilon^{\mu}$ satisfy $\partial_{\gamma} \partial^{\gamma} \epsilon_{\mu} = 0$ 
+and $|\partial_{\nu} \epsilon_{\mu}|$ is at the most on the order of $|\munu{h}|$,
+does not break the condition imposed by the Lorentz gauge (Eq.~\ref{eqT:lor}).
+Under an arbitrary coordinate transformation $x^{\mu} \rightarrow x^{'\mu}(x)$ the second rank tensor $\munu{h}$ transforms as
+\begin{equation} \label{eqT:t2c}
+\munu{h} \rightarrow \munu{h'} = \frac{\partial x^{\gamma}}{\partial x^{'\mu}} \frac{\partial x^{\sigma}}{\partial x^{'\nu}} h_{\gamma \sigma}.
+\end{equation}
+Under 
+
+Evaluating Eq.~\ref{eqT:t2c} for the coordinate transformation given by Eq.~\ref{eqT:ct} gives
+\begin{equation} \label{eqT:htrans}
+\munu{h} \rightarrow \munu{h'} = \munu{h} - (\partial_{\mu} \epsilon_{\nu} + \partial_{\nu} \epsilon_{\mu}). 
+\end{equation}
+By combining Eq.~\ref{eqT:htrans} and Eq.~\ref{eqT:hbar} we find that under Eq.~\ref{eqT:ct} $\munu{\bar{h}}$ transforms as follows
+\begin{equation} \label{eqT:hbartrans}
+\munu{\bar{h}} \rightarrow \munu{\bar{h}'} =  \munu{{h}} - (\partial_{\mu} \epsilon_{\nu} + \partial_{\nu} \epsilon_{\mu} - \munu{\eta}\partial_{\gamma} \epsilon^{\gamma}). 
+\end{equation}
+We can now directly see that the Lorentz gauge condition is satisfied, since $(\partial_{\mu} \partial^{\mu})\partial_{\nu} = \partial_{\nu}(\partial_{\mu} \partial^{\mu})$ (the derivatives commute). This means that from the four independent functions $\epsilon_{mu}$ we can construct the functions 
+\begin{equation}
+\munu{\epsilon} \equiv \partial_{\mu} \epsilon_{\nu} + \partial_{\nu} \epsilon_{\mu} - \munu{\eta}\partial_{\gamma} \epsilon^{\gamma}
+\end{equation}
+and are free to subtract this functions from $\munu{\bar{h}}$ without breaking the gauge condition set by Eq.~\ref{eqT:lor}. 
+With this freedom we can now choose the four functions $\epsilon^{\mu}$ such that they impose four simplifying conditions  $\munu{h}$.
+In the transverse-traceless gauge the four functions are chosen in such a way that $\munut{\eta}\munu{\bar{h}} = 0$ and $\bar{h}^{0 i} = 0$.
+Note that if the trace of $\munu{\bar{h}}$ is zero then $\munu{\bar{h}} = \munu{h}$. Under these conditions the Lorentz gauge condition
+reduces to $\partial^j h_{ij} = 0$.
