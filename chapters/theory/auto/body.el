@@ -26,11 +26,18 @@
     "eqT:quad"
     "eqT:pjz"
     "eqT:zhchx"
-    "eqT:zhchxp"
-    "eq:qtp"
-    "eq:aplus"
-    "eq:ax"
+    "eqT:hp"
+    "eqT:hc"
+    "eqT:cont"
+    "eqT:mom"
+    "eqT:enrg"
+    "eqT:quaddt"
+    "eqT:quaddt2"
+    "eqT:quaddtt"
+    "eqT:quaddtt2"
+    "eqT:quaddtt3"
     "eq:STFQ"
-    "eq:2dquad"))
+    "eq:2dquad"
+    "eq:DFT"))
  :latex)
 

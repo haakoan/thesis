@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.1.11)  16 JAN 2017 22:01
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.1.11)  17 JAN 2017 18:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1322,7 +1322,14 @@ File: pgfmodulematrix.code.tex 2010/08/24  (rcs-revision 1.4)
 (/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopat
 hs.code.tex
 File: tikzlibrarytopaths.code.tex 2008/06/17 v2.10 (rcs-revision 1.2)
-))) (./aas_macros.sty) (./doktorarbeit.aux)
+))) (./aas_macros.sty) (./doktorarbeit.aux
+
+LaTeX Warning: Label `eqT:pjz' multiply defined.
+
+
+LaTeX Warning: Label `eq:DFT' multiply defined.
+
+)
 \openout1 = `doktorarbeit.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 251.
@@ -1342,8 +1349,7 @@ LaTeX Font Info:    ... okay on input line 251.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 251.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 251.
 
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 251.
@@ -1445,7 +1451,7 @@ ed-to.pdf front_page/tum.eps>
 (epstopdf)             \includegraphics on input line 262.
 Package epstopdf Info: Output file is already uptodate.
 
-<front_page/tum-eps-converted-to.pdf, id=107, 54.2025pt x 29.10875pt>
+<front_page/tum-eps-converted-to.pdf, id=111, 54.2025pt x 29.10875pt>
 File: front_page/tum-eps-converted-to.pdf Graphic file (type pdf)
 
 <use front_page/tum-eps-converted-to.pdf>
@@ -1463,7 +1469,7 @@ ed-to.pdf front_page/mpa.eps>
 (epstopdf)             \includegraphics on input line 262.
 Package epstopdf Info: Output file is already uptodate.
 
-<front_page/mpa-eps-converted-to.pdf, id=108, 286.06876pt x 129.48375pt>
+<front_page/mpa-eps-converted-to.pdf, id=112, 286.06876pt x 129.48375pt>
 File: front_page/mpa-eps-converted-to.pdf Graphic file (type pdf)
 
 <use front_page/mpa-eps-converted-to.pdf>
@@ -1546,62 +1552,28 @@ h the same identifier (name{page.3}) has been already used, duplicate ignored
                    \relax 
 l.154 \section
               {Generation of gravitational waves} [3]
-! Undefined control sequence.
-l.162 \munu{\bar{h}}(t,\matbf
-                             {x}) = \frac{4G}{c^4} \int \mathrm{d}^3 x' \fra...
-
-? 
-
-LaTeX Warning: Reference `eqT:sol' on page 4 undefined on input line 164.
-
-! Undefined control sequence.
-l.166 \munu{h}(t,\matbf
-                       {x}) = \frac{1}{D} \frac{4G}{c^4} \left [P_{im} P_{jn...
-
-? 
-! Undefined control sequence.
-l.170 Q_{ij} = \int \mathrm{d}^3 x \rho(t,\matbf
-                                                {x})\left [x_{ij} - \frac{1}...
-
-? 
-! Double subscript.
-l.173 $\hat{n}_i = x_i / \sqrt{x_j _
-                                    x^j}$. To find the equation describing $...
-
-? 
-! Extra \right.
-l.177 ...{jn} - \frac{1}{2} P_{ij} P_{mn} \right ]
-                                                   \ddot{Q}_{ij} =
-? 
-
-LaTeX Warning: Reference `eqT:hzdir' on page 4 undefined on input line 184.
-
-
-LaTeX Warning: Reference `eqT:pjz' on page 4 undefined on input line 184.
+Overfull \hbox (1.04533pt too wide) in paragraph at lines 189--194
+\OT1/cmr/m/n/12 Now con-sider a wave prop-a-gat-ing in the di-rec-tion given by
+ $[] = ([] \OML/cmm/m/it/12 ^^R [] ^^^; [] ^^R [] ^^^; [] ^^R\OT1/cmr/m/n/12 )$
+.
+ []
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.193 \begin{equation}
-                       \label{eqT:pjz} [4]
-
-LaTeX Warning: Reference `eqT:zhchx' on page 5 undefined on input line 207.
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has 
-been already used, duplicate ignored
+l.194 \begin{equation}
+                       \label{eqT:pjz} [4]pdfTeX warning (ext4): destination wi
+th the same identifier (name{page.5}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.247 \begin{equation}
-                       [5]pdfTeX warning (ext4): destination with the same iden
-tifier (name{page.6}) has been already used, duplicate ignored
+l.243 
+       [5]pdfTeX warning (ext4): destination with the same identifier (name{pag
+e.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.296 \end{equation}
-                     [6]) [7] [8
-
-
-] (./chapters/chapter1/body.tex
+l.279 \end{align}
+                  [6] [7]) [8] (./chapters/chapter1/body.tex
 Chapter 2.
 LaTeX Font Info:    External font `cmex7' loaded for size
 (Font)              <7> on input line 55.
@@ -1612,6 +1584,8 @@ LaTeX Font Info:    Font shape `U/lasy/b/n' in size <7> not available
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <5> not available
 (Font)              Font shape `U/lasy/m/n' tried instead on input line 55.
 [9
+
+
 
 
 ] [10] [11]
@@ -1662,7 +1636,7 @@ Class scrbook Warning: Usage of deprecated font command `\bf'!
 (scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
 (scrbook)              by `\normalfont \bfseries ' on input line 217.
 
-<./images/chp1/fig1.pdf, id=616, 1538.58812pt x 1637.94933pt>
+<./images/chp1/fig1.pdf, id=628, 1538.58812pt x 1637.94933pt>
 File: ./images/chp1/fig1.pdf Graphic file (type pdf)
 
 <use ./images/chp1/fig1.pdf>
@@ -1683,7 +1657,7 @@ Class scrbook Warning: Usage of deprecated font command `\bf'!
 (scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
 (scrbook)              by `\normalfont \bfseries ' on input line 295.
 
-[15] [16] <./images/chp1/fig2.pdf, id=752, 1250.93349pt x 1039.54376pt>
+[15] [16] <./images/chp1/fig2.pdf, id=764, 1250.93349pt x 1039.54376pt>
 File: ./images/chp1/fig2.pdf Graphic file (type pdf)
 
 <use ./images/chp1/fig2.pdf>
@@ -1694,7 +1668,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [17]
 [18 <./images/chp1/fig2.pdf>] [19]
-<./images/chp1/fig3.pdf, id=802, 1757.52606pt x 1304.7445pt>
+<./images/chp1/fig3.pdf, id=815, 1757.52606pt x 1304.7445pt>
 File: ./images/chp1/fig3.pdf Graphic file (type pdf)
 
 <use ./images/chp1/fig3.pdf>
@@ -1706,92 +1680,105 @@ Underfull \hbox (badness 10000) in paragraph at lines 573--582
  []
 
 [20] [21 <./images/chp1/fig3.pdf>]
-<./images/chp1/fig4.pdf, id=829, 247.92625pt x 206.7725pt>
+<./images/chp1/fig4.pdf, id=840, 247.92625pt x 206.7725pt>
 File: ./images/chp1/fig4.pdf Graphic file (type pdf)
 
 <use ./images/chp1/fig4.pdf>
 Package pdftex.def Info: ./images/chp1/fig4.pdf used on input line 646.
 (pdftex.def)             Requested size: 456.11655pt x 380.43445pt.
 
-<./images/chp1/fig5.pdf, id=834, 678.535pt x 675.52374pt>
+<./images/chp1/fig5.pdf, id=845, 678.535pt x 675.52374pt>
 File: ./images/chp1/fig5.pdf Graphic file (type pdf)
 
 <use ./images/chp1/fig5.pdf>
 Package pdftex.def Info: ./images/chp1/fig5.pdf used on input line 667.
 (pdftex.def)             Requested size: 225.75594pt x 224.74797pt.
  [22] [23 <./images/chp1/fig4.pdf>]
-<./images/chp1/fig6a.pdf, id=885, 1036.72316pt x 632.39264pt>
+<./images/chp1/fig6a.pdf, id=899, 1036.72316pt x 632.39264pt>
 File: ./images/chp1/fig6a.pdf Graphic file (type pdf)
 
 <use ./images/chp1/fig6a.pdf>
 Package pdftex.def Info: ./images/chp1/fig6a.pdf used on input line 707.
 (pdftex.def)             Requested size: 225.75594pt x 137.70833pt.
 
-<./images/chp1/fig6b.pdf, id=886, 1036.72316pt x 632.39264pt>
+<./images/chp1/fig6b.pdf, id=900, 1036.72316pt x 632.39264pt>
 File: ./images/chp1/fig6b.pdf Graphic file (type pdf)
 
 <use ./images/chp1/fig6b.pdf>
 Package pdftex.def Info: ./images/chp1/fig6b.pdf used on input line 708.
 (pdftex.def)             Requested size: 225.75594pt x 137.70833pt.
 
-<./images/chp1/fig6d.pdf, id=887, 1036.72316pt x 632.39264pt>
+<./images/chp1/fig6d.pdf, id=901, 1036.72316pt x 632.39264pt>
 File: ./images/chp1/fig6d.pdf Graphic file (type pdf)
 
 <use ./images/chp1/fig6d.pdf>
 Package pdftex.def Info: ./images/chp1/fig6d.pdf used on input line 710.
 (pdftex.def)             Requested size: 225.75594pt x 137.70833pt.
 
-<./images/chp1/fig6c.pdf, id=888, 1036.72316pt x 632.39264pt>
+<./images/chp1/fig6c.pdf, id=902, 1036.72316pt x 632.39264pt>
 File: ./images/chp1/fig6c.pdf Graphic file (type pdf)
 
 <use ./images/chp1/fig6c.pdf>
 Package pdftex.def Info: ./images/chp1/fig6c.pdf used on input line 711.
 (pdftex.def)             Requested size: 225.75594pt x 137.70833pt.
- [24 <./images/chp1/fig5.pdf>] [25 <./images/chp1/fig6a.pdf> <./images/chp1/fig
-6b.pdf> <./images/chp1/fig6d.pdf> <./images/chp1/fig6c.pdf>] [26] <./images/chp
-1/fig7.pdf, id=1007, 1229.59375pt x 817.0525pt>
+
+
+LaTeX Warning: Reference `eq:aplus' on page 24 undefined on input line 725.
+
+
+LaTeX Warning: Reference `eq:ax' on page 24 undefined on input line 725.
+
+
+LaTeX Warning: Reference `eq:aplus' on page 24 undefined on input line 725.
+
+
+LaTeX Warning: Reference `eq:ax' on page 24 undefined on input line 725.
+
+[24 <./images/chp1/fig5.pdf>] [25 <./images/chp1/fig6a.pdf> <./images/chp1/fig6
+b.pdf> <./images/chp1/fig6d.pdf> <./images/chp1/fig6c.pdf>] [26]
+<./images/chp1/fig7.pdf, id=1017, 1229.59375pt x 817.0525pt>
 File: ./images/chp1/fig7.pdf Graphic file (type pdf)
 
 <use ./images/chp1/fig7.pdf>
 Package pdftex.def Info: ./images/chp1/fig7.pdf used on input line 817.
 (pdftex.def)             Requested size: 207.32315pt x 137.76257pt.
 
-<./images/chp1/fig8a.pdf, id=1012, 1061.24483pt x 562.83272pt>
+<./images/chp1/fig8a.pdf, id=1022, 1061.24483pt x 562.83272pt>
 File: ./images/chp1/fig8a.pdf Graphic file (type pdf)
 
 <use ./images/chp1/fig8a.pdf>
 Package pdftex.def Info: ./images/chp1/fig8a.pdf used on input line 828.
 (pdftex.def)             Requested size: 221.14421pt x 117.27942pt.
 
-<./images/chp1/fig8b.pdf, id=1013, 962.79701pt x 539.7967pt>
+<./images/chp1/fig8b.pdf, id=1023, 962.79701pt x 539.7967pt>
 File: ./images/chp1/fig8b.pdf Graphic file (type pdf)
 
 <use ./images/chp1/fig8b.pdf>
 Package pdftex.def Info: ./images/chp1/fig8b.pdf used on input line 829.
 (pdftex.def)             Requested size: 221.14421pt x 123.98589pt.
 
-<./images/chp1/fig8c.pdf, id=1014, 1061.24483pt x 562.83272pt>
+<./images/chp1/fig8c.pdf, id=1024, 1061.24483pt x 562.83272pt>
 File: ./images/chp1/fig8c.pdf Graphic file (type pdf)
 
 <use ./images/chp1/fig8c.pdf>
 Package pdftex.def Info: ./images/chp1/fig8c.pdf used on input line 830.
 (pdftex.def)             Requested size: 221.14421pt x 117.27942pt.
 
-<./images/chp1/fig8d.pdf, id=1015, 962.79701pt x 534.79799pt>
+<./images/chp1/fig8d.pdf, id=1025, 962.79701pt x 534.79799pt>
 File: ./images/chp1/fig8d.pdf Graphic file (type pdf)
 
 <use ./images/chp1/fig8d.pdf>
 Package pdftex.def Info: ./images/chp1/fig8d.pdf used on input line 831.
 (pdftex.def)             Requested size: 221.14421pt x 122.83774pt.
 
-<./images/chp1/fig9a.pdf, id=1016, 1029.34563pt x 628.82928pt>
+<./images/chp1/fig9a.pdf, id=1026, 1029.34563pt x 628.82928pt>
 File: ./images/chp1/fig9a.pdf Graphic file (type pdf)
 
 <use ./images/chp1/fig9a.pdf>
 Package pdftex.def Info: ./images/chp1/fig9a.pdf used on input line 840.
 (pdftex.def)             Requested size: 207.32315pt x 126.64638pt.
 
-<./images/chp1/fig9b.pdf, id=1017, 1030.19879pt x 629.42152pt>
+<./images/chp1/fig9b.pdf, id=1027, 1030.19879pt x 629.42152pt>
 File: ./images/chp1/fig9b.pdf Graphic file (type pdf)
 
 <use ./images/chp1/fig9b.pdf>
@@ -1829,35 +1816,35 @@ Class scrbook Warning: Usage of deprecated font command `\bf'!
 (scrbook)              by `\normalfont \bfseries ' on input line 881.
 
 [29 <./images/chp1/fig9a.pdf> <./images/chp1/fig9b.pdf>]
-<./images/chp1/fig10.pdf, id=1153, 955.57pt x 617.30624pt>
+<./images/chp1/fig10.pdf, id=1161, 955.57pt x 617.30624pt>
 File: ./images/chp1/fig10.pdf Graphic file (type pdf)
 
 <use ./images/chp1/fig10.pdf>
 Package pdftex.def Info: ./images/chp1/fig10.pdf used on input line 964.
 (pdftex.def)             Requested size: 225.75594pt x 145.83937pt.
  [30]
-<./images/chp1/fig11.pdf, id=1158, 1673.77322pt x 504.76581pt>
+<./images/chp1/fig11.pdf, id=1167, 1673.77322pt x 504.76581pt>
 File: ./images/chp1/fig11.pdf Graphic file (type pdf)
 
 <use ./images/chp1/fig11.pdf>
 Package pdftex.def Info: ./images/chp1/fig11.pdf used on input line 972.
 (pdftex.def)             Requested size: 456.11655pt x 137.55173pt.
 
-<./images/chp1/fig12.pdf, id=1167, 990.30977pt x 509.00163pt>
+<./images/chp1/fig12.pdf, id=1176, 990.30977pt x 509.00163pt>
 File: ./images/chp1/fig12.pdf Graphic file (type pdf)
 
 <use ./images/chp1/fig12.pdf>
 Package pdftex.def Info: ./images/chp1/fig12.pdf used on input line 986.
 (pdftex.def)             Requested size: 221.14421pt x 113.65831pt.
 
-<./images/chp1/fig13a.pdf, id=1168, 646.415pt x 483.8075pt>
+<./images/chp1/fig13a.pdf, id=1177, 646.415pt x 483.8075pt>
 File: ./images/chp1/fig13a.pdf Graphic file (type pdf)
 
 <use ./images/chp1/fig13a.pdf>
 Package pdftex.def Info: ./images/chp1/fig13a.pdf used on input line 993.
 (pdftex.def)             Requested size: 225.75594pt x 168.96605pt.
 
-<./images/chp1/fig13b.pdf, id=1169, 646.415pt x 496.85625pt>
+<./images/chp1/fig13b.pdf, id=1178, 646.415pt x 496.85625pt>
 File: ./images/chp1/fig13b.pdf Graphic file (type pdf)
 
 <use ./images/chp1/fig13b.pdf>
@@ -1865,7 +1852,7 @@ Package pdftex.def Info: ./images/chp1/fig13b.pdf used on input line 995.
 (pdftex.def)             Requested size: 225.75594pt x 173.52321pt.
  [31 <./images/chp1/fig10.pdf>] [32 <./images/chp1/fig11.pdf> <./images/chp1/fi
 g12.pdf>] [33 <./images/chp1/fig13a.pdf> <./images/chp1/fig13b.pdf>] [34] [35]
-<./images/chp1/fig14.pdf, id=1273, 794.97pt x 449.68pt>
+<./images/chp1/fig14.pdf, id=1283, 794.97pt x 449.68pt>
 File: ./images/chp1/fig14.pdf Graphic file (type pdf)
 
 <use ./images/chp1/fig14.pdf>
@@ -3311,15 +3298,9 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 367.
  (./doktorarbeit.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 367.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 367.
+Package rerunfilecheck Info: File `doktorarbeit.out' has not changed.
+(rerunfilecheck)             Checksum: 7C8AC27A9E4359631A05332A88958EC5;2036.
 
-
-Package rerunfilecheck Warning: File `doktorarbeit.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `doktorarbeit.out':
-(rerunfilecheck)             Before: C4CBCF1B8F9340C1498CAF93CFBA6E47;1956
-(rerunfilecheck)             After:  7C8AC27A9E4359631A05332A88958EC5;2036.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -3327,35 +3308,26 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 367.
  ) 
 Here is how much of TeX's memory you used:
- 25162 strings out of 494208
- 410807 string characters out of 6160797
- 577468 words of memory out of 5000000
- 27626 multiletter control sequences out of 15000+600000
+ 25172 strings out of 494208
+ 410923 string characters out of 6160797
+ 578382 words of memory out of 5000000
+ 27635 multiletter control sequences out of 15000+600000
  28634 words of font info for 117 fonts, out of 8000000 for 9000
  416 hyphenation exceptions out of 8191
- 65i,12n,75p,3242b,689s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{equation.2.4.33} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.6} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.2.4.27} has been referenced but does not e
-xist, replaced by a fixed one
+ 65i,13n,75p,3242b,689s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{Hfootnote.6} has been referenced but does not exi
+st, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.5} has been referenced but does not exist
 , replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.4} has been referenced but does not exist
 , replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.2.3.19} has been referenced but does not e
-xist, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.3} has been referenced but does not exist
 , replaced by a fixed one
@@ -3370,29 +3342,30 @@ pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
 aakoan/.texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk> </home/haakoan/.t
 exmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0700.600pk> </home/haakoan/.texmf-var/
 fonts/pk/ljfour/jknappen/ec/tcrm0800.600pk></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
-i7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti1
-2.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on doktorarbeit.pdf (58 pages, 4968189 bytes).
+/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
+i12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti1
+0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
+Output written on doktorarbeit.pdf (58 pages, 4981426 bytes).
 PDF statistics:
- 1910 PDF objects out of 2073 (max. 8388607)
- 1759 compressed objects within 18 object streams
- 299 named destinations out of 1000 (max. 500000)
- 333 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1922 PDF objects out of 2073 (max. 8388607)
+ 1772 compressed objects within 18 object streams
+ 300 named destinations out of 1000 (max. 500000)
+ 341 words of extra memory for PDF output out of 10000 (max. 10000000)
 
