@@ -5,32 +5,37 @@
 \contentsline {section}{\numberline {1.2}Iron-core supernovae}{2}{section.1.2}
 \contentsline {subsection}{\numberline {1.2.1}Shell burning in massive stars}{2}{subsection.1.2.1}
 \contentsline {subsection}{\numberline {1.2.2}Iron-core collapse}{3}{subsection.1.2.2}
-\contentsline {chapter}{\numberline {2}Theory}{5}{chapter.2}
-\contentsline {section}{\numberline {2.1}Linearised theory}{5}{section.2.1}
-\contentsline {section}{\numberline {2.2}The transverse-traceless gauge}{6}{section.2.2}
-\contentsline {section}{\numberline {2.3}Generation of gravitational waves}{8}{section.2.3}
-\contentsline {section}{\numberline {2.4}Core collapse in a nutshell}{12}{section.2.4}
-\contentsline {chapter}{\numberline {3}First paper}{13}{chapter.3}
-\contentsline {section}{\numberline {3.1}Introduction}{13}{section.3.1}
-\contentsline {section}{\numberline {3.2}Setup and Numerical Methods}{16}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Numerical Methods}{16}{subsection.3.2.1}
-\contentsline {section}{\numberline {3.3}Structure and Origin of the Gravitational Wave Signal}{17}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Supernova Models}{17}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Gravitational Wave Extraction}{20}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}Overview of Waveforms}{20}{subsection.3.3.3}
-\contentsline {subsubsection}{\nonumberline Waveforms}{20}{section*.4}
-\contentsline {subsubsection}{\nonumberline Energy Spectra}{23}{section*.5}
-\contentsline {subsubsection}{\nonumberline The Signal in the Time-Frequency Domain}{23}{section*.7}
-\contentsline {subsection}{\numberline {3.3.4}Spatial Location of Underlying Hydrodynamical Instabilities}{24}{subsection.3.3.4}
-\contentsline {subsection}{\numberline {3.3.5}Origin of High-Frequency Emission}{29}{subsection.3.3.5}
-\contentsline {subsection}{\numberline {3.3.6}Comparison of high-frequency emission in 2D and 3D}{31}{subsection.3.3.6}
-\contentsline {subsection}{\numberline {3.3.7}Origin of the Low-Frequency Signal}{35}{subsection.3.3.7}
-\contentsline {subsection}{\numberline {3.3.8}Comparison of the exploding and non-exploding 20 solar mass models}{40}{subsection.3.3.8}
-\contentsline {section}{\numberline {3.4}Detection Prospects}{41}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}General Considerations}{42}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Detection Prospects for Simulated Models}{43}{subsection.3.4.2}
-\contentsline {subsection}{\numberline {3.4.3}Detection Prospects with AdvLIGO}{44}{subsection.3.4.3}
-\contentsline {subsection}{\numberline {3.4.4}Detection Prospects with the Einstein Telescope}{45}{subsection.3.4.4}
-\contentsline {subsection}{\numberline {3.4.5}Interpretation of a Prospective Detection}{45}{subsection.3.4.5}
-\contentsline {section}{\numberline {3.5}Conclusions}{46}{section.3.5}
-\contentsline {chapter}{Bibliography}{51}{section*.21}
+\contentsline {subsection}{\numberline {1.2.3}Shock revival: the neutrino heating mechanism}{4}{subsection.1.2.3}
+\contentsline {section}{\numberline {1.3}The post-bounce phase}{4}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}The gain layer, cooling layer and the three layers of the Proto-neutron star}{5}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}The standing accretion shock instability}{6}{subsection.1.3.2}
+\contentsline {section}{\numberline {1.4}Three-dimensional simulations}{7}{section.1.4}
+\contentsline {chapter}{\numberline {2}Theory}{9}{chapter.2}
+\contentsline {section}{\numberline {2.1}Linearised theory}{9}{section.2.1}
+\contentsline {section}{\numberline {2.2}The transverse-traceless gauge}{10}{section.2.2}
+\contentsline {section}{\numberline {2.3}Generation of gravitational waves}{12}{section.2.3}
+\contentsline {section}{\numberline {2.4}Core collapse in a nutshell}{16}{section.2.4}
+\contentsline {chapter}{\numberline {3}First paper}{17}{chapter.3}
+\contentsline {section}{\numberline {3.1}Introduction}{17}{section.3.1}
+\contentsline {section}{\numberline {3.2}Setup and Numerical Methods}{20}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Numerical Methods}{20}{subsection.3.2.1}
+\contentsline {section}{\numberline {3.3}Structure and Origin of the Gravitational Wave Signal}{21}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Supernova Models}{21}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Gravitational Wave Extraction}{24}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Overview of Waveforms}{24}{subsection.3.3.3}
+\contentsline {subsubsection}{\nonumberline Waveforms}{24}{section*.5}
+\contentsline {subsubsection}{\nonumberline Energy Spectra}{27}{section*.6}
+\contentsline {subsubsection}{\nonumberline The Signal in the Time-Frequency Domain}{27}{section*.8}
+\contentsline {subsection}{\numberline {3.3.4}Spatial Location of Underlying Hydrodynamical Instabilities}{28}{subsection.3.3.4}
+\contentsline {subsection}{\numberline {3.3.5}Origin of High-Frequency Emission}{33}{subsection.3.3.5}
+\contentsline {subsection}{\numberline {3.3.6}Comparison of high-frequency emission in 2D and 3D}{35}{subsection.3.3.6}
+\contentsline {subsection}{\numberline {3.3.7}Origin of the Low-Frequency Signal}{39}{subsection.3.3.7}
+\contentsline {subsection}{\numberline {3.3.8}Comparison of the exploding and non-exploding 20 solar mass models}{44}{subsection.3.3.8}
+\contentsline {section}{\numberline {3.4}Detection Prospects}{45}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}General Considerations}{46}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Detection Prospects for Simulated Models}{47}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}Detection Prospects with AdvLIGO}{48}{subsection.3.4.3}
+\contentsline {subsection}{\numberline {3.4.4}Detection Prospects with the Einstein Telescope}{49}{subsection.3.4.4}
+\contentsline {subsection}{\numberline {3.4.5}Interpretation of a Prospective Detection}{49}{subsection.3.4.5}
+\contentsline {section}{\numberline {3.5}Conclusions}{50}{section.3.5}
+\contentsline {chapter}{Bibliography}{55}{section*.22}

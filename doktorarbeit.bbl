@@ -123,6 +123,11 @@ Clarendon, Oxford
   {Woodward}}{1984}]{colella_84}
 {Colella} P.,  {Woodward} P.~R.,  1984, {\it J.~Comp.~Phys.}, 54, 174
 
+\bibitem[\protect\citeauthoryear{{Colgate} \& {White}}{{Colgate} \&
+  {White}}{1966}]{colgate_66}
+{Colgate} S.~A.,  {White} R.~H.,  1966, \mn@doi [\apj] {10.1086/148549}, \href
+  {http://adsabs.harvard.edu/abs/1966ApJ...143..626C} {143, 626}
+
 \bibitem[\protect\citeauthoryear{{Cordero-Carri{\'o}n}, {Cerd{\'a}-Dur{\'a}n},
   {Dimmelmeier}, {Jaramillo}, {Novak}  \& {Gourgoulhon}}{{Cordero-Carri{\'o}n}
   et~al.}{2009}]{cordero_09}
@@ -475,8 +480,14 @@ Clarendon, Oxford
   {http://adsabs.harvard.edu/abs/2012A%26A...537A..63M} {537, A63}
 
 \bibitem[\protect\citeauthoryear{{M{\"u}ller}, {Janka}  \&
-  {Heger}}{{M{\"u}ller} et~al.}{2012b}]{mueller_12b}
-{M{\"u}ller} B.,  {Janka} H.-T.,   {Heger} A.,  2012b, \mn@doi [\apj]
+  {Marek}}{{M{\"u}ller} et~al.}{2012b}]{mueller_12a}
+{M{\"u}ller} B.,  {Janka} H.-T.,   {Marek} A.,  2012b, \mn@doi [\apj]
+  {10.1088/0004-637X/756/1/84}, \href
+  {http://adsabs.harvard.edu/abs/2012ApJ...756...84M} {756, 84}
+
+\bibitem[\protect\citeauthoryear{{M{\"u}ller}, {Janka}  \&
+  {Heger}}{{M{\"u}ller} et~al.}{2012c}]{mueller_12b}
+{M{\"u}ller} B.,  {Janka} H.-T.,   {Heger} A.,  2012c, \mn@doi [\apj]
   {10.1088/0004-637X/761/1/72}, \href
   {http://adsabs.harvard.edu/abs/2012ApJ...761...72M} {761, 72}
 
@@ -685,6 +696,10 @@ Oohara K.-i.,  Nakamura T.,   Shibata M.,  1997, \mn@doi [Progress of
 {Viallet} M.,  {Meakin} C.,  {Arnett} D.,   {Moc{\'a}k} M.,  2013, \mn@doi
   [\apj] {10.1088/0004-637X/769/1/1}, \href
   {http://cdsads.u-strasbg.fr/abs/2013ApJ...769....1V} {769, 1}
+
+\bibitem[\protect\citeauthoryear{{Wilson}}{{Wilson}}{1985}]{wilson_85}
+{Wilson} J.~R.,  1985, in {Centrella} J.~M.,  {Leblanc} J.~M.,   {Bowers}
+  R.~L.,  eds, Numerical Astrophysics. pp 422--434
 
 \bibitem[\protect\citeauthoryear{{Wongwathanarat}, {Janka}  \&
   {M{\"u}ller}}{{Wongwathanarat} et~al.}{2010}]{wongwathanarat_10b}

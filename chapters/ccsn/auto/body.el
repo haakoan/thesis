@@ -3,6 +3,9 @@
  (lambda ()
    (LaTeX-add-labels
     "figSN:onion"
-    "eqSN:ecapture"))
+    "eqSN:ecapture"
+    "eqSN:heat"
+    "eqSN:cool"
+    "figSN:post"))
  :latex)
 
