@@ -108,6 +108,13 @@
   {Paxton} B.,  2014, \mn@doi [\apj] {10.1088/0004-637X/788/1/93}, \href
   {http://adsabs.harvard.edu/abs/2014ApJ...788...93C} {788, 93}
 
+\bibitem[\protect\citeauthoryear{{Cappellaro} \& {Turatto}}{{Cappellaro} \&
+  {Turatto}}{2001}]{cappellaro_01}
+{Cappellaro} E.,  {Turatto} M.,  2001, in {Vanbeveren} D.,  ed.,  Astrophysics
+  and Space Science Library Vol. 264, The Influence of Binaries on Stellar
+  Population Studies. p.~199 (\mn@eprint {} {astro-ph/0012455}),
+  \mn@doi{10.1007/978-94-015-9723-4_16}
+
 \bibitem[\protect\citeauthoryear{{Chandrasekhar}}{{Chandrasekhar}}{1961}]{chandrasekhar_61}
 {Chandrasekhar} S.,  1961, {Hydrodynamic and Hydromagnetic Stability}.
 Clarendon, Oxford
@@ -237,6 +244,10 @@ Clarendon, Oxford
   {10.1111/j.1365-2966.2012.20333.x}, \href
   {http://adsabs.harvard.edu/abs/2012MNRAS.421..546G} {421, 546}
 
+\bibitem[\protect\citeauthoryear{{Hamacher}}{{Hamacher}}{2014}]{hamacher_14}
+{Hamacher} D.~W.,  2014, Journal of Astronomical History and Heritage, \href
+  {http://adsabs.harvard.edu/abs/2014JAHH...17..161H} {17, 161}
+
 \bibitem[\protect\citeauthoryear{{Hanke}}{{Hanke}}{2014}]{hanke_phd}
 {Hanke} F.,  2014, {PhD thesis}, Technische Universti\"at M\"unchen
 
@@ -282,6 +293,16 @@ Clarendon, Oxford
   {Flaminio} R.,   {DeSalvo} R.,  2010, \mn@doi [Classical and Quantum Gravity]
   {10.1088/0264-9381/27/1/015003}, \href
   {http://adsabs.harvard.edu/abs/2010CQGra..27a5003H} {27, 015003}
+
+\bibitem[\protect\citeauthoryear{{Ho}}{{Ho}}{1962}]{ho_96}
+{Ho} P.~Y.,  1962, \mn@doi [Vistas in Astronomy]
+  {10.1016/0083-6656(62)90007-7}, \href
+  {http://adsabs.harvard.edu/abs/1962VA......5..127H} {5, 127}
+
+\bibitem[\protect\citeauthoryear{{Hoyle} \& {Fowler}}{{Hoyle} \&
+  {Fowler}}{1960}]{hoyle_60}
+{Hoyle} F.,  {Fowler} W.~A.,  1960, \mn@doi [\apj] {10.1086/146963}, \href
+  {http://adsabs.harvard.edu/abs/1960ApJ...132..565H} {132, 565}
 
 \bibitem[\protect\citeauthoryear{{Iwakami}, {Kotake}, {Ohnishi}, {Yamada}  \&
   {Sawada}}{{Iwakami} et~al.}{2008}]{iwakami_08}
@@ -407,6 +428,10 @@ Clarendon, Oxford
   {M\"uller} B.,  2015b, \mn@doi [\apjl] {10.1088/2041-8205/808/2/L42}, \href
   {http://adsabs.harvard.edu/abs/2015ApJ...808L..42M} {808, L42}
 
+\bibitem[\protect\citeauthoryear{{Minkowski}}{{Minkowski}}{1941}]{minkowski_41}
+{Minkowski} R.,  1941, \mn@doi [\pasp] {10.1086/125315}, \href
+  {http://adsabs.harvard.edu/abs/1941PASP...53..224M} {53, 224}
+
 \bibitem[\protect\citeauthoryear{{M\"uller}}{{M\"uller}}{1982}]{mueller_82}
 {M\"uller} E.,  1982, \aap, \href
   {http://adsabs.harvard.edu/abs/1982A26A...114...53M} {114, 53}
@@ -488,12 +513,6 @@ Clarendon, Oxford
 {Nakamura} T.,  {Oohara} K.,  1989, in {Evans, C.~R., Finn, L.~S., \& Hobill,
   D.~W.} ed., Frontiers in Numerical Relativity. Cambridge University Press, pp
   254--280
-
-\bibitem[\protect\citeauthoryear{{Nakamura}, {Oohara}  \& {Kojima}}{{Nakamura}
-  et~al.}{1987}]{nakamura_87}
-{Nakamura} T.,  {Oohara} K.,   {Kojima} Y.,  1987, \mn@doi [Progress of
-  Theoretical Physics Supplement] {10.1143/PTPS.90.1}, \href
-  {http://adsabs.harvard.edu/abs/1987PThPS..90....1N} {90, 1}
 
 \bibitem[\protect\citeauthoryear{{Nordhaus}, {Brandt}, {Burrows}  \&
   {Almgren}}{{Nordhaus} et~al.}{2012}]{nordhaus_12}
@@ -603,6 +622,10 @@ Oohara K.-i.,  Nakamura T.,   Shibata M.,  1997, \mn@doi [Progress of
   M.,  2010, \mn@doi [Classical and Quantum Gravity]
   {10.1088/0264-9381/27/11/114101}, \href
   {http://adsabs.harvard.edu/abs/2010CQGra..27k4101S} {27, 114101}
+
+\bibitem[\protect\citeauthoryear{{Shen}}{{Shen}}{1969}]{shen_96}
+{Shen} C.~S.,  1969, \mn@doi [\nat] {10.1038/2211039a0}, \href
+  {http://adsabs.harvard.edu/abs/1969Natur.221.1039S} {221, 1039}
 
 \bibitem[\protect\citeauthoryear{{Shibata} \& {Sekiguchi}}{{Shibata} \&
   {Sekiguchi}}{2005}]{shibata_05}

@@ -49,8 +49,8 @@
 \usepackage{multirow}
 \usepackage{etex}
 \usepackage[export]{adjustbox}
-
-
+\usepackage{csquotes}
+\usepackage{wrapfig}
 \usepackage{caption}
 
 \usepackage{tabularx, booktabs}
@@ -73,7 +73,7 @@
 \newcommand{\munut}[1]{#1^{\mu\nu}}
 \newcommand{\eq}[1]{Eq.~\ref{#1}}
 \newcommand{\fig}[1]{Fig.~\ref{#1}}
-
+\newcommand{\msun}{M$_{\odot}$}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Definition der Kopfzeile %%
@@ -310,12 +310,8 @@
 %  \pagenumbering{roman}
 
   \tableofcontents
-  \thispagestyle{empty}
-  \cleardoublepage
 
   \newpage\null\thispagestyle{empty}\newpage
-  \cleardoublepage
-  \thispagestyle{empty}
 
   \mainmatter
   \pagenumbering{arabic}
@@ -330,9 +326,10 @@
 
 %  \input{chapter/introduction.tex}
 
+  \input{chapters/ccsn/body.tex}
+  
   \cleardoublepage
   \thispagestyle{empty}
-
   \input{chapters/theory/body.tex}
 
   \cleardoublepage
@@ -343,7 +340,7 @@
   \appendix
   \cleardoublepage
   \thispagestyle{empty}
-%  \input{chapter/abbreviations.tex}
+  % \input{chapter/abbreviations.tex}
 
   \cleardoublepage
   \phantomsection
