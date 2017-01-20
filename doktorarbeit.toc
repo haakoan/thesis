@@ -14,28 +14,6 @@
 \contentsline {section}{\numberline {2.1}Linearised theory}{9}{section.2.1}
 \contentsline {section}{\numberline {2.2}The transverse-traceless gauge}{10}{section.2.2}
 \contentsline {section}{\numberline {2.3}Generation of gravitational waves}{12}{section.2.3}
-\contentsline {section}{\numberline {2.4}Core collapse in a nutshell}{16}{section.2.4}
-\contentsline {chapter}{\numberline {3}First paper}{17}{chapter.3}
-\contentsline {section}{\numberline {3.1}Introduction}{17}{section.3.1}
-\contentsline {section}{\numberline {3.2}Setup and Numerical Methods}{20}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Numerical Methods}{20}{subsection.3.2.1}
-\contentsline {section}{\numberline {3.3}Structure and Origin of the Gravitational Wave Signal}{21}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Supernova Models}{21}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Gravitational Wave Extraction}{24}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}Overview of Waveforms}{24}{subsection.3.3.3}
-\contentsline {subsubsection}{\nonumberline Waveforms}{24}{section*.5}
-\contentsline {subsubsection}{\nonumberline Energy Spectra}{27}{section*.6}
-\contentsline {subsubsection}{\nonumberline The Signal in the Time-Frequency Domain}{27}{section*.8}
-\contentsline {subsection}{\numberline {3.3.4}Spatial Location of Underlying Hydrodynamical Instabilities}{28}{subsection.3.3.4}
-\contentsline {subsection}{\numberline {3.3.5}Origin of High-Frequency Emission}{33}{subsection.3.3.5}
-\contentsline {subsection}{\numberline {3.3.6}Comparison of high-frequency emission in 2D and 3D}{35}{subsection.3.3.6}
-\contentsline {subsection}{\numberline {3.3.7}Origin of the Low-Frequency Signal}{39}{subsection.3.3.7}
-\contentsline {subsection}{\numberline {3.3.8}Comparison of the exploding and non-exploding 20 solar mass models}{44}{subsection.3.3.8}
-\contentsline {section}{\numberline {3.4}Detection Prospects}{45}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}General Considerations}{46}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Detection Prospects for Simulated Models}{47}{subsection.3.4.2}
-\contentsline {subsection}{\numberline {3.4.3}Detection Prospects with AdvLIGO}{48}{subsection.3.4.3}
-\contentsline {subsection}{\numberline {3.4.4}Detection Prospects with the Einstein Telescope}{49}{subsection.3.4.4}
-\contentsline {subsection}{\numberline {3.4.5}Interpretation of a Prospective Detection}{49}{subsection.3.4.5}
-\contentsline {section}{\numberline {3.5}Conclusions}{50}{section.3.5}
-\contentsline {chapter}{Bibliography}{55}{section*.22}
+\contentsline {chapter}{\numberline {3}Numerical simulations of core-collapse supernovae}{17}{chapter.3}
+\contentsline {section}{\numberline {3.1}\textsc {Prometheus}}{17}{section.3.1}
+\contentsline {chapter}{Bibliography}{19}{section*.4}

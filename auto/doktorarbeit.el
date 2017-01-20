@@ -19,7 +19,7 @@
     "latex2e"
     "chapters/ccsn/body"
     "chapters/theory/body"
-    "chapters/chapter1/body"
+    "chapters/numerics/body"
     "scrbook"
     "scrbook12"
     "babel"

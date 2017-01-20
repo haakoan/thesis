@@ -12,65 +12,69 @@
 % S_E = \frac{c^3}{16 \pi G} \int \mathrm{d}^4 x \sqrt{-g} R
 % \end{equation}
 \section{Linearised theory}
-One of the most straight forward ways to understand 
-GWs is to expand the Einstein equations around the 
-flat Minkowski space. Mathematically this means that we write the
-metric tensor $\munu{g}$ as
+One of the most straightforward ways to understand 
+GWs is to expand the Einstein equations around 
+Minkowski space. Mathematically this means that we write the
+metric tensor, $\munu{g}$, as
 \begin{equation} \label{eqT:metric}
 \munu{g} = \munu{\eta} + \munu{h},
 \end{equation}
 where $\munu{\eta}$ is the Minkowski metric tensor and $\munu{h}$
-is some small perturbation satisfying the condition
+is some small perturbation satisfying
 \begin{equation} \label{eqT:hsmall}
 |\munu{h}|  \ll 1.
 \end{equation}
 The condition given by Eq.~\ref{eqT:hsmall} will not hold in a arbitrary 
-reference frame. Therefor, by imposing the smallness condition on $\munu{h}$
+reference frame. Therefore, by imposing the smallness condition on $\munu{h}$
 we implicitly chose a frame where the numerical value of the components of $\munu{h}$ is much smaller than one,
 in the region of space which we are interested in. In linearised theory we use the Minkowski metric tensor
 to lower and raise indices. 
 
 The field equations of general relativity can
-be written in terms of the Ricci tensor ($\munu{R}$), the Ricci scalar ($R$), the metric tensor,
-and the energy-momentum tensor ($\munu{T}$) as follows
+be written in terms of the Ricci tensor, $\munu{R}$, the Ricci scalar, $R$, the metric tensor,
+and the energy-momentum tensor, $\munu{T}$, as follows
 \begin{equation} \label{eqT:einstein}
 \munu{R} - \frac{1}{2} \munu{g} R = \frac{8 \pi G}{c^4 } \munu{T}. 
 \end{equation}
-Before we combine Eq.~\ref{eqT:metric} and Eq.~\ref{eqT:einstein} we introduce the simplifying notation
+Before linerisaing the Einstein equations, by combine Eq.~\ref{eqT:metric} and Eq.~\ref{eqT:einstein}, we introduce some simplifying notation.
+Introducing the quantity
 \begin{equation} \label{eqT:h}
 h = \munut{\eta}\munu{h},
 \end{equation}
 and
 \begin{equation} \label{eqT:hbar}
-\munu{\bar{h}} = \munu{h} - \frac{1}{2}\munu{\eta}h.
+\munu{\bar{h}} = \munu{h} - \frac{1}{2}\munu{\eta}h,
 \end{equation}
+will allow us to write our equations in a more compact form that is easier to work with.
 By inserting our expression for the metric tensor (Eq.~\ref{eqT:metric}) into Eq.~\ref{eqT:einstein}
 and expand to linear order in $\munu{h}$ we find the linearised version of the Einstein equations
 \begin{equation} \label{eqT:einlin}
-\partial_{\gamma} \partial^{\gamma} \munu{\bar{h}} + \munu{\eta} \partial^{\rho} \partial^{sigma} \bar{h}_{\rho \sigma}
-- \partial^{\rho}\partial_{\nu}\bar{h}_{\mu \sigma} -  \partial^{\rho}\partial_{\mu}\bar{h}_{\nu \sigma}
-= \frac{8 \pi G}{c^4 } \munu{T}.
+\partial_{\gamma} \partial^{\gamma} \munu{\bar{h}} + \munu{\eta} \partial^{\rho} \partial^{\sigma} \bar{h}_{\rho \sigma}
+- \partial^{\sigma}\partial_{\nu}\bar{h}_{\mu \sigma} -  \partial^{\sigma}\partial_{\mu}\bar{h}_{\nu \sigma}
+= -\frac{16 \pi G}{c^4 } \munu{T}.
 \end{equation}
-We can simplify Eq.~\ref{eqT:einlin} by using the gauge freedom of our linearised theory to chose the Lorentz gauge,
+We can simplify Eq.~\ref{eqT:einlin} by using the gauge freedom of our linearised theory to impose the Lorentz gauge
 \begin{equation} \label{eqT:lor}
-\partial^{nu} \munu{\bar{h}} = 0.
+\partial^{\nu} \munu{\bar{h}} = 0.
 \end{equation}
 Under this gauge condition Eq.~\ref{eqT:einlin} reduces to a wave equation 
 \begin{equation} \label{eqT:wave}
-\partial_{\gamma} \partial^{\gamma} \munu{\bar{h}} = \frac{8 \pi G}{c^4 } \munu{T},
+\partial_{\gamma} \partial^{\gamma} \munu{\bar{h}} = -\frac{16 \pi G}{c^4 } \munu{T},
 \end{equation}
 since every term, except the first one, on the left hand side vanishes. 
 
 Eq.~\ref{eqT:wave} further simplifies when we are outside of the sources generating
-GWs, in vacuum the energy-momentum tensor vanishes and we get  
-\begin{equation} \label{eqT:wavevacuum}
+GWs, in vacuum the energy-momentum tensor is zero and we get  
+\begin{equation} \label{eqT:wavevacumm}
 \partial_{\gamma} \partial^{\gamma} \munu{\bar{h}} = 0,
 \end{equation}
 which can be rewritten as
 \begin{equation} \label{eqT:wavevacumm2}
-\frac{1}{c^2} \partial_t^2 \munu{\bar{h}} = [ \partial_1^x  + \partial_y^2 + \partial_z^2] \munu{\bar{h}}.
+\frac{1}{c^2} \partial_t^2 \munu{\bar{h}} = [ \partial^2_x  + \partial_y^2 + \partial_z^2] \munu{\bar{h}}.
 \end{equation}
-It is clear from the latter form that GWs propagate through spacetime at the speed of light in a wave-like fashion.
+If we compare this expression for $\munu{\bar{h}}$ to a traditional wave equation, for example that of a sound wave
+propagating though a fluid or a electromagnetic wave through vacuum, is becomes clear from that GWs propagate through 
+spacetime at the speed of light in a wave-like fashion.
 
 \section{The transverse-traceless gauge}
 Even though we introduced the Lorentz gauge earlier, we have not completely removed all superfluous degrees of freedom 
@@ -89,17 +93,17 @@ h_{ij}^{TT}=
     h_{\times} & -h_{+} & 0 \\
     0 & 0 & 0
   \end{pmatrix}_{ij}
-  cos[\omega(t - z/c)].
+  \cos[\omega(t - z/c)].
 \end{equation}
 Here we $t$ denotes time, $\omega$ the angular frequency of the wave,
-$h_+$ denotes the wave strain of the plus-polarised mode and $h_{\times}$ is the strain amplitude of the cross-polarised mode.
+$h_+$ denotes the strain of the plus-polarised mode and $h_{\times}$ is the strain amplitude of the cross-polarised mode.
 To prove that we can impose the conditions of Eq.~\ref{eqT:ttg} we start by
-realising that the Lorentz gauge does not completely constrain the theory by considering the 
+realising that the Lorentz gauge does not completely remove all the superfluous degrees of freedom in the theory. Consider the 
 coordinate transformation 
 \begin{equation} \label{eqT:ct}
 x^{\mu} \rightarrow x^{'\mu} = x^{\mu} + \epsilon^{\mu},
 \end{equation}
-where $\epsilon^{\mu}$ satisfy $\partial_{\gamma} \partial^{\gamma} \epsilon_{\mu} = 0$ 
+where $\epsilon^{\mu}$ satisfy $\partial_{\gamma} \partial^{\gamma} \epsilon^{\mu} = 0$ 
 and $|\partial_{\nu} \epsilon_{\mu}|$ is at the most on the order of $|\munu{h}|$.
 Under an arbitrary coordinate transformation $x^{\mu} \rightarrow x^{'\mu}(x)$ the second rank tensor $\munu{h}$ transforms as
 \begin{equation} \label{eqT:t2c}
@@ -115,9 +119,9 @@ By combining Eq.~\ref{eqT:htrans} and Eq.~\ref{eqT:hbar} we find that under Eq.~
 \end{equation}
 By applying  $\partial_{\mu}$ to Eq.~\ref{eqT:ct} we find
 \begin{equation} \label{eqT:dert}
-\partial_{\mu} x^{'\mu} = \partial_{\mu} x^{\mu} + \partial_{\mu} \epsilon^{\mu},
+\partial_{\mu} x^{'\mu} = \partial_{\mu} x^{\mu} + \partial_{\mu} \epsilon^{\mu}.
 \end{equation}
-since $|\partial_{\mu} \epsilon^{\mu}| \ll 1$ Eq.~\ref{eqT:dert} implies that
+Since we have required that since $|\partial_{\mu} \epsilon^{\mu}| \ll 1$,  Eq.~\ref{eqT:dert} implies that
 \begin{equation}
 \partial_{\mu} x^{'\mu} = \frac{\partial x^{'\mu} }{\partial x^{\mu}} = 1.
 \end{equation}
@@ -126,38 +130,42 @@ transforms as follows
 \begin{equation} \label{eqT:dert2}
 \partial_{\mu} \rightarrow \partial_{\mu}^{'} = \partial_{\mu}.
 \end{equation}
-We can now calculate how Eq.~\ref{eqT:lor} transform under Eq.~\ref{eqT:ct}
+We can now calculate how the Lorentz gauge conditions (Eq.~\ref{eqT:lor}) transform under Eq.~\ref{eqT:ct} and we
+find that
 \begin{align} \label{eqT:lort}
 \partial^{\nu} \munu{\bar{h}} & \rightarrow (\partial^{\nu} \munu{\bar{h}})^{'} \\ \nonumber
 &= \partial^{\nu} \left [ \munu{\bar{h}} - (\partial_{\mu} \epsilon_{\nu} + \partial_{\nu} \epsilon_{\mu} - \munu{\eta}\partial_{\gamma} \epsilon^{\gamma}) \right ] \\
 &= \partial^{\nu} \munu{\bar{h}} - \partial^{\gamma} \partial_{\gamma} \epsilon_{\mu} = 0. \nonumber
 \end{align}
-We can now directly see that the transformation does not break the Lorentz gauge condition.
+Because we demanded that $\partial_{\gamma} \partial^{\gamma} \epsilon^{\mu} = 0$, we can now directly see 
+that the transformation does not break the Lorentz gauge condition. In other words, we
+are free to preform the coordinate transformation given by \eq{eqT:ct}.
 
-Instead of thinking about how $\munu{\bar{h}}$ transform under Eq.~\ref{eqT:ct}
-we can instead think about it like this: Eq.~\ref{eqT:hbartrans} tells us that
-that from four independent functions $\epsilon_{mu}$ we can construct the functions 
+If we turn it around and instead of thinking about how $\munu{\bar{h}}$ transform under Eq.~\ref{eqT:ct}
+we think about it like this: Eq.~\ref{eqT:hbartrans} tells us that
+that from four independent functions $\epsilon_{\mu}$ we can construct the functions 
 \begin{equation}
 \munu{\epsilon} \equiv \partial_{\mu} \epsilon_{\nu} + \partial_{\nu} \epsilon_{\mu} - \munu{\eta}\partial_{\gamma} \epsilon^{\gamma}
 \end{equation}
 and are free to subtract this functions from $\munu{\bar{h}}$ without breaking the gauge condition set by Eq.~\ref{eqT:lor}.
-With this freedom we can now choose the four functions such that they impose four simplifying conditions on  $\munu{h}$.
-In the TT-gauge the four functions are chosen in such a that the trace of $\munu{\bar{h}}$ is zero and
-so that $h^{0i} = 0$. Note that if the trace of $\munu{\bar{h}}$ vanishes then $\munu{\bar{h}} = \munu{h}$.
+The tool we use to impose these four conditions is the coordinate transform given by \eq{eqT:ct}, with the constraints
+on $\epsilon_{mu}$ and its derivatives specified above.
+With this freedom, we can now choose the four functions such that they impose four simplifying conditions on  $\munu{h}$.
+In the TT-gauge the four functions are chosen in such a way that the trace of $\munu{\bar{h}}$ is zero and
+so that $h^{0i} = 0$. Note that if the trace of $\munu{\bar{h}}$ vanishes then $\munu{\bar{h}} = \munu{h}$ and
+we will usually write $\munu{h}$ instead of $\munu{\bar{h}}$ when we are in the TT-gauge.
 These four conditions, together with the Lorentz gauge, is what defines the TT-gauge and results in the
 conditions set by Eq.~\ref{eqT:ttg}.
 
 \section{Generation of gravitational waves}
 We turn now to the to the generation of gravitational waves, in the linearised theory framework,
-we start by writing down of Eq.~\ref{eqT:einlin} for a generic source under the assumption 
-that the gravitational field generated by the source is weak enough to justify the expantion
-around flat spacetime. 
+we start by writing down the solution of Eq.~\ref{eqT:wave} for a generic source under the assumption that the gravitational field generated by the source is weak enough to justify the expansion around flat spacetime. 
 
-As for any wave equation, the solution of \eq{eqT:einstein} can be found by integrating over the source
+As for any wave equation, the solution of \eq{eqT:wave} can be found by integrating over the source
 \begin{equation} \label{eqT:sol}
 \munu{\bar{h}}(t,\mathbf{x}) = \frac{4G}{c^4} \int \mathrm{d}^3 x' \frac{\munu{T}(t-|\mathbf{x}-\mathbf{x'}|/c}{|\mathbf{x}-\mathbf{x'}|}.
 \end{equation}
-Far way from the source at a distance $D$, if the velocities ($v$) within the source is small compared to the speed of light, \eq{eqT:sol} reduces to the Einsteins famous quadrupole expression. In the TT-gauge the quadrupole expression can be written as follows  
+Far way from the source at a distance $D$, if the velocities, $v$, within the source is small compared to the speed of light, \eq{eqT:sol} reduces to the Einsteins famous quadrupole formula. In the TT-gauge the quadrupole formula can be written as follows  
 \begin{equation} \label{eqT:equad}
 \munu{h}(t,\mathbf{x}) = \frac{1}{D} \frac{4G}{c^4} \left [P_{im} P_{jn} - \frac{1}{2} P_{ij} P_{mn} \right ] \ddot{Q}_{ij} (t -d/c),
 \end{equation}
@@ -169,7 +177,16 @@ $P_{ij} = \delta_{ij} -n_i n_j$ is the projection operator onto the plane transv
 $\hat{n}_i = x_i / \sqrt{x_j x^j}$. To find the equation describing $h_{+}$ and $h_{\times}$ for a wave propagating in the general direction
 $\hat{n}$ we first consider a wave propagating along the z-axis in a coordinate system with carthesian coordinates $(x,y,z)$ and
 spherical polar coordinates $(r,\theta,\phi)$. 
-If $\hat{n} = \hat{z}$ then $P_{ij}$ becomes and we find that 
+If $\hat{n} = \hat{z}$ then $P_{ij}$ become
+\begin{equation} \label{eqT:pij}
+P_{ij}  = 
+  \begin{pmatrix}
+    1 & 0 & 0  \\
+    0 & 1 & 0 \\
+    0 & 0 & 0
+  \end{pmatrix}_{ij},
+\end{equation}
+and we find that 
 \begin{equation} \label{eqT:pjz}
 \left [P_{im} P_{jn} - \frac{1}{2} P_{ij} P_{mn} \right ] \ddot{Q}_{ij} = 
   \begin{pmatrix}
@@ -185,7 +202,7 @@ h_{\times}^{TT} &= \frac{2G}{c^4 D} \ddot{Q}_{12}.
 \end{align}
 Now consider a wave propagating in the direction given by $\hat{n'} = (\sin{\theta} \sin{\phi}, \sin{\theta} \cos{\phi},\cos{\theta})$.
 We can view this as a wave propagating along the $z'$-axis of a coordinate system, with axes $(x',y',z')$, that has been constructed  
-by rotating the original system about the $z$-axis by an angle $\phi$ and then about the $x$-axis by an angle $\theta$. $h_{+}$ and $h_{\times}$.
+by rotating the original system about the $z$-axis by an angle $\phi$ and then about the $x$-axis by an angle.
 The rotation matrix R of the two consecutive rotations is
 \begin{equation} \label{eqT:pjz}
 R = 
@@ -201,41 +218,45 @@ R =
   \end{pmatrix}.
 \end{equation}
 Since $\hat{n'} = \hat{z'}$ we can use the result from \eq{eqT:zhchx}, but we have to
-transform the components of $\ddot{Q}$ from the into our new coordinate system.
+transform the components of $\ddot{Q}$ from the old system (x,y,z) into our new coordinate system (x',y',z').
 Under the rotations described by \eq{eqT:pjz} the quadrupole moment transforms as follows
 \begin{equation}
 \ddot{Q}_{ij} \rightarrow \ddot{Q}_{ij}' = (R Q R^T)_{ij},
 \end{equation}
 where the $R^T$ denotes the transposed matrix $R$.
-After some straight forward, but cumbersome, algebra we arrive at
+After some straightforward, but cumbersome, algebra we arrive at
 \begin{align}
 \label{eqT:hp}
-h_{+}^{TT} &= \frac{G}{c^4 D} \left [ \ddot{Q}_{11} (\cos^2{\phi} - \sin^2{\phi} \cos^2{\theta}) \right. \\ \nonumber
+h_{+}^{TT} = \frac{G}{c^4 D} & \Big[ \ddot{Q}_{11} (\cos^2{\phi} - \sin^2{\phi} \cos^2{\theta})  \\ \nonumber
 & + \ddot{Q}_{22} (\sin^2{\phi} - \cos^2{\phi} \cos^2{\theta}) - \ddot{Q}_{33} \sin^2{\theta} \\ \nonumber
-&\left. - \ddot{Q}_{12} (1 + \cos^2{\theta}) + \ddot{Q}_{13} \sin{\phi} \sin{2\theta} + \ddot{Q}_{23} \cos{\phi} \sin{2\theta} \right ]
+& - \ddot{Q}_{12} (1 + \cos^2{\theta}) + \ddot{Q}_{13} \sin{\phi} \sin{2\theta} \\ \nonumber
+& + \ddot{Q}_{23} \cos{\phi} \sin{2\theta} \Big]
 \end{align}
 and
 \begin{align}
 \label{eqT:hc}
-h_{\times}^{TT} &= \frac{G}{c^4 D} \left [ (\ddot{Q}_{11} - \ddot{Q}_{22}) \sin{2\phi}\cos{\theta} \right. \\ \nonumber
-&\left. +\ddot{Q}_{12} \cos{\theta} \cos{2\phi} - \ddot{Q}_{13} \cos{\phi} \sin{\theta} +  2\ddot{Q}_{23} \sin{\phi} \sin{\theta} \right ]. 
+h_{\times}^{TT} = \frac{G}{c^4 D} & \Big[ (\ddot{Q}_{11} - \ddot{Q}_{22}) \sin{2\phi}\cos{\theta}\\ \nonumber
+& +\ddot{Q}_{12} \cos{\theta} \cos{2\phi} - \ddot{Q}_{13} \cos{\phi} \sin{\theta} \\ \nonumber
+& +  2\ddot{Q}_{23} \sin{\phi} \sin{\theta} \Big]. 
 \end{align}
-What \eq{eqT:hc} and \eq{eqT:hp} tells is how the waveform of the emitted GW signal depends on from witch direction we are viewing the source.
+What \eq{eqT:hc} and \eq{eqT:hp} tells us is how the waveform of the emitted GW signal depends on from witch direction we are viewing the source.
 If we have calculated $\ddot{Q}_{ij}$ in a given coordinate system, when dealing with simulations it is often convenient to calculate the quadrupole moment
-in the coordinate system of the simulations, and then use \eq{eqT:hc} and \eq{eqT:hp} to compute the signal an observer situated along the
-vector $\hat{n'} = (\sin{\theta} \sin{\phi}, \sin{\theta} \cos{\phi},\cos{\theta})$ would observe.
+in the coordinate system of the simulations, we can then use \eq{eqT:hc} and \eq{eqT:hp} to compute the signal an observer situated along the
+vector $\hat{n} = (\sin{\theta} \sin{\phi}, \sin{\theta} \cos{\phi},\cos{\theta})$ would observe.
 
-In principle we have all the ingredients we need to calculate the gravitational quadrupole radiation for a slow-moving source.
-However, we are required to calculate the second time derivative of $Q_{ij}$. Which in theory is not a problem, but
-it is difficult to achieve accurate result when preforming direct numerical differentiation of the
-quadrupole moment from numerical simulations. Furthermore, in \eq{eqT:quad} the terms $\rho x_i x_j \mathrm{d} V$ will give large weight
-slow moving low density regions far away from the central regions. On the other hand, the second time derivative of these contributions
-will be small, the faster moving and denser matter near the centre will rightfully contribute more to the GW amplitudes.  
-Again, this is not problematic in theory, but when numerically computing the integral and second time derivatives 
-the exact cancellation of large average value and rate of change of the quadrupole moment is hard to achieve.
+In principle, we have all the ingredients we need to calculate the gravitational quadrupole radiation as observed by a far away observer, 
+for a slow-moving source. However, we are required to calculate the second time derivative of $Q_{ij}$. Which in theory is not a problem, but
+when dealing with simulations it is difficult to achieve accurate result when performing direct numerical differentiation of the
+quadrupole moment. 
+Furthermore, in \eq{eqT:quad} the terms $\rho x_i x_j \mathrm{d} V$ will give large weight
+slow moving low fluid elements far away from the regions where GWs are actually produced. 
+On the other hand, the second time derivative of these contributions
+will be small, the faster moving and denser matter will rightfully contribute more to the GW amplitudes.  
+Again, this is not problematic in theory, but when numerically computing the integral and second-order time derivatives 
+the exact cancellation of the large average value and the rate of change of the quadrupole moment is hard to achieve.
 We can circumvent these problems by using the Euler equations to rewrite \eq{eqT:quad}. This will allow us to
-eliminate the time derivatives completely and to write our expression of the quadrupole moment in terms of quantities 
-which give a larger weight to the fast moving high density regions of the simulation \citep{oohara_97,finn_89,blanchet_90}.
+eliminate the time derivatives completely and to write our expression for the quadrupole moment in terms of quantities 
+which are more closely connected to the regions of the simulation where GWs are produced \citep{oohara_97,finn_89,blanchet_90}.
 
 The standard Euler equations of hydrodynamics are
 \begin{subequations} 
@@ -253,23 +274,23 @@ Taking the first time derivative of \eq{eqT:quad} yields
 \begin{align} \label{eqT:quaddt}
 \frac{\mathrm{d}}{\mathrm{dt}}Q_{ij} &=  \frac{\mathrm{d}}{\mathrm{dt}} 
 \int \mathrm{d}^3 x \rho\left [x_i x_j - \frac{1}{3} \delta^{ij} x_l x^l \right ] \nonumber \\ 
-& = \int \mathrm{d}^3 x \left [x_i x)j - \frac{1}{3} \delta^{ij} x_l x^l \right ] \partial_t \rho \nonumber \\
+& = \int \mathrm{d}^3 x \left [x_i x_j - \frac{1}{3} \delta^{ij} x_l x^l \right ] \partial_t \rho \nonumber \\
 & = -\int \mathrm{d}^3 x \left [x_i x_j - \frac{1}{3} \delta^{ij} x_l x^l \right ] \partial_k (\rho v^k),
 \end{align}
 where we in the last line used \eq{eqT:cont} to replace $\partial_t \rho$ with $-\partial_k (\rho v^k)$.
 Now we integrate \eq{eqT:quaddt} by parts and use the fact that astrophysical GW sources have finite sizes 
-to discard the boundaries terms. We find that
+to discard the boundaries terms, the integral vanishes at infinity. We find that
 \begin{align} \label{eqT:quaddt2}
 \frac{\mathrm{d}}{\mathrm{dt}}Q_{ij} &= \int \mathrm{d}^3 x \rho  v^k \partial_k \left [x_i x_j - \frac{1}{3} \delta^{ij} x_l x^l \right ] \nonumber \\
 &= \int \mathrm{d}^3 x \rho v^k \left  [\partial_k x_i x_j - \frac{1}{3} \delta^{ij} \partial_k (x_l x^l) \right ] \nonumber \\
 &= \int \mathrm{d}^3 x \rho \left [x_i v_j + v_i x_j - \frac{2}{3} \delta^{ij} v_l x^l \right ],
 \end{align}
 where we in the first line have integrated by parts and when going from the second to third line we used the fact that
-$\partial_k x_i = \delta^{ki}$. We have removed the time derivative from \eq{eqT:quad} and we have replaced one
+$\partial_k x_i = \delta^{ki}$. We have now removed the first time derivative from \eq{eqT:quad} and we have replaced one
 power of $x^i$ with $v^i$ which reduces the weight given to slow moving regions.
-Next we take the time derivative of \eq{eqT:quaddt2}
+Next we take the time derivative of \eq{eqT:quaddt2}, which yields
 \begin{align} \label{eqT:quaddtt}
-\frac{\mathrm{d}^2}{\mathrm{dt}^2}Q_{ij} =& \frac{\mathrm{d}}{\mathrm{dt}} \int \mathrm{d}^3 x \rho \left  
+\frac{\mathrm{d}^2}{\mathrm{dt}^2}Q_{ij} &= \frac{\mathrm{d}}{\mathrm{dt}} \int \mathrm{d}^3 x \rho \left  
 [x_i v_j + v_i x_j - \frac{2}{3} \delta^{ij} v_l x^l \right ], \nonumber \\
 & = \int \mathrm{d}^3 x \left [x_i (\partial_t \rho v_j) +  (\partial_t \rho v_i) x_j - \frac{2}{3} \delta^{ij} \partial_t ( \rho v_l) x^l \right ].
 \end{align}
@@ -283,18 +304,18 @@ After integrating by parts terms on the form $\partial_i p$ and $\partial_k (\rh
 we are left with
 \begin{align} \label{eqT:quaddtt3}
 \frac{\mathrm{d}^2}{\mathrm{dt}^2} Q_{ij} & = \int \mathrm{d}^3 x \rho \bigg[ 2 v_i v_j  - x_i \partial_j \Phi -  x_j \partial_i \Phi \nonumber \\
-&- \frac{2}{3} \delta^{ij} (\rho v_l v_l - \rho x_l \partial_l \Phi  \bigg]. 
+&- \frac{2}{3} \delta^{ij} (\rho v_l v_l - \rho x_l \partial_l \Phi)  \bigg]. 
 \end{align}
 Note that the terms containing the pressure in \eq{eqT:quaddtt2} cancels. The last step is to write \eq{eqT:quaddtt3} in a slightly more 
 compact form    
-\begin{equation} \label{eq:STFQ}
-\ddot{Q}_{ij} =\mathrm{STF} \bigg[2 \int \int \mathrm{d}^3 x \rho \Big( v_i v_j - x_i \partial_j \Phi \Big) \bigg].
+\begin{equation} \label{eqT:STFQ}
+\ddot{Q}_{ij} =\mathrm{STF} \bigg[2 \int \mathrm{d}^3 x \rho \Big( v_i v_j - x_i \partial_j \Phi \Big) \bigg].
 \end{equation}
 Here $\mathrm{STF}$ denotes the projection operator
 onto the symmetric trace-free part, $\mathrm{STF}[A_{ij}] = \frac{1}{2}A_{ij} + \frac{1}{2}A_{ji} - \frac{1}{3} \delta_{ij} A_{ll} $.
-In the end we are left with an expression for the second time derivative of the quadrupole moment that
+In the end, we are left with an expression for the second time derivative of the quadrupole moment that
 depends on first-order spatial derivatives of the gravitational potential and the Cartesian velocity components.
-These terms have larger numerical values in the regions of the simulation generating most of the GWs. We have also 
+These terms have larger numerical values in the regions of the simulation generating most of the GWs, which is an advantage when numerically calculating the integral in \eq{eqT:STFQ}. We have also 
 eliminated the troublesome second-order time derivatives and arrived at a formula that is much more suited for 
 computing waveforms in numerical studies than our starting point.
 
@@ -316,11 +337,11 @@ For details we refer the reader to \cite{mueller_97}.
 
 In the quadrupole framework the energy, $E$, radiated in by GWs is given by 
 \begin{align}
-E &=\frac{G}{5 G c^5} \int \mathrm{d}t \, \dddot{Q}_{ij} \ddot{Q}_{ij},
+E &=\frac{G}{5 c^5} \int \mathrm{d}t \, \dddot{Q}_{ij} \dddot{Q}_{ij},
 \end{align}
 and the spectral energy density of the GWs is then given by 
 \begin{align}
-\frac{\mathrm{d} E}{\mathrm{d} f} &= \frac{2G}{5 G c^5} (2\pi f)^2 \int \mathrm{d}t \widetilde{\dddot{Q}}_{ij} \widetilde{\ddot{Q}}_{ij},
+\frac{\mathrm{d} E}{\mathrm{d} f} &= \frac{2G}{5 c^5} (2\pi f)^2 \int \mathrm{d}t \widetilde{\ddot{Q}}_{ij} \widetilde{\ddot{Q}}_{ij},
 \end{align}
 where tildes denote Fourier transforms, and $f$ is the
 frequency. We define the Fourier transform as follows:
@@ -334,5 +355,3 @@ We define the DFT, $\widetilde{X}_k$, as follows:
 \end{equation}
 Here, $x_m$ is the time series obtained by sampling the underlying continuous signal at $M$ discrete times. 
 $f_k = k/T$ is the frequency of bin $k$, where $T$ is the duration of the signal.
-
-\section{Core collapse in a nutshell}

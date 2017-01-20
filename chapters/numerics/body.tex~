@@ -1,0 +1,44 @@
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: "../../doktorarbeit"
+%%% End:
+\chapter{Numerical simulations of core-collapse supernovae}
+The GW signals presented in this thesis is based on 
+supernova simulations that was performed with the code \textsc{Prometheus-Vertex}.
+The simulations were performed by members of the Garching-group 
+(\citealp{hanke_phd}, \citealp{melson_phd} and \citealp{suma_models}).
+In this chapter we described the code used to carry out these simulations and 
+we describe the individual models in later chapters. 
+\textsc{Prometheus-Vertex} solves the combined problem of hydrodynamics and neutrino radiation transport.
+The code has been specifically developed for the core-collapse problem and has been developed for over
+decade, the first version was developed in 2002 by \cite{rampp_02} 
+\section{\textsc{Prometheus}}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+\comment The simulations were performed with the \textsc{Prometheus-Vertex} code \citep{rampp_02,buras_06a}. 
+The Newtonian hydrodynamics module
+\textsc{Prometheus} \citep{mueller_91,fryxell_91} features a dimensionally-split
+implementation of the piecewise parabolic method of \cite{colella_84}
+in spherical polar coordinates $(r,\theta,\varphi)$. Self-gravity is treated using the monopole
+approximation, and the effects of general relativity are accounted for
+in an approximate fashion by means of a pseudo-relativistic
+effective potential (case~A of \citealt{marek_06}). The neutrino transport
+module \textsc{Vertex} \citep{rampp_02} solves the energy-dependent two-moment
+equations for three neutrino species ($\nu_e$, $\bar{\nu}_e$, and a species $\nu_X$ representing
+all heavy flavor neutrinos) using a variable Eddington factor technique.
+The `ray-by-ray-plus'' approximation of \citet{buras_06a} is applied to make the
+multi-D transport problem tractable. In the high-density regime, the nuclear equation of  state (EoS) of \citet{lattimer_91} with a bulk incompressibility modulus of nuclear matter of $K=220 \,\mathrm{MeV}$
+has been used in all cases.

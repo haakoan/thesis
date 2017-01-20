@@ -10,7 +10,7 @@
     "eqT:einlin"
     "eqT:lor"
     "eqT:wave"
-    "eqT:wavevacuum"
+    "eqT:wavevacumm"
     "eqT:wavevacumm2"
     "eqT:ttg"
     "eqT:hzdir"
@@ -24,6 +24,7 @@
     "eqT:sol"
     "eqT:equad"
     "eqT:quad"
+    "eqT:pij"
     "eqT:pjz"
     "eqT:zhchx"
     "eqT:hp"
@@ -36,7 +37,7 @@
     "eqT:quaddtt"
     "eqT:quaddtt2"
     "eqT:quaddtt3"
-    "eq:STFQ"
+    "eqT:STFQ"
     "eq:2dquad"
     "eq:DFT"))
  :latex)

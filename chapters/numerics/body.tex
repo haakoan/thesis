@@ -1,0 +1,81 @@
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: "../../doktorarbeit"
+%%% End:
+\chapter{Numerical simulations of core-collapse supernovae}
+The GW signals presented in this thesis is based on 
+supernova simulations that was performed with the code \textsc{Prometheus-Vertex}.
+The simulations were performed by members of the Garching-group 
+(\citealp{hanke_phd}, \citealp{melson_phd} and \citealp{suma_models}).
+In this chapter we described the code used to carry out these simulations and 
+we describe the individual models in later chapters. 
+\textsc{Prometheus-Vertex} solves the combined problem of hydrodynamics and neutrino radiation transport.
+The code has been specifically developed for the core-collapse problem and has been developed for over
+decade, the first version was developed in 2002 by \cite{rampp_02} 
+\section{\textsc{Prometheus}}
+The hydrodynamics of the stellar collapse is solved with the with a version of the
+well-established  \textsc{Prometheus} code. It solves the non-relativistic 
+equations of hydrodynamics in spherical coordinates $(r,\theta,\phi)$.
+
+\begin{alignat}{2}
+&\partial_t \rho + \frac{1}{r^2} \partial_r (r^2 \rho v_r) + \frac{1}{r \sin{\theta}} \bigg[ \partial_{\theta} (\rho \sin{\theta} v_{\theta}) +
+\partial_{\phi} (\rho v_{\phi}) \bigg] &&= 0 \\
+%
+\stepcounter{equation}
+&\partial_t (\rho v_r) + \frac{1}{r \sin{\theta}} \bigg[ \partial_{\theta} (\rho \sin{\theta} v_{\theta} v_r)
++\partial_{\phi} (\rho v_{\phi} v_r) \bigg]&&\nonumber \\ 
+& + \frac{1}{r^2} \partial_r (r^2 \rho v_r^2)  - \rho \frac{v_{\theta}^2 + v_{\phi}^2}{r} + \partial_r p 
+&&= - \rho \partial_r \Phi + Q_{M_r} \tag{\theequation{}a} \\
+%
+&\partial_t (\rho v_{\theta}) + \frac{1}{r \sin{\theta}}\bigg[ \partial_{\theta} (\rho \sin{\theta} v_{\theta}^2) +
+\partial_{\phi} (\rho v_{\phi} v_{\theta}) \bigg] &&\nonumber \\  
+& + \frac{1}{r^2} \partial_r (r^2 \rho v_r v_{\theta})
++\rho \frac{v_{\theta}v_r - v_{\phi}^2/\tan{\theta}}{r} + \frac{1}{r}\partial_{\theta} p 
+&&= - \frac{\rho}{r} \partial_{\theta} \Phi + Q_{M_{\theta}} \tag{\theequation{}b} \\
+%
+&\partial_t (\rho v_{\phi})  
++\frac{1}{r \sin{\theta}} \bigg[ \partial_{\theta} (\rho \sin{\theta} v_{\theta} v_{\phi}) +
+\partial_{\phi} (\rho v_{\phi}^2)  + \partial_{\phi} p  \bigg] &&\nonumber \\
+&+ \frac{1}{r^2} \partial_r (r^2 \rho v_r v_{\phi}) +
+\rho \frac{v_{\theta}v_{\phi}/\tan{\theta} + v_{\phi}v_r}{r}
+&& = Q_{M_{\phi}} \tag{\theequation{}c} \\
+%
+&\partial_t e + \frac{1}{r^2} \partial_r (r^2 v_r (e + p)) && \nonumber \\
+& +\frac{1}{r \sin{\theta}} \bigg[ \partial_{\theta} ( \sin{\theta} v_{\theta} (e + p))  +
+ \partial_{\phi} (v_{\phi} (e + p)) \bigg] &&= -\rho v_r \partial_r \Phi - \rho\frac{v_{\theta}}{r}\partial_{\theta}\phi \nonumber \\
+& && + Q_E + v_r Q_{M_r} \nonumber \\
+& && + v_{\theta} Q_{M_{\theta}} + v_{\phi} Q_{M_{\phi}}.
+\end{alignat}
+
+
+
+% which is a Newtonian finite-volume solver
+% for the conservation equations (2.1), (2.3), and (2.5). Prometheus solves hydrody-
+% namic problems on orthogonal grids in spherical symmetry (1D), axial symmetry (2D),
+% or full three dimensions (3D) with high numerical accuracy.
+
+
+
+
+
+
+
+
+
+
+
+% \comment The simulations were performed with the \textsc{Prometheus-Vertex} code \citep{rampp_02,buras_06a}. 
+% The Newtonian hydrodynamics module
+% \textsc{Prometheus} \citep{mueller_91,fryxell_91} features a dimensionally-split
+% implementation of the piecewise parabolic method of \cite{colella_84}
+% in spherical polar coordinates $(r,\theta,\varphi)$. Self-gravity is treated using the monopole
+% approximation, and the effects of general relativity are accounted for
+% in an approximate fashion by means of a pseudo-relativistic
+% effective potential (case~A of \citealt{marek_06}). The neutrino transport
+% module \textsc{Vertex} \citep{rampp_02} solves the energy-dependent two-moment
+% equations for three neutrino species ($\nu_e$, $\bar{\nu}_e$, and a species $\nu_X$ representing
+% all heavy flavor neutrinos) using a variable Eddington factor technique.
+% The `ray-by-ray-plus'' approximation of \citet{buras_06a} is applied to make the
+% multi-D transport problem tractable. In the high-density regime, the nuclear equation of  state (EoS) of \citet{lattimer_91} with a bulk incompressibility modulus of nuclear matter of $K=220 \,\mathrm{MeV}$
+% has been used in all cases.
