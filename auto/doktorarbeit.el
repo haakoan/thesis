@@ -4,22 +4,24 @@
    (TeX-add-to-alist 'LaTeX-provided-class-options
                      '(("scrbook" "a4paper" "12pt" "twoside")))
    (TeX-add-to-alist 'LaTeX-provided-package-options
-                     '(("babel" "english") ("inputenc" "utf8") ("hyperref" "pdftex" "bookmarks" "plainpages=false" "pdfpagelabels") ("caption" "bf" "small" "sf") ("natbib" "super" "square") ("xy" "all") ("footmisc" "stable" "symbol") ("threeparttable" "para" "online" "flushleft") ("adjustbox" "export")))
+                     '(("babel" "english") ("inputenc" "utf8") ("hyperref" "pdftex" "bookmarks" "plainpages=false" "pdfpagelabels") ("caption" "bf" "small" "sf") ("natbib" "super" "square") ("xy" "all") ("footmisc" "stable" "symbol") ("threeparttable" "para" "online" "flushleft") ("adjustbox" "export") ("nth" "super")))
    (add-to-list 'LaTeX-verbatim-environments-local "lstlisting")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "path")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "url")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "nolinkurl")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperbaseurl")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperimage")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperref")
    (add-to-list 'LaTeX-verbatim-macros-with-braces-local "lstinline")
-   (add-to-list 'LaTeX-verbatim-macros-with-delims-local "path")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperref")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperimage")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperbaseurl")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "nolinkurl")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "url")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "path")
    (add-to-list 'LaTeX-verbatim-macros-with-delims-local "lstinline")
+   (add-to-list 'LaTeX-verbatim-macros-with-delims-local "path")
    (TeX-run-style-hooks
     "latex2e"
     "chapters/ccsn/body"
     "chapters/theory/body"
     "chapters/numerics/body"
+    "chapters/signal/body"
+    "chapters/chapter1/body"
     "scrbook"
     "scrbook12"
     "babel"
@@ -59,6 +61,7 @@
     "adjustbox"
     "csquotes"
     "wrapfig"
+    "nth"
     "tabularx"
     "tikz")
    (TeX-add-symbols

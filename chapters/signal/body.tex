@@ -1,0 +1,59 @@
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: "../../doktorarbeit"
+%%% End:
+\chapter{Signal analysis}
+\section{Fourier analysis}
+In order to study the frequency structure of a time signal it is common 
+to approximate the signal as a sum of trigometric functions. Two examples
+of such analysis is Fourier seris and Fourier transforms, we will mainly
+focus on the latter.
+\subsection{Continuous and discrete Fourier transforms}
+From a continuous time signal $x(t)$ we can define the continuous Fourier transform  
+\begin{equation} \label{eqSA:cf}
+\widetilde{x}(f) = \int_{-\infty}^{\infty} x(t) e^{-2 \pi i f t} \ud t, 
+\end{equation}
+that transforms the function into the frequency ($f$) domain.
+Simply put, the Fourier transformation tells us how much a harmonic oscillation 
+of frequency $f$ contributes to the total signal. 
+
+If the time signal is represented by an discrete time series, as is the case with data from simulations,
+the integral on the right hand side of \eq{eqSA:cf} can be estimated by numerical integration and 
+we can derive an expression for the correspodning discrete Fourier transform (DFT).
+Consider the time series $x_m$ of duration $T$ which has been obtained by sampling the underlying 
+continuous signal $x(t)$ at $M$ discrete evenly spaced times
+\begin{equation}
+x_m = x(t_m) \qquad m = 0,1,2,3,4 ... M.
+\end{equation} 
+Since the sampeling is evenly spaced we have that 
+\begin{equation}
+t_m = m\Delta t \qquad m = 0,1,2,3,4 ... M,
+\end{equation} 
+where $\Delta t( = T/M)$ is the sampeling interval.
+Since we have chosen to sample our function at $M$ times over a time period
+$T$ we have by construction a function which has period $T$, regardless of the true periodicity of the
+underlying function. This implies that $x_M = x_0$. Since our signal has period $T$ it means that frequency
+of the slowest varying ossilation we can messure is $1/T$. By the same logic the second slowest ossilation 
+we can capture has a frequency of $1/(T-\Delta t)$ and so on. This means that the discrete signal
+is represented by a set of $N+1$ frequencies 
+\begin{equation}
+f_k = k/M \Delta t \qquad k = 0,1,2,3,4 ... M.
+\end{equation}
+We now calculate the integral in \eq{eqSA:cf} for a given frequency $f_k$ using the trapzoidal rule and find
+\begin{align}
+\int_{-\infty}^{\infty} x(t) e^{-2 \pi i f_k t} \ud t &\simeq \int_{0}^{T} x(t) e^{-2 \pi i f_k t} \ud t \nonumber \\
+&\approx \sum_{m=1}^{M} x_m e^{-2 \pi i f_k t_m} \Delta t \nonumber \\
+& = \sum_{m=1}^{M} x_m e^{-2 \pi i k m/M} \Delta t \equiv \widetilde{X}_k \Delta t M.
+\end{align}
+In the last line we have defined the discrete Fourier transform (of a time series $x_m$)
+\begin{equation} \label{eq:DFT}
+\widetilde{X}_k (f_k) = \frac{1}{M}  \sum^M_{m=1} x_m e^{-2\pi i k m/M}.
+\end{equation}
+
+\section{The short-time Fourier transform}
+The dissatvangate of the Fourier transform is that it only gives you information
+about the frequency spectrum of the full time signal. If we are analysing a 
+signal with a varying frequency structure it will be useful to extract 
+time-frequency information about the signal. This is done by separating
+the signal into shorter segments and then calculating the Fourier transform of each
+segment.

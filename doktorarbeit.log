@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.1.11)  20 JAN 2017 20:04
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.1.11)  25 JAN 2017 18:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1102,6 +1102,9 @@ File: csquotes.cfg
 \WF@everypar=\toks36
 Package: wrapfig 2003/01/31  v 3.6
 )
+(/usr/share/texlive/texmf-dist/tex/generic/genmisc/nth.sty
+Package: nth 2002/02/27
+)
 (/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
 \TX@col@width=\dimen195
@@ -1381,6 +1384,12 @@ Package csquotes Info: Redefining alias 'default' -> 'english'.
 
 LaTeX Warning: Label `eqT:pjz' multiply defined.
 
+
+LaTeX Warning: Label `eq:DFT' multiply defined.
+
+
+LaTeX Warning: Label `eq:DFT' multiply defined.
+
 )
 \openout1 = `doktorarbeit.aux'.
 
@@ -1504,7 +1513,7 @@ ed-to.pdf front_page/tum.eps>
 (epstopdf)             \includegraphics on input line 264.
 Package epstopdf Info: Output file is already uptodate.
 
-<front_page/tum-eps-converted-to.pdf, id=75, 54.2025pt x 29.10875pt>
+<front_page/tum-eps-converted-to.pdf, id=187, 54.2025pt x 29.10875pt>
 File: front_page/tum-eps-converted-to.pdf Graphic file (type pdf)
 
 <use front_page/tum-eps-converted-to.pdf>
@@ -1522,7 +1531,7 @@ ed-to.pdf front_page/mpa.eps>
 (epstopdf)             \includegraphics on input line 264.
 Package epstopdf Info: Output file is already uptodate.
 
-<front_page/mpa-eps-converted-to.pdf, id=76, 286.06876pt x 129.48375pt>
+<front_page/mpa-eps-converted-to.pdf, id=188, 286.06876pt x 129.48375pt>
 File: front_page/mpa-eps-converted-to.pdf Graphic file (type pdf)
 
 <use front_page/mpa-eps-converted-to.pdf>
@@ -1543,14 +1552,17 @@ rted-to.pdf> <./front_page/mpa-eps-converted-to.pdf>]
 [2
 
 
-] (./doktorarbeit.toc)
+] (./doktorarbeit.toc [3
+
+
+])
 \tf@toc=\write7
 \openout7 = `doktorarbeit.toc'.
 
- [3
+ [4] [5] [6
 
 
-] [4] (./chapters/ccsn/body.tex
+] (./chapters/ccsn/body.tex
 Chapter 1.
 
 Class scrbook Warning: \float@addtolists detected!
@@ -1575,8 +1587,6 @@ l.38
       [1
 
 
-
-
 ]
 Overfull \hbox (6.36705pt too wide) in paragraph at lines 65--68
 [][] 
@@ -1591,17 +1601,26 @@ l.87
 .3}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.134 
-       [3]pdfTeX warning (ext4): destination with the same identifier (name{pag
-e.4}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.160 
-       [4] [5]
+l.124 
+       [3]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [6])
-[7] [8
+pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.163 
+       [4]pdfTeX warning (ext4): destination with the same identifier (name{pag
+e.5}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.247 
+       [5]pdfTeX warning (ext4): destination with the same identifier (name{pag
+e.6}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.256 
+       [6]) [7] [8
 
 
 ] (./chapters/theory/body.tex
@@ -1610,7 +1629,7 @@ Chapter 2.
 
 
 ] [10] [11] [12]
-Overfull \hbox (1.04533pt too wide) in paragraph at lines 202--207
+Overfull \hbox (1.04533pt too wide) in paragraph at lines 201--206
 \OT1/cmr/m/n/12 Now con-sider a wave prop-a-gat-ing in the di-rec-tion given by
  $[] = ([] \OML/cmm/m/it/12 ^^R [] ^^^; [] ^^R [] ^^^; [] ^^R\OT1/cmr/m/n/12 )$
 .
@@ -1628,7 +1647,7 @@ ne 10.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/bx/sc' undefined
-(Font)              using `OT1/cmss/bx/n' instead on input line 16.
+(Font)              using `OT1/cmss/bx/n' instead on input line 17.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1638,8 +1657,360 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-])
-[18] (./doktorarbeit.bbl
+]
+
+Package natbib Warning: Citation `strang_68' on page 18 undefined on input line
+ 74.
+
+
+Package natbib Warning: Citation `einfeldt_88' on page 18 undefined on input li
+ne 75.
+
+
+Package natbib Warning: Citation `quirk_94' on page 18 undefined on input line 
+77.
+
+
+Package natbib Warning: Citation `kifonidis_03' on page 18 undefined on input l
+ine 77.
+
+
+Package natbib Warning: Citation `plewa_99' on page 18 undefined on input line 
+79.
+
+[18]
+
+Package natbib Warning: Citation `janka_99' on page 19 undefined on input line 
+92.
+
+LaTeX Font Info:    Try loading font information for U+euf on input line 112.
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/ueuf.fd
+File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
+)
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
+(Font)              using `OT1/cmr/bx/n' instead on input line 118.
+
+[19] [20]
+
+Package natbib Warning: Citation `melson_phd' on page 21 undefined on input lin
+e 164.
+
+) [21] [22
+
+
+] (./chapters/signal/body.tex
+Chapter 4.
+[23
+
+
+]) [24] (./chapters/chapter1/body.tex
+Chapter 5.
+LaTeX Font Info:    External font `cmex7' loaded for size
+(Font)              <7> on input line 55.
+LaTeX Font Info:    External font `cmex7' loaded for size
+(Font)              <5> on input line 55.
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <7> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 55.
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <5> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 55.
+[25
+
+
+
+
+] [26] [27]
+
+Class scrbook Warning: Usage of deprecated font command `\bf'!
+(scrbook)              You should note, that in 1994 font command `\bf' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\bf' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\bf' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
+(scrbook)              by `\normalfont \bfseries ' on input line 195.
+
+
+Class scrbook Warning: Usage of deprecated font command `\bf'!
+(scrbook)              You should note, that in 1994 font command `\bf' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\bf' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\bf' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
+(scrbook)              by `\normalfont \bfseries ' on input line 213.
+
+[28]
+
+Class scrbook Warning: Usage of deprecated font command `\bf'!
+(scrbook)              You should note, that in 1994 font command `\bf' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\bf' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\bf' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
+(scrbook)              by `\normalfont \bfseries ' on input line 217.
+
+<./images/chp1/fig1.pdf, id=950, 1538.58812pt x 1637.94933pt>
+File: ./images/chp1/fig1.pdf Graphic file (type pdf)
+
+<use ./images/chp1/fig1.pdf>
+Package pdftex.def Info: ./images/chp1/fig1.pdf used on input line 230.
+(pdftex.def)             Requested size: 456.11655pt x 485.56522pt.
+ [29] [30 <./images/chp1/fig1.pdf>]
+
+Class scrbook Warning: Usage of deprecated font command `\bf'!
+(scrbook)              You should note, that in 1994 font command `\bf' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\bf' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\bf' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
+(scrbook)              by `\normalfont \bfseries ' on input line 295.
+
+[31] [32] <./images/chp1/fig2.pdf, id=1085, 1250.93349pt x 1039.54376pt>
+File: ./images/chp1/fig2.pdf Graphic file (type pdf)
+
+<use ./images/chp1/fig2.pdf>
+Package pdftex.def Info: ./images/chp1/fig2.pdf used on input line 477.
+(pdftex.def)             Requested size: 456.11655pt x 379.0417pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [33]
+[34 <./images/chp1/fig2.pdf>] [35]
+<./images/chp1/fig3.pdf, id=1134, 1757.52606pt x 1304.7445pt>
+File: ./images/chp1/fig3.pdf Graphic file (type pdf)
+
+<use ./images/chp1/fig3.pdf>
+Package pdftex.def Info: ./images/chp1/fig3.pdf used on input line 573.
+(pdftex.def)             Requested size: 456.11655pt x 338.6084pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 573--582
+
+ []
+
+
+LaTeX Warning: Reference `eq:STFQ' on page 36 undefined on input line 589.
+
+[36] [37 <./images/chp1/fig3.pdf>]
+<./images/chp1/fig4.pdf, id=1158, 247.92625pt x 206.7725pt>
+File: ./images/chp1/fig4.pdf Graphic file (type pdf)
+
+<use ./images/chp1/fig4.pdf>
+Package pdftex.def Info: ./images/chp1/fig4.pdf used on input line 646.
+(pdftex.def)             Requested size: 456.11655pt x 380.43445pt.
+
+<./images/chp1/fig5.pdf, id=1163, 678.535pt x 675.52374pt>
+File: ./images/chp1/fig5.pdf Graphic file (type pdf)
+
+<use ./images/chp1/fig5.pdf>
+Package pdftex.def Info: ./images/chp1/fig5.pdf used on input line 667.
+(pdftex.def)             Requested size: 225.75594pt x 224.74797pt.
+ [38] [39 <./images/chp1/fig4.pdf>]
+
+LaTeX Warning: Reference `eq:STFQ' on page 40 undefined on input line 688.
+
+<./images/chp1/fig6a.pdf, id=1217, 1036.72316pt x 632.39264pt>
+File: ./images/chp1/fig6a.pdf Graphic file (type pdf)
+
+<use ./images/chp1/fig6a.pdf>
+Package pdftex.def Info: ./images/chp1/fig6a.pdf used on input line 707.
+(pdftex.def)             Requested size: 225.75594pt x 137.70833pt.
+
+<./images/chp1/fig6b.pdf, id=1218, 1036.72316pt x 632.39264pt>
+File: ./images/chp1/fig6b.pdf Graphic file (type pdf)
+
+<use ./images/chp1/fig6b.pdf>
+Package pdftex.def Info: ./images/chp1/fig6b.pdf used on input line 708.
+(pdftex.def)             Requested size: 225.75594pt x 137.70833pt.
+
+<./images/chp1/fig6d.pdf, id=1219, 1036.72316pt x 632.39264pt>
+File: ./images/chp1/fig6d.pdf Graphic file (type pdf)
+
+<use ./images/chp1/fig6d.pdf>
+Package pdftex.def Info: ./images/chp1/fig6d.pdf used on input line 710.
+(pdftex.def)             Requested size: 225.75594pt x 137.70833pt.
+
+<./images/chp1/fig6c.pdf, id=1220, 1036.72316pt x 632.39264pt>
+File: ./images/chp1/fig6c.pdf Graphic file (type pdf)
+
+<use ./images/chp1/fig6c.pdf>
+Package pdftex.def Info: ./images/chp1/fig6c.pdf used on input line 711.
+(pdftex.def)             Requested size: 225.75594pt x 137.70833pt.
+
+
+LaTeX Warning: Reference `eq:aplus' on page 40 undefined on input line 725.
+
+
+LaTeX Warning: Reference `eq:ax' on page 40 undefined on input line 725.
+
+
+LaTeX Warning: Reference `eq:aplus' on page 40 undefined on input line 725.
+
+
+LaTeX Warning: Reference `eq:ax' on page 40 undefined on input line 725.
+
+[40 <./images/chp1/fig5.pdf>] [41 <./images/chp1/fig6a.pdf> <./images/chp1/fig6
+b.pdf> <./images/chp1/fig6d.pdf> <./images/chp1/fig6c.pdf>] [42]
+<./images/chp1/fig7.pdf, id=1334, 1229.59375pt x 817.0525pt>
+File: ./images/chp1/fig7.pdf Graphic file (type pdf)
+
+<use ./images/chp1/fig7.pdf>
+Package pdftex.def Info: ./images/chp1/fig7.pdf used on input line 817.
+(pdftex.def)             Requested size: 207.32315pt x 137.76257pt.
+
+<./images/chp1/fig8a.pdf, id=1339, 1061.24483pt x 562.83272pt>
+File: ./images/chp1/fig8a.pdf Graphic file (type pdf)
+
+<use ./images/chp1/fig8a.pdf>
+Package pdftex.def Info: ./images/chp1/fig8a.pdf used on input line 828.
+(pdftex.def)             Requested size: 221.14421pt x 117.27942pt.
+
+<./images/chp1/fig8b.pdf, id=1340, 962.79701pt x 539.7967pt>
+File: ./images/chp1/fig8b.pdf Graphic file (type pdf)
+
+<use ./images/chp1/fig8b.pdf>
+Package pdftex.def Info: ./images/chp1/fig8b.pdf used on input line 829.
+(pdftex.def)             Requested size: 221.14421pt x 123.98589pt.
+
+<./images/chp1/fig8c.pdf, id=1341, 1061.24483pt x 562.83272pt>
+File: ./images/chp1/fig8c.pdf Graphic file (type pdf)
+
+<use ./images/chp1/fig8c.pdf>
+Package pdftex.def Info: ./images/chp1/fig8c.pdf used on input line 830.
+(pdftex.def)             Requested size: 221.14421pt x 117.27942pt.
+
+<./images/chp1/fig8d.pdf, id=1342, 962.79701pt x 534.79799pt>
+File: ./images/chp1/fig8d.pdf Graphic file (type pdf)
+
+<use ./images/chp1/fig8d.pdf>
+Package pdftex.def Info: ./images/chp1/fig8d.pdf used on input line 831.
+(pdftex.def)             Requested size: 221.14421pt x 122.83774pt.
+
+<./images/chp1/fig9a.pdf, id=1343, 1029.34563pt x 628.82928pt>
+File: ./images/chp1/fig9a.pdf Graphic file (type pdf)
+
+<use ./images/chp1/fig9a.pdf>
+Package pdftex.def Info: ./images/chp1/fig9a.pdf used on input line 840.
+(pdftex.def)             Requested size: 207.32315pt x 126.64638pt.
+
+<./images/chp1/fig9b.pdf, id=1344, 1030.19879pt x 629.42152pt>
+File: ./images/chp1/fig9b.pdf Graphic file (type pdf)
+
+<use ./images/chp1/fig9b.pdf>
+Package pdftex.def Info: ./images/chp1/fig9b.pdf used on input line 841.
+(pdftex.def)             Requested size: 207.32315pt x 126.66pt.
+
+
+Class scrbook Warning: Usage of deprecated font command `\bf'!
+(scrbook)              You should note, that in 1994 font command `\bf' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\bf' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\bf' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
+(scrbook)              by `\normalfont \bfseries ' on input line 867.
+
+[43] [44 <./images/chp1/fig7.pdf> <./images/chp1/fig8a.pdf> <./images/chp1/fig8
+b.pdf> <./images/chp1/fig8c.pdf> <./images/chp1/fig8d.pdf>]
+
+Class scrbook Warning: Usage of deprecated font command `\bf'!
+(scrbook)              You should note, that in 1994 font command `\bf' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\bf' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\bf' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
+(scrbook)              by `\normalfont \bfseries ' on input line 881.
+
+[45 <./images/chp1/fig9a.pdf> <./images/chp1/fig9b.pdf>]
+<./images/chp1/fig10.pdf, id=1479, 955.57pt x 617.30624pt>
+File: ./images/chp1/fig10.pdf Graphic file (type pdf)
+
+<use ./images/chp1/fig10.pdf>
+Package pdftex.def Info: ./images/chp1/fig10.pdf used on input line 964.
+(pdftex.def)             Requested size: 225.75594pt x 145.83937pt.
+ [46]
+<./images/chp1/fig11.pdf, id=1484, 1673.77322pt x 504.76581pt>
+File: ./images/chp1/fig11.pdf Graphic file (type pdf)
+
+<use ./images/chp1/fig11.pdf>
+Package pdftex.def Info: ./images/chp1/fig11.pdf used on input line 972.
+(pdftex.def)             Requested size: 456.11655pt x 137.55173pt.
+
+<./images/chp1/fig12.pdf, id=1493, 990.30977pt x 509.00163pt>
+File: ./images/chp1/fig12.pdf Graphic file (type pdf)
+
+<use ./images/chp1/fig12.pdf>
+Package pdftex.def Info: ./images/chp1/fig12.pdf used on input line 986.
+(pdftex.def)             Requested size: 221.14421pt x 113.65831pt.
+
+<./images/chp1/fig13a.pdf, id=1494, 646.415pt x 483.8075pt>
+File: ./images/chp1/fig13a.pdf Graphic file (type pdf)
+
+<use ./images/chp1/fig13a.pdf>
+Package pdftex.def Info: ./images/chp1/fig13a.pdf used on input line 993.
+(pdftex.def)             Requested size: 225.75594pt x 168.96605pt.
+
+<./images/chp1/fig13b.pdf, id=1495, 646.415pt x 496.85625pt>
+File: ./images/chp1/fig13b.pdf Graphic file (type pdf)
+
+<use ./images/chp1/fig13b.pdf>
+Package pdftex.def Info: ./images/chp1/fig13b.pdf used on input line 995.
+(pdftex.def)             Requested size: 225.75594pt x 173.52321pt.
+
+
+LaTeX Warning: Reference `eq:STFQ' on page 47 undefined on input line 1027.
+
+
+LaTeX Warning: Reference `eq:STFQ' on page 47 undefined on input line 1032.
+
+
+LaTeX Warning: Reference `eq:STFQ' on page 47 undefined on input line 1038.
+
+[47 <./images/chp1/fig10.pdf>] [48 <./images/chp1/fig11.pdf> <./images/chp1/fig
+12.pdf>] [49 <./images/chp1/fig13a.pdf> <./images/chp1/fig13b.pdf>] [50]
+[51] <./images/chp1/fig14.pdf, id=1595, 794.97pt x 449.68pt>
+File: ./images/chp1/fig14.pdf Graphic file (type pdf)
+
+<use ./images/chp1/fig14.pdf>
+Package pdftex.def Info: ./images/chp1/fig14.pdf used on input line 1206.
+(pdftex.def)             Requested size: 225.75594pt x 127.7004pt.
+ [52]
+Overfull \hbox (249.55977pt too wide) in paragraph at lines 1236--1244
+ [][] 
+ []
+
+[53 <./images/chp1/fig14.pdf>] [54] [55] [56] [57] [58] [59] [60]) [61]
+[62
+
+
+] (./doktorarbeit.bbl
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              You should note, that in 1994 font command `\rm' has
@@ -1878,11 +2249,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
 (scrbook)              by `\normalfont \rmfamily ' on input line 136.
 
-[19
-
-
-
-
+[63
 
 
 
@@ -2156,7 +2523,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
 (scrbook)              by `\normalfont \rmfamily ' on input line 249.
 
-[20]
+[64]
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              You should note, that in 1994 font command `\rm' has
@@ -2432,7 +2799,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
 (scrbook)              by `\normalfont \rmfamily ' on input line 397.
 
-[21]
+[65]
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              You should note, that in 1994 font command `\rm' has
@@ -2755,7 +3122,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
 (scrbook)              by `\normalfont \rmfamily ' on input line 531.
 
-[22]
+[66]
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              You should note, that in 1994 font command `\rm' has
@@ -2997,7 +3364,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
 (scrbook)              by `\normalfont \rmfamily ' on input line 663.
 
-[23]
+[67]
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              You should note, that in 1994 font command `\rm' has
@@ -3152,53 +3519,85 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
 (scrbook)              by `\normalfont \rmfamily ' on input line 747.
 
-) [24]
+) [68]
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 371.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 371.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 375.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 375.
 (./doktorarbeit.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 371.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 371.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 375.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 375.
 Package rerunfilecheck Info: File `doktorarbeit.out' has not changed.
-(rerunfilecheck)             Checksum: 1D0C6DAF50F88FC8234561B5D1BC0C8E;1250.
+(rerunfilecheck)             Checksum: 79D43F29B819BD1A72F4C3D29F34BB69;3490.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 371.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 375.
  ) 
 Here is how much of TeX's memory you used:
- 26482 strings out of 494208
- 439519 string characters out of 6160797
- 612536 words of memory out of 5000000
- 29029 multiletter control sequences out of 15000+600000
- 18831 words of font info for 76 fonts, out of 8000000 for 9000
+ 26938 strings out of 494208
+ 446752 string characters out of 6160797
+ 624804 words of memory out of 5000000
+ 29286 multiletter control sequences out of 15000+600000
+ 30286 words of font info for 124 fonts, out of 8000000 for 9000
  416 hyphenation exceptions out of 8191
  65i,12n,75p,3242b,1117s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-ssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on doktorarbeit.pdf (28 pages, 279922 bytes).
+pdfTeX warning (dest): name{Hfootnote.6} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.5} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.4} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.3} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
+, replaced by a fixed one
+
+ </home/haakoan/.texmf-var/fonts/pk/ljfour/jknappen/ec/tcbx1200.600pk> </home/h
+aakoan/.texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk> </home/haakoan/.t
+exmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0700.600pk> </home/haakoan/.texmf-var/
+fonts/pk/ljfour/jknappen/ec/tcrm0800.600pk></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
+i12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
+Output written on doktorarbeit.pdf (74 pages, 5046226 bytes).
 PDF statistics:
- 902 PDF objects out of 1000 (max. 8388607)
- 845 compressed objects within 9 object streams
- 227 named destinations out of 1000 (max. 500000)
- 159 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2268 PDF objects out of 2487 (max. 8388607)
+ 2097 compressed objects within 21 object streams
+ 367 named destinations out of 1000 (max. 500000)
+ 493 words of extra memory for PDF output out of 10000 (max. 10000000)
 

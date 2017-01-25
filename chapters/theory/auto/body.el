@@ -2,6 +2,7 @@
  "body"
  (lambda ()
    (LaTeX-add-labels
+    "ch:theory"
     "eqT:metric"
     "eqT:hsmall"
     "eqT:einstein"

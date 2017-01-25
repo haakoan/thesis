@@ -52,7 +52,7 @@
 \usepackage{csquotes}
 \usepackage{wrapfig}
 \usepackage{caption}
-
+\usepackage[super]{nth}
 \usepackage{tabularx, booktabs}
 \newcolumntype{Y}{>{\centering\arraybackslash}X}
 
@@ -336,10 +336,14 @@
   \cleardoublepage
   \thispagestyle{empty}
   \input{chapters/numerics/body.tex}
+  \cleardoublepage
+  \thispagestyle{empty}
+  \input{chapters/signal/body.tex}
+
 
   \cleardoublepage
   \thispagestyle{empty}
-%  \input{chapters/chapter1/body.tex}
+  \input{chapters/chapter1/body.tex}
 
 
 
