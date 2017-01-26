@@ -180,6 +180,9 @@ Clarendon, Oxford
   \mn@doi [\apj] {10.1088/0004-637X/765/2/110}, \href
   {http://adsabs.harvard.edu/abs/2013ApJ...765..110D} {765, 110}
 
+\bibitem[\protect\citeauthoryear{{Einfeldt}}{{Einfeldt}}{1988}]{einfeldt_88}
+{Einfeldt} B.,  1988, {\it SIAM J.~Numer.~Anal.}, 25, 294
+
 \bibitem[\protect\citeauthoryear{{Epstein}}{{Epstein}}{1978}]{epstein_78}
 {Epstein} R.,  1978, \mn@doi [\apj] {10.1086/156337}, \href
   {http://adsabs.harvard.edu/abs/1978ApJ...223.1037E} {223, 1037}
@@ -342,6 +345,12 @@ Clarendon, Oxford
 {Kazeroni} R.,  {Guilet} J.,   {Foglizzo} T.,  2016, \mn@doi [\mnras]
   {10.1093/mnras/stv2666}, \href
   {http://adsabs.harvard.edu/abs/2016MNRAS.456..126K} {456, 126}
+
+\bibitem[\protect\citeauthoryear{{Kifonidis}, {Plewa}, {Janka}  \&
+  {M{\"u}ller}}{{Kifonidis} et~al.}{2003}]{kifonidis_03}
+{Kifonidis} K.,  {Plewa} T.,  {Janka} H.-T.,   {M{\"u}ller} E.,  2003, \mn@doi
+  [\aap] {10.1051/0004-6361:20030863}, \href
+  {http://adsabs.harvard.edu/abs/2003A26A...408..621K} {408, 621}
 
 \bibitem[\protect\citeauthoryear{{Kotake}, {Iwakami}, {Ohnishi}  \&
   {Yamada}}{{Kotake} et~al.}{2009}]{kotake_09}
@@ -578,11 +587,21 @@ Oohara K.-i.,  Nakamura T.,   Shibata M.,  1997, \mn@doi [Progress of
 {Ott} C.~D.,  et~al., 2012, \mn@doi [\prd] {10.1103/PhysRevD.86.024026}, \href
   {http://adsabs.harvard.edu/abs/2012PhRvD..86b4026O} {86, 024026}
 
+\bibitem[\protect\citeauthoryear{{Plewa} \& {M{\"u}ller}}{{Plewa} \&
+  {M{\"u}ller}}{1999}]{plewa_99}
+{Plewa} T.,  {M{\"u}ller} E.,  1999, \aap, \href
+  {http://adsabs.harvard.edu/abs/1999A26A...342..179P} {342, 179}
+
 \bibitem[\protect\citeauthoryear{{Popov} \& {Turolla}}{{Popov} \&
   {Turolla}}{2012}]{popov_12}
 {Popov} S.~B.,  {Turolla} R.,  2012, \mn@doi [\apss]
   {10.1007/s10509-012-1100-z}, \href
   {http://adsabs.harvard.edu/abs/2012Ap%26SS.341..457P} {341, 457}
+
+\bibitem[\protect\citeauthoryear{{Quirk}}{{Quirk}}{1994}]{quirk_94}
+{Quirk} J.~J.,  1994, \mn@doi [{\it Int.~J.~Num.~Meth.~in~Fluids}]
+  {10.1002/fld.1650180603}, \href
+  {http://adsabs.harvard.edu/abs/1994IJNMF..18..555Q} {18, 555}
 
 \bibitem[\protect\citeauthoryear{{Rampp} \& {Janka}}{{Rampp} \&
   {Janka}}{2002}]{rampp_02}

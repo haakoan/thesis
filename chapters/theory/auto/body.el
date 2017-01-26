@@ -40,6 +40,7 @@
     "eqT:quaddtt3"
     "eqT:STFQ"
     "eq:2dquad"
+    "eqT:dedf"
     "eq:DFT"))
  :latex)
 

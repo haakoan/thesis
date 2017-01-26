@@ -313,6 +313,8 @@ compact form
 \end{equation}
 Here $\mathrm{STF}$ denotes the projection operator
 onto the symmetric trace-free part, $\mathrm{STF}[A_{ij}] = \frac{1}{2}A_{ij} + \frac{1}{2}A_{ji} - \frac{1}{3} \delta_{ij} A_{ll} $.
+We have also adopted the notation that $\dot{x}$ represents the first time derivative of $x$, $\ddot{x}$ the second time derivative, 
+and so on.
 In the end, we are left with an expression for the second time derivative of the quadrupole moment that
 depends on first-order spatial derivatives of the gravitational potential and the Cartesian velocity components.
 These terms have larger numerical values in the regions of the simulation generating most of the GWs, which is an advantage when numerically calculating the integral in \eq{eqT:STFQ}. We have also 
@@ -340,8 +342,8 @@ In the quadrupole framework the energy, $E$, radiated by GWs is given by
 E &=\frac{G}{5 c^5} \int \mathrm{d}t \, \dddot{Q}_{ij} \dddot{Q}_{ij},
 \end{align}
 and the spectral energy density of the GWs is given by 
-\begin{align}
-\frac{\mathrm{d} E}{\mathrm{d} f} &= \frac{2G}{5 c^5} (2\pi f)^2 \int \mathrm{d}t \widetilde{\ddot{Q}}_{ij} \widetilde{\ddot{Q}}_{ij},
+\begin{align} \label{eqT:dedf}
+\frac{\mathrm{d} E}{\mathrm{d} f} &= \frac{2G}{5 c^5} (2\pi f)^2 \widetilde{\ddot{Q}}_{ij} \widetilde{\ddot{Q}}_{ij},
 \end{align}
 where a tilde denotes a Fourier transform, and $f$ is the
 frequency. We define the Fourier transform as follows:

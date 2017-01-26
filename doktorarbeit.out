@@ -22,24 +22,26 @@
 \BOOKMARK [1][-]{section.4.1}{Fourier analysis}{chapter.4}% 22
 \BOOKMARK [2][-]{subsection.4.1.1}{Continuous and discrete Fourier transforms}{section.4.1}% 23
 \BOOKMARK [1][-]{section.4.2}{The short-time Fourier transform}{chapter.4}% 24
-\BOOKMARK [0][-]{chapter.5}{First paper}{}% 25
-\BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 26
-\BOOKMARK [1][-]{section.5.2}{Setup and Numerical Methods}{chapter.5}% 27
-\BOOKMARK [2][-]{subsection.5.2.1}{Numerical Methods}{section.5.2}% 28
-\BOOKMARK [1][-]{section.5.3}{Structure and Origin of the Gravitational Wave Signal}{chapter.5}% 29
-\BOOKMARK [2][-]{subsection.5.3.1}{Supernova Models}{section.5.3}% 30
-\BOOKMARK [2][-]{subsection.5.3.2}{Gravitational Wave Extraction}{section.5.3}% 31
-\BOOKMARK [2][-]{subsection.5.3.3}{Overview of Waveforms}{section.5.3}% 32
-\BOOKMARK [2][-]{subsection.5.3.4}{Spatial Location of Underlying Hydrodynamical Instabilities}{section.5.3}% 33
-\BOOKMARK [2][-]{subsection.5.3.5}{Origin of High-Frequency Emission}{section.5.3}% 34
-\BOOKMARK [2][-]{subsection.5.3.6}{Comparison of high-frequency emission in 2D and 3D}{section.5.3}% 35
-\BOOKMARK [2][-]{subsection.5.3.7}{Origin of the Low-Frequency Signal}{section.5.3}% 36
-\BOOKMARK [2][-]{subsection.5.3.8}{Comparison of the exploding and non-exploding 20 solar mass models}{section.5.3}% 37
-\BOOKMARK [1][-]{section.5.4}{Detection Prospects}{chapter.5}% 38
-\BOOKMARK [2][-]{subsection.5.4.1}{General Considerations}{section.5.4}% 39
-\BOOKMARK [2][-]{subsection.5.4.2}{Detection Prospects for Simulated Models}{section.5.4}% 40
-\BOOKMARK [2][-]{subsection.5.4.3}{Detection Prospects with AdvLIGO}{section.5.4}% 41
-\BOOKMARK [2][-]{subsection.5.4.4}{Detection Prospects with the Einstein Telescope}{section.5.4}% 42
-\BOOKMARK [2][-]{subsection.5.4.5}{Interpretation of a Prospective Detection}{section.5.4}% 43
-\BOOKMARK [1][-]{section.5.5}{Conclusions}{chapter.5}% 44
-\BOOKMARK [0][-]{section*.22}{Bibliography}{}% 45
+\BOOKMARK [1][-]{section.4.3}{The Nyquist frequency and aliasing}{chapter.4}% 25
+\BOOKMARK [1][-]{section.4.4}{The spectral energy density of a discrete time signal}{chapter.4}% 26
+\BOOKMARK [0][-]{chapter.5}{First paper}{}% 27
+\BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 28
+\BOOKMARK [1][-]{section.5.2}{Setup and Numerical Methods}{chapter.5}% 29
+\BOOKMARK [2][-]{subsection.5.2.1}{Numerical Methods}{section.5.2}% 30
+\BOOKMARK [1][-]{section.5.3}{Structure and Origin of the Gravitational Wave Signal}{chapter.5}% 31
+\BOOKMARK [2][-]{subsection.5.3.1}{Supernova Models}{section.5.3}% 32
+\BOOKMARK [2][-]{subsection.5.3.2}{Gravitational Wave Extraction}{section.5.3}% 33
+\BOOKMARK [2][-]{subsection.5.3.3}{Overview of Waveforms}{section.5.3}% 34
+\BOOKMARK [2][-]{subsection.5.3.4}{Spatial Location of Underlying Hydrodynamical Instabilities}{section.5.3}% 35
+\BOOKMARK [2][-]{subsection.5.3.5}{Origin of High-Frequency Emission}{section.5.3}% 36
+\BOOKMARK [2][-]{subsection.5.3.6}{Comparison of high-frequency emission in 2D and 3D}{section.5.3}% 37
+\BOOKMARK [2][-]{subsection.5.3.7}{Origin of the Low-Frequency Signal}{section.5.3}% 38
+\BOOKMARK [2][-]{subsection.5.3.8}{Comparison of the exploding and non-exploding 20 solar mass models}{section.5.3}% 39
+\BOOKMARK [1][-]{section.5.4}{Detection Prospects}{chapter.5}% 40
+\BOOKMARK [2][-]{subsection.5.4.1}{General Considerations}{section.5.4}% 41
+\BOOKMARK [2][-]{subsection.5.4.2}{Detection Prospects for Simulated Models}{section.5.4}% 42
+\BOOKMARK [2][-]{subsection.5.4.3}{Detection Prospects with AdvLIGO}{section.5.4}% 43
+\BOOKMARK [2][-]{subsection.5.4.4}{Detection Prospects with the Einstein Telescope}{section.5.4}% 44
+\BOOKMARK [2][-]{subsection.5.4.5}{Interpretation of a Prospective Detection}{section.5.4}% 45
+\BOOKMARK [1][-]{section.5.5}{Conclusions}{chapter.5}% 46
+\BOOKMARK [0][-]{section*.24}{Bibliography}{}% 47
