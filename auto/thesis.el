@@ -2,6 +2,8 @@
  "thesis"
  (lambda ()
    (LaTeX-add-bibitems
+    "suma_models"
+    "janka_99"
     "minkowski_41"
     "cappellaro_01"
     "hoyle_60"
@@ -358,6 +360,7 @@
     "meakin_07"
     "meakin_07_b"
     "melson_15a"
+    "melson_phd"
     "melson_15b"
     "mezzacappa_93"
     "mezzacappa_93b"
@@ -487,6 +490,7 @@
     "scheidegger_08"
     "scheidegger_10"
     "scheck_06"
+    "strang_68"
     "scheck_08"
     "schinder_88"
     "schirato_02"

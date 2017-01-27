@@ -3,51 +3,46 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: doktorarbeit.aux
 The style file: mnras.bst
 Database file #1: thesis.bib
-Warning--I didn't find a database entry for "melson_phd"
-Warning--I didn't find a database entry for "suma_models"
-Warning--I didn't find a database entry for "strang_68"
-Warning--I didn't find a database entry for "janka_99"
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 133 entries,
+You've used 139 entries,
             2881 wiz_defined-function locations,
-            1715 strings with 38489 characters,
-and the built_in function-call counts, 66417 in all, are:
-= -- 5477
-> -- 4917
-< -- 360
-+ -- 2111
-- -- 764
-* -- 8295
-:= -- 10523
+            1744 strings with 39291 characters,
+and the built_in function-call counts, 68907 in all, are:
+= -- 5655
+> -- 5101
+< -- 382
++ -- 2208
+- -- 782
+* -- 8587
+:= -- 10945
 add.period$ -- 0
-call.type$ -- 133
-change.case$ -- 267
-chr.to.int$ -- 127
-cite$ -- 133
-duplicate$ -- 3069
-empty$ -- 3044
-format.name$ -- 1166
-if$ -- 11429
-int.to.chr$ -- 7
+call.type$ -- 139
+change.case$ -- 280
+chr.to.int$ -- 132
+cite$ -- 139
+duplicate$ -- 3202
+empty$ -- 3180
+format.name$ -- 1200
+if$ -- 11830
+int.to.chr$ -- 8
 int.to.str$ -- 0
-missing$ -- 132
-newline$ -- 413
-num.names$ -- 1006
-pop$ -- 641
+missing$ -- 135
+newline$ -- 431
+num.names$ -- 1046
+pop$ -- 682
 preamble$ -- 1
-purify$ -- 532
+purify$ -- 556
 quote$ -- 0
-skip$ -- 1831
+skip$ -- 1905
 stack$ -- 0
-substring$ -- 3999
-swap$ -- 1916
-text.length$ -- 538
+substring$ -- 4105
+swap$ -- 1972
+text.length$ -- 562
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1194
+type$ -- 1248
 warning$ -- 0
-while$ -- 1041
+while$ -- 1083
 width$ -- 0
-write$ -- 1351
-(There were 4 warnings)
+write$ -- 1411

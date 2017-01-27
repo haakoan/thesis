@@ -163,4 +163,79 @@ For the models that makes the basis of this work the neutrinos were binned into 
 A more detail description of the numerical implementation, neutrino physics, and the \textsc{Vertex} in general can
 be found \cite{rampp_02}, \cite{hanke_phd}, and \cite{melson_phd}.
 
-\section{The Yin-Yang grid}
+\section{Grid setup}
+Since starts are, at least to lowest order, spherical objects it is 
+advantagous to use a spherical grid when performing numerical simulations.
+\textsc{Prometheus-Vertex} can use two different spherical grids.
+
+\subsection{Spherical polar grid}
+The first grid available in \textsc{Prometheus-Vertex} is the standard spherical polar grid, 
+with the mesh points $r_n \in [0, R]$, $\theta_n \in [0, \pi]$, and $\phi_n \in [0, 2\pi]$.
+The grid is logarithmic space in radius and the angular points are spaced equidistantly.  
+The structure of ``standard'' spherical polar $(r, \theta, \phi)$ has some shortcomings that can be
+problematic. The grid contains coordinate singularities at the poles ($\theta = 0$ and $\theta = \pi$)
+and grid cells are smaller closer to the poles. This causes strong constraints on the time step and
+can even lead to artifacts near the poles \citep{wongwathanarat_10a,mueller_15b}.
+
+\subsection{Yin-Yang grid}
+To avoid the problems encountered at the poles the \cite{kageyama_04} proposed to
+construct one spherical grid from two geometrically identical sub-grids (called Yin and Yang). 
+The two sub-grids are both spherical and have identical local coordinates, their mesh points are defined as follows
+\begin{align}
+r_n^{Y} &\in [0, R], \\
+\theta_n^{Y} &\in [pi/4, 3\pi/4], \\
+\phi_n^{Y} &\in [-3pi/4, 3\pi/4]. \\
+\end{align} 
+Here the superscript $Y$ referrers to either the \textit{Yin} or \textit{Yang}. While the two grids
+have identical local coordinates, they are rotated in respect to each other in such a way
+to cover the whole sphere. The two grids are orientated in such a way that if 
+the Cartesian coordinates of the \textit{Yin} grid are $(x^{Yin},y^{Yin},z^{Yin})$
+then the local Cartesian coordinates of the \textit{Yang} grid are
+\begin{equation}
+(x^{Yang},y^{Yang},z^{Yang}) = (-x^{Yin},z^{Yin},y^{Yin}).
+\end{equation} 
+Put in words, the \textit{Yang} grid is rotated 90 degrees around the x-axis
+and 180 degrees around the y-axis of the \textit{Yin} grid. 
+This corresponds to the rotation matrix
+\begin{equation} \label{eqT:pij}
+R = 
+  \begin{pmatrix}
+    -1 & 0 & 0  \\
+    0 & 0 & 1 \\
+    0 & 1 & 0
+  \end{pmatrix}.
+\end{equation}
+
+With this prescription we avoid the problems that arise
+near the poles of a normal spherical grid.
+For more details about the implementation of the \textit{Yin}-\textit{Yang} grid
+in \textsc{Prometheus-Vertex} see \cite{melson_phd}.  
+
+% \begin{tikzpicture}
+% \foreach \t in {0,10,...,180}
+%     {\draw[black] ({2*cos(\t)},{2*sin(\t)},0)
+%          \foreach \rho in {5,10,...,360}
+%              {--({2*cos(\t)*cos(\rho)},{2*sin(\t)*cos(\rho)},
+%          {2*sin(\rho)})}--cycle;
+%     }
+% \foreach \t in {-90,-85,...,90}% parallels
+%         {\draw[black] ({2*cos(\t)},0,{2*sin(\t)})
+%      \foreach \rho in {5,10,...,360}
+%      {--({2*cos(\t)*cos(\rho)},{2*cos(\t)*sin(\rho)},
+%              {2*sin(\t)})}--cycle;
+%     } 
+% \end{tikzpicture}
+% \begin{tikzpicture}
+% \foreach \t in {45,55,...,135}
+%     {\draw[black] ({2*cos(\t)},{2*sin(\t)},0)
+%          \foreach \rho in {-135,-125,...,135}
+%              {--({2*cos(\t)*cos(\rho)},{2*sin(\t)*cos(\rho)},
+%          {2*sin(\rho)})}--cycle;
+%     }
+% % \foreach \t in {-90,-85,...,90}% parallels
+% %         {\draw[black] ({2*cos(\t)},0,{2*sin(\t)})
+% %      \foreach \rho in {5,10,...,360}
+% %      {--({2*cos(\t)*cos(\rho)},{2*cos(\t)*sin(\rho)},
+% %              {2*sin(\t)})}--cycle;
+% %     } 
+%\end{tikzpicture}

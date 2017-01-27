@@ -6,6 +6,7 @@
     "eqN:contxi"
     "eqN:contye"
     "eqN:intns"
-    "eqN:boltz"))
+    "eqN:boltz"
+    "eqT:pij"))
  :latex)
 

@@ -324,6 +324,9 @@ Clarendon, Oxford
   \mn@doi [\apj] {10.1088/0004-637X/700/1/232}, \href
   {http://adsabs.harvard.edu/abs/2009ApJ...700..232I} {700, 232}
 
+\bibitem[\protect\citeauthoryear{{Janka}}{{Janka}}{1999}]{janka_99}
+{Janka} H.-T.,  1999, { }, { }
+
 \bibitem[\protect\citeauthoryear{{Janka}}{{Janka}}{2012}]{janka_12}
 {Janka} H.-T.,  2012, \mn@doi [Annual Review of Nuclear and Particle Science]
   {10.1146/annurev-nucl-102711-094901}, \href
@@ -339,6 +342,11 @@ Clarendon, Oxford
 {Janka} H.-T.,  {Melson} T.,   {Summa} A.,  2016, preprint, \href
   {http://adsabs.harvard.edu/abs/2016arXiv160205576J} {} (\mn@eprint {arXiv}
   {1602.05576})
+
+\bibitem[\protect\citeauthoryear{Kageyama \& Sato}{Kageyama \&
+  Sato}{2004}]{kageyama_04}
+Kageyama A.,  Sato T.,  2004, \mn@doi [Geochemistry, Geophysics, Geosystems]
+  {10.1029/2004GC000734}, 5, n/a
 
 \bibitem[\protect\citeauthoryear{{Kazeroni}, {Guilet}  \&
   {Foglizzo}}{{Kazeroni} et~al.}{2016}]{kazeroni_16}
@@ -429,6 +437,9 @@ Clarendon, Oxford
 {Marek} A.,  {Janka} H.,   {M{\"u}ller} E.,  2009, \mn@doi [\aap]
   {10.1051/0004-6361/200810883}, \href
   {http://adsabs.harvard.edu/abs/2009A%26A...496..475M} {496, 475}
+
+\bibitem[\protect\citeauthoryear{{Melson}}{{Melson}}{2016}]{melson_phd}
+{Melson} T.,  2016, {PhD thesis}, Technische Universti\"at M\"unchen
 
 \bibitem[\protect\citeauthoryear{{Melson}, {Janka}  \& {Marek}}{{Melson}
   et~al.}{2015a}]{melson_15a}
@@ -664,6 +675,14 @@ Oohara K.-i.,  Nakamura T.,   Shibata M.,  1997, \mn@doi [Progress of
   {http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2005PhRvD..71b4014S&db_key=AST}
   {71, 024014:1}
 
+\bibitem[\protect\citeauthoryear{{Strang}}{{Strang}}{1968}]{strang_68}
+{Strang} G.,  1968, \mn@doi [SIAM Journal on Numerical Analysis]
+  {10.1137/0705041}, \href {http://adsabs.harvard.edu/abs/1968SJNA....5..506S}
+  {5, 506}
+
+\bibitem[\protect\citeauthoryear{{Suma}}{{Suma}}{2017}]{suma_models}
+{Suma} A.,  2017, {In preparation}, Private communication
+
 \bibitem[\protect\citeauthoryear{{Takiwaki}, {Kotake}  \& {Suwa}}{{Takiwaki}
   et~al.}{2012}]{takiwaki_12}
 {Takiwaki} T.,  {Kotake} K.,   {Suwa} Y.,  2012, \mn@doi [\apj]
@@ -720,9 +739,15 @@ Oohara K.-i.,  Nakamura T.,   Shibata M.,  1997, \mn@doi [Progress of
 {Wilson} J.~R.,  1985, in {Centrella} J.~M.,  {Leblanc} J.~M.,   {Bowers}
   R.~L.,  eds, Numerical Astrophysics. pp 422--434
 
+\bibitem[\protect\citeauthoryear{{Wongwathanarat}, {Hammer}  \&
+  {M{\"u}ller}}{{Wongwathanarat} et~al.}{2010a}]{wongwathanarat_10a}
+{Wongwathanarat} A.,  {Hammer} N.~J.,   {M{\"u}ller} E.,  2010a, \mn@doi [\aap]
+  {10.1051/0004-6361/200913435}, \href
+  {http://adsabs.harvard.edu/abs/2010A%26A...514A..48W} {514, A48}
+
 \bibitem[\protect\citeauthoryear{{Wongwathanarat}, {Janka}  \&
-  {M{\"u}ller}}{{Wongwathanarat} et~al.}{2010}]{wongwathanarat_10b}
-{Wongwathanarat} A.,  {Janka} H.,   {M{\"u}ller} E.,  2010, \mn@doi [\apjl]
+  {M{\"u}ller}}{{Wongwathanarat} et~al.}{2010b}]{wongwathanarat_10b}
+{Wongwathanarat} A.,  {Janka} H.,   {M{\"u}ller} E.,  2010b, \mn@doi [\apjl]
   {10.1088/2041-8205/725/1/L106}, \href
   {http://adsabs.harvard.edu/abs/2010ApJ...725L.106W} {725, L106}
 
