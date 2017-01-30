@@ -12,7 +12,6 @@
    (add-to-list 'LaTeX-verbatim-macros-with-delims-local "path")
    (add-to-list 'LaTeX-verbatim-macros-with-delims-local "lstinline")
    (LaTeX-add-labels
-    "eqSA:cf"
-    "eq:DFT"))
+    "figp2:rot"))
  :latex)
 

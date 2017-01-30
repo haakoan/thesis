@@ -1,0 +1,23 @@
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: "../../doktorarbeit"
+%%% End:
+\chapter{The effects of rotation}
+In this chapter we study the effects rotation have on the GW signal. 
+We present three models based on the same progenitor, two rotating models and one non-rotating.
+This allows us to study how the signal GW is effected by rotation. 
+
+
+\section{Supernova Models}
+We present the GW signal from three models based on the progenitor of
+\cite{heger_05}, which is a solar-metallicity star with a ZAMS mass of $15 \msun$.
+The progenitor was developed, taking into account the effects of magnetic fields and rotation,
+from ZAMS to the onset of iron-core collapse. The inclusion of magnetic fields lead to an overall
+reduction of the final rotation rate of the iron core, compared to a star evolved without magnetic
+fields. 
+\begin{itemize}
+\item \textbf{s11.2:} 
+\item \textbf{s20:}
+\item \textbf{s20s:} 
+\end{itemize}
