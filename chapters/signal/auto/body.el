@@ -5,6 +5,6 @@
     "eqSA:cf"
     "eqSA:dft1"
     "eqSA:DFT"
-    "eqSA:start"))
+    "eqSA:STFT"))
  :latex)
 
