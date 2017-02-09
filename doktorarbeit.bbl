@@ -66,6 +66,12 @@
   {10.1086/345812}, \href {http://adsabs.harvard.edu/abs/2003ApJ...584..971B}
   {584, 971}
 
+\bibitem[\protect\citeauthoryear{{Blondin}, {Gipson}, {Harris}  \&
+  {Mezzacappa}}{{Blondin} et~al.}{2017}]{blondin_17}
+{Blondin} J.~M.,  {Gipson} E.,  {Harris} S.,   {Mezzacappa} A.,  2017, \mn@doi
+  [\apj] {10.3847/1538-4357/835/2/170}, \href
+  {http://adsabs.harvard.edu/abs/2017ApJ...835..170B} {835, 170}
+
 \bibitem[\protect\citeauthoryear{{Brandt}, {Burrows}, {Ott}  \&
   {Livne}}{{Brandt} et~al.}{2011}]{brandt_11}
 {Brandt} T.~D.,  {Burrows} A.,  {Ott} C.~D.,   {Livne} E.,  2011, \mn@doi
@@ -337,6 +343,13 @@ Clarendon, Oxford
 {Janka} H.-T.,  {M\"uller} E.,  1996, \aap, \href
   {http://adsabs.harvard.edu/abs/1996A26A...306..167J} {306, 167}
 
+\bibitem[\protect\citeauthoryear{{Janka}, {Kifonidis}  \& {Rampp}}{{Janka}
+  et~al.}{2001}]{janka_01b}
+{Janka} H.-T.,  {Kifonidis} K.,   {Rampp} M.,  2001, in {Blaschke} D.,
+  {Glendenning} N.~K.,   {Sedrakian} A.,  eds,  Lecture Notes in Physics,
+  Berlin Springer Verlag Vol. 578, Physics of Neutron Star Interiors. p.~363
+  (\mn@eprint {} {astro-ph/0103015})
+
 \bibitem[\protect\citeauthoryear{{Janka}, {Melson}  \& {Summa}}{{Janka}
   et~al.}{2016}]{janka_16}
 {Janka} H.-T.,  {Melson} T.,   {Summa} A.,  2016, preprint, \href
@@ -353,6 +366,12 @@ Kageyama A.,  Sato T.,  2004, \mn@doi [Geochemistry, Geophysics, Geosystems]
 {Kazeroni} R.,  {Guilet} J.,   {Foglizzo} T.,  2016, \mn@doi [\mnras]
   {10.1093/mnras/stv2666}, \href
   {http://adsabs.harvard.edu/abs/2016MNRAS.456..126K} {456, 126}
+
+\bibitem[\protect\citeauthoryear{{Kazeroni}, {Guilet}  \&
+  {Foglizzo}}{{Kazeroni} et~al.}{2017}]{kazeroni_17}
+{Kazeroni} R.,  {Guilet} J.,   {Foglizzo} T.,  2017, preprint, \href
+  {http://adsabs.harvard.edu/abs/2017arXiv170107029K} {} (\mn@eprint {arXiv}
+  {1701.07029})
 
 \bibitem[\protect\citeauthoryear{{Kifonidis}, {Plewa}, {Janka}  \&
   {M{\"u}ller}}{{Kifonidis} et~al.}{2003}]{kifonidis_03}

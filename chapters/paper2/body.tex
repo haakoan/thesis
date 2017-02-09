@@ -54,20 +54,20 @@ radius. However, unlike model m15r, model m15nr develops strong SASI activity. I
 The mode develops around $\sim 120$ ms after core bounce and peaks around $\sim 230$ ms post bounce. After the peak in activity 
 the SASI mode gradually decays towards the end of the simulation.   
 \end{itemize}
-\begin{figure}[H!]           
+\begin{figure}[ht]           
 \centering                            
 \includegraphics[width=0.99\textwidth]{./images/paper2/rot.pdf}
 \caption{The radial rotation profiles for the two rotating models. The red line represents model 
 m15fr and the blue line represents m15r. \label{figp2:rot}}
 \end{figure}
-\begin{figure}[H!]         
+\begin{figure}[ht]         
 \centering                            
 \includegraphics[width=0.99\textwidth]{./images/paper2/rsh.pdf}
 \caption{Average shock radius for model m15fr (green), m15r (blue), and m15nr (red) as a function of 
 time after core bounce. The average shock radius is defined as the $(l,m) = (0,0)$ expansion coefficient of the shock surface into 
 spherical harmonics (\eq{eq:alsph}). \label{figp2:rsh}}
 \end{figure}
-\begin{figure}[H!]         
+\begin{figure}[ht]         
 \centering                            
 \includegraphics[width=0.9\textwidth]{./images/paper2/sasi_fr.pdf}
 \includegraphics[width=0.9\textwidth]{./images/paper2/sasi_r.pdf}
@@ -88,7 +88,7 @@ shows m15fr, m1fr and m15nr. Vertical lines indicates episodes of strong SASI ac
 The corresponding amplitude spectrograms (see \eq{eqSA:STFT}) for a sliding window of $50 \, \mathrm{ms}$ are shown 
 in Fig.~\ref{fig:totspec}. The spectrograms show the sum of the squared Fourier
 components of the cross and plus polarisation modes,
-$STFT[{A_+}]^2 + STFT[{A_{\times}}]^2$. Before applying the
+$\text{STFT}[{A_+}]^2 + \text{STFT}[{A_{\times}}]^2$. Before applying the
 DFT we convolve the signal with a Kaiser window with shape parameter $\beta = 2.5$. Frequencies
 below $50 \, \mathrm{Hz}$ and above $1100  \, \mathrm{Hz}$ are filtered out of the resulting spectrograms. 
 
@@ -107,16 +107,18 @@ overlap. After the shock starts to expand the overall GW amplitudes are somewhat
 both low-frequency and high-frequency emission continues until the end of the simulation.
 
 Of the three models, model m15r produces the weakest GW signal. The GW amplitudes
-never exceeds $1.5$ cm, for both observer directions. Furthermore, between 180 and 250 ms post bounce there
-is a period of reduced emission. High-frequency emission almost completely subsides during this period,
-and the low frequency emission is rather weak. Around $\sim 250$ ms post bounce high-frequency emission 
-sets in once more, and at the same time the low-frequency emission ceases. 
+never exceeds $1.5$ cm, for both observer directions. Furthermore, the signal is strongly reduced in the
+time period between $180$ and $250$ ms post bounce. During this time high-frequency emission
+completely subsides and only very weak low-frequency emission is present in the signal.
+Around $\sim 250$ ms post bounce high-frequency emission sets in once more, 
+at the same time the low-frequency emission ceases. 
 
-In the non-rotating model (m15nr) the GW signal is slower to develop, compared to the two rotating models.
-Around $\sim 125$ ms after core bounce weak low-frequency emission sets in. By $\sim 150$ ms after bounce
-high-frequency emission develops. Except for two minimums at $\sim 240$ and $\sim 275$ ms post bounce, the
-signal in general terms remains unchanged until the end of the simulation, with both the high-frequency
-and low-frequency component visible in the spectrograms for the duration of the simulation.
+The non-rotating model (m15nr) is characterised by a relatively long initial quiescent phase, compared to the two
+rotating models. Low amplitude low-frequency GW emission set in around $\sim 125$ ms after bounce. The low-frequency
+signal component increases in strength until reaching a maximum around $175$ ms after core bounce.
+Approximately $25$ ms after the onset of low-frequency emission, high-frequency emission develops around
+$\sim 150$ ms after core bounce. After they developed, the two signal components persists, varying in
+strength, until the end of the simulation.
 
 \begin{figure}           
 \centering                            
@@ -127,9 +129,7 @@ and low-frequency component visible in the spectrograms for the duration of the 
   situated along the $z$-axis (pole; left) and an other observer along the $x$-axis (equator; right) of the Yin grid patch, respectively.
   Episodes of strong SASI activity occur between the vertical red lines.  \label{figp2:amps}}
 \end{figure}
-
-
-\begin{figure}           
+\begin{figure}[ht]
 \centering                            
 \includegraphics[width=0.99\textwidth]{./images/paper2/rotspec.pdf}
 \caption{Amplitude spectrograms for a sliding window of 50 ms and two different observer
@@ -142,7 +142,88 @@ and low-frequency component visible in the spectrograms for the duration of the 
   The colour bar is given in a logarithmic scale. \label{figp2:spec}}
 \end{figure}
 
+\section{Excitation of gravitational waves}
+In chapter~\ref{ch:firstpaper} we studied the hydrodynamical instabilities responsible for GW emission in detail.
+We found that GWs are mainly excited in four ways. SASI activity leads to low-frequency by inducing an asymmetric mass distribution in the post-shock and by exciting forced non-resonant g-modes in the PNS. 
+The forced g-modes are excited due to the  SASI modulated accretion flow onto the PNS 
+and their frequency is set by the SASI frequency. High-frequency emission is caused by the propagation of
+resonant g-modes in the PNS surface layer, the typical frequency of these oscillations is given by the
+Brunt-V\"{a}is\"{a}l\"{a}-frequency in the PNS surface layer. Resonant g-modes are excited in two ways.
+Firstly, by downdrafts from the post-shock layer impinge the PNS surface. Strong downflows can be created by SASI activity and overturn of convective plumes. Resonant g-modes are also excited, in the PNS surface layer,
+as plumes from the unstable layer beneath overshoot into the surface layer.
+For the four models presented in chapter~\ref{ch:firstpaper}, we found that PNS convection was the main diver
+of this process and that downflows, while downflows from the post-shock layer provided a secondary and smaller
+contribution (with model dependent variations in relative importance of the two).
 
-During this phase the shock front first contracts and
-then expands again. During the same time period the  deformation, with $m=0$, 
-of the shock increases in strength, reaches its maximum and subsequently decays again, see \fig{figp2:sasi}.
+These conclusions hold true for the three models presented in this chapter as well, with one notable
+exception. In the two rotating models, model m15fr and model m15r, the GW signal generated by PNS convection 
+is significantly reduced. When rotation is added to the simulations the PNS initially develops a positive
+angular momentum gradient in the PNS convection layer, which acts as a stabiliser and weakens PNS
+convection \citep{janka_01b}. 
+The basic physical picture is that, when a buoyant plume propagates outwards its rotation rate
+is less than that of the surrounding medium and it, consequently, experiences a weaker centrifugal force.
+The effect of rotation is, therefore, to exact a force acting against the outwards propagation of the plume.
+Angular momentum transfer by convection will eventually flatten the rotation profile within the PNS and 
+the stabilising effect provided by rotation will gradually decrease with time.
+
+Based solely on the stabilising effects rotation have on PNS convection we would expect an overall 
+reduction of high-frequency GW emission in the two rotating models. However, the picture is not
+so simple. We have to consider how well the Brunt-V\"{a}is\"{a}l\"{a}-frequency in the PNS surface overlaps with
+the typical SASI and convective timescales. The compactness of the PNS tends to increase with
+progenitor mass, which results in a higher Brunt-V\"{a}is\"{a}l\"{a}-frequency \citep{mueller_13}.
+SASI activity and neutrino driven convection in the post-shock layer operates at relative long time-scales.
+Consequently, the spectrum of the forcing and the natural g-mode frequency will overlap better
+in model based on a low mass progenitor, with a less compact PNS, than a more massive model. 
+This is in fact reflected in the four models we study in chapter~\ref{ch:firstpaper},
+the contribution to the high-frequency emission by convective plumes striking the PNS from above
+is relative high in model s11.2 (see \fig{fig:cuts}).
+We also have to consider the effects of the spiral SASI mode.
+The strong influence exerted by the spiral mode on the PNS, through a coherent large scale
+modulation of the accretion flow onto the PNS, not only effectively perturbs the surface, 
+but can also reaches into the interior of the PNS and influence the convective layer.
+
+
+\begin{figure}[ht]         
+\centering                            
+\includegraphics[width=0.49\textwidth]{./images/paper2/1.png}
+\includegraphics[width=0.49\textwidth]{./images/paper2/2.png} \\
+\includegraphics[width=0.49\textwidth]{./images/paper2/3.png}
+\caption{The entropy per baryon in the xy-plane of the Yin-grid for model m15r. Shown at
+at 167 (top left panel), 210 (top right panel), and 343 (bottom panel) ms post bounce. 
+The entropy is given in units of Boltzmann's constant $k_b$. \label{figp2:sto}}
+\end{figure}
+
+The reduction of high-frequency GW emission generated by PNS convection can clearly be seen in model
+m15r. Between $180$ and $250$ ms post bounce hot-bubble convection subsides and model m15r emits virtually no high-frequency GWs. The shock front reaches a minimum around $200$ ms post bounce, after
+a $70$ ms long period of recession (\fig{figp2:rsh}). The small average shock radius favours SASI activity over
+neutrino driven convection, and we see the development of low amplitude shock oscillations,
+see the middle panel of \fig{figp2:sasi}. Convection, on the other hand, is quenched. 
+\fig{figp2:sto} shows the entropy per baryon of model m15r, in the xy-plane of the Yin-grid.
+The three panels show snapshots taken 167 (top left panel), 210 (top right panel), and 343 (bottom panel) ms
+after core bounce. The top left and the bottom panel show the typical hot bubbles that are characteristic of
+neutrino driven convection, but in the top right panel no such bubbles can be seen. 
+The growth of low amplitude SASI activity and the suppression of convection in the post-shock layer is reflected
+in the GW signal as weak emission at low frequencies and a complete absence of the high-frequency signal component.
+
+\section{The standing accretion shock instability, rotation, and low-frequency gravitational wave emission}
+There is no clear connection between development of SASI activity and the progenitor's initial rotation rate,
+in the models we discuss in this chapter. Model m15r, in which the rotation profile is in accord with the stellar
+evolution calculations, does not develop strong SASI activity. In both model m15nr and model m15fr, however, a strong spiral SASI mode emerges. 
+
+Exactly how rotation influences the SASI growth rate and saturation is 
+at the moment not clear. Recently \cite{blondin_17} studied the effects of rotation by means of idealised hydrodynamic simulations of a standing accretion shock (in 2D and 3D). The results of \cite{blondin_17} are in good agreement with the perturbative study of of \cite{yamasaki_08}, which found that the linear growth rate 
+of non-axisymmetric SASI modes is an increasing function of the progenitor rotation rate.
+However, in the non-linear regime \cite{kazeroni_17} does not find a monotonic connection between the
+rotation and the saturation amplitude of the SASI. In fact Fig.3 of \cite{kazeroni_17} indicates that
+SASI activity should decrease with increasing rotation rate, at low to moderate rotation rates. 
+
+An additional complication comes from the fact that model m15nr was simulated with 
+half the angular resolution of the other two models. Lower resolution has been found
+to favour the growth SASI activity, because energy accumulates at larger scales \citep{hanke_12}.
+However, \cite{abdikamalov_15} finds the opposite, and conclude that increasing the angular resolution 
+reduces the SASI oscillations. They perform a set of general relativistic 3D hydrodynamic
+simulations of a 27 \msun progenitor with a neutrino leakage scheme to study the phase between bounce and
+shock revival.
+
+
+

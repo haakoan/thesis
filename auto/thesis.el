@@ -3,7 +3,6 @@
  (lambda ()
    (LaTeX-add-bibitems
     "suma_models"
-    "janka_99"
     "minkowski_41"
     "cappellaro_01"
     "hoyle_60"
@@ -251,6 +250,8 @@
     "janka_94"
     "janka_95"
     "janka_96"
+    "janka_99"
+    "janka_01b"
     "janka_01"
     "janka_02"
     "janka_03"
