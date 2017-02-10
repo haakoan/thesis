@@ -56,8 +56,9 @@
 \contentsline {section}{\numberline {5.5}Conclusions}{62}{section.5.5}
 \contentsline {chapter}{\numberline {6}The effects of rotation}{67}{chapter.6}
 \contentsline {section}{\numberline {6.1}Supernova Models}{67}{section.6.1}
-\contentsline {section}{\numberline {6.2}Results}{68}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Qualitative description of the gravitational wave signals}{68}{subsection.6.2.1}
-\contentsline {section}{\numberline {6.3}Excitation of gravitational waves}{71}{section.6.3}
-\contentsline {section}{\numberline {6.4}The standing accretion shock instability, rotation, and low-frequency gravitational wave emission}{72}{section.6.4}
-\contentsline {chapter}{Bibliography}{79}{section*.30}
+\contentsline {section}{\numberline {6.2}Results}{72}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Qualitative description of the gravitational wave signals}{72}{subsection.6.2.1}
+\contentsline {section}{\numberline {6.3}Excitation of gravitational waves}{75}{section.6.3}
+\contentsline {section}{\numberline {6.4}The standing accretion shock instability, rotation, and resolution}{77}{section.6.4}
+\contentsline {section}{\numberline {6.5}Conclusion and discussion}{78}{section.6.5}
+\contentsline {chapter}{Bibliography}{81}{section*.30}
