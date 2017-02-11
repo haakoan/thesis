@@ -1,0 +1,162 @@
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: "../../doktorarbeit"
+%%% End:
+\chapter{Signal analysis}
+\section{Fourier analysis}
+In order to study the frequency structure of a time signal it is common 
+to approximate the signal as a sum of trigonometric functions. Two examples
+of such analysis is Fourier series and Fourier transforms, in this chapter we will mainly
+focus on the latter and discuss the tools used for signal analysis in this thesis.
+\subsection{Continuous and discrete Fourier transforms}
+We define the continuous Fourier transform (FT) of a continuous time signal $x(t)$ as  
+\begin{equation} \label{eqSA:cf}
+\widetilde{x}(f) = \int_{-\infty}^{\infty} x(t) e^{-2 \pi i f t} \ud t. 
+\end{equation}
+The FT transforms the signal from the time domain into the frequency ($f$) domain.
+Simply put, the Fourier transformation tells us how much an oscillation of frequency $f$ contributes to the total signal. 
+
+If the time signal is represented by a discrete time series, as is the case with data from simulations,
+the integral on the right-hand side of \eq{eqSA:cf} can be estimated by numerical integration and 
+we can derive an expression for the corresponding discrete Fourier transform (DFT).
+Consider the time series $x_m$ of duration $T$ which has been obtained by sampling the underlying 
+continuous signal $x(t)$ at $M$ discrete, evenly spaced, times
+\begin{equation}
+x_m = x(t_m) = x(m \, \Delta t) \qquad m = 0,1,2,3,4 ... M,
+\end{equation} 
+where $\Delta t( = T/M)$ is the sampling interval.
+The time series $x_m$ is by construction a periodic function with period $T$, regardless of the true periodicity of the
+underlying function. This implies that $x_M = x_0$. Since our signal has period $T$ it means that frequency
+of the slowest varying oscillation we can represent is $1/T$. By the same logic the second slowest oscillation 
+we can capture has a frequency of $1/(T-\Delta t)$ and so on. This means that the discrete signal
+is represented by a set of $M+1$ frequencies 
+\begin{equation}
+f_k = k/M \Delta t \qquad k = 0,1,2,3,4 ... M.
+\end{equation}
+We now calculate the integral in \eq{eqSA:cf} for a given frequency $f_k$ using the trapezoidal rule and find
+\begin{align} 
+\int_{-\infty}^{\infty} x(t) e^{-2 \pi i f_k t} \ud t &\simeq \int_{0}^{T} x(t) e^{-2 \pi i f_k t} \ud t \nonumber \\
+&\approx \sum_{m=1}^{M} x_m e^{-2 \pi i f_k t_m} \Delta t \nonumber \\
+& = \sum_{m=1}^{M} x_m e^{-2 \pi i k m/M} \Delta t \equiv \widetilde{X}_k \Delta t M. \label{eqSA:dft1}
+\end{align}
+In the last line we have defined the discrete Fourier transform (DFT) of a time series $x_m$
+\begin{equation} \label{eqSA:DFT}
+\widetilde{X}_k (f_k) = \frac{1}{M}  \sum^M_{m=1} x_m e^{-2\pi i k m/M}.
+\end{equation}
+
+\section{The short-time Fourier transform}
+The disadvantage of the Fourier transform is that it only gives you information
+about the frequency spectrum of the full-time signal. If we are analysing a 
+signal with a varying frequency structure it will be useful to extract time-frequency information about the signal. This is done by separating
+the signal into shorter segments and then calculating the Fourier transform of each
+segment. In this way, we obtain spectral information about the
+signal at different times.
+
+There are several ways to segment the signal, the method used in this thesis is to slide a time-window of length $\tau$ over the time signal, $x(t)$, in an iterative
+process. In each iteration, the window is shifted forward in time by $\Delta \tau$.
+This define a set of functions
+\begin{equation}
+S^i \equiv x(t) \big[ H(t+i \Delta \tau) - H(t + \tau + i \Delta \tau) \big] \qquad i = 0,1,2,3 ....,
+\end{equation}
+where $H(t)$ is the Heaviside step function.
+The short-time Fourier transform (STFT) of $x(t)$ is then
+\begin{equation}\label{eqSA:STFT}
+\text{STFT}[x(t)] \equiv \int_{-\infty}^{\infty} S^i e^{-2 \pi i f t} \ud t 
+= \widetilde{S^i}_k \qquad i = 0,1,2,3 ....,                                                         
+\end{equation}
+
+\section{The Nyquist frequency and aliasing}
+An important question when sampling a continuous 
+time signal is how may samples are required to accurately represent the
+signal.
+\begin{mdframed}[nobreak=true]
+\paragraph{The Nyquist sampling theorem}
+Let $x_b(t)$ be a band-limited signal, that is
+\begin{equation}
+\widetilde{x_b}(f) = 0 \quad \text{if} f > f_N,
+\end{equation}
+where $f_N$ is the band-limit of $x_b$. If $x_b$ is sampled with a sampling frequency
+\begin{equation}
+f_s \geq 2 f_N
+\end{equation}
+then the signal is uniquely determined by its samples. The frequency $f_N$ is referred to 
+as the Nyquist frequency.
+\end{mdframed}
+
+If a signal is sampled at a lower rate than half the Nyquist frequency then
+the signal will not be accurately represented and what is know as aliasing occurs.
+Suppose that we sample a signal which a sampling rate $f_s$ and that the signal contains oscillations 
+at frequencies larger than $f_s /2$. Then the 
+DFT will not be able to distinguish between oscillations with 
+frequencies $f_c > f_s/2$ and $f - 2 f_s$. This means that oscillations at a frequency
+$f_c$ will be aliased down into to the frequency
+\begin{equation}
+f_a = f_c - f_N.
+\end{equation}
+In the case of hydrodynamic simulations, aliasing can appear when data is not saved
+to disk frequently enough. In large 3D simulations, it is often unfeasible to save all the hydro-data for each individual time-step. It is, therefore, common to
+save data to disk at a given time interval. The simulations which the GW signals presented
+in this work are based on saved data roughly two times per millisecond of simulated time, which results in a Nyquist frequency of
+1000 Hz. 
+
+\section{The spectral energy density of a discrete time signal}
+\eq{eqT:dedf} gives the expression for the spectral energy density of a continuous time signal,
+it is obtained by directly applying Parseval's theorem to \eq{eqT:energy}.
+\begin{mdframed}[nobreak=true]
+\paragraph{Parseval's theorem}
+If $\widetilde{x}$ is the Fourier transform of $x(t)$ then
+\begin{equation}
+\int_{-\infty}^{\infty} |x(t)|^2 \, \mathrm{d} t \, = \, \int_{-\infty}^{\infty} |\widetilde{x}(f)|^2 \, \mathrm{d} f. 
+\end{equation}  
+\end{mdframed}
+To derive the corresponding expression for a discrete time series, first consider the quantity
+\begin{equation}
+\Gamma = \int_{-\infty}^{\infty} g(t)^2 \, \mathrm{d} t = \int_{-\infty}^{\infty} |\widetilde{g}|^2 \, \mathrm{d} f.  
+\end{equation}
+%\begin{equation} \label{eqSA:start}
+%\Gamma = \int_{-\infty}^{\infty} |\widetilde{g}|^2 \, \mathrm{d} f.  
+%\end{equation}
+Next we construct the time-series $g_n$ by sampling $g(t)$ $M$ times over a time period $T$.
+We then use the same procedure we used to derive the \eq{eqSA:dft1}, that is
+to approximate the integral using the trapezoidal rule. This procedure yields
+\begin{align} 
+\Gamma &= \int_{-\infty}^{\infty} |\widetilde{g}|^2 \, \mathrm{d} f \nonumber \\ 
+& \approx \sum_{k=1}^{M} \Big| \sum_{m=1}^{M} x_m e^{-2 \pi i k m/M} \Delta t \Big|^2 \Delta f \nonumber \\
+& = \sum_{k=1}^{M} \big|\widetilde{g}_k \big|^2 T^2 \Delta f =  \sum_{k=1}^{M} \big|\widetilde{g}_k \big|^2 \, T,
+\end{align}
+where we in the last line have used that $\Delta f = 1/T$ and $\Delta t = T/M$ 
+(the $1/M^2$ is absorbed in to the DFT). 
+This implies that 
+\begin{align}
+\frac{\mathrm{d}}{\mathrm{d} f} \Gamma &= \frac{\mathrm{d}}{\mathrm{d} f} \int_{-\infty}^{\infty} |\widetilde{g}|^2 \mathrm{d} f \nonumber \\
+&\approx \big|\widetilde{g}_k \big|^2 \, T^2.
+\end{align}
+The last step is to replace the placeholder function $g$ by $\dddot{Q}_{ij}$ and use the fact that
+\begin{equation}
+\widetilde{\dot{x(t)}} = 2\pi f \widetilde{x(t)}.  
+\end{equation}
+We then find that 
+\begin{equation}
+\frac{\mathrm{d}}{\mathrm{d} f} E \approx \Bigg[\frac{\Delta E}{\Delta f}\Bigg]_k = \big|\widetilde{\ddot{Q}^{ij}}_k \widetilde{\ddot{Q}^{ij}}_k| \, T^2.  
+\end{equation}
+Here we have moved the $ij$ subscript of $Q_{ij}$ up for better readability. 
+
+% \section{Spectral leakage and windowing}
+% If the time-signal only consists of oscillations at frequencies that are
+% multiples of the sampling frequency we can accurately represent it with a DFT. However,
+% if a signal contains frequency components that are not integer multiples of frequency 
+% what is know as spectral leakage. The problem is what happens to the spectral energy 
+% at a frequency that lies between two frequency bins, $f_k$ and $f_{k+1}$. The result is that
+% this energy is ``leaks'' into other bins, the spectral energy can, in fact, be spread out
+% over the whole range of frequency bins.  
+
+
+
+
+
+
+
+
+
+
+

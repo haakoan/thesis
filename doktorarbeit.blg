@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: doktorarbeit.aux
+The style file: mnras.bst
+Database file #1: thesis.bib
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+You've used 142 entries,
+            2881 wiz_defined-function locations,
+            1764 strings with 39975 characters,
+and the built_in function-call counts, 70551 in all, are:
+= -- 5762
+> -- 5238
+< -- 392
++ -- 2266
+- -- 805
+* -- 8789
+:= -- 11207
+add.period$ -- 0
+call.type$ -- 142
+change.case$ -- 286
+chr.to.int$ -- 135
+cite$ -- 142
+duplicate$ -- 3286
+empty$ -- 3269
+format.name$ -- 1229
+if$ -- 12118
+int.to.chr$ -- 8
+int.to.str$ -- 0
+missing$ -- 138
+newline$ -- 440
+num.names$ -- 1074
+pop$ -- 707
+preamble$ -- 1
+purify$ -- 568
+quote$ -- 0
+skip$ -- 1954
+stack$ -- 0
+substring$ -- 4162
+swap$ -- 2032
+text.length$ -- 577
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 1275
+warning$ -- 0
+while$ -- 1106
+width$ -- 0
+write$ -- 1443

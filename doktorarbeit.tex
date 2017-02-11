@@ -1,0 +1,380 @@
+\documentclass[a4paper,12pt,twoside]{scrbook}
+
+
+%%\usepackage[top=30pt,bottom=30pt,left=48pt,right=46pt]{geometry}
+%%\usepackage[a4paper,bindingoffset=15mm,includeheadfoot,margin=2.54cm]{geometry}
+%\usepackage{geometry}
+%\geometry{a4paper,bindingoffset=15mm, inner=25mm, outer=25mm, top=30mm, bottom=40mm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%   Zusaetzliche Pakete  %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[english]{babel}
+%\KOMAoptions{BCOR=5mm}
+\usepackage[section]{placeins}
+\usepackage{asymptote}
+\usepackage{a4wide}
+\usepackage{fancyhdr}
+%\usepackage[pdftex]{graphicx}
+\usepackage[utf8]{inputenc}
+\usepackage[pdftex,bookmarks,plainpages=false,pdfpagelabels]{hyperref}
+%\usepackage{subfigure}
+\usepackage{mdframed}
+\usepackage[bf,small,sf]{caption}
+\usepackage[super, square]{natbib}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{amsbsy}
+\usepackage{listings}
+\usepackage{graphicx}
+\usepackage{exscale}
+\usepackage{latexsym}
+\usepackage{rotate}
+\usepackage{textcomp}
+\usepackage{mathbbol}
+\usepackage{psfrag}
+\usepackage[all]{xy}
+\usepackage{lscape}
+\usepackage{wasysym}
+%\usepackage{bibgerm}
+\usepackage{subcaption}
+\usepackage{xspace}
+\usepackage{rotating}
+\usepackage[stable,symbol]{footmisc}
+\usepackage{perpage}
+\usepackage[para,online,flushleft]{threeparttable}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{placeins}
+\usepackage{bm}
+\usepackage{multirow}
+\usepackage{etex}
+\usepackage[export]{adjustbox}
+\usepackage{csquotes}
+\usepackage{wrapfig}
+\usepackage{caption}
+\usepackage[super]{nth}
+\usepackage{tabularx, booktabs}
+
+\newcolumntype{Y}{>{\centering\arraybackslash}X}
+
+
+
+\MakePerPage{footnote}
+\interfootnotelinepenalty=10000
+
+%\linespread{2} %zeilenabstand
+%\usepackage{minitoc} %toc for each chapter (book)
+\usepackage{tikz}
+\usetikzlibrary{decorations}
+\usetikzlibrary{decorations.pathmorphing}
+
+\usepackage{./aas_macros}
+\providecommand{\doi}[1]{\href{http://dx.doi.org/#1}{doi:#1}}
+\bibpunct[,]{(}{)}{,}{a}{,}{;}
+\newcommand{\comment}{\bf \color{red}}
+\newcommand{\munu}[1]{#1_{\mu\nu}}
+\newcommand{\munut}[1]{#1^{\mu\nu}}
+\newcommand{\eq}[1]{Eq.~\ref{#1}}
+\newcommand{\fig}[1]{Fig.~\ref{#1}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Definition der Kopfzeile %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\pagestyle{fancyplain}
+\renewcommand{\chaptermark}[1]%
+         {\markboth{\thechapter.\ #1}{}}
+\renewcommand{\sectionmark}[1]%
+         {\markright{\thesection\ #1}}
+%\newcommand{\unit}[1]{\ensuremath{\, \mathrm{#1}}}
+\newcommand{\unit}[1]{\ensuremath{\mathrm{#1}}}
+\newcommand{\mytilde}{{\raise.17ex\hbox{$\scriptstyle\mathtt{\sim}$}}}
+
+
+\lhead[\fancyplain{}{\bfseries\thepage}]%
+    {\fancyplain{}{\bfseries\rightmark}}
+\rhead[\fancyplain{}{\bfseries\leftmark}]%
+    {\fancyplain{}{\bfseries\thepage}}
+\cfoot{}
+
+
+\newcommand{\thesistitle}{\mbox{Gravitational waves from} \mbox{core-collapse supernovae}}
+
+
+%Schriftgroessen fuer die Titelseite
+%10/11pt: Large; 12pt: large
+\newcommand{\titlenamefont}[1]{\Large{#1}}
+\newcommand{\titledoktorfont}[1]{\textbf{\Large{#1}}}
+%10/11pt: huge; 12pt: LARGE
+
+\newcommand{\titletitlefont}[1]{\huge{\textbf{#1}}}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%  Definition des Deckblattes und der Titelseite  %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\LMUTitle}[3]{
+  \thispagestyle{empty}
+ 	\vspace*{\stretch{0.1}}
+	\begin{center}
+	\Huge \textsc{Doktorarbeit}
+    \end{center}
+%   \vspace*{\stretch{1}}
+  {\parindent0cm
+   \rule{\linewidth}{.26ex}}
+  \begin{center}
+    \sffamily\bfseries\Huge
+    #1\\
+    \vspace*{\stretch{0.1}}
+    \sffamily\bfseries\LARGE
+    #2
+  \end{center}
+  {\parindent0cm
+   \rule{\linewidth}{.25ex}}
+%  \vspace*{\stretch{5}}
+  \begin{center}
+        \Large Betreuer:\\
+	\Large PD Dr. Ewald M\"uller \\	
+        \vspace*{\stretch{0.5}}
+        \includegraphics[width=4cm]{images/mpa_logo.pdf}
+
+	\Large Max-Planck-Institut f\"ur Astrophysik\\
+
+
+        \begin{table}[t]
+	\begin{tabular}{c c c}
+%       \begin{figure}[h]
+        \includegraphics[width=1.0in,angle=90]{images/TUM.pdf}
+%	\end{figure}
+%	\vspace*{\stretch{1}}
+	& &
+%       \vspace*{\stretch{3}}
+%       \begin{figure}[h]
+	\includegraphics[width=1.0in]{images/PH_CMYK.pdf}\\
+%	\end{figure}
+%	\vspace*{\stretch{1}}
+        \Large Technische Universit\"at M\"unchen
+	\vspace*{\stretch{1}}
+	& &
+	\Large Physik Department\\
+%       \vspace*{\stretch{1}}
+        \hspace*{0.1\linewidth}
+        &
+	\hspace*{0.2\linewidth}
+        &
+	\hspace*{0.2\linewidth}\\
+        \end{tabular}
+	\end{table}
+  \end{center}
+  \cleardoublepage
+}
+
+\setlength{\parskip}{2.0ex plus0.5ex minus0.5ex}
+\setlength{\parindent}{0em}
+
+% Alter some LaTeX defaults for better treatment of figures:
+% See p.105 of "TeX Unbound" for suggested values.
+% See pp. 199-200 of Lamport's "LaTeX" book for details.
+%   General parameters, for ALL pages:
+\renewcommand{\topfraction}{0.9}	% max fraction of floats at top
+\renewcommand{\bottomfraction}{0.8}	% max fraction of floats at bottom
+%   Parameters for TEXT pages (not float pages):
+\setcounter{topnumber}{1}
+\setcounter{bottomnumber}{2}
+\setcounter{totalnumber}{4}     % 2 may work better
+\setcounter{dbltopnumber}{2}    % for 2-column pages
+\renewcommand{\dbltopfraction}{0.9}	% fit big float above 2-col. text
+\renewcommand{\textfraction}{0.07}	% allow minimal text w. figs
+%   Parameters for FLOAT pages (not text pages):
+\renewcommand{\floatpagefraction}{0.7}	% require fuller float pages
+% N.B.: floatpagefraction MUST be less than topfraction !!
+\renewcommand{\dblfloatpagefraction}{0.7}	% require fuller float pages
+
+% remember to use [htp] or [htpb] for placement
+
+\makeatletter
+\newcommand\footnoteref[1]{\protected@xdef\@thefnmark{\ref{#1}}\@footnotemark}
+\makeatother
+
+\newcommand{\grad}[0]{\mathbf{grad}\thinspace}
+\renewcommand{\div}[0]{\text{div}\thinspace}
+\newcommand{\curl}[0]{\mathbf{curl}\thinspace}
+\renewcommand{\v}[0]{\mathbf}
+
+\newcommand{\partt}[1]{\frac{\partial #1}{\partial t}}
+\newcommand{\mean}[1]{\langle #1 \rangle}
+\newcommand{\var}{\text{var}}
+
+
+\newcommand{\beq}{\begin{equation}}
+\newcommand{\eeq}{\end{equation}}
+\newcommand{\beqn}{\begin{eqnarray}}
+\newcommand{\eeqn}{\end{eqnarray}}
+\renewcommand{\vec}{\mathbf}
+
+\newcommand{\ud}{\ensuremath{\mathrm{d}}}
+\newcommand{\kmpers}{\ensuremath{\mathrm{km\,s}^{-1}}}
+\newcommand{\ms}{\ensuremath{\mathrm{ms}}}
+\newcommand{\msun}{{\ensuremath{M_\odot}}}
+\newcommand{\msf}{{\ensuremath{M_\mathrm{4}}}}
+\newcommand{\scc}{{\ensuremath{\mu_{4}}}} %mass accretion criterion
+\newcommand{\mfe}{{\ensuremath{M_\mathrm{Fe}}}}
+\newcommand{\xsi}{{\ensuremath{\xi_{1.5}}}}
+\newcommand{\XSI}{{\ensuremath{\xi_{2.5}}}}
+
+\newcommand{\PNS}  [0]{proto-neutron star}
+\newcommand{\KEP}  [0]{\textsc{Kepler}}
+\newcommand{\PROM} [0]{\textsc{Prometheus}}
+\newcommand{\PHOTB}[0]{\textsc{Prometheus-Hotb}}
+\newcommand{\PVERT}[0]{\textsc{Prometheus-Vertex}}
+\newcommand{\HOTB} [0]{\textsc{Hotb}}
+
+\newcommand{\ccsn} [0]{core-collapse supernova}
+\newcommand{\ccsne}[0]{core-collapse supernovae}
+\newcommand{\Ccsn} [0]{Core-collapse supernova}
+\newcommand{\Ccsne}[0]{Core-collapse supernovae}
+\newcommand{\CCSNe}[0]{Core-Collapse Supernovae}
+
+\newcommand{\EOSs}[0]{equation of states}
+\newcommand{\EOS}[0]{equation of state}
+\newcommand{\FBH}[0]{FBH}
+\newcommand{\rhor}[0]{$\rho r^3$} 
+\newcommand{\TODO}[0]{\colorbox{red}{\textcolor{white}{TODO}} }
+\newcommand{\BLUE}[1]{\textcolor{blue}{#1}}
+\newcommand{\RED} [1]{\textcolor{red}{#1}}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%  Beginn des Dokuments  %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%`?
+
+\begin{document}
+\thispagestyle{empty}
+\begin{center}
+
+\bgroup
+\tabcolsep=10mm
+\makebox[\linewidth]{
+  \begin{tabular}{cc}
+  \includegraphics[width=4cm]{front_page/tum} &
+  \includegraphics[width=4cm]{front_page/mpa} \\[2mm]
+  \large{Technische Universit\"at M\"unchen} & \large{Max-Planck-Institut f{\"u}r Astrophysik}
+  \end{tabular}}
+  \egroup
+
+  \vspace*{1.8cm}
+
+  \noindent
+
+  \titletitlefont{\thesistitle}
+
+  \vspace*{0.7cm}
+
+  \noindent
+  \titlenamefont{Haakon Andresen}
+
+  \end{center}
+
+  \vspace*{1cm}
+
+  \noindent
+  Vollst\"andiger Abdruck der von der Fakult\"at f\"ur Physik der Technischen
+  Universit\"at M\"unchen zur Erlangung des akademischen Grades eines
+
+  \begin{center}
+  \titledoktorfont{Doktors der Naturwissenschaften (Dr. rer. nat.)}
+  \end{center}
+
+  \noindent
+  genehmigten Dissertation.
+
+  \vspace*{1cm}
+
+  \begin{tabular}{lll}
+  Vorsitzender: & & Univ.-Prof. Dr. \\
+  Pr\"ufer der Dissertation: & 1. & Priv.-Doz.  \\
+			     & 2. & Univ.-Prof.  \\
+                             & 3. & Univ.-Prof. 
+  \end{tabular}
+
+\vspace*{1cm}
+\noindent
+   Die Dissertation wurde am xx.xx.2017 bei der Technischen Universit\"at M\"unchen
+   eingereicht und durch die Fakult\"at f\"ur Physik am xx.xx.2017 angenommen.
+  \selectlanguage{english}
+ % \clearpage
+ % \input{abstract.tex}
+
+  \cleardoublepage
+%  \pagenumbering{roman}
+
+  \tableofcontents
+
+  \newpage\null\thispagestyle{empty}\newpage
+
+  \mainmatter
+  \pagenumbering{arabic}
+  \setcounter{page}{1}
+
+
+%hier einzelne Kapitel einbinben
+% \include{chapter/intro}
+
+    % !! CHAPTERS GO HERE !!
+
+
+%  \input{chapter/introduction.tex}
+
+  \input{chapters/ccsn/body.tex}
+  
+  \cleardoublepage
+  \thispagestyle{empty}
+  \input{chapters/theory/body.tex}
+
+  \cleardoublepage
+  \thispagestyle{empty}
+  \input{chapters/numerics/body.tex}
+  \cleardoublepage
+  \thispagestyle{empty}
+  \input{chapters/signal/body.tex}
+
+
+  \cleardoublepage
+  \thispagestyle{empty}
+  \input{chapters/paper1/body.tex}
+
+  \cleardoublepage
+  \thispagestyle{empty}
+  \input{chapters/paper2/body.tex}
+
+  \appendix
+  \cleardoublepage
+  \thispagestyle{empty}
+  % \input{chapter/abbreviations.tex}
+
+  \cleardoublepage
+  \phantomsection
+  \addcontentsline{toc}{chapter}{Bibliography}
+
+  \markboth{}{}
+
+  \backmatter
+ \bibliographystyle{mnras}
+ \bibliography{thesis}
+
+
+
+
+%\listoffigures
+
+
+\cleardoublepage
+\thispagestyle{empty}
+%\input{chapter/danksagung.tex}
+
+\end{document}

@@ -1,0 +1,21 @@
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: "../../doktorarbeit"
+%%% End:
+\chapter{Signal analysis}
+
+\begin{Fourier analysis}
+A 
+
+\begin{equation}
+\widetilde{\ddot{Q}}_{ij}(f) = \int_{-\infty}^{\infty} \ddot{Q}_{ij}(t) e^{-2 \pi i f t} \ud t. 
+\end{equation}
+For a discrete time series the Fourier transform is replaced by the discrete Fourier transform (DFT).
+We define the DFT, $\widetilde{X}_k$, as follows: 
+\begin{equation} \label{eq:DFT}
+\widetilde{X}_k (f_k) = \frac{1}{M}  \sum^M_{m=1} x_m e^{-2\pi i k m/N},
+\end{equation}
+Here, $x_m$ is the time series obtained by sampling the underlying continuous signal at $M$ discrete times. 
+$f_k = k/T$ is the frequency of bin $k$, where $T$ is the duration of the signal.
+
+

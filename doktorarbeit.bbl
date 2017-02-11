@@ -1,0 +1,814 @@
+\begin{thebibliography}{}
+\makeatletter
+\relax
+\def\mn@urlcharsother{\let\do\@makeother \do\$\do\&\do\#\do\^\do\_\do\%\do\~}
+\def\mn@doi{\begingroup\mn@urlcharsother \@ifnextchar [ {\mn@doi@}
+  {\mn@doi@[]}}
+\def\mn@doi@[#1]#2{\def\@tempa{#1}\ifx\@tempa\@empty \href
+  {http://dx.doi.org/#2} {doi:#2}\else \href {http://dx.doi.org/#2} {#1}\fi
+  \endgroup}
+\def\mn@eprint#1#2{\mn@eprint@#1:#2::\@nil}
+\def\mn@eprint@arXiv#1{\href {http://arxiv.org/abs/#1} {{\tt arXiv:#1}}}
+\def\mn@eprint@dblp#1{\href {http://dblp.uni-trier.de/rec/bibtex/#1.xml}
+  {dblp:#1}}
+\def\mn@eprint@#1:#2:#3:#4\@nil{\def\@tempa {#1}\def\@tempb {#2}\def\@tempc
+  {#3}\ifx \@tempc \@empty \let \@tempc \@tempb \let \@tempb \@tempa \fi \ifx
+  \@tempb \@empty \def\@tempb {arXiv}\fi \@ifundefined
+  {mn@eprint@\@tempb}{\@tempb:\@tempc}{\expandafter \expandafter \csname
+  mn@eprint@\@tempb\endcsname \expandafter{\@tempc}}}
+
+\bibitem[\protect\citeauthoryear{{Abdikamalov}, {Ott}, {Rezzolla}, {Dessart},
+  {Dimmelmeier}, {Marek}  \& {Janka}}{{Abdikamalov}
+  et~al.}{2010}]{abdikamalov_10}
+{Abdikamalov} E.~B.,  {Ott} C.~D.,  {Rezzolla} L.,  {Dessart} L.,
+  {Dimmelmeier} H.,  {Marek} A.,   {Janka} H.-T.,  2010, \mn@doi [\prd]
+  {10.1103/PhysRevD.81.044012}, \href
+  {http://adsabs.harvard.edu/abs/2010PhRvD..81d4012A} {81, 044012}
+
+\bibitem[\protect\citeauthoryear{{Abdikamalov} et~al.,}{{Abdikamalov}
+  et~al.}{2015}]{abdikamalov_15}
+{Abdikamalov} E.,  et~al., 2015, \mn@doi [\apj] {10.1088/0004-637X/808/1/70},
+  \href {http://adsabs.harvard.edu/abs/2015ApJ...808...70A} {808, 70}
+
+\bibitem[\protect\citeauthoryear{{Arnett} \& {Meakin}}{{Arnett} \&
+  {Meakin}}{2011}]{arnett_11}
+{Arnett} W.~D.,  {Meakin} C.,  2011, \mn@doi [\apj]
+  {10.1088/0004-637X/733/2/78}, \href
+  {http://adsabs.harvard.edu/abs/2011ApJ...733...78A} {733, 78}
+
+\bibitem[\protect\citeauthoryear{{Bethe}}{{Bethe}}{1990}]{bethe_90}
+{Bethe} H.~A.,  1990, \mn@doi [Rev.~Mod.~Phys.] {10.1103/RevModPhys.62.801},
+  \href {http://adsabs.harvard.edu/abs/1990RvMP...62..801B} {62, 801}
+
+\bibitem[\protect\citeauthoryear{{Blanchet}, {Damour}  \&
+  {Schaefer}}{{Blanchet} et~al.}{1990}]{blanchet_90}
+{Blanchet} L.,  {Damour} T.,   {Schaefer} G.,  1990, \mnras, \href
+  {http://adsabs.harvard.edu/abs/1990MNRAS.242..289B} {242, 289}
+
+\bibitem[\protect\citeauthoryear{{Blondin} \& {Mezzacappa}}{{Blondin} \&
+  {Mezzacappa}}{2006}]{blondin_06}
+{Blondin} J.~M.,  {Mezzacappa} A.,  2006, \mn@doi [\apj] {10.1086/500817},
+  \href {http://adsabs.harvard.edu/abs/2006ApJ...642..401B} {642, 401}
+
+\bibitem[\protect\citeauthoryear{{Blondin} \& {Mezzacappa}}{{Blondin} \&
+  {Mezzacappa}}{2007}]{blondin_07a}
+{Blondin} J.~M.,  {Mezzacappa} A.,  2007, \mn@doi [\nat] {10.1038/nature05428},
+  \href {http://adsabs.harvard.edu/abs/2007Natur.445...58B} {445, 58}
+
+\bibitem[\protect\citeauthoryear{{Blondin} \& {Shaw}}{{Blondin} \&
+  {Shaw}}{2007}]{blondin_07b}
+{Blondin} J.~M.,  {Shaw} S.,  2007, \mn@doi [\apj] {10.1086/510614}, \href
+  {http://adsabs.harvard.edu/abs/2007ApJ...656..366B} {656, 366}
+
+\bibitem[\protect\citeauthoryear{{Blondin}, {Mezzacappa}  \&
+  {DeMarino}}{{Blondin} et~al.}{2003}]{blondin_03}
+{Blondin} J.~M.,  {Mezzacappa} A.,   {DeMarino} C.,  2003, \mn@doi [\apj]
+  {10.1086/345812}, \href {http://adsabs.harvard.edu/abs/2003ApJ...584..971B}
+  {584, 971}
+
+\bibitem[\protect\citeauthoryear{{Blondin}, {Gipson}, {Harris}  \&
+  {Mezzacappa}}{{Blondin} et~al.}{2017}]{blondin_17}
+{Blondin} J.~M.,  {Gipson} E.,  {Harris} S.,   {Mezzacappa} A.,  2017, \mn@doi
+  [\apj] {10.3847/1538-4357/835/2/170}, \href
+  {http://adsabs.harvard.edu/abs/2017ApJ...835..170B} {835, 170}
+
+\bibitem[\protect\citeauthoryear{{Brandt}, {Burrows}, {Ott}  \&
+  {Livne}}{{Brandt} et~al.}{2011}]{brandt_11}
+{Brandt} T.~D.,  {Burrows} A.,  {Ott} C.~D.,   {Livne} E.,  2011, \mn@doi
+  [\apj] {10.1088/0004-637X/728/1/8}, \href
+  {http://adsabs.harvard.edu/abs/2011ApJ...728....8B} {728, 8}
+
+\bibitem[\protect\citeauthoryear{{Buras}, {Rampp}, {Janka}  \&
+  {Kifonidis}}{{Buras} et~al.}{2006a}]{buras_06a}
+{Buras} R.,  {Rampp} M.,  {Janka} H.-T.,   {Kifonidis} K.,  2006a, \mn@doi
+  [\aap] {10.1051/0004-6361:20053783}, \href
+  {http://adsabs.harvard.edu/abs/2006A26A...447.1049B} {447, 1049}
+
+\bibitem[\protect\citeauthoryear{{Buras}, {Janka}, {Rampp}  \&
+  {Kifonidis}}{{Buras} et~al.}{2006b}]{buras_06b}
+{Buras} R.,  {Janka} H.-T.,  {Rampp} M.,   {Kifonidis} K.,  2006b, \mn@doi
+  [\aap] {10.1051/0004-6361:20054654}, \href
+  {http://adsabs.harvard.edu/abs/2006A26A...457..281B} {457, 281}
+
+\bibitem[\protect\citeauthoryear{{Burrows}}{{Burrows}}{2013}]{burrows_13}
+{Burrows} A.,  2013, \mn@doi [Reviews of Modern Physics]
+  {10.1103/RevModPhys.85.245}, \href
+  {http://adsabs.harvard.edu/abs/2013RvMP...85..245B} {85, 245}
+
+\bibitem[\protect\citeauthoryear{{Burrows} \& {Hayes}}{{Burrows} \&
+  {Hayes}}{1996}]{burrows_96}
+{Burrows} A.,  {Hayes} J.,  1996, \mn@doi [Physical Review Letters]
+  {10.1103/PhysRevLett.76.352}, \href
+  {http://adsabs.harvard.edu/abs/1996PhRvL..76..352B} {76, 352}
+
+\bibitem[\protect\citeauthoryear{{Burrows}, {Hayes}  \& {Fryxell}}{{Burrows}
+  et~al.}{1995}]{burrows_95}
+{Burrows} A.,  {Hayes} J.,   {Fryxell} B.~A.,  1995, \mn@doi [\apj]
+  {10.1086/176188}, \href {http://adsabs.harvard.edu/abs/1995ApJ...450..830B}
+  {450, 830}
+
+\bibitem[\protect\citeauthoryear{{Cantiello}, {Mankovich}, {Bildsten},
+  {Christensen-Dalsgaard}  \& {Paxton}}{{Cantiello}
+  et~al.}{2014}]{cantiello_14}
+{Cantiello} M.,  {Mankovich} C.,  {Bildsten} L.,  {Christensen-Dalsgaard} J.,
+  {Paxton} B.,  2014, \mn@doi [\apj] {10.1088/0004-637X/788/1/93}, \href
+  {http://adsabs.harvard.edu/abs/2014ApJ...788...93C} {788, 93}
+
+\bibitem[\protect\citeauthoryear{{Cappellaro} \& {Turatto}}{{Cappellaro} \&
+  {Turatto}}{2001}]{cappellaro_01}
+{Cappellaro} E.,  {Turatto} M.,  2001, in {Vanbeveren} D.,  ed.,  Astrophysics
+  and Space Science Library Vol. 264, The Influence of Binaries on Stellar
+  Population Studies. p.~199 (\mn@eprint {} {astro-ph/0012455}),
+  \mn@doi{10.1007/978-94-015-9723-4_16}
+
+\bibitem[\protect\citeauthoryear{{Chandrasekhar}}{{Chandrasekhar}}{1961}]{chandrasekhar_61}
+{Chandrasekhar} S.,  1961, {Hydrodynamic and Hydromagnetic Stability}.
+Clarendon, Oxford
+
+\bibitem[\protect\citeauthoryear{{Colella} \& {Woodward}}{{Colella} \&
+  {Woodward}}{1984}]{colella_84}
+{Colella} P.,  {Woodward} P.~R.,  1984, {\it J.~Comp.~Phys.}, 54, 174
+
+\bibitem[\protect\citeauthoryear{{Colgate} \& {White}}{{Colgate} \&
+  {White}}{1966}]{colgate_66}
+{Colgate} S.~A.,  {White} R.~H.,  1966, \mn@doi [\apj] {10.1086/148549}, \href
+  {http://adsabs.harvard.edu/abs/1966ApJ...143..626C} {143, 626}
+
+\bibitem[\protect\citeauthoryear{{Cordero-Carri{\'o}n}, {Cerd{\'a}-Dur{\'a}n},
+  {Dimmelmeier}, {Jaramillo}, {Novak}  \& {Gourgoulhon}}{{Cordero-Carri{\'o}n}
+  et~al.}{2009}]{cordero_09}
+{Cordero-Carri{\'o}n} I.,  {Cerd{\'a}-Dur{\'a}n} P.,  {Dimmelmeier} H.,
+  {Jaramillo} J.~L.,  {Novak} J.,   {Gourgoulhon} E.,  2009, \mn@doi [\prd]
+  {10.1103/PhysRevD.79.024017}, \href
+  {http://adsabs.harvard.edu/abs/2009PhRvD..79b4017C} {79, 024017}
+
+\bibitem[\protect\citeauthoryear{{Couch} \& {Ott}}{{Couch} \&
+  {Ott}}{2013}]{couch_13}
+{Couch} S.~M.,  {Ott} C.~D.,  2013, \mn@doi [\apjl]
+  {10.1088/2041-8205/778/1/L7}, \href
+  {http://adsabs.harvard.edu/abs/2013ApJ...778L...7C} {778, L7}
+
+\bibitem[\protect\citeauthoryear{{Couch} \& {Ott}}{{Couch} \&
+  {Ott}}{2015}]{couch_15}
+{Couch} S.~M.,  {Ott} C.~D.,  2015, \mn@doi [\apj] {10.1088/0004-637X/799/1/5},
+  \href {http://adsabs.harvard.edu/abs/2015ApJ...799....5C} {799, 5}
+
+\bibitem[\protect\citeauthoryear{{Dimmelmeier}, {Font}  \&
+  {M{\"u}ller}}{{Dimmelmeier} et~al.}{2002}]{dimmelmeier_02_a}
+{Dimmelmeier} H.,  {Font} J.~A.,   {M{\"u}ller} E.,  2002, \mn@doi [\aap]
+  {10.1051/0004-6361:20020563}, \href
+  {http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2002A26A...388..917D&db_key=AST}
+  {388, 917}
+
+\bibitem[\protect\citeauthoryear{{Dimmelmeier}, {Novak}, {Font},
+  {Ib{\'a}{\~n}ez}  \& {M{\"u}ller}}{{Dimmelmeier}
+  et~al.}{2005}]{dimmelmeier_04}
+{Dimmelmeier} H.,  {Novak} J.,  {Font} J.~A.,  {Ib{\'a}{\~n}ez} J.~M.,
+  {M{\"u}ller} E.,  2005, \mn@doi [\prd] {10.1103/PhysRevD.71.064023}, \href
+  {http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2005PhRvD..71f4023D&db_key=AST}
+  {71, 064023:1}
+
+\bibitem[\protect\citeauthoryear{{Dimmelmeier}, {Ott}, {Janka}, {Marek}  \&
+  {M{\"u}ller}}{{Dimmelmeier} et~al.}{2007}]{dimmelmeier_07_a}
+{Dimmelmeier} H.,  {Ott} C.~D.,  {Janka} H.-T.,  {Marek} A.,   {M{\"u}ller} E.,
+   2007, \mn@doi [\prl] {10.1103/PhysRevLett.98.251101}, \href
+  {http://adsabs.harvard.edu/abs/2007PhRvL..98y1101D} {98, 251101:1}
+
+\bibitem[\protect\citeauthoryear{{Dimmelmeier}, {Ott}, {Marek}  \&
+  {Janka}}{{Dimmelmeier} et~al.}{2008}]{dimmelmeier_08}
+{Dimmelmeier} H.,  {Ott} C.~D.,  {Marek} A.,   {Janka} H.-T.,  2008, \mn@doi
+  [\prd] {10.1103/PhysRevD.78.064056}, \href
+  {http://adsabs.harvard.edu/abs/2008PhRvD..78f4056D} {78, 064056:1}
+
+\bibitem[\protect\citeauthoryear{{Dolence}, {Burrows}, {Murphy}  \&
+  {Nordhaus}}{{Dolence} et~al.}{2013}]{dolence_13}
+{Dolence} J.~C.,  {Burrows} A.,  {Murphy} J.~W.,   {Nordhaus} J.,  2013,
+  \mn@doi [\apj] {10.1088/0004-637X/765/2/110}, \href
+  {http://adsabs.harvard.edu/abs/2013ApJ...765..110D} {765, 110}
+
+\bibitem[\protect\citeauthoryear{{Einfeldt}}{{Einfeldt}}{1988}]{einfeldt_88}
+{Einfeldt} B.,  1988, {\it SIAM J.~Numer.~Anal.}, 25, 294
+
+\bibitem[\protect\citeauthoryear{{Epstein}}{{Epstein}}{1978}]{epstein_78}
+{Epstein} R.,  1978, \mn@doi [\apj] {10.1086/156337}, \href
+  {http://adsabs.harvard.edu/abs/1978ApJ...223.1037E} {223, 1037}
+
+\bibitem[\protect\citeauthoryear{{Fern{\'a}ndez}}{{Fern{\'a}ndez}}{2010}]{fernandez_10}
+{Fern{\'a}ndez} R.,  2010, \mn@doi [\apj] {10.1088/0004-637X/725/2/1563}, \href
+  {http://adsabs.harvard.edu/abs/2010ApJ...725.1563F} {725, 1563}
+
+\bibitem[\protect\citeauthoryear{{Fern{\'a}ndez}}{{Fern{\'a}ndez}}{2015}]{fernandez_15}
+{Fern{\'a}ndez} R.,  2015, \mn@doi [\mnras] {10.1093/mnras/stv1463}, \href
+  {http://adsabs.harvard.edu/abs/2015MNRAS.452.2071F} {452, 2071}
+
+\bibitem[\protect\citeauthoryear{{Finn}}{{Finn}}{1989}]{finn_89}
+{Finn} L.~S.,  1989, in {Evans} C.~R.,  {Finn} L.~S.,   {Hobill} D.~W.,  eds,
+  Frontiers in Numerical Relativity. Cambridge University Press, Cambridge
+  (UK), pp 126--145
+
+\bibitem[\protect\citeauthoryear{{Flanagan} \& {Hughes}}{{Flanagan} \&
+  {Hughes}}{1998}]{flanagan_98a}
+{Flanagan} {\'E}.~{\'E}.,  {Hughes} S.~A.,  1998, \mn@doi [\prd]
+  {10.1103/PhysRevD.57.4535}, \href
+  {http://adsabs.harvard.edu/abs/1998PhRvD..57.4535F} {57, 4535}
+
+\bibitem[\protect\citeauthoryear{{Foglizzo}, {Scheck}  \& {Janka}}{{Foglizzo}
+  et~al.}{2006}]{foglizzo_06}
+{Foglizzo} T.,  {Scheck} L.,   {Janka} H.-T.,  2006, \mn@doi [\apj]
+  {10.1086/508443}, \href {http://adsabs.harvard.edu/abs/2006ApJ...652.1436F}
+  {652, 1436}
+
+\bibitem[\protect\citeauthoryear{{Foglizzo}, {Galletti}, {Scheck}  \&
+  {Janka}}{{Foglizzo} et~al.}{2007}]{foglizzo_07}
+{Foglizzo} T.,  {Galletti} P.,  {Scheck} L.,   {Janka} H.-T.,  2007, \mn@doi
+  [\apj] {10.1086/509612}, \href
+  {http://adsabs.harvard.edu/abs/2007ApJ...654.1006F} {654, 1006}
+
+\bibitem[\protect\citeauthoryear{{Foglizzo} et~al.,}{{Foglizzo}
+  et~al.}{2015}]{foglizzo_15}
+{Foglizzo} T.,  et~al., 2015, \mn@doi [\pasa] {10.1017/pasa.2015.9}, \href
+  {http://adsabs.harvard.edu/abs/2015PASA...32....9F} {32, 9}
+
+\bibitem[\protect\citeauthoryear{{Fryer}, {Holz}  \& {Hughes}}{{Fryer}
+  et~al.}{2004}]{fryer_04}
+{Fryer} C.~L.,  {Holz} D.~E.,   {Hughes} S.~A.,  2004, \mn@doi [\apj]
+  {10.1086/421040}, \href {http://adsabs.harvard.edu/abs/2004ApJ...609..288F}
+  {609, 288}
+
+\bibitem[\protect\citeauthoryear{{Fryxell}, {Arnett}  \& {M\"uller}}{{Fryxell}
+  et~al.}{1991}]{fryxell_91}
+{Fryxell} B.,  {Arnett} D.,   {M\"uller} E.,  1991, \mn@doi [\apj]
+  {10.1086/169657}, \href {http://adsabs.harvard.edu/abs/1991ApJ...367..619F}
+  {367, 619}
+
+\bibitem[\protect\citeauthoryear{{Goldreich} \& {Kumar}}{{Goldreich} \&
+  {Kumar}}{1990}]{goldreich_90}
+{Goldreich} P.,  {Kumar} P.,  1990, \mn@doi [\apj] {10.1086/169376}, \href
+  {http://adsabs.harvard.edu/abs/1990ApJ...363..694G} {363, 694}
+
+\bibitem[\protect\citeauthoryear{{Gossan}, {Sutton}, {Stuver}, {Zanolin},
+  {Gill}  \& {Ott}}{{Gossan} et~al.}{2016}]{gossan_15}
+{Gossan} S.~E.,  {Sutton} P.,  {Stuver} A.,  {Zanolin} M.,  {Gill} K.,   {Ott}
+  C.~D.,  2016, \mn@doi [\prd] {10.1103/PhysRevD.93.042002}, \href
+  {http://adsabs.harvard.edu/abs/2016PhRvD..93d2002G} {93, 042002}
+
+\bibitem[\protect\citeauthoryear{{Guilet} \& {Foglizzo}}{{Guilet} \&
+  {Foglizzo}}{2012}]{guilet_12}
+{Guilet} J.,  {Foglizzo} T.,  2012, \mn@doi [\mnras]
+  {10.1111/j.1365-2966.2012.20333.x}, \href
+  {http://adsabs.harvard.edu/abs/2012MNRAS.421..546G} {421, 546}
+
+\bibitem[\protect\citeauthoryear{{Hamacher}}{{Hamacher}}{2014}]{hamacher_14}
+{Hamacher} D.~W.,  2014, Journal of Astronomical History and Heritage, \href
+  {http://adsabs.harvard.edu/abs/2014JAHH...17..161H} {17, 161}
+
+\bibitem[\protect\citeauthoryear{{Hanke}}{{Hanke}}{2014}]{hanke_phd}
+{Hanke} F.,  2014, {PhD thesis}, Technische Universti\"at M\"unchen
+
+\bibitem[\protect\citeauthoryear{{Hanke}, {Marek}, {M{\"u}ller}  \&
+  {Janka}}{{Hanke} et~al.}{2012}]{hanke_12}
+{Hanke} F.,  {Marek} A.,  {M{\"u}ller} B.,   {Janka} H.-T.,  2012, \mn@doi
+  [\apj] {10.1088/0004-637X/755/2/138}, \href
+  {http://adsabs.harvard.edu/abs/2012ApJ...755..138H} {755, 138}
+
+\bibitem[\protect\citeauthoryear{{Hanke}, {M{\"u}ller}, {Wongwathanarat},
+  {Marek}  \& {Janka}}{{Hanke} et~al.}{2013}]{hanke_13}
+{Hanke} F.,  {M{\"u}ller} B.,  {Wongwathanarat} A.,  {Marek} A.,   {Janka}
+  H.-T.,  2013, \mn@doi [\apj] {10.1088/0004-637X/770/1/66}, \href
+  {http://adsabs.harvard.edu/abs/2013ApJ...770...66H} {770, 66}
+
+\bibitem[\protect\citeauthoryear{{Hayama}, {Kuroda}, {Kotake}  \&
+  {Takiwaki}}{{Hayama} et~al.}{2015}]{hayama_15}
+{Hayama} K.,  {Kuroda} T.,  {Kotake} K.,   {Takiwaki} T.,  2015, \mn@doi [\prd]
+  {10.1103/PhysRevD.92.122001}, \href
+  {http://adsabs.harvard.edu/abs/2015PhRvD..92l2001H} {92, 122001}
+
+\bibitem[\protect\citeauthoryear{{Heger}, {Woosley}  \& {Spruit}}{{Heger}
+  et~al.}{2005}]{heger_05}
+{Heger} A.,  {Woosley} S.~E.,   {Spruit} H.~C.,  2005, \mn@doi [\apj]
+  {10.1086/429868}, \href {http://adsabs.harvard.edu/abs/2005ApJ...626..350H}
+  {626, 350}
+
+\bibitem[\protect\citeauthoryear{{Herant}, {Benz}, {Hix}, {Fryer}  \&
+  {Colgate}}{{Herant} et~al.}{1994}]{herant_94}
+{Herant} M.,  {Benz} W.,  {Hix} W.~R.,  {Fryer} C.~L.,   {Colgate} S.~A.,
+  1994, \mn@doi [\apj] {10.1086/174817}, \href
+  {http://adsabs.harvard.edu/abs/1994ApJ...435..339H} {435, 339}
+
+\bibitem[\protect\citeauthoryear{{Hild}, {Chelkowski}  \& {Freise}}{{Hild}
+  et~al.}{2008}]{et_b}
+{Hild} S.,  {Chelkowski} S.,   {Freise} A.,  2008, preprint, \href
+  {http://adsabs.harvard.edu/abs/2008arXiv0810.0604H} {} (\mn@eprint {arXiv}
+  {0810.0604})
+
+\bibitem[\protect\citeauthoryear{{Hild}, {Chelkowski}, {Freise}, {Franc},
+  {Morgado}, {Flaminio}  \& {DeSalvo}}{{Hild} et~al.}{2010}]{et_c}
+{Hild} S.,  {Chelkowski} S.,  {Freise} A.,  {Franc} J.,  {Morgado} N.,
+  {Flaminio} R.,   {DeSalvo} R.,  2010, \mn@doi [Classical and Quantum Gravity]
+  {10.1088/0264-9381/27/1/015003}, \href
+  {http://adsabs.harvard.edu/abs/2010CQGra..27a5003H} {27, 015003}
+
+\bibitem[\protect\citeauthoryear{{Ho}}{{Ho}}{1962}]{ho_96}
+{Ho} P.~Y.,  1962, \mn@doi [Vistas in Astronomy]
+  {10.1016/0083-6656(62)90007-7}, \href
+  {http://adsabs.harvard.edu/abs/1962VA......5..127H} {5, 127}
+
+\bibitem[\protect\citeauthoryear{{Hoyle} \& {Fowler}}{{Hoyle} \&
+  {Fowler}}{1960}]{hoyle_60}
+{Hoyle} F.,  {Fowler} W.~A.,  1960, \mn@doi [\apj] {10.1086/146963}, \href
+  {http://adsabs.harvard.edu/abs/1960ApJ...132..565H} {132, 565}
+
+\bibitem[\protect\citeauthoryear{{Iwakami}, {Kotake}, {Ohnishi}, {Yamada}  \&
+  {Sawada}}{{Iwakami} et~al.}{2008}]{iwakami_08}
+{Iwakami} W.,  {Kotake} K.,  {Ohnishi} N.,  {Yamada} S.,   {Sawada} K.,  2008,
+  \mn@doi [\apj] {10.1086/533582}, \href
+  {http://adsabs.harvard.edu/abs/2008ApJ...678.1207I} {678, 1207}
+
+\bibitem[\protect\citeauthoryear{{Iwakami}, {Kotake}, {Ohnishi}, {Yamada}  \&
+  {Sawada}}{{Iwakami} et~al.}{2009}]{iwakami_09}
+{Iwakami} W.,  {Kotake} K.,  {Ohnishi} N.,  {Yamada} S.,   {Sawada} K.,  2009,
+  \mn@doi [\apj] {10.1088/0004-637X/700/1/232}, \href
+  {http://adsabs.harvard.edu/abs/2009ApJ...700..232I} {700, 232}
+
+\bibitem[\protect\citeauthoryear{{Janka}}{{Janka}}{1999}]{janka_99}
+{Janka} H.-T.,  1999, { }, { }
+
+\bibitem[\protect\citeauthoryear{{Janka}}{{Janka}}{2012}]{janka_12}
+{Janka} H.-T.,  2012, \mn@doi [Annual Review of Nuclear and Particle Science]
+  {10.1146/annurev-nucl-102711-094901}, \href
+  {http://adsabs.harvard.edu/abs/2012ARNPS..62..407J} {62, 407}
+
+\bibitem[\protect\citeauthoryear{{Janka} \& {M\"uller}}{{Janka} \&
+  {M\"uller}}{1996}]{janka_96}
+{Janka} H.-T.,  {M\"uller} E.,  1996, \aap, \href
+  {http://adsabs.harvard.edu/abs/1996A26A...306..167J} {306, 167}
+
+\bibitem[\protect\citeauthoryear{{Janka}, {Kifonidis}  \& {Rampp}}{{Janka}
+  et~al.}{2001}]{janka_01b}
+{Janka} H.-T.,  {Kifonidis} K.,   {Rampp} M.,  2001, in {Blaschke} D.,
+  {Glendenning} N.~K.,   {Sedrakian} A.,  eds,  Lecture Notes in Physics,
+  Berlin Springer Verlag Vol. 578, Physics of Neutron Star Interiors. p.~363
+  (\mn@eprint {} {astro-ph/0103015})
+
+\bibitem[\protect\citeauthoryear{{Janka}, {Melson}  \& {Summa}}{{Janka}
+  et~al.}{2016}]{janka_16}
+{Janka} H.-T.,  {Melson} T.,   {Summa} A.,  2016, preprint, \href
+  {http://adsabs.harvard.edu/abs/2016arXiv160205576J} {} (\mn@eprint {arXiv}
+  {1602.05576})
+
+\bibitem[\protect\citeauthoryear{Kageyama \& Sato}{Kageyama \&
+  Sato}{2004}]{kageyama_04}
+Kageyama A.,  Sato T.,  2004, \mn@doi [Geochemistry, Geophysics, Geosystems]
+  {10.1029/2004GC000734}, 5, n/a
+
+\bibitem[\protect\citeauthoryear{{Kazeroni}, {Guilet}  \&
+  {Foglizzo}}{{Kazeroni} et~al.}{2016}]{kazeroni_16}
+{Kazeroni} R.,  {Guilet} J.,   {Foglizzo} T.,  2016, \mn@doi [\mnras]
+  {10.1093/mnras/stv2666}, \href
+  {http://adsabs.harvard.edu/abs/2016MNRAS.456..126K} {456, 126}
+
+\bibitem[\protect\citeauthoryear{{Kazeroni}, {Guilet}  \&
+  {Foglizzo}}{{Kazeroni} et~al.}{2017}]{kazeroni_17}
+{Kazeroni} R.,  {Guilet} J.,   {Foglizzo} T.,  2017, preprint, \href
+  {http://adsabs.harvard.edu/abs/2017arXiv170107029K} {} (\mn@eprint {arXiv}
+  {1701.07029})
+
+\bibitem[\protect\citeauthoryear{{Kifonidis}, {Plewa}, {Janka}  \&
+  {M{\"u}ller}}{{Kifonidis} et~al.}{2003}]{kifonidis_03}
+{Kifonidis} K.,  {Plewa} T.,  {Janka} H.-T.,   {M{\"u}ller} E.,  2003, \mn@doi
+  [\aap] {10.1051/0004-6361:20030863}, \href
+  {http://adsabs.harvard.edu/abs/2003A26A...408..621K} {408, 621}
+
+\bibitem[\protect\citeauthoryear{{Kotake}, {Iwakami}, {Ohnishi}  \&
+  {Yamada}}{{Kotake} et~al.}{2009}]{kotake_09}
+{Kotake} K.,  {Iwakami} W.,  {Ohnishi} N.,   {Yamada} S.,  2009, \mn@doi
+  [\apjl] {10.1088/0004-637X/697/2/L133}, \href
+  {http://adsabs.harvard.edu/abs/2009ApJ...697L.133K} {697, L133}
+
+\bibitem[\protect\citeauthoryear{{Kotake}, {Iwakami-Nakano}  \&
+  {Ohnishi}}{{Kotake} et~al.}{2011}]{kotake_11}
+{Kotake} K.,  {Iwakami-Nakano} W.,   {Ohnishi} N.,  2011, \mn@doi [\apj]
+  {10.1088/0004-637X/736/2/124}, \href
+  {http://adsabs.harvard.edu/abs/2011ApJ...736..124K} {736, 124}
+
+\bibitem[\protect\citeauthoryear{{Kraichnan}}{{Kraichnan}}{1967}]{kraichnan_76}
+{Kraichnan} R.~H.,  1967, \mn@doi [Physics of Fluids] {10.1063/1.1762301},
+  \href {http://adsabs.harvard.edu/abs/1967PhFl...10.1417K} {10, 1417}
+
+\bibitem[\protect\citeauthoryear{{Kuroda}, {Takiwaki}  \& {Kotake}}{{Kuroda}
+  et~al.}{2014}]{kuroda_14}
+{Kuroda} T.,  {Takiwaki} T.,   {Kotake} K.,  2014, \mn@doi [\prd]
+  {10.1103/PhysRevD.89.044011}, \href
+  {http://esoads.eso.org/abs/2014PhRvD..89d4011K} {89, 044011}
+
+\bibitem[\protect\citeauthoryear{{Kuroda}, {Kotake}  \& {Takiwaki}}{{Kuroda}
+  et~al.}{2016}]{kuroda_16}
+{Kuroda} T.,  {Kotake} K.,   {Takiwaki} T.,  2016, ArXiv e-prints,1605.09215,
+  \href {http://adsabs.harvard.edu/abs/2016arXiv160509215K} {}
+
+\bibitem[\protect\citeauthoryear{{LIGO Laboratory} \& {Shoemaker}}{{LIGO
+  Laboratory} \& {Shoemaker}}{2010}]{adv_sens}
+{LIGO Laboratory} {Shoemaker} D.,  2010, {Advanced LIGO anticipated sensitivity
+  curves}, \url{https://dcc.ligo.org/LIGO-T0900288/public}
+
+\bibitem[\protect\citeauthoryear{{Lattimer} \& {Swesty}}{{Lattimer} \&
+  {Swesty}}{1991}]{lattimer_91}
+{Lattimer} J.~M.,  {Swesty} F.~D.,  1991, \mn@doi [{\it Nucl.~Phys.~A}]
+  {10.1016/0375-9474(91)90452-C}, \href
+  {http://adsabs.harvard.edu/abs/1991NuPhA.535..331L} {535, 331}
+
+\bibitem[\protect\citeauthoryear{{Lecoanet} \& {Quataert}}{{Lecoanet} \&
+  {Quataert}}{2013}]{lecoanet_12}
+{Lecoanet} D.,  {Quataert} E.,  2013, \mn@doi [\mnras] {10.1093/mnras/stt055},
+  \href {http://adsabs.harvard.edu/abs/2013MNRAS.430.2363L} {430, 2363}
+
+\bibitem[\protect\citeauthoryear{{Lentz} et~al.,}{{Lentz}
+  et~al.}{2015}]{lentz_15}
+{Lentz} E.~J.,  et~al., 2015, \mn@doi [\apjl] {10.1088/2041-8205/807/2/L31},
+  \href {http://adsabs.harvard.edu/abs/2015ApJ...807L..31L} {807, L31}
+
+\bibitem[\protect\citeauthoryear{{Liebend{\"o}rfer}, {Whitehouse}  \&
+  {Fischer}}{{Liebend{\"o}rfer} et~al.}{2009}]{liebendoerfer_09}
+{Liebend{\"o}rfer} M.,  {Whitehouse} S.~C.,   {Fischer} T.,  2009, \mn@doi
+  [\apj] {10.1088/0004-637X/698/2/1174}, \href
+  {http://adsabs.harvard.edu/abs/2009ApJ...698.1174L} {698, 1174}
+
+\bibitem[\protect\citeauthoryear{{Logue}, {Ott}, {Heng}, {Kalmus}  \&
+  {Scargill}}{{Logue} et~al.}{2012}]{logue_12}
+{Logue} J.,  {Ott} C.~D.,  {Heng} I.~S.,  {Kalmus} P.,   {Scargill} J.~H.~C.,
+  2012, \mn@doi [\prd] {10.1103/PhysRevD.86.044023}, \href
+  {http://adsabs.harvard.edu/abs/2012PhRvD..86d4023L} {86, 044023}
+
+\bibitem[\protect\citeauthoryear{{Lund}, {Marek}, {Lunardini}, {Janka}  \&
+  {Raffelt}}{{Lund} et~al.}{2010}]{lund_10}
+{Lund} T.,  {Marek} A.,  {Lunardini} C.,  {Janka} H.,   {Raffelt} G.,  2010,
+  \mn@doi [\prd] {10.1103/PhysRevD.82.063007}, \href
+  {http://adsabs.harvard.edu/abs/2010PhRvD..82f3007L} {82, 063007}
+
+\bibitem[\protect\citeauthoryear{{Marek}, {Dimmelmeier}, {Janka}, {M{\"u}ller}
+  \& {Buras}}{{Marek} et~al.}{2006}]{marek_06}
+{Marek} A.,  {Dimmelmeier} H.,  {Janka} H.-T.,  {M{\"u}ller} E.,   {Buras} R.,
+  2006, \mn@doi [\aap] {10.1051/0004-6361:20052840}, \href
+  {http://adsabs.harvard.edu/abs/2006A26A...445..273M} {445, 273}
+
+\bibitem[\protect\citeauthoryear{{Marek}, {Janka}  \& {M{\"u}ller}}{{Marek}
+  et~al.}{2009}]{marek_08}
+{Marek} A.,  {Janka} H.,   {M{\"u}ller} E.,  2009, \mn@doi [\aap]
+  {10.1051/0004-6361/200810883}, \href
+  {http://adsabs.harvard.edu/abs/2009A%26A...496..475M} {496, 475}
+
+\bibitem[\protect\citeauthoryear{{Melson}}{{Melson}}{2016}]{melson_phd}
+{Melson} T.,  2016, {PhD thesis}, Technische Universti\"at M\"unchen
+
+\bibitem[\protect\citeauthoryear{{Melson}, {Janka}  \& {Marek}}{{Melson}
+  et~al.}{2015a}]{melson_15a}
+{Melson} T.,  {Janka} H.-T.,   {Marek} A.,  2015a, \mn@doi [\apjl]
+  {10.1088/2041-8205/801/2/L24}, \href
+  {http://adsabs.harvard.edu/abs/2015ApJ...801L..24M} {801, L24}
+
+\bibitem[\protect\citeauthoryear{{Melson}, {Janka}, {Bollig}, {Hanke}, {Marek}
+  \& {M\"uller}}{{Melson} et~al.}{2015b}]{melson_15b}
+{Melson} T.,  {Janka} H.-T.,  {Bollig} R.,  {Hanke} F.,  {Marek} A.,
+  {M\"uller} B.,  2015b, \mn@doi [\apjl] {10.1088/2041-8205/808/2/L42}, \href
+  {http://adsabs.harvard.edu/abs/2015ApJ...808L..42M} {808, L42}
+
+\bibitem[\protect\citeauthoryear{{Minkowski}}{{Minkowski}}{1941}]{minkowski_41}
+{Minkowski} R.,  1941, \mn@doi [\pasp] {10.1086/125315}, \href
+  {http://adsabs.harvard.edu/abs/1941PASP...53..224M} {53, 224}
+
+\bibitem[\protect\citeauthoryear{{M\"uller}}{{M\"uller}}{1982}]{mueller_82}
+{M\"uller} E.,  1982, \aap, \href
+  {http://adsabs.harvard.edu/abs/1982A26A...114...53M} {114, 53}
+
+\bibitem[\protect\citeauthoryear{{M{\"u}ller}}{{M{\"u}ller}}{2015}]{mueller_15b}
+{M{\"u}ller} B.,  2015, \mn@doi [\mnras] {10.1093/mnras/stv1611}, \href
+  {http://adsabs.harvard.edu/abs/2015MNRAS.453..287M} {453, 287}
+
+\bibitem[\protect\citeauthoryear{{M\"uller} \& {Janka}}{{M\"uller} \&
+  {Janka}}{1997}]{mueller_97}
+{M\"uller} E.,  {Janka} H.-T.,  1997, \aap, \href
+  {http://adsabs.harvard.edu/abs/1997A26A...317..140M} {317, 140}
+
+\bibitem[\protect\citeauthoryear{{M{\"u}ller} \& {Janka}}{{M{\"u}ller} \&
+  {Janka}}{2014}]{mueller_14}
+{M{\"u}ller} B.,  {Janka} H.-T.,  2014, \mn@doi [\apj]
+  {10.1088/0004-637X/788/1/82}, \href
+  {http://adsabs.harvard.edu/abs/2014ApJ...788...82M} {788, 82}
+
+\bibitem[\protect\citeauthoryear{{M{\"u}ller} \& {Janka}}{{M{\"u}ller} \&
+  {Janka}}{2015}]{mueller_15a}
+{M{\"u}ller} B.,  {Janka} H.-T.,  2015, \mn@doi [\mnras]
+  {10.1093/mnras/stv101}, \href
+  {http://adsabs.harvard.edu/abs/2015MNRAS.448.2141M} {448, 2141}
+
+\bibitem[\protect\citeauthoryear{{M\"uller}, {Fryxell}  \& {Arnett}}{{M\"uller}
+  et~al.}{1991}]{mueller_91}
+{M\"uller} E.,  {Fryxell} B.,   {Arnett} D.,  1991, \aap, \href
+  {http://adsabs.harvard.edu/abs/1991A%26A...251..505M} {251, 505}
+
+\bibitem[\protect\citeauthoryear{{M{\"u}ller}, {Janka}  \&
+  {Dimmelmeier}}{{M{\"u}ller} et~al.}{2010}]{mueller_10}
+{M{\"u}ller} B.,  {Janka} H.,   {Dimmelmeier} H.,  2010, \mn@doi [\apjs]
+  {10.1088/0067-0049/189/1/104}, \href
+  {http://adsabs.harvard.edu/abs/2010ApJS..189..104M} {189, 104}
+
+\bibitem[\protect\citeauthoryear{{M{\"u}ller}, {Janka}  \&
+  {Wongwathanarat}}{{M{\"u}ller} et~al.}{2012a}]{mueller_e_12}
+{M{\"u}ller} E.,  {Janka} H.-T.,   {Wongwathanarat} A.,  2012a, \mn@doi [\aap]
+  {10.1051/0004-6361/201117611}, \href
+  {http://adsabs.harvard.edu/abs/2012A%26A...537A..63M} {537, A63}
+
+\bibitem[\protect\citeauthoryear{{M{\"u}ller}, {Janka}  \&
+  {Marek}}{{M{\"u}ller} et~al.}{2012b}]{mueller_12a}
+{M{\"u}ller} B.,  {Janka} H.-T.,   {Marek} A.,  2012b, \mn@doi [\apj]
+  {10.1088/0004-637X/756/1/84}, \href
+  {http://adsabs.harvard.edu/abs/2012ApJ...756...84M} {756, 84}
+
+\bibitem[\protect\citeauthoryear{{M{\"u}ller}, {Janka}  \&
+  {Heger}}{{M{\"u}ller} et~al.}{2012c}]{mueller_12b}
+{M{\"u}ller} B.,  {Janka} H.-T.,   {Heger} A.,  2012c, \mn@doi [\apj]
+  {10.1088/0004-637X/761/1/72}, \href
+  {http://adsabs.harvard.edu/abs/2012ApJ...761...72M} {761, 72}
+
+\bibitem[\protect\citeauthoryear{{M{\"u}ller}, {Janka}  \&
+  {Marek}}{{M{\"u}ller} et~al.}{2013}]{mueller_13}
+{M{\"u}ller} B.,  {Janka} H.-T.,   {Marek} A.,  2013, \mn@doi [\apj]
+  {10.1088/0004-637X/766/1/43}, \href
+  {http://adsabs.harvard.edu/abs/2013ApJ...766...43M} {766, 43}
+
+\bibitem[\protect\citeauthoryear{{Murphy} \& {Burrows}}{{Murphy} \&
+  {Burrows}}{2008a}]{murphy_08}
+{Murphy} J.~W.,  {Burrows} A.,  2008a, \mn@doi [\apjs] {10.1086/591272}, \href
+  {http://adsabs.harvard.edu/abs/2008ApJS..179..209M} {179, 209}
+
+\bibitem[\protect\citeauthoryear{{Murphy} \& {Burrows}}{{Murphy} \&
+  {Burrows}}{2008b}]{murphy_08b}
+{Murphy} J.~W.,  {Burrows} A.,  2008b, \mn@doi [\apj] {10.1086/592214}, \href
+  {http://adsabs.harvard.edu/abs/2008ApJ...688.1159M} {688, 1159}
+
+\bibitem[\protect\citeauthoryear{{Murphy}, {Ott}  \& {Burrows}}{{Murphy}
+  et~al.}{2009}]{murphy_09}
+{Murphy} J.~W.,  {Ott} C.~D.,   {Burrows} A.,  2009, \mn@doi [\apj]
+  {10.1088/0004-637X/707/2/1173}, \href
+  {http://adsabs.harvard.edu/abs/2009ApJ...707.1173M} {707, 1173}
+
+\bibitem[\protect\citeauthoryear{{Murphy}, {Dolence}  \& {Burrows}}{{Murphy}
+  et~al.}{2013}]{murphy_12}
+{Murphy} J.~W.,  {Dolence} J.~C.,   {Burrows} A.,  2013, \mn@doi [\apj]
+  {10.1088/0004-637X/771/1/52}, \href
+  {http://adsabs.harvard.edu/abs/2013ApJ...771...52M} {771, 52}
+
+\bibitem[\protect\citeauthoryear{{Nakamura} \& {Oohara}}{{Nakamura} \&
+  {Oohara}}{1989}]{nakamura_89}
+{Nakamura} T.,  {Oohara} K.,  1989, in {Evans, C.~R., Finn, L.~S., \& Hobill,
+  D.~W.} ed., Frontiers in Numerical Relativity. Cambridge University Press, pp
+  254--280
+
+\bibitem[\protect\citeauthoryear{{Nordhaus}, {Brandt}, {Burrows}  \&
+  {Almgren}}{{Nordhaus} et~al.}{2012}]{nordhaus_12}
+{Nordhaus} J.,  {Brandt} T.~D.,  {Burrows} A.,   {Almgren} A.,  2012, \mn@doi
+  [\mnras] {10.1111/j.1365-2966.2012.21002.x}, \href
+  {http://adsabs.harvard.edu/abs/2012MNRAS.423.1805N} {423, 1805}
+
+\bibitem[\protect\citeauthoryear{{Nordlund}, {Stein}  \& {Asplund}}{{Nordlund}
+  et~al.}{2009}]{nordlund_09}
+{Nordlund} {\AA}.,  {Stein} R.~F.,   {Asplund} M.,  2009, \mn@doi [Living
+  Reviews in Solar Physics] {10.12942/lrsp-2009-2}, \href
+  {http://adsabs.harvard.edu/abs/2009LRSP....6....2N} {6, 2}
+
+\bibitem[\protect\citeauthoryear{{Noutsos}, {Schnitzeler}, {Keane}, {Kramer}
+  \& {Johnston}}{{Noutsos} et~al.}{2013}]{noutsos_13}
+{Noutsos} A.,  {Schnitzeler} D.~H.~F.~M.,  {Keane} E.~F.,  {Kramer} M.,
+  {Johnston} S.,  2013, \mn@doi [\mnras] {10.1093/mnras/stt047}, \href
+  {http://adsabs.harvard.edu/abs/2013MNRAS.430.2281N} {430, 2281}
+
+\bibitem[\protect\citeauthoryear{{Ohnishi}, {Kotake}  \& {Yamada}}{{Ohnishi}
+  et~al.}{2006}]{ohnishi_06}
+{Ohnishi} N.,  {Kotake} K.,   {Yamada} S.,  2006, \mn@doi [\apj]
+  {10.1086/500554}, \href {http://adsabs.harvard.edu/abs/2006ApJ...641.1018O}
+  {641, 1018}
+
+\bibitem[\protect\citeauthoryear{{Ohnishi}, {Iwakami}, {Kotake}, {Yamada},
+  {Fujioka}  \& {Takabe}}{{Ohnishi} et~al.}{2008}]{ohnishi_08}
+{Ohnishi} N.,  {Iwakami} W.,  {Kotake} K.,  {Yamada} S.,  {Fujioka} S.,
+  {Takabe} H.,  2008, \mn@doi [Journal of Physics Conference Series]
+  {10.1088/1742-6596/112/4/042018}, \href
+  {http://adsabs.harvard.edu/abs/2008JPhCS.112d2018O} {112, 042018}
+
+\bibitem[\protect\citeauthoryear{Oohara, Nakamura  \& Shibata}{Oohara
+  et~al.}{1997}]{oohara_97}
+Oohara K.-i.,  Nakamura T.,   Shibata M.,  1997, \mn@doi [Progress of
+  Theoretical Physics Supplement] {10.1143/PTPS.128.183}, 128, 183
+
+\bibitem[\protect\citeauthoryear{{Ott}, {Ou}, {Tohline}  \& {Burrows}}{{Ott}
+  et~al.}{2005}]{ott_05}
+{Ott} C.~D.,  {Ou} S.,  {Tohline} J.~E.,   {Burrows} A.,  2005, \mn@doi [\apjl]
+  {10.1086/431305}, \href {http://cdsads.u-strasbg.fr/abs/2005ApJ...625L.119O}
+  {625, L119}
+
+\bibitem[\protect\citeauthoryear{{Ott}, {Dimmelmeier}, {Marek}, {Janka},
+  {Hawke}, {Zink}  \& {Schnetter}}{{Ott} et~al.}{2007}]{ott_06_a}
+{Ott} C.~D.,  {Dimmelmeier} H.,  {Marek} A.,  {Janka} H.-T.,  {Hawke} I.,
+  {Zink} B.,   {Schnetter} E.,  2007, \mn@doi [\prl]
+  {10.1103/PhysRevLett.98.261101}, \href
+  {http://adsabs.harvard.edu/abs/2007PhRvL..98z1101O} {98, 261101:1}
+
+\bibitem[\protect\citeauthoryear{{Ott} et~al.,}{{Ott} et~al.}{2012}]{ott_12}
+{Ott} C.~D.,  et~al., 2012, \mn@doi [\prd] {10.1103/PhysRevD.86.024026}, \href
+  {http://adsabs.harvard.edu/abs/2012PhRvD..86b4026O} {86, 024026}
+
+\bibitem[\protect\citeauthoryear{{Plewa} \& {M{\"u}ller}}{{Plewa} \&
+  {M{\"u}ller}}{1999}]{plewa_99}
+{Plewa} T.,  {M{\"u}ller} E.,  1999, \aap, \href
+  {http://adsabs.harvard.edu/abs/1999A26A...342..179P} {342, 179}
+
+\bibitem[\protect\citeauthoryear{{Popov} \& {Turolla}}{{Popov} \&
+  {Turolla}}{2012}]{popov_12}
+{Popov} S.~B.,  {Turolla} R.,  2012, \mn@doi [\apss]
+  {10.1007/s10509-012-1100-z}, \href
+  {http://adsabs.harvard.edu/abs/2012Ap%26SS.341..457P} {341, 457}
+
+\bibitem[\protect\citeauthoryear{{Quirk}}{{Quirk}}{1994}]{quirk_94}
+{Quirk} J.~J.,  1994, \mn@doi [{\it Int.~J.~Num.~Meth.~in~Fluids}]
+  {10.1002/fld.1650180603}, \href
+  {http://adsabs.harvard.edu/abs/1994IJNMF..18..555Q} {18, 555}
+
+\bibitem[\protect\citeauthoryear{{Rampp} \& {Janka}}{{Rampp} \&
+  {Janka}}{2002}]{rampp_02}
+{Rampp} M.,  {Janka} H.-T.,  2002, \mn@doi [\aap] {10.1051/0004-6361:20021398},
+  \href
+  {http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2002A26A...396..361R&db_key=AST}
+  {396, 361}
+
+\bibitem[\protect\citeauthoryear{{Rampp}, {M{\"u}ller}  \& {Ruffert}}{{Rampp}
+  et~al.}{1998}]{rampp_98}
+{Rampp} M.,  {M{\"u}ller} E.,   {Ruffert} M.,  1998, \aap, \href
+  {http://adsabs.harvard.edu/abs/1998A%26A...332..969R} {332, 969}
+
+\bibitem[\protect\citeauthoryear{{Roberts}, {Ott}, {Haas}, {O'Connor}, {Diener}
+   \& {Schnetter}}{{Roberts} et~al.}{2016}]{roberts_16}
+{Roberts} L.~F.,  {Ott} C.~D.,  {Haas} R.,  {O'Connor} E.~P.,  {Diener} P.,
+  {Schnetter} E.,  2016, preprint, \href
+  {http://adsabs.harvard.edu/abs/2016arXiv160407848R} {} (\mn@eprint {arXiv}
+  {1604.07848})
+
+\bibitem[\protect\citeauthoryear{{Sathyaprakash} et~al.,}{{Sathyaprakash}
+  et~al.}{2012}]{et_12}
+{Sathyaprakash} B.,  et~al., 2012, \mn@doi [Classical and Quantum Gravity]
+  {10.1088/0264-9381/29/12/124013}, \href
+  {http://adsabs.harvard.edu/abs/2012CQGra..29l4013S} {29, 124013}
+
+\bibitem[\protect\citeauthoryear{{Scheck}, {Kifonidis}, {Janka}  \&
+  {M{\"u}ller}}{{Scheck} et~al.}{2006}]{scheck_06}
+{Scheck} L.,  {Kifonidis} K.,  {Janka} H.-T.,   {M{\"u}ller} E.,  2006, \mn@doi
+  [\aap] {10.1051/0004-6361:20064855}, \href
+  {http://adsabs.harvard.edu/abs/2006A%26A...457..963S} {457, 963}
+
+\bibitem[\protect\citeauthoryear{{Scheck}, {Janka}, {Foglizzo}  \&
+  {Kifonidis}}{{Scheck} et~al.}{2008}]{scheck_08}
+{Scheck} L.,  {Janka} H.-T.,  {Foglizzo} T.,   {Kifonidis} K.,  2008, \mn@doi
+  [\aap] {10.1051/0004-6361:20077701}, \href
+  {http://adsabs.harvard.edu/abs/2008A26A...477..931S} {477, 931}
+
+\bibitem[\protect\citeauthoryear{{Scheidegger}, {Fischer}, {Whitehouse}  \&
+  {Liebend{\"o}rfer}}{{Scheidegger} et~al.}{2008}]{scheidegger_08}
+{Scheidegger} S.,  {Fischer} T.,  {Whitehouse} S.~C.,   {Liebend{\"o}rfer} M.,
+  2008, \mn@doi [\aap] {10.1051/0004-6361:20078577}, \href
+  {http://adsabs.harvard.edu/abs/2008A26A...490..231S} {490, 231}
+
+\bibitem[\protect\citeauthoryear{{Scheidegger}, {Whitehouse}, {K{\"a}ppeli}  \&
+  {Liebend{\"o}rfer}}{{Scheidegger} et~al.}{2010}]{scheidegger_10}
+{Scheidegger} S.,  {Whitehouse} S.~C.,  {K{\"a}ppeli} R.,   {Liebend{\"o}rfer}
+  M.,  2010, \mn@doi [Classical and Quantum Gravity]
+  {10.1088/0264-9381/27/11/114101}, \href
+  {http://adsabs.harvard.edu/abs/2010CQGra..27k4101S} {27, 114101}
+
+\bibitem[\protect\citeauthoryear{{Shen}}{{Shen}}{1969}]{shen_96}
+{Shen} C.~S.,  1969, \mn@doi [\nat] {10.1038/2211039a0}, \href
+  {http://adsabs.harvard.edu/abs/1969Natur.221.1039S} {221, 1039}
+
+\bibitem[\protect\citeauthoryear{{Shibata} \& {Sekiguchi}}{{Shibata} \&
+  {Sekiguchi}}{2005}]{shibata_05}
+{Shibata} M.,  {Sekiguchi} Y.-I.,  2005, \mn@doi [\prd]
+  {10.1103/PhysRevD.71.024014}, \href
+  {http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2005PhRvD..71b4014S&db_key=AST}
+  {71, 024014:1}
+
+\bibitem[\protect\citeauthoryear{{Strang}}{{Strang}}{1968}]{strang_68}
+{Strang} G.,  1968, \mn@doi [SIAM Journal on Numerical Analysis]
+  {10.1137/0705041}, \href {http://adsabs.harvard.edu/abs/1968SJNA....5..506S}
+  {5, 506}
+
+\bibitem[\protect\citeauthoryear{{Summa}}{{Summa}}{2017}]{suma_models}
+{Summa} A.,  2017, {In preparation}, Private communication
+
+\bibitem[\protect\citeauthoryear{{Takiwaki}, {Kotake}  \& {Suwa}}{{Takiwaki}
+  et~al.}{2012}]{takiwaki_12}
+{Takiwaki} T.,  {Kotake} K.,   {Suwa} Y.,  2012, \mn@doi [\apj]
+  {10.1088/0004-637X/749/2/98}, \href
+  {http://adsabs.harvard.edu/abs/2012ApJ...749...98T} {749, 98}
+
+\bibitem[\protect\citeauthoryear{{Takiwaki}, {Kotake}  \& {Suwa}}{{Takiwaki}
+  et~al.}{2014}]{takiwaki_14}
+{Takiwaki} T.,  {Kotake} K.,   {Suwa} Y.,  2014, \mn@doi [\apj]
+  {10.1088/0004-637X/786/2/83}, \href
+  {http://adsabs.harvard.edu/abs/2014ApJ...786...83T} {786, 83}
+
+\bibitem[\protect\citeauthoryear{{Takiwaki}, {Kotake}  \& {Suwa}}{{Takiwaki}
+  et~al.}{2016}]{takiwaki_16}
+{Takiwaki} T.,  {Kotake} K.,   {Suwa} Y.,  2016, \mn@doi [\mnras]
+  {10.1093/mnrasl/slw105}, \href
+  {http://adsabs.harvard.edu/abs/2016MNRAS.461L.112T} {461, L112}
+
+\bibitem[\protect\citeauthoryear{{Tamborra}, {Hanke}, {M{\"u}ller}, {Janka}  \&
+  {Raffelt}}{{Tamborra} et~al.}{2013}]{tamborra_13}
+{Tamborra} I.,  {Hanke} F.,  {M{\"u}ller} B.,  {Janka} H.-T.,   {Raffelt} G.,
+  2013, \mn@doi [Physical Review Letters] {10.1103/PhysRevLett.111.121104},
+  \href {http://adsabs.harvard.edu/abs/2013PhRvL.111l1104T} {111, 121104}
+
+\bibitem[\protect\citeauthoryear{{Tamborra}, {Raffelt}, {Hanke}, {Janka}  \&
+  {M{\"u}ller}}{{Tamborra} et~al.}{2014a}]{tamborra_14b}
+{Tamborra} I.,  {Raffelt} G.,  {Hanke} F.,  {Janka} H.-T.,   {M{\"u}ller} B.,
+  2014a, \mn@doi [\prd] {10.1103/PhysRevD.90.045032}, \href
+  {http://adsabs.harvard.edu/abs/2014PhRvD..90d5032T} {90, 045032}
+
+\bibitem[\protect\citeauthoryear{{Tamborra}, {Hanke}, {Janka}, {M{\"u}ller},
+  {Raffelt}  \& {Marek}}{{Tamborra} et~al.}{2014b}]{tamborra_14a}
+{Tamborra} I.,  {Hanke} F.,  {Janka} H.-T.,  {M{\"u}ller} B.,  {Raffelt} G.~G.,
+    {Marek} A.,  2014b, \mn@doi [\apj] {10.1088/0004-637X/792/2/96}, \href
+  {http://adsabs.harvard.edu/abs/2014ApJ...792...96T} {792, 96}
+
+\bibitem[\protect\citeauthoryear{{The LIGO Scientific Collaboration}
+  et~al.,}{{The LIGO Scientific Collaboration} et~al.}{2015}]{advligo_15}
+{The LIGO Scientific Collaboration} et~al., 2015, \mn@doi [Classical and
+  Quantum Gravity] {10.1088/0264-9381/32/7/074001}, \href
+  {http://adsabs.harvard.edu/abs/2015CQGra..32g4001T} {32, 074001}
+
+\bibitem[\protect\citeauthoryear{{Thompson}}{{Thompson}}{2000}]{thompson_00}
+{Thompson} C.,  2000, \mn@doi [\apj] {10.1086/308773}, \href
+  {http://adsabs.harvard.edu/abs/2000ApJ...534..915T} {534, 915}
+
+\bibitem[\protect\citeauthoryear{{Viallet}, {Meakin}, {Arnett}  \&
+  {Moc{\'a}k}}{{Viallet} et~al.}{2013}]{viallet_13}
+{Viallet} M.,  {Meakin} C.,  {Arnett} D.,   {Moc{\'a}k} M.,  2013, \mn@doi
+  [\apj] {10.1088/0004-637X/769/1/1}, \href
+  {http://cdsads.u-strasbg.fr/abs/2013ApJ...769....1V} {769, 1}
+
+\bibitem[\protect\citeauthoryear{{Wilson}}{{Wilson}}{1985}]{wilson_85}
+{Wilson} J.~R.,  1985, in {Centrella} J.~M.,  {Leblanc} J.~M.,   {Bowers}
+  R.~L.,  eds, Numerical Astrophysics. pp 422--434
+
+\bibitem[\protect\citeauthoryear{{Wongwathanarat}, {Hammer}  \&
+  {M{\"u}ller}}{{Wongwathanarat} et~al.}{2010a}]{wongwathanarat_10a}
+{Wongwathanarat} A.,  {Hammer} N.~J.,   {M{\"u}ller} E.,  2010a, \mn@doi [\aap]
+  {10.1051/0004-6361/200913435}, \href
+  {http://adsabs.harvard.edu/abs/2010A%26A...514A..48W} {514, A48}
+
+\bibitem[\protect\citeauthoryear{{Wongwathanarat}, {Janka}  \&
+  {M{\"u}ller}}{{Wongwathanarat} et~al.}{2010b}]{wongwathanarat_10b}
+{Wongwathanarat} A.,  {Janka} H.,   {M{\"u}ller} E.,  2010b, \mn@doi [\apjl]
+  {10.1088/2041-8205/725/1/L106}, \href
+  {http://adsabs.harvard.edu/abs/2010ApJ...725L.106W} {725, L106}
+
+\bibitem[\protect\citeauthoryear{{Wongwathanarat}, {Janka}  \&
+  {M{\"u}ller}}{{Wongwathanarat} et~al.}{2013}]{wongwathanarat_13}
+{Wongwathanarat} A.,  {Janka} H.-T.,   {M{\"u}ller} E.,  2013, \mn@doi [\aap]
+  {10.1051/0004-6361/201220636}, \href
+  {http://adsabs.harvard.edu/abs/2013A%26A...552A.126W} {552, A126}
+
+\bibitem[\protect\citeauthoryear{{Wongwathanarat}, {M{\"u}ller}  \&
+  {Janka}}{{Wongwathanarat} et~al.}{2015}]{wongwathanarat_15}
+{Wongwathanarat} A.,  {M{\"u}ller} E.,   {Janka} H.-T.,  2015, \mn@doi [\aap]
+  {10.1051/0004-6361/201425025}, \href
+  {http://adsabs.harvard.edu/abs/2015A%26A...577A..48W} {577, A48}
+
+\bibitem[\protect\citeauthoryear{{Woosley} \& {Heger}}{{Woosley} \&
+  {Heger}}{2007}]{woosley_07}
+{Woosley} S.~E.,  {Heger} A.,  2007, \mn@doi [\physrep]
+  {10.1016/j.physrep.2007.02.009}, \href
+  {http://adsabs.harvard.edu/abs/2007PhR...442..269W} {442, 269}
+
+\bibitem[\protect\citeauthoryear{{Woosley}, {Heger}  \& {Weaver}}{{Woosley}
+  et~al.}{2002}]{woosley_02}
+{Woosley} S.~E.,  {Heger} A.,   {Weaver} T.~A.,  2002, \mn@doi [{\it
+  Rev.~Mod.~Phys.}] {10.1103/RevModPhys.74.1015}, \href
+  {http://adsabs.harvard.edu/abs/2002RvMP...74.1015W} {74, 1015}
+
+\bibitem[\protect\citeauthoryear{{Yakunin} et~al.,}{{Yakunin}
+  et~al.}{2010}]{yakunin_10}
+{Yakunin} K.~N.,  et~al., 2010, \mn@doi [Classical and Quantum Gravity]
+  {10.1088/0264-9381/27/19/194005}, \href
+  {http://adsabs.harvard.edu/abs/2010CQGra..27s4005Y} {27, 194005}
+
+\bibitem[\protect\citeauthoryear{{Yakunin} et~al.,}{{Yakunin}
+  et~al.}{2015}]{yakunin_15}
+{Yakunin} K.~N.,  et~al., 2015, \mn@doi [\prd] {10.1103/PhysRevD.92.084040},
+  \href {http://adsabs.harvard.edu/abs/2015PhRvD..92h4040Y} {92, 084040}
+
+\bibitem[\protect\citeauthoryear{{Yamasaki} \& {Foglizzo}}{{Yamasaki} \&
+  {Foglizzo}}{2008}]{yamasaki_08}
+{Yamasaki} T.,  {Foglizzo} T.,  2008, \mn@doi [\apj] {10.1086/587732}, \href
+  {http://adsabs.harvard.edu/abs/2008ApJ...679..607Y} {679, 607}
+
+\makeatother
+\end{thebibliography}

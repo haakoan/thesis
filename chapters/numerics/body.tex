@@ -1,0 +1,238 @@
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: "../../doktorarbeit"
+%%% End:
+\chapter{Numerical simulations of core-collapse supernovae}
+The GW signals presented in this thesis is based on 
+supernova simulations that were performed with the code \textsc{Prometheus-Vertex}.
+The simulations were carried out by members of the Garching-group 
+(\cite{hanke_phd,melson_phd,suma_models}).
+In this chapter we described the code that was used, we will
+describe the details of individual models in later chapters. 
+\textsc{Prometheus-Vertex} solves the combined problem of hydrodynamics and neutrino radiation transport.
+The code has been specifically developed for the core-collapse problem,
+the first version was developed in 2002 by \cite{rampp_02} 
+
+\section{\textsc{Prometheus}}
+The hydrodynamics of the stellar collapse is solved with a version of the
+well-established \textsc{Prometheus} code \citep{mueller_91,fryxell_91}. It solves the non-relativistic 
+equations of hydrodynamics for the inviscid flow of an ideal fluid in spherical coordinates $(r,\theta,\phi)$.
+\subsection{Hydrodynamics}
+In spherical coordinates the Euler equations of hydrodynamics are 
+\begin{alignat}{1}
+&\partial_t \rho + \frac{1}{r^2} \partial_r (r^2 \rho v_r) + \frac{1}{r \sin{\theta}} \bigg[ \partial_{\theta} (\rho \sin{\theta} v_{\theta}) + \partial_{\phi} (\rho v_{\phi}) \bigg] = 0, \label{eqN:cont} \\
+\stepcounter{equation}
+&\partial_t (\rho v_r) + \frac{1}{r \sin{\theta}} \bigg[ \partial_{\theta} (\rho \sin{\theta} v_{\theta} v_r)
++\partial_{\phi} (\rho v_{\phi} v_r) \bigg]  + \nonumber \\ 
+&\frac{1}{r^2} \partial_r (r^2 \rho v_r^2)  - \rho \frac{v_{\theta}^2 + v_{\phi}^2}{r} + \partial_r p 
+= - \rho \partial_r \Phi + Q_{M_r}, \tag{\theequation{}a} \\
+%
+&\partial_t (\rho v_{\theta}) + \frac{1}{r^2} \partial_r (r^2 \rho v_r v_{\theta}) + \frac{1}{r \sin{\theta}}\bigg[ \partial_{\theta} (\rho \sin{\theta} v_{\theta}^2) +
+\partial_{\phi} (\rho v_{\phi} v_{\theta}) \bigg] \nonumber \\
+&+\rho \frac{v_{\theta}v_r - v_{\phi}^2/\tan{\theta}}{r} + \frac{1}{r}\partial_{\theta} p = - \frac{\rho}{r} \partial_{\theta} \Phi + Q_{M_{\theta}}, \tag{\theequation{}b} \\
+%
+&\partial_t (\rho v_{\phi})  
++\frac{1}{r \sin{\theta}} \bigg[ \partial_{\theta} (\rho \sin{\theta} v_{\theta} v_{\phi}) +
+\partial_{\phi} (\rho v_{\phi}^2)  + \partial_{\phi} p  \bigg] \nonumber \\
+&+ \frac{1}{r^2} \partial_r (r^2 \rho v_r v_{\phi}) +
+\rho \frac{v_{\theta}v_{\phi}/\tan{\theta} + v_{\phi}v_r}{r}
+ = -\frac{1}{r \sin{\theta}} \partial_{\phi} \Phi + Q_{M_{\phi}}, \tag{\theequation{}c} \\
+%
+\stepcounter{equation}
+&\partial_t e + \frac{1}{r^2} \partial_r (r^2 v_r (e + p))
++\frac{1}{r \sin{\theta}} \bigg[ \partial_{\theta} ( \sin{\theta} v_{\theta} (e + p))  +
+\partial_{\phi} (v_{\phi} (e + p)) \bigg] \nonumber \\
+&= -\rho v_r \partial_r \Phi - \rho\frac{v_{\theta}}{r}\partial_{\theta}\Phi - \frac{v_{\phi}}{r \sin{\theta}} \partial_{\phi} \Phi
+ + Q_E + v_r Q_{M_r} + v_{\theta} Q_{M_{\theta}} + v_{\phi} Q_{M_{\phi}}.
+\end{alignat}
+Here $p$ is pressure, $\rho$ is density, $e$ is the specific total energy,  $\Phi$ is the gravitational potential and
+$v_r$, $v_{\theta}$, and $v_{\phi}$ are the velocity components in the spherical
+coordinate basis. The source terms $Q_{M_{r}}$, $Q_{M_{\theta}}$, and $Q_{M_{\phi}}$ represent
+momentum transfer by neutrinos, in the radial, polar, and azimuthal direction, respectively.
+Energy transport by neutrinos is represented by the source term $Q_{M_{E}}$. These source terms are calculated
+by the neutrino-transport module \textsc{Vertex}, which we will come back to them later in the chapter.
+The above equations have to be closed by an EoS, which generally will depend on 
+density, internal energy, and the chemical composition of the stellar matter.
+This means that one has to track of two additional quantities, the mass fractions
+of different nuclear species, denoted by $X_i$, and the electron fraction $Y_e$. We, therefore,
+have to solve two additional conservation equations:
+\begin{alignat}{1}
+\partial_t (\rho X_i) + \frac{1}{r^2} \partial_r (r^2 \rho v_r X_i) + \frac{1}{r \sin{\theta}} \bigg[ \partial_{\theta} (\rho \sin{\theta} v_{\theta} X_i) + \partial_{\phi} (\rho v_{\phi} X_i) \bigg] &= \varsigma_i, \label{eqN:contxi} \\
+\partial_t (\rho Y_e) + \frac{1}{r^2} \partial_r (r^2 \rho v_r Y_e) + \frac{1}{r \sin{\theta}} \bigg[ \partial_{\theta} (\rho \sin{\theta} v_{\theta} Y_e) + \partial_{\phi} (\rho v_{\phi} Y_e) \bigg] &= Q_{Y_e}. \label{eqN:contye}
+\end{alignat}
+The two terms $\varsigma_i$ and $Q_{Y_e}$ represents the change of composition of species $i$ due nuclear reactions
+and the change in electron fraction caused by emission and absorption of electron and anti-electron neutrinos,
+respectively. If the fluid reaches nuclear statistical equilibrium (NSE), then the chemical 
+composition is fully determined by the equation of state, through the electron fraction, density, and
+temperature.
+
+\textsc{Prometheus} solves the system of equations described in the paragraph above
+by means of a dimensionally-split implementation of the piecewise parabolic method of \cite{colella_84}.
+The scheme is time-explicit and it is accurate to third-order in space and second-order in time.
+The Riemann solver exactly solves 1D Riemann problems in so-called sweeps
+that have been obtained from the full 3D equations by Strange-splitting \citep{strang_68}.
+When strong shocks are encountered the solver switches to the ``HLLE'' solver \citep{einfeldt_88}.
+This is done in order to avoid the so-called ``even-odd decoupling'', which occurs
+when the shocks are aligned with one of the axes of the simulation grid \citep{quirk_94,kifonidis_03},
+which creates artificial oscillations. \textsc{Prometheus} employs the 
+consistent multi-fluid advection method of \cite{plewa_99} to ensure that the advection all the nuclear species
+is calculated accurately.
+
+\subsection{Equation of state}
+The models that this work is based on uses two different prescriptions
+for the EoS. A ``high-density'' EoS is used for the inner
+hot region of the core, while a ``low-density'' EoS is used for the low-density regions of the simulation volume. The two are separated by a density threshold,
+after core bounce this threshold is set to $\rho_T = 10^{11}$ g/cm$^3$.
+In the high-density regime the tabular EoS of 
+\cite{lattimer_91} with a nuclear incompressibility of 220 MeV is used. 
+Below the threshold, in the low-density regime, an EoS that describes the nuclei as
+classical Boltzmann gases. Electrons and positrons are described as Fermi gases with arbitrary degeneracy levels. The EoS also include the effect of photons \citep{janka_99}.
+
+\subsection{Self gravity - the effective potential}
+Self-gravity is treated using the monopole                      
+approximation and the effects of general relativity are accounted for                                               
+in an approximate fashion by means of a pseudo-relativistic                                                          
+effective potential (case~A of \cite{marek_06}). 
+The effective potential includes general relativistic effects and
+takes the properties of the medium into account, such as the pressure and energy
+of the fluid elements. In the case of a monopole potential, the terms involving
+non-radial derivatives of the potential in the Euler equations vanish.
+
+\section{\textsc{Vertex}}
+The \textsc{Vertex} code calculates the source terms on the right-hand side of the
+Euler equations by treating the neutrinos as a radiation field. 
+The problem we need to solve is to find the phase-space distribution function $f(\mathbf{r},\mathbf{q},t)$ of the neutrinos.
+Essentially we want to find the number of neutrinos momentum $\mathbf{q}$ at position $\mathbf{r}$, in other
+words the number of particles in the phase-space volume $\mathrm{d} \mathbf{q} \mathrm{d} \mathbf{r}$.
+
+It is common to work in terms of the specific intensity $\mathfrak{I}(\mathbf{r},\hat{n},\xi,t)$,
+which is defined such that the amount of energy $d\xi$ transported in the energy interval
+$(\xi,\xi+\mathrm{d}\xi)$, by neutrinos propagating into 
+the solid angel $\mathrm{d}\Omega$ in the direction $\hat{n}$,
+through a surface with area $\mathrm{d}A$, with normal vector $\hat{A} = \mathbf{r}/|\mathbf{r}|$, 
+during the time interval $\mathrm{d}t$ is
+\begin{equation} \label{eqN:intns}
+d \xi = \mathfrak{I}(\mathbf{r},\hat{n},\xi,t) \, \hat{n} \cdot \hat{A}
+\, \mathrm{d}\xi \, \mathrm{d}A \, \mathrm{d}\Omega \, \mathrm{d}t.
+\end{equation}
+The neutrino distribution function and the specific neutrino intensity is related as follows
+\begin{equation}
+\mathfrak{I}(\mathbf{r},\hat{n},\xi,t) = \frac{\xi^3}{h^3 c^2} f(\mathbf{r},\hat{n},\xi,t).
+\end{equation}
+The evolution of the specific neutrino intensity is calculated by solving the Boltzmann equation
+\begin{equation} \label{eqN:boltz}
+\frac{1}{c} \partial_t \mathfrak{I} + \hat{n}_i \partial_i \mathfrak{I} = \mathfrak{C} [\mathfrak{I}].
+\end{equation}
+The right hand side of \eq{eqN:boltz} is a source term that describes scattering, emission and absorption
+of neutrinos (the so-called collision integral). $\mathfrak{C} [\mathfrak{I}]$ will in general depend on integrals of the specific neutrino intensity, witch makes the problem difficult to solve numerically. 
+A common strategy is to expand the specific neutrino intensity into angular moments
+\begin{alignat}{2}
+\mathfrak{L}(\mathbf{r},\xi,t) &\equiv  \frac{1}{4\pi} \int \mathfrak{I} \, \mathrm{d} \Omega &&\qquad (\nth{0}-order), \\ 
+\mathfrak{H}_i(\mathbf{r},\xi,t) &\equiv  \frac{1}{4\pi} \int \mathfrak{I} \, \hat{n}_i \, \mathrm{d} \Omega &&\qquad (\nth{1}-order), \\
+\mathfrak{K}_{ij}(\mathbf{r},\xi,t) &\equiv  \frac{1}{4\pi} \int \mathfrak{I} \, \hat{n}_i \, \hat{n}_j \, \mathrm{d} \Omega &&\qquad (\nth{2}-\text{order}), \\
+& \ \ \vdots && \nonumber
+\end{alignat}
+and then solve the equations that arises when inserting these moments into \eq{eqN:boltz}
+\begin{align}
+\frac{1}{c} \partial_t \mathfrak{L} +  \partial_i \mathfrak{H}_i &= \frac{1}{4\pi} \int \mathfrak{C} [\mathfrak{I}] \mathrm{d} \Omega, \\
+\frac{1}{c} \partial_t \mathfrak{H}_i + \partial_i \mathfrak{K}_{ij} &= \frac{1}{4\pi} \int \mathfrak{C} [\mathfrak{I}] \hat{n}_i \mathrm{d} \Omega. \\
+& \ \ \vdots \nonumber
+\end{align}
+We see from these equations that the evolution of the $k^{\text{th}}$-order moment depends on $(k+1)^{\text{th}}$-order moment.
+
+The version of \textsc{Vertex} that is implemented into \textsc{Prometheus-Vertex} uses
+the so-called``ray-by-ray-plus'' approximation of \cite{buras_06a} (see \cite{hanke_phd} for details about the implementation).
+For each angular direction of the simulation grid a spherical symmetric radiation problem is solved
+with the ``ray-by-ray-plus'' method, by assuming that the radiation field is symmetric around the rays propagation direction.
+In other words, the code traces one ``ray'' per angular bin, this is what is known as the ``ray-by-ray'' method.
+In this case the angular moments of the specific neutrino intensity can be represented by scalars.
+Furthermore, the expansion of the specific neutrino intensity is truncated at $\nth{1}$-order and
+closed with a variable Eddington factor method. The two Eddington factors that are needed to close the system are the ratio of
+the $\nth{0}$-order and the $\nth{3}$-order scalar angular moments and the ratio of the $\nth{0}$-order and the $\nth{4}$-order scalar angular moments. The two factors are calculated from a simplified version of the Boltzmann equation in an iterative process until convergence within an acceptable error is reached. 
+\cite{buras_06b} found that it is necessary to the take non-radial advection of neutrinos and 
+the non-radial neutrino pressure gradients into account to avoid un-physical convection in the PNS. 
+The inclusion of these terms is what is meant by the ``plus'' in ``ray-by-ray plus''.
+
+\textsc{Vertex} solves the neutrino transport problem for three neutrino species, $\nu_e$, $\bar{\nu}_e$, and a species $\nu_X$ representing
+all heavy flavor neutrinos. 
+For the models that make the basis of this work, the neutrinos were binned into 12 logiartimicly spaced energy bins ranging from 0 to 380 MeV.  
+A more detail description of the numerical implementation, neutrino physics, and the \textsc{Vertex} in general can
+be found \cite{rampp_02}, \cite{hanke_phd}, and \cite{melson_phd}.
+
+\section{Grid setup}
+Since stars are, at least to lowest order, spherical objects it is advantagous to use a spherical grid when performing numerical simulations.
+\textsc{Prometheus-Vertex} can use two different spherical grids.
+
+\subsection{Spherical polar grid}
+The first grid available in \textsc{Prometheus-Vertex} is a standard spherical polar grid, 
+with mesh points $r_n \in [0, R]$, $\theta_n \in [0, \pi]$, and $\phi_n \in [0, 2\pi]$.
+The grid is logarithmic space in radius and the angular points are spaced equidistantly.  
+The structure of ``standard'' spherical polar $(r, \theta, \phi)$ has a few shortcomings that
+can be problematic when performing numerical simulations. 
+The grid contains coordinate singularities at the poles ($\theta = 0$ and $\theta = \pi$)
+and grid cells become smaller and smaller the closer one gets we get to the poles. This causes strong constraints on the time step and
+can even lead to numerical artifacts near the poles \citep{wongwathanarat_10a,mueller_15b}.
+
+\subsection{Yin-Yang grid}
+To avoid the problems encountered at the poles of a standard spherical grid, \cite{kageyama_04} proposed to
+construct a grid from two geometrically identical subgrids (called Yin and Yang). 
+The two sub-grids are both spherical and have identical local coordinates, their mesh points are defined as follows
+\begin{align}
+r_n^{Y} &\in [0, R], \\
+\theta_n^{Y} &\in [pi/4, 3\pi/4], \\
+\phi_n^{Y} &\in [-3pi/4, 3\pi/4].
+\end{align} 
+Here the superscript $Y$ referrers to either the \textit{Yin} or \textit{Yang}. While the two grids
+have identical local coordinates, they are rotated in respect to each other in such a way
+to cover the whole sphere. The two grids are orientated in such that if 
+the Cartesian coordinates of the \textit{Yin} grid are $(x^{Yin},y^{Yin},z^{Yin})$
+then the local Cartesian coordinates of the \textit{Yang} grid are
+\begin{equation}
+(x^{Yang},y^{Yang},z^{Yang}) = (-x^{Yin},z^{Yin},y^{Yin}).
+\end{equation} 
+The \textit{Yang} grid is rotated 90 degrees around the x-axis
+and 180 degrees around the y-axis of the \textit{Yin} grid. 
+This corresponds to the rotation matrix
+\begin{equation} \label{eqT:pij}
+R = 
+  \begin{pmatrix}
+    -1 & 0 & 0  \\
+    0 & 0 & 1 \\
+    0 & 1 & 0
+  \end{pmatrix}.
+\end{equation}
+
+With this prescription we avoid the problems that arise
+near the poles of a normal spherical grid.
+For more details about the implementation of the \textit{Yin}-\textit{Yang} grid
+in \textsc{Prometheus-Vertex} see \cite{melson_phd}.  
+
+% \begin{tikzpicture}
+% \foreach \t in {0,10,...,180}
+%     {\draw[black] ({2*cos(\t)},{2*sin(\t)},0)
+%          \foreach \rho in {5,10,...,360}
+%              {--({2*cos(\t)*cos(\rho)},{2*sin(\t)*cos(\rho)},
+%          {2*sin(\rho)})}--cycle;
+%     }
+% \foreach \t in {-90,-85,...,90}% parallels
+%         {\draw[black] ({2*cos(\t)},0,{2*sin(\t)})
+%      \foreach \rho in {5,10,...,360}
+%      {--({2*cos(\t)*cos(\rho)},{2*cos(\t)*sin(\rho)},
+%              {2*sin(\t)})}--cycle;
+%     } 
+% \end{tikzpicture}
+% \begin{tikzpicture}
+% \foreach \t in {45,55,...,135}
+%     {\draw[black] ({2*cos(\t)},{2*sin(\t)},0)
+%          \foreach \rho in {-135,-125,...,135}
+%              {--({2*cos(\t)*cos(\rho)},{2*sin(\t)*cos(\rho)},
+%          {2*sin(\rho)})}--cycle;
+%     }
+% % \foreach \t in {-90,-85,...,90}% parallels
+% %         {\draw[black] ({2*cos(\t)},0,{2*sin(\t)})
+% %      \foreach \rho in {5,10,...,360}
+% %      {--({2*cos(\t)*cos(\rho)},{2*cos(\t)*sin(\rho)},
+% %              {2*sin(\t)})}--cycle;
+% %     } 
+%\end{tikzpicture}
