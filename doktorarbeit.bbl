@@ -36,6 +36,10 @@
   {10.1088/0004-637X/733/2/78}, \href
   {http://adsabs.harvard.edu/abs/2011ApJ...733...78A} {733, 78}
 
+\bibitem[\protect\citeauthoryear{{Beck} et~al.,}{{Beck} et~al.}{2012}]{beck_12}
+{Beck} P.~G.,  et~al., 2012, \mn@doi [\nat] {10.1038/nature10612}, \href
+  {http://cdsads.u-strasbg.fr/abs/2012Natur.481...55B} {481, 55}
+
 \bibitem[\protect\citeauthoryear{{Bethe}}{{Bethe}}{1990}]{bethe_90}
 {Bethe} H.~A.,  1990, \mn@doi [Rev.~Mod.~Phys.] {10.1103/RevModPhys.62.801},
   \href {http://adsabs.harvard.edu/abs/1990RvMP...62..801B} {62, 801}
@@ -152,6 +156,11 @@ Clarendon, Oxford
   {Ott}}{2015}]{couch_15}
 {Couch} S.~M.,  {Ott} C.~D.,  2015, \mn@doi [\apj] {10.1088/0004-637X/799/1/5},
   \href {http://adsabs.harvard.edu/abs/2015ApJ...799....5C} {799, 5}
+
+\bibitem[\protect\citeauthoryear{{Deheuvels} et~al.,}{{Deheuvels}
+  et~al.}{2014}]{deheuvels_14}
+{Deheuvels} S.,  et~al., 2014, \mn@doi [\aap] {10.1051/0004-6361/201322779},
+  \href {http://cdsads.u-strasbg.fr/abs/2014A%26A...564A..27D} {564, A27}
 
 \bibitem[\protect\citeauthoryear{{Dimmelmeier}, {Font}  \&
   {M{\"u}ller}}{{Dimmelmeier} et~al.}{2002}]{dimmelmeier_02_a}
@@ -476,6 +485,11 @@ Kageyama A.,  Sato T.,  2004, \mn@doi [Geochemistry, Geophysics, Geosystems]
 {Minkowski} R.,  1941, \mn@doi [\pasp] {10.1086/125315}, \href
   {http://adsabs.harvard.edu/abs/1941PASP...53..224M} {53, 224}
 
+\bibitem[\protect\citeauthoryear{{Mosser} et~al.,}{{Mosser}
+  et~al.}{2012}]{mosser_12}
+{Mosser} B.,  et~al., 2012, \mn@doi [\aap] {10.1051/0004-6361/201220106}, \href
+  {http://cdsads.u-strasbg.fr/abs/2012A%26A...548A..10M} {548, A10}
+
 \bibitem[\protect\citeauthoryear{{M\"uller}}{{M\"uller}}{1982}]{mueller_82}
 {M\"uller} E.,  1982, \aap, \href
   {http://adsabs.harvard.edu/abs/1982A26A...114...53M} {114, 53}
@@ -753,6 +767,11 @@ Oohara K.-i.,  Nakamura T.,   Shibata M.,  1997, \mn@doi [Progress of
 {Viallet} M.,  {Meakin} C.,  {Arnett} D.,   {Moc{\'a}k} M.,  2013, \mn@doi
   [\apj] {10.1088/0004-637X/769/1/1}, \href
   {http://cdsads.u-strasbg.fr/abs/2013ApJ...769....1V} {769, 1}
+
+\bibitem[\protect\citeauthoryear{{Vranesevic} et~al.,}{{Vranesevic}
+  et~al.}{2004}]{vranesevic_04}
+{Vranesevic} N.,  et~al., 2004, \mn@doi [\apjl] {10.1086/427208}, \href
+  {http://cdsads.u-strasbg.fr/abs/2004ApJ...617L.139V} {617, L139}
 
 \bibitem[\protect\citeauthoryear{{Wilson}}{{Wilson}}{1985}]{wilson_85}
 {Wilson} J.~R.,  1985, in {Centrella} J.~M.,  {Leblanc} J.~M.,   {Bowers}
