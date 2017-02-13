@@ -7,6 +7,8 @@
     "figp2:sasi"
     "figp2:amps"
     "figp2:spec"
-    "figp2:sto"))
+    "figp2:energy_spectra"
+    "figp2:sto"
+    "tablep2:SNR"))
  :latex)
 

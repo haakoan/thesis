@@ -129,7 +129,7 @@ strength, until the end of the simulation.
   situated along the $z$-axis (pole; left) and an other observer along the $x$-axis (equator; right) of the Yin grid patch, respectively.
   Episodes of strong SASI activity occur between the vertical red lines.  \label{figp2:amps}}
 \end{figure}
-\begin{figure}[ht]
+\begin{figure}
 \centering                            
 \includegraphics[width=0.99\textwidth]{./images/paper2/rotspec.pdf}
 \caption{Amplitude spectrograms for a sliding window of 50 ms and two different observer
@@ -141,6 +141,31 @@ strength, until the end of the simulation.
   The time is given in ms after core bounce. Vertical lines bracket SASI episodes. All panels have been normalised by the same global factor.
   The colour bar is given in a logarithmic scale. \label{figp2:spec}}
 \end{figure}
+
+
+\subsubsection{Time-integrated energy spectra}
+\begin{figure}
+\centering                            
+\includegraphics[width=0.79\linewidth]{./images/paper2/dedv_rot.pdf}
+\caption{Time-integrated GW energy spectra $\ud E/ \ud f$ for models m15fr,
+m15r, and  m15nr (top to bottom). The spectra
+are computed from the Fourier transform of the entire waveform
+without applying a window function. The y-axis is given in a logarithmic scale.
+\label{figp2:energy_spectra}}
+\end{figure}
+Time-integrated energy spectra for each of the models are shown
+in Fig.~\ref{figp2:energy_spectra}. These are computed from
+the Cartesian components of the mass quadrupole tensor, according to
+\eq{eqT:dedf} and .
+
+Model m15fr shows a rather flat spectrum, with strong emission over a wide range of frequencies, but
+the model has a clear peak around $\sim 75-100$ Hz. The slower rotating model m15r, which does not
+develop strong SASI ossilations, emits much less energy at low frequencies. However, this model also
+exhibits a peak in the energy spectrum at frequencies similar to $\sim 75-100$ Hz, but
+this peak is much weaker than the one seen in model m15fr.
+The energy spectrum of model m15nr is a hybrid between the spectrum of the two previous models. 
+As model m15fr, there is a significant ammount of energy radiatated away by GWs below 300 Hz, but 
+the spectrum is not as flat as the one of model m15fr. 
 
 \section{Excitation of gravitational waves}
 In chapter~\ref{ch:firstpaper} we studied the hydrodynamical instabilities responsible for GW emission in detail.
@@ -214,6 +239,8 @@ The reduction of GWs emitted from the PNS can also be seen in model m15fr. After
 the accretion rate onto the central object decreases and the violent downflows created by strong SASI activity 
 ceases to exist. At the same time there is a strong reduction in the GW signal. This indicates
 that excitation of surface g-modes from above is the main source of high-frequency GW emission.
+This is in strong contrast to model s20s, where activity within the PNS increased after
+the onset of shock revival and consequently led to a strong increase of the GW signal.
 
 \section{The standing accretion shock instability, rotation, and resolution}
 There is no clear connection between development of SASI activity and the progenitor's initial rotation rate,
@@ -241,6 +268,72 @@ shock revival.
 Whether rotation suppresses the growth of SASI activity in model m15r or if SASI activity develops
 artificially in model m15nr because of insufficient angular resolution, the absence of strong SASI activity in model
 m15r reduces the over all strength of the GW signal. 
+
+\section{Detection prospects}
+Following the procedure laid out in section~\ref{sec:obs}, we calculate the possibility of detecting models m15fr, m15r, and m15nr.
+In order evaluate the possible of differentiating models with and without strong SASI activity (strong low-frequency emission)
+the GW signal, we compute SNRs in three frequency bands.
+The three bands are: the low-frequency band ($f \in [20,250)$, $\delta f= 230$), the
+high-frequency band ($f \in [250,1200)$, $\delta f= 950$), and the whole frequency range
+($f \in [20,1200)$,  $\delta f= 230$).
+For the three bands we find, by inserting $\delta f$ to \eq{eq:snr_band2} and assuming that the
+signal length $\Delta t \sim 0.5$, detection thresholds of $\mathrm{SNR}_\mathrm{low} \gtrsim 11$, 
+$\mathrm{SNR}_\mathrm{high} \gtrsim 15$, $\mathrm{SNR}_\mathrm{whole} \gtrsim 20$ for the
+low-frequency band, the high-frequency band, and ``whole-frequency'' band, respectively.
+As in chapter~\ref{ch:firstpaper}, we calculate the SNR from Eq.~(\ref{eq:snr}) for the zero-detuning-high power configuration
+of Advanced LIGO \citep{adv_sens} and the B \citep{et_b} and C \citep{et_c} configurations for the Einstein
+telescope. These configurations are referred to as as AdvLIGO, ET-B and ET-C.
+\begin{table}[]
+\caption{Signal-to-noise ratio for models m15fr, m15r, and m15nr. Values
+are given for two different frequency domains, $20\ldots 250 \, \mathrm{Hz}$
+(low-frequency), $250\ldots 1200 \, \mathrm{Hz}$ (high-frequency), and
+for the whole frequency domain, $20 \ldots 120$. 
+The table shows values for two different
+detectors, AdvLIGO and the Einstein Telescope. 
+For the latter we calculate the SNR for two
+different modes of operation (ET-B and ET-C). The table show SNRs for a source 
+at a distance of $10 \, \mathrm{kpc}$. 
+The three tables show SNRs for model m15fr, model m15r, and model m15nr (from top to bottom). 
+\label{tablep2:SNR}}
+\begin{subtable}{.95\linewidth}
+\centering
+\begin{tabular}{>{\centering}m{5cm}|>{\centering}m{1.5cm}|>{\centering}m{1.5cm}|>{\centering}m{1.5cm}|l}
+\multicolumn{1}{l|}{m15fr}   & Low   & High & Total & Low/High \\ \hline
+\multicolumn{1}{l|}{AdVLIGO} & 10.8  & 4.9  & 11.9  & 2.20          \\ \hline
+\multicolumn{1}{l|}{ET-C}    & 133.2 & 67.6 & 149.4 & 1.97          \\ \hline
+\multicolumn{1}{l|}{ET-B}    & 224.6 & 83.5 & 239.6 & 2.69          \\ 
+\end{tabular}
+\end{subtable}
+\newline
+\vspace{.5 cm}
+\newline
+\begin{subtable}{.95\linewidth}
+\centering
+\begin{tabular}{>{\centering}m{5cm}|>{\centering}m{1.5cm}|>{\centering}m{1.5cm}|>{\centering}m{1.5cm}|l}
+\multicolumn{1}{l|}{m15r}     & Low  & High & Total & Low/High \\ \hline
+\multicolumn{1}{l|}{AdVLIGO}  & 2.6  & 2.4  & 3.5   & 1.08          \\ \hline
+\multicolumn{1}{l|}{ET-C}     & 32.2 & 34.4 & 47.1  & 0.93          \\ \hline
+\multicolumn{1}{l|}{ET-B}     & 53.7 & 41.1 & 67.7  & 1.30          \\ 
+\end{tabular}
+\end{subtable}
+\newline
+\vspace{.5 cm}
+\newline
+\begin{subtable}{.95\linewidth}
+\centering
+\begin{tabular}{>{\centering}m{5cm}|>{\centering}m{1.5cm}|>{\centering}m{1.5cm}|>{\centering}m{1.5cm}|l}
+\multicolumn{1}{l|}{m15nr}   & Low  & High & Total & Low/High \\ \hline 
+\multicolumn{1}{l|}{AdVLIGO} & 3.5  & 4.3  & 5.5   & 0.81     \\ \hline
+\multicolumn{1}{l|}{ET-C}    & 46.5 & 59.3 & 75.2  & 0.78     \\ \hline
+\multicolumn{1}{l|}{ET-B}    & 74.0 & 72.0 & 103.2 & 1.02     \\ 
+\end{tabular}
+\end{subtable}
+\end{table}
+
+In the low-frequency band the SNR of model m15fr is roughly equal to that of model s20s in the same band and, for
+all the three detector configurations. The strong spiral SASI activity and the reduced high-frequency emission,
+due to dampening of PNS convection by rotation, leads to a high ratio between the $\mathrm{SNR}_\mathrm{low}$
+and $\mathrm{SNR}_\mathrm{high}$.
 
 \section{Conclusion and discussion}
 In this chapter we studied progenitor rotation affects the GW signal of core collapse supernovae.
@@ -300,8 +393,22 @@ is expected from sate of the art stellar evolution calculations \citep{heger_05}
 We find no qualative difference between the GW signals from rotating models and we must conclude that
 a stochasic signal with amplitudes of few cm seems to be the generic 3D core collapse GW signal.
 This means that moderate to low progenitor rotation will not significantly increase the detectability of 
-GWs from core-collapse supernovae. In fact, it might be that rotation decreases the signal strength and consequently make them harder to detect. 
+GWs from core-collapse supernovae. In fact, it might be that rotation decreases the signal strength and 
+consequently make them harder to detect. 
 
+The fact model m15nr, the non-rotating model, has a angular resolution that is two times lower
+(four versus two degrees) than the two other models makes it difficult to draw strong conclusion 
+about how low-frequency signal changes with increasing rotation. It might be that model m15nr
+develops an artificially strong spiral SASI mode due to the lower resolution, but it is also 
+possible that rotation quenches the spiral mode in model m15r. Another weakness of the three
+models is that they all start from a from spherically symmetric progenitor models. It is 
+not realistic to expect starts to be perfectly spherical symmetric objects.
+It has, in fact, been found that asymmetries in the burning shells of the progenitor can 
+influence the shock dynamics and even help to ensure a
+successful explosion \citep{burrows_96,fryer_04,arnett_11,couch_13,mueller_15a}. In 
+a rotating progenitor such inhomogeneities could lead to a sizable emission of GWs
+during the collapse and right after core bounce. The long period of quiescence 
+after bounce could be an artifact of the spherical symmetric progenitors.
 
 
 

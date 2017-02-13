@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.2.12)  12 FEB 2017 16:04
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.1.11)  13 FEB 2017 18:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **doktorarbeit.tex
 (./doktorarbeit.tex
 LaTeX2e <2011/06/27>
-Babel <3.9h> and hyphenation patterns for 78 languages loaded.
+Babel <3.9h> and hyphenation patterns for 34 languages loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrbook.cls
 Document Class: scrbook 2013/12/19 v3.12 KOMA-Script document class (book)
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrkbase.sty
@@ -120,6 +120,8 @@ File: babel.def 2013/12/03 3.9h Babel common definitions
 \babel@savecnt=\count89
 \U@D=\dimen103
 )
+\l@british = a dialect from \language\l@english 
+\l@UKenglish = a dialect from \language\l@english 
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
@@ -1817,17 +1819,17 @@ Package xypdf Info: Line width: 0.47998pt on input line 256.
 
 ABD: EveryShipout initializing macros
 Package epstopdf Info: Source file: <front_page/tum.eps>
-(epstopdf)                    date: 2017-02-11 19:56:22
+(epstopdf)                    date: 2017-01-11 14:55:59
 (epstopdf)                    size: 245974 bytes
 (epstopdf)             Output file: <front_page/tum-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-02-11 19:56:22
+(epstopdf)                    date: 2017-01-11 14:55:59
 (epstopdf)                    size: 2705 bytes
 (epstopdf)             Command: <repstopdf --outfile=front_page/tum-eps-convert
 ed-to.pdf front_page/tum.eps>
 (epstopdf)             \includegraphics on input line 267.
 Package epstopdf Info: Output file is already uptodate.
 
-<front_page/tum-eps-converted-to.pdf, id=236, 54.2025pt x 29.10875pt>
+<front_page/tum-eps-converted-to.pdf, id=240, 54.2025pt x 29.10875pt>
 File: front_page/tum-eps-converted-to.pdf Graphic file (type pdf)
 
 <use front_page/tum-eps-converted-to.pdf>
@@ -1835,17 +1837,17 @@ Package pdftex.def Info: front_page/tum-eps-converted-to.pdf used on input line
  267.
 (pdftex.def)             Requested size: 113.81102pt x 61.12839pt.
 Package epstopdf Info: Source file: <front_page/mpa.eps>
-(epstopdf)                    date: 2017-02-11 19:56:22
+(epstopdf)                    date: 2017-01-11 14:55:59
 (epstopdf)                    size: 205952 bytes
 (epstopdf)             Output file: <front_page/mpa-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-02-11 19:56:22
+(epstopdf)                    date: 2017-01-11 14:55:59
 (epstopdf)                    size: 6836 bytes
 (epstopdf)             Command: <repstopdf --outfile=front_page/mpa-eps-convert
 ed-to.pdf front_page/mpa.eps>
 (epstopdf)             \includegraphics on input line 267.
 Package epstopdf Info: Output file is already uptodate.
 
-<front_page/mpa-eps-converted-to.pdf, id=237, 286.06876pt x 129.48375pt>
+<front_page/mpa-eps-converted-to.pdf, id=241, 286.06876pt x 129.48375pt>
 File: front_page/mpa-eps-converted-to.pdf Graphic file (type pdf)
 
 <use front_page/mpa-eps-converted-to.pdf>
@@ -1949,7 +1951,7 @@ Overfull \hbox (1.04533pt too wide) in paragraph at lines 201--206
 .
  []
 
-[13] [14] [15]) [16] [17] [18
+[13] [14] [15] [16]) [17] [18
 
 
 ] (./chapters/numerics/body.tex
@@ -2045,7 +2047,7 @@ Class scrbook Warning: Usage of deprecated font command `\bf'!
 (scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
 (scrbook)              by `\normalfont \bfseries ' on input line 217.
 
-<./images/chp1/fig1.pdf, id=1084, 1538.58812pt x 1637.94933pt>
+<./images/chp1/fig1.pdf, id=1089, 1538.58812pt x 1637.94933pt>
 File: ./images/chp1/fig1.pdf Graphic file (type pdf)
 
 <use ./images/chp1/fig1.pdf>
@@ -2066,138 +2068,137 @@ Class scrbook Warning: Usage of deprecated font command `\bf'!
 (scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
 (scrbook)              by `\normalfont \bfseries ' on input line 295.
 
-[35] [36] <./images/chp1/fig2.pdf, id=1218, 1250.93349pt x 1039.54376pt>
+[35] [36] <./images/chp1/fig2.pdf, id=1223, 1250.93349pt x 1039.54376pt>
 File: ./images/chp1/fig2.pdf Graphic file (type pdf)
 
 <use ./images/chp1/fig2.pdf>
-Package pdftex.def Info: ./images/chp1/fig2.pdf used on input line 477.
+Package pdftex.def Info: ./images/chp1/fig2.pdf used on input line 398.
 (pdftex.def)             Requested size: 456.11655pt x 379.0417pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [37]
-[38 <./images/chp1/fig2.pdf>] [39]
-<./images/chp1/fig3.pdf, id=1268, 1757.52606pt x 1304.7445pt>
+ [37] [38 <./images/chp1/fig2.pdf>] [39]
+<./images/chp1/fig3.pdf, id=1266, 1757.52606pt x 1304.7445pt>
 File: ./images/chp1/fig3.pdf Graphic file (type pdf)
 
 <use ./images/chp1/fig3.pdf>
-Package pdftex.def Info: ./images/chp1/fig3.pdf used on input line 573.
+Package pdftex.def Info: ./images/chp1/fig3.pdf used on input line 479.
 (pdftex.def)             Requested size: 456.11655pt x 338.6084pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 573--582
+Underfull \hbox (badness 10000) in paragraph at lines 479--488
 
  []
 
 
-LaTeX Warning: Reference `eq:STFQ' on page 40 undefined on input line 589.
+LaTeX Warning: Reference `eq:STFQ' on page 40 undefined on input line 495.
 
 [40] [41 <./images/chp1/fig3.pdf>]
-<./images/chp1/fig4.pdf, id=1291, 247.92625pt x 206.7725pt>
+<./images/chp1/fig4.pdf, id=1294, 247.92625pt x 206.7725pt>
 File: ./images/chp1/fig4.pdf Graphic file (type pdf)
 
 <use ./images/chp1/fig4.pdf>
-Package pdftex.def Info: ./images/chp1/fig4.pdf used on input line 646.
+Package pdftex.def Info: ./images/chp1/fig4.pdf used on input line 552.
 (pdftex.def)             Requested size: 456.11655pt x 380.43445pt.
 
-<./images/chp1/fig5.pdf, id=1296, 678.535pt x 675.52374pt>
+<./images/chp1/fig5.pdf, id=1299, 678.535pt x 675.52374pt>
 File: ./images/chp1/fig5.pdf Graphic file (type pdf)
 
 <use ./images/chp1/fig5.pdf>
-Package pdftex.def Info: ./images/chp1/fig5.pdf used on input line 667.
+Package pdftex.def Info: ./images/chp1/fig5.pdf used on input line 573.
 (pdftex.def)             Requested size: 225.75594pt x 224.74797pt.
- [42] [43 <./images/chp1/fig4.pdf>]
 
-LaTeX Warning: Reference `eq:STFQ' on page 44 undefined on input line 688.
 
-<./images/chp1/fig6a.pdf, id=1351, 1036.72316pt x 632.39264pt>
+LaTeX Warning: Reference `eq:STFQ' on page 42 undefined on input line 594.
+
+<./images/chp1/fig6a.pdf, id=1311, 1036.72316pt x 632.39264pt>
 File: ./images/chp1/fig6a.pdf Graphic file (type pdf)
 
 <use ./images/chp1/fig6a.pdf>
-Package pdftex.def Info: ./images/chp1/fig6a.pdf used on input line 707.
+Package pdftex.def Info: ./images/chp1/fig6a.pdf used on input line 613.
 (pdftex.def)             Requested size: 225.75594pt x 137.70833pt.
 
-<./images/chp1/fig6b.pdf, id=1352, 1036.72316pt x 632.39264pt>
+<./images/chp1/fig6b.pdf, id=1312, 1036.72316pt x 632.39264pt>
 File: ./images/chp1/fig6b.pdf Graphic file (type pdf)
 
 <use ./images/chp1/fig6b.pdf>
-Package pdftex.def Info: ./images/chp1/fig6b.pdf used on input line 708.
+Package pdftex.def Info: ./images/chp1/fig6b.pdf used on input line 614.
 (pdftex.def)             Requested size: 225.75594pt x 137.70833pt.
 
-<./images/chp1/fig6d.pdf, id=1353, 1036.72316pt x 632.39264pt>
+<./images/chp1/fig6d.pdf, id=1313, 1036.72316pt x 632.39264pt>
 File: ./images/chp1/fig6d.pdf Graphic file (type pdf)
 
 <use ./images/chp1/fig6d.pdf>
-Package pdftex.def Info: ./images/chp1/fig6d.pdf used on input line 710.
+Package pdftex.def Info: ./images/chp1/fig6d.pdf used on input line 616.
 (pdftex.def)             Requested size: 225.75594pt x 137.70833pt.
 
-<./images/chp1/fig6c.pdf, id=1354, 1036.72316pt x 632.39264pt>
+<./images/chp1/fig6c.pdf, id=1314, 1036.72316pt x 632.39264pt>
 File: ./images/chp1/fig6c.pdf Graphic file (type pdf)
 
 <use ./images/chp1/fig6c.pdf>
-Package pdftex.def Info: ./images/chp1/fig6c.pdf used on input line 711.
+Package pdftex.def Info: ./images/chp1/fig6c.pdf used on input line 617.
 (pdftex.def)             Requested size: 225.75594pt x 137.70833pt.
 
 
-LaTeX Warning: Reference `eq:aplus' on page 44 undefined on input line 725.
+LaTeX Warning: Reference `eq:aplus' on page 42 undefined on input line 631.
 
 
-LaTeX Warning: Reference `eq:ax' on page 44 undefined on input line 725.
+LaTeX Warning: Reference `eq:ax' on page 42 undefined on input line 631.
 
 
-LaTeX Warning: Reference `eq:aplus' on page 44 undefined on input line 725.
+LaTeX Warning: Reference `eq:aplus' on page 42 undefined on input line 631.
 
 
-LaTeX Warning: Reference `eq:ax' on page 44 undefined on input line 725.
+LaTeX Warning: Reference `eq:ax' on page 42 undefined on input line 631.
 
-[44 <./images/chp1/fig5.pdf>] [45 <./images/chp1/fig6a.pdf> <./images/chp1/fig6
-b.pdf> <./images/chp1/fig6d.pdf> <./images/chp1/fig6c.pdf>] [46]
-<./images/chp1/fig7.pdf, id=1468, 1229.59375pt x 817.0525pt>
+[42] [43 <./images/chp1/fig4.pdf>]
+Underfull \vbox (badness 1466) has occurred while \output is active []
+
+ [44 <./images/chp1/fig5.pdf>] [45 <./images/chp1/fig6a.pdf> <./images/chp1/fig
+6b.pdf> <./images/chp1/fig6d.pdf> <./images/chp1/fig6c.pdf>]
+<./images/chp1/fig7.pdf, id=1462, 1229.59375pt x 817.0525pt>
 File: ./images/chp1/fig7.pdf Graphic file (type pdf)
 
 <use ./images/chp1/fig7.pdf>
-Package pdftex.def Info: ./images/chp1/fig7.pdf used on input line 817.
+Package pdftex.def Info: ./images/chp1/fig7.pdf used on input line 723.
 (pdftex.def)             Requested size: 207.32315pt x 137.76257pt.
-
-<./images/chp1/fig8a.pdf, id=1473, 1061.24483pt x 562.83272pt>
+ [46]
+<./images/chp1/fig8a.pdf, id=1472, 1061.24483pt x 562.83272pt>
 File: ./images/chp1/fig8a.pdf Graphic file (type pdf)
 
 <use ./images/chp1/fig8a.pdf>
-Package pdftex.def Info: ./images/chp1/fig8a.pdf used on input line 828.
+Package pdftex.def Info: ./images/chp1/fig8a.pdf used on input line 734.
 (pdftex.def)             Requested size: 221.14421pt x 117.27942pt.
 
-<./images/chp1/fig8b.pdf, id=1474, 962.79701pt x 539.7967pt>
+<./images/chp1/fig8b.pdf, id=1473, 962.79701pt x 539.7967pt>
 File: ./images/chp1/fig8b.pdf Graphic file (type pdf)
 
 <use ./images/chp1/fig8b.pdf>
-Package pdftex.def Info: ./images/chp1/fig8b.pdf used on input line 829.
+Package pdftex.def Info: ./images/chp1/fig8b.pdf used on input line 735.
 (pdftex.def)             Requested size: 221.14421pt x 123.98589pt.
 
-<./images/chp1/fig8c.pdf, id=1475, 1061.24483pt x 562.83272pt>
+<./images/chp1/fig8c.pdf, id=1474, 1061.24483pt x 562.83272pt>
 File: ./images/chp1/fig8c.pdf Graphic file (type pdf)
 
 <use ./images/chp1/fig8c.pdf>
-Package pdftex.def Info: ./images/chp1/fig8c.pdf used on input line 830.
+Package pdftex.def Info: ./images/chp1/fig8c.pdf used on input line 736.
 (pdftex.def)             Requested size: 221.14421pt x 117.27942pt.
 
-<./images/chp1/fig8d.pdf, id=1476, 962.79701pt x 534.79799pt>
+<./images/chp1/fig8d.pdf, id=1475, 962.79701pt x 534.79799pt>
 File: ./images/chp1/fig8d.pdf Graphic file (type pdf)
 
 <use ./images/chp1/fig8d.pdf>
-Package pdftex.def Info: ./images/chp1/fig8d.pdf used on input line 831.
+Package pdftex.def Info: ./images/chp1/fig8d.pdf used on input line 737.
 (pdftex.def)             Requested size: 221.14421pt x 122.83774pt.
 
-<./images/chp1/fig9a.pdf, id=1477, 1029.34563pt x 628.82928pt>
+<./images/chp1/fig9a.pdf, id=1476, 1029.34563pt x 628.82928pt>
 File: ./images/chp1/fig9a.pdf Graphic file (type pdf)
 
 <use ./images/chp1/fig9a.pdf>
-Package pdftex.def Info: ./images/chp1/fig9a.pdf used on input line 840.
+Package pdftex.def Info: ./images/chp1/fig9a.pdf used on input line 746.
 (pdftex.def)             Requested size: 207.32315pt x 126.64638pt.
 
-<./images/chp1/fig9b.pdf, id=1478, 1030.19879pt x 629.42152pt>
+<./images/chp1/fig9b.pdf, id=1477, 1030.19879pt x 629.42152pt>
 File: ./images/chp1/fig9b.pdf Graphic file (type pdf)
 
 <use ./images/chp1/fig9b.pdf>
-Package pdftex.def Info: ./images/chp1/fig9b.pdf used on input line 841.
+Package pdftex.def Info: ./images/chp1/fig9b.pdf used on input line 747.
 (pdftex.def)             Requested size: 207.32315pt x 126.66pt.
 
 
@@ -2212,10 +2213,11 @@ Class scrbook Warning: Usage of deprecated font command `\bf'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\bf' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrbook)              by `\normalfont \bfseries ' on input line 867.
+(scrbook)              by `\normalfont \bfseries ' on input line 773.
 
-[47] [48 <./images/chp1/fig7.pdf> <./images/chp1/fig8a.pdf> <./images/chp1/fig8
-b.pdf> <./images/chp1/fig8c.pdf> <./images/chp1/fig8d.pdf>]
+[47 <./images/chp1/fig7.pdf>] [48 <./images/chp1/fig8a.pdf> <./images/chp1/fig8
+b.pdf> <./images/chp1/fig8c.pdf> <./images/chp1/fig8d.pdf> <./images/chp1/fig9a
+.pdf> <./images/chp1/fig9b.pdf>]
 
 Class scrbook Warning: Usage of deprecated font command `\bf'!
 (scrbook)              You should note, that in 1994 font command `\bf' has
@@ -2228,71 +2230,73 @@ Class scrbook Warning: Usage of deprecated font command `\bf'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\bf' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrbook)              by `\normalfont \bfseries ' on input line 881.
+(scrbook)              by `\normalfont \bfseries ' on input line 787.
 
-[49 <./images/chp1/fig9a.pdf> <./images/chp1/fig9b.pdf>]
-<./images/chp1/fig10.pdf, id=1613, 955.57pt x 617.30624pt>
+[49] <./images/chp1/fig10.pdf, id=1611, 955.57pt x 617.30624pt>
 File: ./images/chp1/fig10.pdf Graphic file (type pdf)
 
 <use ./images/chp1/fig10.pdf>
-Package pdftex.def Info: ./images/chp1/fig10.pdf used on input line 964.
+Package pdftex.def Info: ./images/chp1/fig10.pdf used on input line 870.
 (pdftex.def)             Requested size: 225.75594pt x 145.83937pt.
- [50]
-<./images/chp1/fig11.pdf, id=1618, 1673.77322pt x 504.76581pt>
+
+<./images/chp1/fig11.pdf, id=1612, 1673.77322pt x 504.76581pt>
 File: ./images/chp1/fig11.pdf Graphic file (type pdf)
 
 <use ./images/chp1/fig11.pdf>
-Package pdftex.def Info: ./images/chp1/fig11.pdf used on input line 972.
+Package pdftex.def Info: ./images/chp1/fig11.pdf used on input line 878.
 (pdftex.def)             Requested size: 456.11655pt x 137.55173pt.
 
-<./images/chp1/fig12.pdf, id=1627, 990.30977pt x 509.00163pt>
+<./images/chp1/fig12.pdf, id=1621, 990.30977pt x 509.00163pt>
 File: ./images/chp1/fig12.pdf Graphic file (type pdf)
 
 <use ./images/chp1/fig12.pdf>
-Package pdftex.def Info: ./images/chp1/fig12.pdf used on input line 986.
+Package pdftex.def Info: ./images/chp1/fig12.pdf used on input line 892.
 (pdftex.def)             Requested size: 221.14421pt x 113.65831pt.
 
-<./images/chp1/fig13a.pdf, id=1628, 646.415pt x 483.8075pt>
+<./images/chp1/fig13a.pdf, id=1622, 646.415pt x 483.8075pt>
 File: ./images/chp1/fig13a.pdf Graphic file (type pdf)
 
 <use ./images/chp1/fig13a.pdf>
-Package pdftex.def Info: ./images/chp1/fig13a.pdf used on input line 993.
+Package pdftex.def Info: ./images/chp1/fig13a.pdf used on input line 899.
 (pdftex.def)             Requested size: 225.75594pt x 168.96605pt.
 
-<./images/chp1/fig13b.pdf, id=1629, 646.415pt x 496.85625pt>
+<./images/chp1/fig13b.pdf, id=1623, 646.415pt x 496.85625pt>
 File: ./images/chp1/fig13b.pdf Graphic file (type pdf)
 
 <use ./images/chp1/fig13b.pdf>
-Package pdftex.def Info: ./images/chp1/fig13b.pdf used on input line 995.
+Package pdftex.def Info: ./images/chp1/fig13b.pdf used on input line 901.
 (pdftex.def)             Requested size: 225.75594pt x 173.52321pt.
+ [50] [51 <./images/chp1/fig10.pdf> <./images/chp1/fig11.pdf>] [52 <./images/ch
+p1/fig12.pdf> <./images/chp1/fig13a.pdf> <./images/chp1/fig13b.pdf>]
+
+LaTeX Warning: Reference `eq:STFQ' on page 53 undefined on input line 933.
 
 
-LaTeX Warning: Reference `eq:STFQ' on page 51 undefined on input line 1027.
+LaTeX Warning: Reference `eq:STFQ' on page 53 undefined on input line 938.
 
 
-LaTeX Warning: Reference `eq:STFQ' on page 51 undefined on input line 1032.
+LaTeX Warning: Reference `eq:STFQ' on page 53 undefined on input line 944.
 
-
-LaTeX Warning: Reference `eq:STFQ' on page 51 undefined on input line 1038.
-
-[51 <./images/chp1/fig10.pdf>] [52 <./images/chp1/fig11.pdf> <./images/chp1/fig
-12.pdf>] [53 <./images/chp1/fig13a.pdf> <./images/chp1/fig13b.pdf>] [54]
-[55] <./images/chp1/fig14.pdf, id=1729, 794.97pt x 449.68pt>
+[53] [54] [55] <./images/chp1/fig14.pdf, id=1729, 794.97pt x 449.68pt>
 File: ./images/chp1/fig14.pdf Graphic file (type pdf)
 
 <use ./images/chp1/fig14.pdf>
-Package pdftex.def Info: ./images/chp1/fig14.pdf used on input line 1206.
+Package pdftex.def Info: ./images/chp1/fig14.pdf used on input line 1112.
 (pdftex.def)             Requested size: 225.75594pt x 127.7004pt.
- [56]
-Overfull \hbox (249.55977pt too wide) in paragraph at lines 1236--1244
+
+Overfull \hbox (249.55977pt too wide) in paragraph at lines 1142--1150
  [][] 
  []
 
-[57 <./images/chp1/fig14.pdf>] [58] [59] [60] [61] [62] [63] [64]) [65]
-[66
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [56 <./images/chp1/fig14.pdf>] [57] [58] [59] [60] [61] [62] [63] [64]) [65] [
+66
 
 
-] (./chapters/paper2/body.tex
+]
+(./chapters/paper2/body.tex
 Chapter 6.
 
 LaTeX Warning: Reference `figgp2:sasi' on page 67 undefined on input line 41.
@@ -2300,35 +2304,35 @@ LaTeX Warning: Reference `figgp2:sasi' on page 67 undefined on input line 41.
 [67
 
 
-] <./images/paper2/rot.pdf, id=1977, 865.36342pt x 568.29582pt>
+] <./images/paper2/rot.pdf, id=1973, 865.36342pt x 568.29582pt>
 File: ./images/paper2/rot.pdf Graphic file (type pdf)
 
 <use ./images/paper2/rot.pdf>
 Package pdftex.def Info: ./images/paper2/rot.pdf used on input line 59.
 (pdftex.def)             Requested size: 456.11655pt x 299.5391pt.
 
-<./images/paper2/rsh.pdf, id=1978, 885.96799pt x 589.4471pt>
+<./images/paper2/rsh.pdf, id=1974, 885.96799pt x 589.4471pt>
 File: ./images/paper2/rsh.pdf Graphic file (type pdf)
 
 <use ./images/paper2/rsh.pdf>
 Package pdftex.def Info: ./images/paper2/rsh.pdf used on input line 65.
 (pdftex.def)             Requested size: 456.11655pt x 303.46521pt.
 
-<./images/paper2/sasi_fr.pdf, id=1981, 892.70679pt x 412.70035pt>
+<./images/paper2/sasi_fr.pdf, id=1977, 892.70679pt x 412.70035pt>
 File: ./images/paper2/sasi_fr.pdf Graphic file (type pdf)
 
 <use ./images/paper2/sasi_fr.pdf>
 Package pdftex.def Info: ./images/paper2/sasi_fr.pdf used on input line 72.
 (pdftex.def)             Requested size: 414.6463pt x 191.68956pt.
 
-<./images/paper2/sasi_r.pdf, id=1982, 892.70679pt x 412.70035pt>
+<./images/paper2/sasi_r.pdf, id=1978, 892.70679pt x 412.70035pt>
 File: ./images/paper2/sasi_r.pdf Graphic file (type pdf)
 
 <use ./images/paper2/sasi_r.pdf>
 Package pdftex.def Info: ./images/paper2/sasi_r.pdf used on input line 73.
 (pdftex.def)             Requested size: 414.6463pt x 191.68956pt.
 
-<./images/paper2/sasi_nr.pdf, id=1983, 892.70679pt x 412.70035pt>
+<./images/paper2/sasi_nr.pdf, id=1979, 892.70679pt x 412.70035pt>
 File: ./images/paper2/sasi_nr.pdf Graphic file (type pdf)
 
 <use ./images/paper2/sasi_nr.pdf>
@@ -2356,14 +2360,14 @@ LaTeX Warning: Reference `figp2:spec)' on page 72 undefined on input line 99.
 
 [72
 
-] <./images/paper2/amps.pdf, id=2096, 1579.30873pt x 1464.38792pt>
+] <./images/paper2/amps.pdf, id=2092, 1579.30873pt x 1464.38792pt>
 File: ./images/paper2/amps.pdf Graphic file (type pdf)
 
 <use ./images/paper2/amps.pdf>
 Package pdftex.def Info: ./images/paper2/amps.pdf used on input line 125.
 (pdftex.def)             Requested size: 456.11655pt x 422.91873pt.
 
-<./images/paper2/rotspec.pdf, id=2097, 1469.26234pt x 1689.46269pt>
+<./images/paper2/rotspec.pdf, id=2093, 1469.26234pt x 1689.46269pt>
 File: ./images/paper2/rotspec.pdf Graphic file (type pdf)
 
 <use ./images/paper2/rotspec.pdf>
@@ -2373,38 +2377,47 @@ Package pdftex.def Info: ./images/paper2/rotspec.pdf used on input line 134.
 
 LaTeX Warning: Float too large for page by 22.27565pt on input line 143.
 
-[73 <./images/paper2/amps.pdf>] [74 <./images/paper2/rotspec.pdf>]
+<./images/paper2/dedv_rot.pdf, id=2094, 885.16225pt x 941.71176pt>
+File: ./images/paper2/dedv_rot.pdf Graphic file (type pdf)
 
-LaTeX Warning: Reference `fig:specs' on page 75 undefined on input line 188.
+<use ./images/paper2/dedv_rot.pdf>
+Package pdftex.def Info: ./images/paper2/dedv_rot.pdf used on input line 149.
+(pdftex.def)             Requested size: 363.96667pt x 387.21075pt.
 
-<./images/paper2/1.png, id=15339, 1027.84pt x 734.745pt>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [73 <./images/paper2/amps.pdf>] [74 <./images/paper2/rotspec.pdf>] [75 <./imag
+es/paper2/dedv_rot.pdf>] [76]
+
+LaTeX Warning: Reference `fig:specs' on page 77 undefined on input line 213.
+
+<./images/paper2/1.png, id=15367, 1027.84pt x 734.745pt>
 File: ./images/paper2/1.png Graphic file (type png)
 
 <use ./images/paper2/1.png>
-Package pdftex.def Info: ./images/paper2/1.png used on input line 194.
+Package pdftex.def Info: ./images/paper2/1.png used on input line 219.
 (pdftex.def)             Requested size: 225.75594pt x 161.37532pt.
 
-<./images/paper2/2.png, id=15340, 1027.84pt x 734.745pt>
+<./images/paper2/2.png, id=15368, 1027.84pt x 734.745pt>
 File: ./images/paper2/2.png Graphic file (type png)
 
 <use ./images/paper2/2.png>
-Package pdftex.def Info: ./images/paper2/2.png used on input line 195.
+Package pdftex.def Info: ./images/paper2/2.png used on input line 220.
 (pdftex.def)             Requested size: 225.75594pt x 161.37532pt.
 
-<./images/paper2/3.png, id=15341, 1027.84pt x 734.745pt>
+<./images/paper2/3.png, id=15369, 1027.84pt x 734.745pt>
 File: ./images/paper2/3.png Graphic file (type png)
 
 <use ./images/paper2/3.png>
-Package pdftex.def Info: ./images/paper2/3.png used on input line 196.
+Package pdftex.def Info: ./images/paper2/3.png used on input line 221.
 (pdftex.def)             Requested size: 225.75594pt x 161.37532pt.
- [75
+ [77] [78 <./images/paper2/1.png (PNG copy)> <./images/paper2/2.png (PNG copy)>
+ <./images/paper2/3.png (PNG copy)>]
 
-] [76 <./images/paper2/1.png (PNG copy)> <./images/paper2/2.png (PNG copy)> <./
-images/paper2/3.png (PNG copy)>] [77] [78])
-[79] [80
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 286.
 
-
-] (./doktorarbeit.bbl
+[79] [80] [81]) [82] (./doktorarbeit.bbl
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              You should note, that in 1994 font command `\rm' has
@@ -2643,7 +2656,9 @@ Class scrbook Warning: Usage of deprecated font command `\it'!
 (scrbook)              But for now, KOMA-Script will replace deprecated `\it'
 (scrbook)              by `\normalfont \itshape ' on input line 134.
 
-[81
+[83
+
+
 
 
 
@@ -2959,7 +2974,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
 (scrbook)              by `\normalfont \rmfamily ' on input line 261.
 
-[82]
+[84]
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              You should note, that in 1994 font command `\rm' has
@@ -3207,7 +3222,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
 (scrbook)              by `\normalfont \rmfamily ' on input line 394.
 
-[83]
+[85]
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              You should note, that in 1994 font command `\rm' has
@@ -3491,7 +3506,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
 (scrbook)              by `\normalfont \rmfamily ' on input line 520.
 
-[84]
+[86]
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              You should note, that in 1994 font command `\rm' has
@@ -3758,7 +3773,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
 (scrbook)              by `\normalfont \rmfamily ' on input line 652.
 
-[85]
+[87]
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              You should note, that in 1994 font command `\rm' has
@@ -3986,7 +4001,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
 (scrbook)              by `\normalfont \rmfamily ' on input line 783.
 
-[86]
+[88]
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              You should note, that in 1994 font command `\rm' has
@@ -4085,7 +4100,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
 (scrbook)              by `\normalfont \rmfamily ' on input line 829.
 
-) [87] [88
+) [89] [90
 
 
 ]
@@ -4095,7 +4110,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 380.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 380.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 380.
 Package rerunfilecheck Info: File `doktorarbeit.out' has not changed.
-(rerunfilecheck)             Checksum: 6D4F13BDE96C3F49833D614AFDBA1C8B;4421.
+(rerunfilecheck)             Checksum: 8F173F1F2E18C902C6BC561515A28F2D;4487.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -4109,13 +4124,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 380.
  ) 
 Here is how much of TeX's memory you used:
- 33539 strings out of 493304
- 584108 string characters out of 6139871
- 752302 words of memory out of 5000000
- 35763 multiletter control sequences out of 15000+600000
+ 33560 strings out of 494208
+ 584485 string characters out of 6160797
+ 750294 words of memory out of 5000000
+ 35693 multiletter control sequences out of 15000+600000
  30286 words of font info for 124 fonts, out of 8000000 for 9000
- 957 hyphenation exceptions out of 8191
- 65i,12n,75p,10459b,787s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 416 hyphenation exceptions out of 8191
+ 65i,14n,75p,10459b,787s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.6} has been referenced but does not exi
 st, replaced by a fixed one
 
@@ -4134,36 +4149,36 @@ pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
 , replaced by a fixed one
 
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-</usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fo
-nts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf/fonts/type1/public/cm-
-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on doktorarbeit.pdf (94 pages, 14526630 bytes).
+ </home/haakoan/.texmf-var/fonts/pk/ljfour/jknappen/ec/tcbx1200.600pk> </home/h
+aakoan/.texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk> </home/haakoan/.t
+exmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0700.600pk> </home/haakoan/.texmf-var/
+fonts/pk/ljfour/jknappen/ec/tcrm0800.600pk></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
+i12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
+Output written on doktorarbeit.pdf (96 pages, 14674216 bytes).
 PDF statistics:
- 15944 PDF objects out of 18468 (max. 8388607)
- 2520 compressed objects within 26 object streams
- 443 named destinations out of 1000 (max. 500000)
- 639 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 15998 PDF objects out of 18468 (max. 8388607)
+ 2567 compressed objects within 26 object streams
+ 447 named destinations out of 1000 (max. 500000)
+ 652 words of extra memory for PDF output out of 10000 (max. 10000000)
 
