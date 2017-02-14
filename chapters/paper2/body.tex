@@ -8,6 +8,58 @@ In this chapter we study the effects rotation have on the GW signal.
 We present three models based on the same progenitor, two rotating models and one non-rotating.
 This allows us to study how the signal GW is effected by rotation. 
 
+In this paper, we present GW waveforms of the
+first few hundred milliseconds of the post-bounce phase computed from 3D
+models with multi-group neutrino transport. Waveforms have been
+analysed for four supernova models of progenitors with zero-age main
+sequence (ZAMS) masses of $11.2 M_\odot$, $20 M_\odot$  (for which
+we study an exploding and a non-exploding simulation), and $27
+M_\odot$. With four simulations based on these three different
+progenitors, we cover both the convective
+regime ($11.2 M_\odot$) and the SASI-dominated regime ($20 M_\odot$,
+$27 M_\odot$). Our aim in studying waveforms from these progenitors is
+twofold: On the one hand, we shall attempt to unearth the underlying
+hydrodynamical phenomena responsible for the GW emission in different 
+regions of the frequency spectrum during different
+phases of the evolution.  We shall also compare the GW
+emission in 3D and 2D models, which will further illuminate dynamical
+differences between 2D and 3D. Furthermore, with 3D models now
+at hand, we are in a position to better assess the detectability of
+GWs from the post-bounce phase in present and future
+instruments than with 2D models affected by the artificial constraint
+of axisymmetry.
+
+One of our key findings is that the GW signal 
+from SASI-dominated models is clearly differentiated from convection-dominated model 
+by strong emission in a low-frequency band around $100 \ldots 200 \, \mathrm{Hz}$. 
+Very recently, \cite{kuroda_16} also studied the GW signal 
+features (in models using grey neutrino transport) during phases of SASI activity for a $15 M_\odot$ star,
+comparing results for three different nuclear equations of state. Going beyond \cite{kuroda_16}, we clarify why this 
+signature has not been seen in 2D models and point out that the hydrodynamic processes underlying 
+this low-frequency signal are quite complex and seem to require a coupling of SASI motions to deeper 
+layers inside the PNS. Moreover, we show that broadband low-frequency GW emission 
+can also occur after the onset of the explosion and is therefore not an unambiguous signature of 
+the SASI. We also provide a more critical assessment of the detectability of this new signal component, 
+suggesting that it may only be detectable with second-generation instruments like Advanced LIGO for a very 
+nearby event at a distance of $2 \, \mathrm{kpc}$ or less.
+
+Our paper is structured as follows: We first give a brief
+description of the numerical setup and the extraction of
+GWs in Section~\ref{sec:numerics}.
+In Section~\ref{sec:structure}, we present a short overview
+of the GW waveforms and then analyse the hydrodynamical
+processes contributing to different parts of the spectrum
+in detail. We also compare our results to recent studies
+based on 2D first-principle models.
+In Section~\ref{sec:obs}, we discuss the detectability
+of the predicted GW signal from our
+three progenitors by Advanced LIGO \citep{advligo_15},
+and by the Einstein Telescope \citep{et_12} as next-generation
+instrument. We also comment on possible inferences
+from a prospective GW detection. Our
+conclusions and a summary of open questions for
+future research are presented in Section~\ref{sec:con}.
+
 
 \section{Supernova Models}
 We present the GW signal from three models based on the progenitor of
@@ -193,21 +245,21 @@ the stabilising effect provided by rotation will gradually decrease with time.
 
 Based solely on the stabilising effects rotation have on PNS convection we would expect an overall 
 reduction of high-frequency GW emission in the two rotating models. However, the picture is not
-so simple. We have to consider how well the Brunt-V\"{a}is\"{a}l\"{a}-frequency in the PNS surface overlaps with
-the typical SASI and convective timescales. The compactness of the PNS tends to increase with
-progenitor mass, which results in a higher Brunt-V\"{a}is\"{a}l\"{a}-frequency \citep{mueller_13}.
-SASI activity and neutrino driven convection in the post-shock layer operates at relative long time-scales.
-Consequently, the spectrum of the forcing and the natural g-mode frequency will overlap better
-in model based on a low mass progenitor, with a less compact PNS, than a more massive model. 
-This is in fact reflected in the four models we study in chapter~\ref{ch:firstpaper},
-the contribution to the high-frequency emission by convective plumes striking the PNS from above
-is relative high in model s11.2 (see \fig{fig:cuts}).
-
+so simple. 
+% We have to consider how well the Brunt-V\"{a}is\"{a}l\"{a}-frequency in the PNS surface overlaps with
+% the typical SASI and convective timescales. The compactness of the PNS tends to increase with
+% progenitor mass, which results in a higher Brunt-V\"{a}is\"{a}l\"{a}-frequency \citep{mueller_13}.
+% SASI activity and neutrino driven convection in the post-shock layer operates at relative long time-scales.
+% Consequently, the spectrum of the forcing and the natural g-mode frequency will overlap better
+% in model based on a low mass progenitor, with a less compact PNS, than a more massive model. 
+% This is in fact reflected in the four models we study in chapter~\ref{ch:firstpaper},
+% the contribution to the high-frequency emission by convective plumes striking the PNS from above
+% is relative high in model s11.2 (see \fig{fig:cuts}).
 We also have to consider the effects of the spiral SASI mode.
 The strong influence exerted by the spiral mode on the PNS, through a coherent large scale
 modulation of the accretion flow onto the PNS, not only effectively perturbs the surface, 
 but can also reaches into the interior of the PNS and influence the convective layer of the PNS.
-The spiral SASI mode induces mass motions in the PNS at a set of different frequencies, which is 
+A strong spiral SASI mode induces mass motions in the PNS at a set of different frequencies, which is 
 reflected in the GW signal as ``broadening'' of both the low-frequency and high-frequency
 emission component. Model s27, which is dominated by the sloshing mode of the SASI,
 has a cleaner emission spectrum than for example the spiral SASI dominated model s20 (see \fig{fig:specs}). Cleaner, in the sense
@@ -224,7 +276,8 @@ at 167 (top left panel), 210 (top right panel), and 343 (bottom panel) ms post b
 The entropy is given in units of Boltzmann's constant $k_b$. \label{figp2:sto}}
 \end{figure}
 The reduction of high-frequency GW emission generated by PNS convection can clearly be seen in model
-m15r. Between $180$ and $250$ ms post bounce hot-bubble convection subsides and model m15r emits virtually no high-frequency GWs. The shock front reaches a minimum around $200$ ms post bounce, after
+m15r. Between $180$ and $250$ ms post bounce hot-bubble convection subsides and model m15r emits virtually no high-frequency GWs. 
+The shock front reaches a minimum around $200$ ms post bounce, after
 a $70$ ms long period of recession (\fig{figp2:rsh}). The small average shock radius favours SASI activity over
 neutrino driven convection, and we see the development of low amplitude shock oscillations,
 see the middle panel of \fig{figp2:sasi}. Convection, on the other hand, is quenched. 
@@ -330,10 +383,19 @@ The three tables show SNRs for model m15fr, model m15r, and model m15nr (from to
 \end{subtable}
 \end{table}
 
-In the low-frequency band the SNR of model m15fr is roughly equal to that of model s20s in the same band and, for
+In the low-frequency band the SNR of model m15fr is roughly equal to that of model s20s in the low-frequency band, for
 all the three detector configurations. The strong spiral SASI activity and the reduced high-frequency emission,
 due to dampening of PNS convection by rotation, leads to a high ratio between the $\mathrm{SNR}_\mathrm{low}$
-and $\mathrm{SNR}_\mathrm{high}$.
+and $\mathrm{SNR}_\mathrm{high}$. Model m15r shows that one has to be careful when interpreting the 
+ratio $\mathrm{SNR}_\mathrm{low}/\mathrm{SNR}_\mathrm{high}$. The reduction of the high-frequency emission and
+the presents of, due to intermediate and weak SASI activity, leads to ratios of $\mathrm{SNR}_\mathrm{low}/\mathrm{SNR}_\mathrm{high}$
+which are $\sim 15-25$ higher than those of model m15nr, for all three detector configurations. However, model m15nr clearly 
+develops much stronger SASI activity than model m15r. 
+
+At a distance of 10 kpc, none of our models would be detectable with AdVLIGO. For the Einstein telescope the situation is
+significantly better. We estimate that model m15fr should be debatable out to distances of 75 kpc, while model m15nr
+and model m15r could be detected at $\sim 20$ kpc and $sim 30$ kpc, respectively. The B configuration of the detector shows the most
+promise and can effectively increase those numbers by $\sim 35-60\%$. 
 
 \section{Conclusion and discussion}
 In this chapter we studied progenitor rotation affects the GW signal of core collapse supernovae.

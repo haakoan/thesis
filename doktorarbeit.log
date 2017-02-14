@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.1.11)  13 FEB 2017 18:33
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.1.11)  14 FEB 2017 10:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2415,7 +2415,7 @@ Package pdftex.def Info: ./images/paper2/3.png used on input line 221.
  <./images/paper2/3.png (PNG copy)>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 286.
+               Default added (so using `tbp') on input line 287.
 
 [79] [80] [81]) [82] (./doktorarbeit.bbl
 
@@ -4124,10 +4124,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 380.
  ) 
 Here is how much of TeX's memory you used:
- 33560 strings out of 494208
- 584485 string characters out of 6160797
- 750294 words of memory out of 5000000
- 35693 multiletter control sequences out of 15000+600000
+ 33559 strings out of 494208
+ 584475 string characters out of 6160797
+ 751847 words of memory out of 5000000
+ 35692 multiletter control sequences out of 15000+600000
  30286 words of font info for 124 fonts, out of 8000000 for 9000
  416 hyphenation exceptions out of 8191
  65i,14n,75p,10459b,787s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -4175,7 +4175,7 @@ hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on doktorarbeit.pdf (96 pages, 14674216 bytes).
+Output written on doktorarbeit.pdf (96 pages, 14675185 bytes).
 PDF statistics:
  15998 PDF objects out of 18468 (max. 8388607)
  2567 compressed objects within 26 object streams
