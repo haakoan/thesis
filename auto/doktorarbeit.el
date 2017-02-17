@@ -17,6 +17,7 @@
    (add-to-list 'LaTeX-verbatim-macros-with-delims-local "path")
    (TeX-run-style-hooks
     "latex2e"
+    "chapters/intro/body"
     "chapters/ccsn/body"
     "chapters/theory/body"
     "chapters/numerics/body"

@@ -5,44 +5,44 @@ The style file: mnras.bst
 Database file #1: thesis.bib
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 146 entries,
+You've used 174 entries,
             2881 wiz_defined-function locations,
-            1796 strings with 42390 characters,
-and the built_in function-call counts, 72063 in all, are:
-= -- 5910
-> -- 5310
-< -- 392
-+ -- 2306
-- -- 805
-* -- 9009
-:= -- 11411
+            1983 strings with 48484 characters,
+and the built_in function-call counts, 85723 in all, are:
+= -- 7038
+> -- 6312
+< -- 478
++ -- 2740
+- -- 955
+* -- 10695
+:= -- 13584
 add.period$ -- 0
-call.type$ -- 146
-change.case$ -- 294
-chr.to.int$ -- 139
-cite$ -- 146
-duplicate$ -- 3370
-empty$ -- 3357
-format.name$ -- 1245
-if$ -- 12378
-int.to.chr$ -- 8
+call.type$ -- 174
+change.case$ -- 351
+chr.to.int$ -- 165
+cite$ -- 174
+duplicate$ -- 4006
+empty$ -- 3978
+format.name$ -- 1491
+if$ -- 14715
+int.to.chr$ -- 10
 int.to.str$ -- 0
-missing$ -- 142
-newline$ -- 452
-num.names$ -- 1090
-pop$ -- 727
+missing$ -- 168
+newline$ -- 536
+num.names$ -- 1304
+pop$ -- 856
 preamble$ -- 1
-purify$ -- 584
+purify$ -- 696
 quote$ -- 0
-skip$ -- 1998
+skip$ -- 2381
 stack$ -- 0
-substring$ -- 4270
-swap$ -- 2056
-text.length$ -- 593
+substring$ -- 5076
+swap$ -- 2460
+text.length$ -- 705
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1311
+type$ -- 1563
 warning$ -- 0
-while$ -- 1130
+while$ -- 1348
 width$ -- 0
-write$ -- 1483
+write$ -- 1763

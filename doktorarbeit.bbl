@@ -125,6 +125,14 @@
   Population Studies. p.~199 (\mn@eprint {} {astro-ph/0012455}),
   \mn@doi{10.1007/978-94-015-9723-4_16}
 
+\bibitem[\protect\citeauthoryear{{Cerd{\'a}-Dur{\'a}n}, {Faye}, {Dimmelmeier},
+  {Font}, {Ib{\'a}{\~n}ez}, {M{\"u}ller}  \&
+  {Sch{\"a}fer}}{{Cerd{\'a}-Dur{\'a}n} et~al.}{2005}]{cerda_05}
+{Cerd{\'a}-Dur{\'a}n} P.,  {Faye} G.,  {Dimmelmeier} H.,  {Font} J.~A.,
+  {Ib{\'a}{\~n}ez} J.~M.,  {M{\"u}ller} E.,   {Sch{\"a}fer} G.,  2005, \mn@doi
+  [\aap] {10.1051/0004-6361:20042602}, \href
+  {http://adsabs.harvard.edu/abs/2005A26A...439.1033C} {439, 1033}
+
 \bibitem[\protect\citeauthoryear{{Chandrasekhar}}{{Chandrasekhar}}{1961}]{chandrasekhar_61}
 {Chandrasekhar} S.,  1961, {Hydrodynamic and Hydromagnetic Stability}.
 Clarendon, Oxford
@@ -162,12 +170,28 @@ Clarendon, Oxford
 {Deheuvels} S.,  et~al., 2014, \mn@doi [\aap] {10.1051/0004-6361/201322779},
   \href {http://cdsads.u-strasbg.fr/abs/2014A%26A...564A..27D} {564, A27}
 
+\bibitem[\protect\citeauthoryear{{Dimmelmeier}}{{Dimmelmeier}}{2001}]{dimmelmeier_phd}
+{Dimmelmeier} H.,  2001, {PhD thesis}, Technische Universti\"at M\"unchen
+
 \bibitem[\protect\citeauthoryear{{Dimmelmeier}, {Font}  \&
-  {M{\"u}ller}}{{Dimmelmeier} et~al.}{2002}]{dimmelmeier_02_a}
-{Dimmelmeier} H.,  {Font} J.~A.,   {M{\"u}ller} E.,  2002, \mn@doi [\aap]
+  {M{\"u}ller}}{{Dimmelmeier} et~al.}{2001}]{dimmelmeier_01}
+{Dimmelmeier} H.,  {Font} J.~A.,   {M{\"u}ller} E.,  2001, \mn@doi [\apjl]
+  {10.1086/324406}, \href {http://adsabs.harvard.edu/abs/2001ApJ...560L.163D}
+  {560, L163}
+
+\bibitem[\protect\citeauthoryear{{Dimmelmeier}, {Font}  \&
+  {M{\"u}ller}}{{Dimmelmeier} et~al.}{2002a}]{dimmelmeier_02_a}
+{Dimmelmeier} H.,  {Font} J.~A.,   {M{\"u}ller} E.,  2002a, \mn@doi [\aap]
   {10.1051/0004-6361:20020563}, \href
   {http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2002A26A...388..917D&db_key=AST}
   {388, 917}
+
+\bibitem[\protect\citeauthoryear{{Dimmelmeier}, {Font}  \&
+  {M{\"u}ller}}{{Dimmelmeier} et~al.}{2002b}]{dimmelmeier_02_b}
+{Dimmelmeier} H.,  {Font} J.~A.,   {M{\"u}ller} E.,  2002b, \mn@doi [\aap]
+  {10.1051/0004-6361:20021053}, \href
+  {http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2002A26A...393..523D&db_key=AST}
+  {393, 523}
 
 \bibitem[\protect\citeauthoryear{{Dimmelmeier}, {Novak}, {Font},
   {Ib{\'a}{\~n}ez}  \& {M{\"u}ller}}{{Dimmelmeier}
@@ -178,10 +202,16 @@ Clarendon, Oxford
   {71, 064023:1}
 
 \bibitem[\protect\citeauthoryear{{Dimmelmeier}, {Ott}, {Janka}, {Marek}  \&
-  {M{\"u}ller}}{{Dimmelmeier} et~al.}{2007}]{dimmelmeier_07_a}
+  {M{\"u}ller}}{{Dimmelmeier} et~al.}{2007a}]{dimmelmeier_07_a}
 {Dimmelmeier} H.,  {Ott} C.~D.,  {Janka} H.-T.,  {Marek} A.,   {M{\"u}ller} E.,
-   2007, \mn@doi [\prl] {10.1103/PhysRevLett.98.251101}, \href
+   2007a, \mn@doi [\prl] {10.1103/PhysRevLett.98.251101}, \href
   {http://adsabs.harvard.edu/abs/2007PhRvL..98y1101D} {98, 251101:1}
+
+\bibitem[\protect\citeauthoryear{{Dimmelmeier}, {Ott}, {Janka}, {Marek}  \&
+  {Mu\"ller}}{{Dimmelmeier} et~al.}{2007b}]{dimmelmeier_07_bb}
+{Dimmelmeier} H.,  {Ott} C.~D.,  {Janka} H.-T.,  {Marek} A.,   {Mu\"ller} E.,
+  2007b, preprint, \href {http://adsabs.harvard.edu/abs/2007arXiv0705.2675D}
+  {astro-ph/0705.2675}
 
 \bibitem[\protect\citeauthoryear{{Dimmelmeier}, {Ott}, {Marek}  \&
   {Janka}}{{Dimmelmeier} et~al.}{2008}]{dimmelmeier_08}
@@ -214,6 +244,11 @@ Clarendon, Oxford
 {Finn} L.~S.,  1989, in {Evans} C.~R.,  {Finn} L.~S.,   {Hobill} D.~W.,  eds,
   Frontiers in Numerical Relativity. Cambridge University Press, Cambridge
   (UK), pp 126--145
+
+\bibitem[\protect\citeauthoryear{{Finn} \& {Evans}}{{Finn} \&
+  {Evans}}{1990}]{finn_90}
+{Finn} L.~S.,  {Evans} C.~R.,  1990, \mn@doi [\apj] {10.1086/168497}, \href
+  {http://adsabs.harvard.edu/abs/1990ApJ...351..588F} {351, 588}
 
 \bibitem[\protect\citeauthoryear{{Flanagan} \& {Hughes}}{{Flanagan} \&
   {Hughes}}{1998}]{flanagan_98a}
@@ -249,6 +284,12 @@ Clarendon, Oxford
 {Fryxell} B.,  {Arnett} D.,   {M\"uller} E.,  1991, \mn@doi [\apj]
   {10.1086/169657}, \href {http://adsabs.harvard.edu/abs/1991ApJ...367..619F}
   {367, 619}
+
+\bibitem[\protect\citeauthoryear{{Fuller}, {Klion}, {Abdikamalov}  \&
+  {Ott}}{{Fuller} et~al.}{2015}]{fuller_15}
+{Fuller} J.,  {Klion} H.,  {Abdikamalov} E.,   {Ott} C.~D.,  2015, \mn@doi
+  [\mnras] {10.1093/mnras/stv698}, \href
+  {http://adsabs.harvard.edu/abs/2015MNRAS.450..414F} {450, 414}
 
 \bibitem[\protect\citeauthoryear{{Goldreich} \& {Kumar}}{{Goldreich} \&
   {Kumar}}{1990}]{goldreich_90}
@@ -339,6 +380,12 @@ Clarendon, Oxford
   \mn@doi [\apj] {10.1088/0004-637X/700/1/232}, \href
   {http://adsabs.harvard.edu/abs/2009ApJ...700..232I} {700, 232}
 
+\bibitem[\protect\citeauthoryear{{Iwakami}, {Nagakura}  \& {Yamada}}{{Iwakami}
+  et~al.}{2014}]{iwakami_14}
+{Iwakami} W.,  {Nagakura} H.,   {Yamada} S.,  2014, \mn@doi [\apj]
+  {10.1088/0004-637X/793/1/5}, \href
+  {http://cdsads.u-strasbg.fr/abs/2014ApJ...793....5I} {793, 5}
+
 \bibitem[\protect\citeauthoryear{{Janka}}{{Janka}}{1999}]{janka_99}
 {Janka} H.-T.,  1999, { }, { }
 
@@ -387,6 +434,18 @@ Kageyama A.,  Sato T.,  2004, \mn@doi [Geochemistry, Geophysics, Geosystems]
 {Kifonidis} K.,  {Plewa} T.,  {Janka} H.-T.,   {M{\"u}ller} E.,  2003, \mn@doi
   [\aap] {10.1051/0004-6361:20030863}, \href
   {http://adsabs.harvard.edu/abs/2003A26A...408..621K} {408, 621}
+
+\bibitem[\protect\citeauthoryear{{Kotake}, {Yamada}  \& {Sato}}{{Kotake}
+  et~al.}{2003}]{kotake_03}
+{Kotake} K.,  {Yamada} S.,   {Sato} K.,  2003, \mn@doi [\prd]
+  {10.1103/PhysRevD.68.044023}, \href
+  {http://cdsads.u-strasbg.fr/abs/2003PhRvD..68d4023K} {68, 044023}
+
+\bibitem[\protect\citeauthoryear{{Kotake}, {Sato}  \& {Takahashi}}{{Kotake}
+  et~al.}{2006}]{kotake_06}
+{Kotake} K.,  {Sato} K.,   {Takahashi} K.,  2006, \mn@doi [Reports on Progress
+  in Physics] {10.1088/0034-4885/69/4/R03}, \href
+  {http://adsabs.harvard.edu/abs/2006RPPh...69..971K} {69, 971}
 
 \bibitem[\protect\citeauthoryear{{Kotake}, {Iwakami}, {Ohnishi}  \&
   {Yamada}}{{Kotake} et~al.}{2009}]{kotake_09}
@@ -485,6 +544,11 @@ Kageyama A.,  Sato T.,  2004, \mn@doi [Geochemistry, Geophysics, Geosystems]
 {Minkowski} R.,  1941, \mn@doi [\pasp] {10.1086/125315}, \href
   {http://adsabs.harvard.edu/abs/1941PASP...53..224M} {53, 224}
 
+\bibitem[\protect\citeauthoryear{{M\"onchmeyer}, {Schaefer}, {M\"uller}  \&
+  {Kates}}{{M\"onchmeyer} et~al.}{1991}]{moenchmeyer_91}
+{M\"onchmeyer} R.,  {Schaefer} G.,  {M\"uller} E.,   {Kates} R.~E.,  1991,
+  \aap, \href {http://adsabs.harvard.edu/abs/1991A26A...246..417M} {246, 417}
+
 \bibitem[\protect\citeauthoryear{{Mosser} et~al.,}{{Mosser}
   et~al.}{2012}]{mosser_12}
 {Mosser} B.,  et~al., 2012, \mn@doi [\aap] {10.1051/0004-6361/201220106}, \href
@@ -578,6 +642,12 @@ Kageyama A.,  Sato T.,  2004, \mn@doi [Geochemistry, Geophysics, Geosystems]
   D.~W.} ed., Frontiers in Numerical Relativity. Cambridge University Press, pp
   254--280
 
+\bibitem[\protect\citeauthoryear{{Nakamura}, {Kuroda}, {Takiwaki}  \&
+  {Kotake}}{{Nakamura} et~al.}{2014}]{nakamura_14}
+{Nakamura} K.,  {Kuroda} T.,  {Takiwaki} T.,   {Kotake} K.,  2014, \mn@doi
+  [\apj] {10.1088/0004-637X/793/1/45}, \href
+  {http://adsabs.harvard.edu/abs/2014ApJ...793...45N} {793, 45}
+
 \bibitem[\protect\citeauthoryear{{Nordhaus}, {Brandt}, {Burrows}  \&
   {Almgren}}{{Nordhaus} et~al.}{2012}]{nordhaus_12}
 {Nordhaus} J.,  {Brandt} T.~D.,  {Burrows} A.,   {Almgren} A.,  2012, \mn@doi
@@ -596,6 +666,16 @@ Kageyama A.,  Sato T.,  2004, \mn@doi [Geochemistry, Geophysics, Geosystems]
   {Johnston} S.,  2013, \mn@doi [\mnras] {10.1093/mnras/stt047}, \href
   {http://adsabs.harvard.edu/abs/2013MNRAS.430.2281N} {430, 2281}
 
+\bibitem[\protect\citeauthoryear{{Novikov}}{{Novikov}}{1976}]{novikov_76}
+{Novikov} I.~D.,  1976, Soviet Astronomy, \href
+  {http://adsabs.harvard.edu/abs/1976SvA....19..398N} {19, 398}
+
+\bibitem[\protect\citeauthoryear{{Obergaulinger}, {Aloy}  \&
+  {M{\"u}ller}}{{Obergaulinger} et~al.}{2006}]{obergaulinger_06b}
+{Obergaulinger} M.,  {Aloy} M.~A.,   {M{\"u}ller} E.,  2006, \mn@doi [\aap]
+  {10.1051/0004-6361:20054306}, \href
+  {http://adsabs.harvard.edu/abs/2006A%26A...450.1107O} {450, 1107}
+
 \bibitem[\protect\citeauthoryear{{Ohnishi}, {Kotake}  \& {Yamada}}{{Ohnishi}
   et~al.}{2006}]{ohnishi_06}
 {Ohnishi} N.,  {Kotake} K.,   {Yamada} S.,  2006, \mn@doi [\apj]
@@ -613,6 +693,16 @@ Kageyama A.,  Sato T.,  2004, \mn@doi [Geochemistry, Geophysics, Geosystems]
   et~al.}{1997}]{oohara_97}
 Oohara K.-i.,  Nakamura T.,   Shibata M.,  1997, \mn@doi [Progress of
   Theoretical Physics Supplement] {10.1143/PTPS.128.183}, 128, 183
+
+\bibitem[\protect\citeauthoryear{{Ott}}{{Ott}}{2007}]{ott_phd}
+{Ott} C.~D.,  2007, PhD thesis, Albert-Einstein-Institut, Max-Planck-Institut
+  f{\"u}r Gravitationsphysik; Universit{\"a}t Potsdam
+
+\bibitem[\protect\citeauthoryear{{Ott}, {Burrows}, {Livne}  \& {Walder}}{{Ott}
+  et~al.}{2004}]{ott_04}
+{Ott} C.~D.,  {Burrows} A.,  {Livne} E.,   {Walder} R.,  2004, \mn@doi [\apj]
+  {10.1086/379822}, \href {http://cdsads.u-strasbg.fr/abs/2004ApJ...600..834O}
+  {600, 834}
 
 \bibitem[\protect\citeauthoryear{{Ott}, {Ou}, {Tohline}  \& {Burrows}}{{Ott}
   et~al.}{2005}]{ott_05}
@@ -659,12 +749,37 @@ Oohara K.-i.,  Nakamura T.,   Shibata M.,  1997, \mn@doi [Progress of
 {Rampp} M.,  {M{\"u}ller} E.,   {Ruffert} M.,  1998, \aap, \href
   {http://adsabs.harvard.edu/abs/1998A%26A...332..969R} {332, 969}
 
+\bibitem[\protect\citeauthoryear{{Reisswig}, {Ott}, {Sperhake}  \&
+  {Schnetter}}{{Reisswig} et~al.}{2011}]{reisswig_11}
+{Reisswig} C.,  {Ott} C.~D.,  {Sperhake} U.,   {Schnetter} E.,  2011, \mn@doi
+  [\prd] {10.1103/PhysRevD.83.064008}, \href
+  {http://esoads.eso.org/abs/2011PhRvD..83f4008R} {83, 064008}
+
 \bibitem[\protect\citeauthoryear{{Roberts}, {Ott}, {Haas}, {O'Connor}, {Diener}
    \& {Schnetter}}{{Roberts} et~al.}{2016}]{roberts_16}
 {Roberts} L.~F.,  {Ott} C.~D.,  {Haas} R.,  {O'Connor} E.~P.,  {Diener} P.,
   {Schnetter} E.,  2016, preprint, \href
   {http://adsabs.harvard.edu/abs/2016arXiv160407848R} {} (\mn@eprint {arXiv}
   {1604.07848})
+
+\bibitem[\protect\citeauthoryear{{Saenz} \& {Shapiro}}{{Saenz} \&
+  {Shapiro}}{1978}]{saenz_78}
+{Saenz} R.~A.,  {Shapiro} S.~L.,  1978, \mn@doi [\apj] {10.1086/156028}, \href
+  {http://adsabs.harvard.edu/abs/1978ApJ...221..286S} {221, 286}
+
+\bibitem[\protect\citeauthoryear{{Saenz} \& {Shapiro}}{{Saenz} \&
+  {Shapiro}}{1979}]{saenz_79}
+{Saenz} R.~A.,  {Shapiro} S.~L.,  1979, \mn@doi [\apj] {10.1086/157046}, \href
+  {http://adsabs.harvard.edu/abs/1979ApJ...229.1107S} {229, 1107}
+
+\bibitem[\protect\citeauthoryear{{Saenz} \& {Shapiro}}{{Saenz} \&
+  {Shapiro}}{1981}]{saenz_81}
+{Saenz} R.~A.,  {Shapiro} S.~L.,  1981, \mn@doi [\apj] {10.1086/158774}, \href
+  {http://adsabs.harvard.edu/abs/1981ApJ...244.1033S} {244, 1033}
+
+\bibitem[\protect\citeauthoryear{{Saijo}}{{Saijo}}{2005}]{saijo_05}
+{Saijo} M.,  2005, \mn@doi [\prd] {10.1103/PhysRevD.71.104038}, \href
+  {http://adsabs.harvard.edu/abs/2005PhRvD..71j4038S} {71, 104038}
 
 \bibitem[\protect\citeauthoryear{{Sathyaprakash} et~al.,}{{Sathyaprakash}
   et~al.}{2012}]{et_12}
@@ -697,9 +812,20 @@ Oohara K.-i.,  Nakamura T.,   Shibata M.,  1997, \mn@doi [Progress of
   {10.1088/0264-9381/27/11/114101}, \href
   {http://adsabs.harvard.edu/abs/2010CQGra..27k4101S} {27, 114101}
 
+\bibitem[\protect\citeauthoryear{{Shapiro}}{{Shapiro}}{1977}]{shapiro_77}
+{Shapiro} S.~L.,  1977, \mn@doi [\apj] {10.1086/155282}, \href
+  {http://adsabs.harvard.edu/abs/1977ApJ...214..566S} {214, 566}
+
 \bibitem[\protect\citeauthoryear{{Shen}}{{Shen}}{1969}]{shen_96}
 {Shen} C.~S.,  1969, \mn@doi [\nat] {10.1038/2211039a0}, \href
   {http://adsabs.harvard.edu/abs/1969Natur.221.1039S} {221, 1039}
+
+\bibitem[\protect\citeauthoryear{{Shibata} \& {Sekiguchi}}{{Shibata} \&
+  {Sekiguchi}}{2004}]{shibata_04}
+{Shibata} M.,  {Sekiguchi} Y.-I.,  2004, \mn@doi [\prd]
+  {10.1103/PhysRevD.69.084024}, \href
+  {http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2004PhRvD..69h4024S&db_key=AST}
+  {69, 084024:1}
 
 \bibitem[\protect\citeauthoryear{{Shibata} \& {Sekiguchi}}{{Shibata} \&
   {Sekiguchi}}{2005}]{shibata_05}
@@ -715,6 +841,12 @@ Oohara K.-i.,  Nakamura T.,   Shibata M.,  1997, \mn@doi [Progress of
 
 \bibitem[\protect\citeauthoryear{{Summa}}{{Summa}}{2017}]{suma_models}
 {Summa} A.,  2017, {In preparation}, Private communication
+
+\bibitem[\protect\citeauthoryear{{Takiwaki} \& {Kotake}}{{Takiwaki} \&
+  {Kotake}}{2011}]{takiwaki_11}
+{Takiwaki} T.,  {Kotake} K.,  2011, \mn@doi [\apj]
+  {10.1088/0004-637X/743/1/30}, \href
+  {http://esoads.eso.org/abs/2011ApJ...743...30T} {743, 30}
 
 \bibitem[\protect\citeauthoryear{{Takiwaki}, {Kotake}  \& {Suwa}}{{Takiwaki}
   et~al.}{2012}]{takiwaki_12}
@@ -761,6 +893,11 @@ Oohara K.-i.,  Nakamura T.,   Shibata M.,  1997, \mn@doi [Progress of
 \bibitem[\protect\citeauthoryear{{Thompson}}{{Thompson}}{2000}]{thompson_00}
 {Thompson} C.,  2000, \mn@doi [\apj] {10.1086/308773}, \href
   {http://adsabs.harvard.edu/abs/2000ApJ...534..915T} {534, 915}
+
+\bibitem[\protect\citeauthoryear{{Thuan} \& {Ostriker}}{{Thuan} \&
+  {Ostriker}}{1974}]{thuan_74}
+{Thuan} T.~X.,  {Ostriker} J.~P.,  1974, \mn@doi [\apjl] {10.1086/181561},
+  \href {http://adsabs.harvard.edu/abs/1974ApJ...191L.105T} {191, L105}
 
 \bibitem[\protect\citeauthoryear{{Viallet}, {Meakin}, {Arnett}  \&
   {Moc{\'a}k}}{{Viallet} et~al.}{2013}]{viallet_13}
@@ -824,10 +961,26 @@ Oohara K.-i.,  Nakamura T.,   Shibata M.,  1997, \mn@doi [Progress of
 {Yakunin} K.~N.,  et~al., 2015, \mn@doi [\prd] {10.1103/PhysRevD.92.084040},
   \href {http://adsabs.harvard.edu/abs/2015PhRvD..92h4040Y} {92, 084040}
 
+\bibitem[\protect\citeauthoryear{{Yamada} \& {Sato}}{{Yamada} \&
+  {Sato}}{1995}]{yamada_95}
+{Yamada} S.,  {Sato} K.,  1995, \mn@doi [\apj] {10.1086/176135}, \href
+  {http://cdsads.u-strasbg.fr/abs/1995ApJ...450..245Y} {450, 245}
+
+\bibitem[\protect\citeauthoryear{{Yamada} \& {Sawai}}{{Yamada} \&
+  {Sawai}}{2004}]{yamada_04}
+{Yamada} S.,  {Sawai} H.,  2004, \mn@doi [\apj] {10.1086/420760}, \href
+  {http://cdsads.u-strasbg.fr/abs/2004ApJ...608..907Y} {608, 907}
+
 \bibitem[\protect\citeauthoryear{{Yamasaki} \& {Foglizzo}}{{Yamasaki} \&
   {Foglizzo}}{2008}]{yamasaki_08}
 {Yamasaki} T.,  {Foglizzo} T.,  2008, \mn@doi [\apj] {10.1086/587732}, \href
   {http://adsabs.harvard.edu/abs/2008ApJ...679..607Y} {679, 607}
+
+\bibitem[\protect\citeauthoryear{{Zwerger} \& {M{\"u}ller}}{{Zwerger} \&
+  {M{\"u}ller}}{1997}]{zwerger_97}
+{Zwerger} T.,  {M{\"u}ller} E.,  1997, \aap, \href
+  {http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=1997A26A...320..209Z&db_key=AST}
+  {320, 209}
 
 \makeatother
 \end{thebibliography}

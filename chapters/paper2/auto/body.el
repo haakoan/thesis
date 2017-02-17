@@ -8,6 +8,7 @@
     "figp2:amps"
     "figp2:spec"
     "figp2:energy_spectra"
+    "sec:p2ext"
     "figp2:sto"
     "tablep2:SNR"))
  :latex)
