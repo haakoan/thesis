@@ -68,6 +68,7 @@
 \contentsline {section}{\numberline {7.5}Detection prospects}{83}{section.7.5}
 \contentsline {section}{\numberline {7.6}Conclusion and discussion}{84}{section.7.6}
 \contentsline {chapter}{\numberline {8}Summary and discussion}{87}{chapter.8}
-\contentsline {paragraph}{\nonumberline Summary}{87}{section*.36}
-\contentsline {paragraph}{\nonumberline Di}{89}{section*.37}
-\contentsline {chapter}{Bibliography}{91}{section*.38}
+\contentsline {paragraph}{\nonumberline To summarise,}{87}{section*.36}
+\contentsline {paragraph}{\nonumberline The uncertainties}{89}{section*.37}
+\contentsline {paragraph}{\nonumberline Future work}{90}{section*.38}
+\contentsline {chapter}{Bibliography}{91}{section*.39}

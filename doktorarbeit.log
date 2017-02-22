@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.1.11)  21 FEB 2017 14:55
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.1.11)  22 FEB 2017 18:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2431,10 +2431,16 @@ Chapter 8.
 
 
 
-] [88]) [89] [90
+] [88]
+
+Package natbib Warning: Citation `fischer_14' on page 89 undefined on input lin
+e 85.
 
 
-] (./doktorarbeit.bbl
+Package natbib Warning: Citation `lattimer_16' on page 89 undefined on input li
+ne 85.
+
+[89]) [90] (./doktorarbeit.bbl
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              You should note, that in 1994 font command `\rm' has
@@ -2674,6 +2680,8 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              by `\normalfont \rmfamily ' on input line 133.
 
 [91
+
+
 
 
 
@@ -4155,7 +4163,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\normalfont \rmfamily ' on input line 848.
+(scrbook)              by `\normalfont \rmfamily ' on input line 840.
 
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
@@ -4211,7 +4219,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\normalfont \rmfamily ' on input line 878.
+(scrbook)              by `\normalfont \rmfamily ' on input line 872.
 
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
@@ -4239,7 +4247,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\normalfont \rmfamily ' on input line 894.
+(scrbook)              by `\normalfont \rmfamily ' on input line 890.
 
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
@@ -4253,7 +4261,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\normalfont \rmfamily ' on input line 899.
+(scrbook)              by `\normalfont \rmfamily ' on input line 900.
 
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
@@ -4281,9 +4289,8 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\normalfont \rmfamily ' on input line 910.
+(scrbook)              by `\normalfont \rmfamily ' on input line 911.
 
-[97]
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              You should note, that in 1994 font command `\rm' has
@@ -4296,8 +4303,9 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\normalfont \rmfamily ' on input line 920.
+(scrbook)              by `\normalfont \rmfamily ' on input line 916.
 
+[97]
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              You should note, that in 1994 font command `\rm' has
@@ -4355,6 +4363,20 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              by `\normalfont \rmfamily ' on input line 944.
 
 
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\normalfont \rmfamily ' on input line 950.
+
+
 Class scrbook Warning: Usage of deprecated font command `\it'!
 (scrbook)              You should note, that in 1994 font command `\it' has
 (scrbook)              been defined for compatiblitiy to Script 2.0 only.
@@ -4366,7 +4388,7 @@ Class scrbook Warning: Usage of deprecated font command `\it'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\it' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\it'
-(scrbook)              by `\normalfont \itshape ' on input line 950.
+(scrbook)              by `\normalfont \itshape ' on input line 956.
 
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
@@ -4380,7 +4402,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\normalfont \rmfamily ' on input line 961.
+(scrbook)              by `\normalfont \rmfamily ' on input line 967.
 
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
@@ -4394,7 +4416,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\normalfont \rmfamily ' on input line 966.
+(scrbook)              by `\normalfont \rmfamily ' on input line 972.
 
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
@@ -4408,7 +4430,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\normalfont \rmfamily ' on input line 971.
+(scrbook)              by `\normalfont \rmfamily ' on input line 977.
 
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
@@ -4422,7 +4444,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\normalfont \rmfamily ' on input line 976.
+(scrbook)              by `\normalfont \rmfamily ' on input line 982.
 
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
@@ -4436,12 +4458,15 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\normalfont \rmfamily ' on input line 981.
+(scrbook)              by `\normalfont \rmfamily ' on input line 987.
 
 ) [98]
+
+Package natbib Warning: There were undefined citations.
+
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 389.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 389.
- (./doktorarbeit.aux)
+(./doktorarbeit.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 389.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 389.
 
@@ -4451,8 +4476,8 @@ Package rerunfilecheck Warning: File `doktorarbeit.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `doktorarbeit.out':
-(rerunfilecheck)             Before: 35D14A1BAEFB81050943D9A03386409F;4592
-(rerunfilecheck)             After:  02EADD449FB5A771227C6EE41725CF0A;4593.
+(rerunfilecheck)             Before: 02EADD449FB5A771227C6EE41725CF0A;4593
+(rerunfilecheck)             After:  58564156E9D075C3F15466A491E554EF;4593.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -4465,13 +4490,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 389.
  ) 
 Here is how much of TeX's memory you used:
- 33704 strings out of 494208
- 586924 string characters out of 6160797
- 753810 words of memory out of 5000000
- 35788 multiletter control sequences out of 15000+600000
+ 33711 strings out of 494208
+ 587029 string characters out of 6160797
+ 753891 words of memory out of 5000000
+ 35793 multiletter control sequences out of 15000+600000
  30286 words of font info for 124 fonts, out of 8000000 for 9000
  416 hyphenation exceptions out of 8191
- 65i,14n,75p,10459b,837s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 65i,14n,75p,10459b,839s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.6} has been referenced but does not exi
 st, replaced by a fixed one
 
@@ -4516,10 +4541,10 @@ hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on doktorarbeit.pdf (104 pages, 14704146 bytes).
+Output written on doktorarbeit.pdf (104 pages, 14709849 bytes).
 PDF statistics:
- 16294 PDF objects out of 18468 (max. 8388607)
- 2852 compressed objects within 29 object streams
- 490 named destinations out of 1000 (max. 500000)
+ 16323 PDF objects out of 18468 (max. 8388607)
+ 2881 compressed objects within 29 object streams
+ 492 named destinations out of 1000 (max. 500000)
  668 words of extra memory for PDF output out of 10000 (max. 10000000)
 
