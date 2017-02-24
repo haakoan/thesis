@@ -4,7 +4,7 @@
 %%% mode: latex
 %%% TeX-master: "../../doktorarbeit"
 %%% End:
-\chapter{The effects of rotation}
+\chapter{The effects of rotation} \label{ch:paper2}
 In the previous chapter we studied four non-rotating models of core-collapse
 supernovae, focusing on the underlying hydrodynamic instabilities responsible
 for GW emission and how these excitation mechanisms change when taking the step from
@@ -402,6 +402,24 @@ At a distance of 10 kpc, none of our models would be detectable with AdVLIGO. Fo
 significantly better. We estimate that model m15fr should be debatable out to distances of 75 kpc, while model m15nr
 and model m15r could be detected at $\sim 20$ kpc and $\sim 30$ kpc, respectively. The B configuration of the detector shows the most
 promise and can effectively increase those numbers by $\sim 35-60\%$. 
+
+\section{Core bounce signal}
+In the 3D models we only consider the time after core bounce. The reason for this is that the
+models were evolved in 2D from the onset of collapse until approximently 10 ms after core bounce,
+in order to reduce the computational cost of the models.
+
+
+
+In \fig{figp2:bounce}
+\begin{figure}[ht]         
+\centering                            
+\includegraphics[width=0.9\textwidth]{./images/paper2/bounce_fr.pdf} \\
+\includegraphics[width=0.9\textwidth]{./images/paper2/bounce_r.pdf}
+\caption{The entropy per baryon in the xy-plane of the Yin-grid for model m15r. Shown at
+at 167 (top left panel), 210 (top right panel), and 343 (bottom panel) ms post bounce. 
+The entropy is given in units of Boltzmann's constant $k_b$. \label{figp2:bounce}}
+\end{figure}
+
 
 \section{Conclusion and discussion}
 In this chapter, we studied progenitor rotation affects the GW signal of core collapse supernovae.

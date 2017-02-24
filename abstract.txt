@@ -1,0 +1,7 @@
+Today we do not have a single direct observation of the 
+engine powering some of the most luminous events known to humankind.
+Our best understanding of core-collapse supernovae comes from 
+sophisticated computer simulations.
+In this theis we study the gravitational wave signals from state of the art
+three-dimensional simulations and investigate what future observations
+of such signals can teach us about the death of massive stars.  

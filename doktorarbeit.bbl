@@ -17,6 +17,12 @@
   {mn@eprint@\@tempb}{\@tempb:\@tempc}{\expandafter \expandafter \csname
   mn@eprint@\@tempb\endcsname \expandafter{\@tempc}}}
 
+\bibitem[\protect\citeauthoryear{{Abbott} et~al.,}{{Abbott}
+  et~al.}{2016}]{gw_detect}
+{Abbott} B.~P.,  et~al., 2016, \mn@doi [Physical Review Letters]
+  {10.1103/PhysRevLett.116.061102}, \href
+  {http://adsabs.harvard.edu/abs/2016PhRvL.116f1102A} {116, 061102}
+
 \bibitem[\protect\citeauthoryear{{Abdikamalov}, {Ott}, {Rezzolla}, {Dessart},
   {Dimmelmeier}, {Marek}  \& {Janka}}{{Abdikamalov}
   et~al.}{2010}]{abdikamalov_10}
@@ -250,6 +256,12 @@ Clarendon, Oxford
 {Finn} L.~S.,  {Evans} C.~R.,  1990, \mn@doi [\apj] {10.1086/168497}, \href
   {http://adsabs.harvard.edu/abs/1990ApJ...351..588F} {351, 588}
 
+\bibitem[\protect\citeauthoryear{{Fischer}, {Hempel}, {Sagert}, {Suwa}  \&
+  {Schaffner-Bielich}}{{Fischer} et~al.}{2014}]{fischer_14}
+{Fischer} T.,  {Hempel} M.,  {Sagert} I.,  {Suwa} Y.,   {Schaffner-Bielich} J.,
+   2014, \mn@doi [European Physical Journal A] {10.1140/epja/i2014-14046-5},
+  \href {http://adsabs.harvard.edu/abs/2014EPJA...50...46F} {50, 46}
+
 \bibitem[\protect\citeauthoryear{{Flanagan} \& {Hughes}}{{Flanagan} \&
   {Hughes}}{1998}]{flanagan_98a}
 {Flanagan} {\'E}.~{\'E}.,  {Hughes} S.~A.,  1998, \mn@doi [\prd]
@@ -478,6 +490,12 @@ Kageyama A.,  Sato T.,  2004, \mn@doi [Geochemistry, Geophysics, Geosystems]
   Laboratory} \& {Shoemaker}}{2010}]{adv_sens}
 {LIGO Laboratory} {Shoemaker} D.,  2010, {Advanced LIGO anticipated sensitivity
   curves}, \url{https://dcc.ligo.org/LIGO-T0900288/public}
+
+\bibitem[\protect\citeauthoryear{{Lattimer} \& {Prakash}}{{Lattimer} \&
+  {Prakash}}{2016}]{lattimer_16}
+{Lattimer} J.~M.,  {Prakash} M.,  2016, \mn@doi [\physrep]
+  {10.1016/j.physrep.2015.12.005}, \href
+  {http://adsabs.harvard.edu/abs/2016PhR...621..127L} {621, 127}
 
 \bibitem[\protect\citeauthoryear{{Lattimer} \& {Swesty}}{{Lattimer} \&
   {Swesty}}{1991}]{lattimer_91}
