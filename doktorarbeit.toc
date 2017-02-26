@@ -59,15 +59,15 @@
 \contentsline {section}{\numberline {7.1}Supernova Models}{70}{section.7.1}
 \contentsline {section}{\numberline {7.2}Results}{75}{section.7.2}
 \contentsline {subsection}{\numberline {7.2.1}Qualitative description of the gravitational wave signals}{75}{subsection.7.2.1}
-\contentsline {paragraph}{\nonumberline m15fr}{75}{section*.27}
-\contentsline {paragraph}{\nonumberline m15fr}{75}{section*.28}
-\contentsline {paragraph}{\nonumberline m15nr}{76}{section*.29}
-\contentsline {subsubsection}{\nonumberline Time-integrated energy spectra}{76}{section*.32}
+\contentsline {paragraph}{\nonumberline m15fr}{75}{section*.29}
+\contentsline {paragraph}{\nonumberline m15fr}{75}{section*.30}
+\contentsline {paragraph}{\nonumberline m15nr}{76}{section*.31}
+\contentsline {subsubsection}{\nonumberline Time-integrated energy spectra}{78}{section*.32}
+\contentsline {subsection}{\numberline {7.2.2}Core bounce signal}{79}{subsection.7.2.2}
 \contentsline {section}{\numberline {7.3}Excitation of gravitational waves}{80}{section.7.3}
-\contentsline {section}{\numberline {7.4}The standing accretion shock instability, rotation, and resolution}{82}{section.7.4}
-\contentsline {section}{\numberline {7.5}Detection prospects}{83}{section.7.5}
-\contentsline {section}{\numberline {7.6}Core bounce signal}{84}{section.7.6}
-\contentsline {section}{\numberline {7.7}Conclusion and discussion}{85}{section.7.7}
+\contentsline {section}{\numberline {7.4}The standing accretion shock instability, rotation, and resolution}{83}{section.7.4}
+\contentsline {section}{\numberline {7.5}Detection prospects}{84}{section.7.5}
+\contentsline {section}{\numberline {7.6}Conclusion and discussion}{85}{section.7.6}
 \contentsline {chapter}{\numberline {8}Summary and discussion}{89}{chapter.8}
 \contentsline {section}{\numberline {8.1}Summary}{89}{section.8.1}
 \contentsline {section}{\numberline {8.2}Uncertainties}{90}{section.8.2}

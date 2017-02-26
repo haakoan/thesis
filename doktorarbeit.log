@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.1.11)  24 FEB 2017 18:22
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.2.12)  25 FEB 2017 15:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **doktorarbeit.tex
 (./doktorarbeit.tex
 LaTeX2e <2011/06/27>
-Babel <3.9h> and hyphenation patterns for 34 languages loaded.
+Babel <3.9h> and hyphenation patterns for 78 languages loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrbook.cls
 Document Class: scrbook 2013/12/19 v3.12 KOMA-Script document class (book)
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrkbase.sty
@@ -120,8 +120,6 @@ File: babel.def 2013/12/03 3.9h Babel common definitions
 \babel@savecnt=\count89
 \U@D=\dimen103
 )
-\l@british = a dialect from \language\l@english 
-\l@UKenglish = a dialect from \language\l@english 
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
@@ -1706,9 +1704,6 @@ LaTeX Warning: Label `eqT:pij' multiply defined.
 
 LaTeX Warning: Label `eq:DFT' multiply defined.
 
-
-LaTeX Warning: Label `figp2:sto' multiply defined.
-
 )
 \openout1 = `doktorarbeit.aux'.
 
@@ -1822,10 +1817,10 @@ Package xypdf Info: Line width: 0.47998pt on input line 256.
 
 ABD: EveryShipout initializing macros
 Package epstopdf Info: Source file: <front_page/tum.eps>
-(epstopdf)                    date: 2017-01-11 14:55:59
+(epstopdf)                    date: 2017-02-11 19:56:22
 (epstopdf)                    size: 245974 bytes
 (epstopdf)             Output file: <front_page/tum-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-01-11 14:55:59
+(epstopdf)                    date: 2017-02-11 19:56:22
 (epstopdf)                    size: 2705 bytes
 (epstopdf)             Command: <repstopdf --outfile=front_page/tum-eps-convert
 ed-to.pdf front_page/tum.eps>
@@ -1840,10 +1835,10 @@ Package pdftex.def Info: front_page/tum-eps-converted-to.pdf used on input line
  267.
 (pdftex.def)             Requested size: 113.81102pt x 61.12839pt.
 Package epstopdf Info: Source file: <front_page/mpa.eps>
-(epstopdf)                    date: 2017-01-11 14:55:59
+(epstopdf)                    date: 2017-02-11 19:56:22
 (epstopdf)                    size: 205952 bytes
 (epstopdf)             Output file: <front_page/mpa-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-01-11 14:55:59
+(epstopdf)                    date: 2017-02-11 19:56:22
 (epstopdf)                    size: 6836 bytes
 (epstopdf)             Command: <repstopdf --outfile=front_page/mpa-eps-convert
 ed-to.pdf front_page/mpa.eps>
@@ -2316,39 +2311,39 @@ Chapter 7.
 File: ./images/paper2/rot.pdf Graphic file (type pdf)
 
 <use ./images/paper2/rot.pdf>
-Package pdftex.def Info: ./images/paper2/rot.pdf used on input line 109.
+Package pdftex.def Info: ./images/paper2/rot.pdf used on input line 108.
 (pdftex.def)             Requested size: 456.11655pt x 299.5391pt.
 
 <./images/paper2/rsh.pdf, id=2168, 870.83356pt x 589.4471pt>
 File: ./images/paper2/rsh.pdf Graphic file (type pdf)
 
 <use ./images/paper2/rsh.pdf>
-Package pdftex.def Info: ./images/paper2/rsh.pdf used on input line 115.
+Package pdftex.def Info: ./images/paper2/rsh.pdf used on input line 114.
 (pdftex.def)             Requested size: 456.11655pt x 308.73582pt.
 
 <./images/paper2/sasi_fr.pdf, id=2171, 892.70679pt x 412.70035pt>
 File: ./images/paper2/sasi_fr.pdf Graphic file (type pdf)
 
 <use ./images/paper2/sasi_fr.pdf>
-Package pdftex.def Info: ./images/paper2/sasi_fr.pdf used on input line 122.
+Package pdftex.def Info: ./images/paper2/sasi_fr.pdf used on input line 121.
 (pdftex.def)             Requested size: 414.6463pt x 191.68956pt.
 
 <./images/paper2/sasi_r.pdf, id=2172, 862.43794pt x 412.70035pt>
 File: ./images/paper2/sasi_r.pdf Graphic file (type pdf)
 
 <use ./images/paper2/sasi_r.pdf>
-Package pdftex.def Info: ./images/paper2/sasi_r.pdf used on input line 123.
+Package pdftex.def Info: ./images/paper2/sasi_r.pdf used on input line 122.
 (pdftex.def)             Requested size: 414.6463pt x 198.42137pt.
 
 <./images/paper2/sasi_nr.pdf, id=2173, 877.57236pt x 412.70035pt>
 File: ./images/paper2/sasi_nr.pdf Graphic file (type pdf)
 
 <use ./images/paper2/sasi_nr.pdf>
-Package pdftex.def Info: ./images/paper2/sasi_nr.pdf used on input line 124.
+Package pdftex.def Info: ./images/paper2/sasi_nr.pdf used on input line 123.
 (pdftex.def)             Requested size: 414.6463pt x 194.99565pt.
 
 
-LaTeX Warning: Float too large for page by 16.90659pt on input line 127.
+LaTeX Warning: Float too large for page by 16.90659pt on input line 126.
 
 [71] [72 <./images/paper2/rot.pdf>] [73 <./images/paper2/rsh.pdf>] [74 <./image
 s/paper2/sasi_fr.pdf> <./images/paper2/sasi_r.pdf
@@ -2361,96 +2356,104 @@ pdfTeX warning: pdflatex (file ./images/paper2/sasi_nr.pdf): PDF inclusion: mul
 tiple pdfs with page group included in a single page
 >]
 
-LaTeX Warning: Reference `ch:firstpaper' on page 75 undefined on input line 132
+LaTeX Warning: Reference `ch:firstpaper' on page 75 undefined on input line 131
 .
 
 
-LaTeX Warning: Reference `ch:firstpaper' on page 75 undefined on input line 151
+LaTeX Warning: Reference `ch:firstpaper' on page 75 undefined on input line 150
 .
 
-[75
-
-] <./images/paper2/amps.pdf, id=2289, 1579.30873pt x 1464.38792pt>
+<./images/paper2/amps.pdf, id=2279, 1579.30873pt x 1464.38792pt>
 File: ./images/paper2/amps.pdf Graphic file (type pdf)
 
 <use ./images/paper2/amps.pdf>
-Package pdftex.def Info: ./images/paper2/amps.pdf used on input line 179.
+Package pdftex.def Info: ./images/paper2/amps.pdf used on input line 154.
 (pdftex.def)             Requested size: 456.11655pt x 422.91873pt.
 
-<./images/paper2/rotspec.pdf, id=2290, 1469.26234pt x 1689.46269pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./images/paper2/rotspec.pdf, id=2280, 1469.26234pt x 1689.46269pt>
 File: ./images/paper2/rotspec.pdf Graphic file (type pdf)
 
 <use ./images/paper2/rotspec.pdf>
-Package pdftex.def Info: ./images/paper2/rotspec.pdf used on input line 188.
+Package pdftex.def Info: ./images/paper2/rotspec.pdf used on input line 163.
 (pdftex.def)             Requested size: 456.11655pt x 524.47562pt.
 
 
-LaTeX Warning: Float too large for page by 22.27565pt on input line 197.
+LaTeX Warning: Float too large for page by 22.27565pt on input line 172.
 
-<./images/paper2/dedv_rot.pdf, id=2291, 885.16225pt x 941.71176pt>
+[75
+
+] <./images/paper2/dedv_rot.pdf, id=2293, 885.16225pt x 941.71176pt>
 File: ./images/paper2/dedv_rot.pdf Graphic file (type pdf)
 
 <use ./images/paper2/dedv_rot.pdf>
-Package pdftex.def Info: ./images/paper2/dedv_rot.pdf used on input line 203.
+Package pdftex.def Info: ./images/paper2/dedv_rot.pdf used on input line 206.
 (pdftex.def)             Requested size: 363.96667pt x 387.21075pt.
- [76] [77 <./images/paper2/amps.pdf>]
-[78 <./images/paper2/rotspec.pdf>] [79 <./images/paper2/dedv_rot.pdf>]
+ [76 <./images/paper2/amps.pdf>] [77 <./images/paper2/rotspec.pdf>] [78 <./imag
+es/paper2/dedv_rot.pdf>]
+<./images/paper2/bounce_fr.pdf, id=15553, 883.6655pt x 412.70035pt>
+File: ./images/paper2/bounce_fr.pdf Graphic file (type pdf)
 
-LaTeX Warning: Reference `ch:firstpaper' on page 80 undefined on input line 224
+<use ./images/paper2/bounce_fr.pdf>
+Package pdftex.def Info: ./images/paper2/bounce_fr.pdf used on input line 230.
+(pdftex.def)             Requested size: 414.6463pt x 193.65433pt.
+
+<./images/paper2/bounce_r.pdf, id=15554, 883.6655pt x 412.70035pt>
+File: ./images/paper2/bounce_r.pdf Graphic file (type pdf)
+
+<use ./images/paper2/bounce_r.pdf>
+Package pdftex.def Info: ./images/paper2/bounce_r.pdf used on input line 231.
+(pdftex.def)             Requested size: 414.6463pt x 193.65433pt.
+ [79]
+
+LaTeX Warning: Reference `ch:firstpaper' on page 80 undefined on input line 245
 .
 
 
-LaTeX Warning: Reference `ch:firstpaper' on page 80 undefined on input line 235
+LaTeX Warning: Reference `ch:firstpaper' on page 80 undefined on input line 256
 .
 
-<./images/paper2/1.png, id=15558, 1027.84pt x 734.745pt>
+[80 <./images/paper2/bounce_fr.pdf> <./images/paper2/bounce_r.pdf
+
+pdfTeX warning: pdflatex (file ./images/paper2/bounce_r.pdf): PDF inclusion: mu
+ltiple pdfs with page group included in a single page
+>] <./images/paper2/1.png, id=15618, 1027.84pt x 734.745pt>
 File: ./images/paper2/1.png Graphic file (type png)
 
 <use ./images/paper2/1.png>
-Package pdftex.def Info: ./images/paper2/1.png used on input line 278.
+Package pdftex.def Info: ./images/paper2/1.png used on input line 299.
 (pdftex.def)             Requested size: 225.75594pt x 161.37532pt.
 
-<./images/paper2/2.png, id=15559, 1027.84pt x 734.745pt>
+<./images/paper2/2.png, id=15619, 1027.84pt x 734.745pt>
 File: ./images/paper2/2.png Graphic file (type png)
 
 <use ./images/paper2/2.png>
-Package pdftex.def Info: ./images/paper2/2.png used on input line 279.
+Package pdftex.def Info: ./images/paper2/2.png used on input line 300.
 (pdftex.def)             Requested size: 225.75594pt x 161.37532pt.
 
-<./images/paper2/3.png, id=15560, 1027.84pt x 734.745pt>
+<./images/paper2/3.png, id=15620, 1027.84pt x 734.745pt>
 File: ./images/paper2/3.png Graphic file (type png)
 
 <use ./images/paper2/3.png>
-Package pdftex.def Info: ./images/paper2/3.png used on input line 280.
+Package pdftex.def Info: ./images/paper2/3.png used on input line 301.
 (pdftex.def)             Requested size: 225.75594pt x 161.37532pt.
- [80] [81 <./images/paper2/1.png (PNG copy)> <./images/paper2/2.png (PNG copy)>
- <./images/paper2/3.png (PNG copy)>] [82]
+ [81] [82 <./images/paper2/1.png (PNG copy)> <./images/paper2/2.png (PNG copy)>
+ <./images/paper2/3.png (PNG copy)>]
 
-LaTeX Warning: Reference `ch:firstpaper' on page 83 undefined on input line 343
+LaTeX Warning: Reference `ch:firstpaper' on page 83 undefined on input line 364
 .
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 346.
+               Default added (so using `tbp') on input line 367.
 
-[83] <./images/paper2/bounce_fr.pdf, id=15611, 883.6655pt x 412.70035pt>
-File: ./images/paper2/bounce_fr.pdf Graphic file (type pdf)
 
-<use ./images/paper2/bounce_fr.pdf>
-Package pdftex.def Info: ./images/paper2/bounce_fr.pdf used on input line 409.
-(pdftex.def)             Requested size: 414.6463pt x 193.65433pt.
+Underfull \vbox (badness 6608) has occurred while \output is active []
 
-<./images/paper2/bounce_r.pdf, id=15612, 883.6655pt x 412.70035pt>
-File: ./images/paper2/bounce_r.pdf Graphic file (type pdf)
-
-<use ./images/paper2/bounce_r.pdf>
-Package pdftex.def Info: ./images/paper2/bounce_r.pdf used on input line 410.
-(pdftex.def)             Requested size: 414.6463pt x 193.65433pt.
- [84] [85 <./images/paper2/bounce_fr.pdf> <./images/paper2/bounce_r.pdf
-
-pdfTeX warning: pdflatex (file ./images/paper2/bounce_r.pdf): PDF inclusion: mu
-ltiple pdfs with page group included in a single page
->] [86]) [87] [88
+ [83]
+[84] [85] [86]) [87] [88
 
 
 ] (./chapters/sum/body.tex
@@ -4499,7 +4502,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 389.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 389.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 389.
 Package rerunfilecheck Info: File `doktorarbeit.out' has not changed.
-(rerunfilecheck)             Checksum: 617A06B3EFBB3841E8D4D05AD58E5B52;4826.
+(rerunfilecheck)             Checksum: D6758DC135639BA42115FF4F73423D01;4833.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -4513,12 +4516,12 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 389.
  ) 
 Here is how much of TeX's memory you used:
- 33738 strings out of 494208
- 587587 string characters out of 6160797
- 754243 words of memory out of 5000000
- 35811 multiletter control sequences out of 15000+600000
+ 33737 strings out of 493304
+ 587591 string characters out of 6139871
+ 758171 words of memory out of 5000000
+ 35896 multiletter control sequences out of 15000+600000
  30286 words of font info for 124 fonts, out of 8000000 for 9000
- 416 hyphenation exceptions out of 8191
+ 957 hyphenation exceptions out of 8191
  65i,14n,75p,10459b,833s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.6} has been referenced but does not exi
 st, replaced by a fixed one
@@ -4538,36 +4541,36 @@ pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
 , replaced by a fixed one
 
- </home/haakoan/.texmf-var/fonts/pk/ljfour/jknappen/ec/tcbx1200.600pk> </home/h
-aakoan/.texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk> </home/haakoan/.t
-exmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0700.600pk> </home/haakoan/.texmf-var/
-fonts/pk/ljfour/jknappen/ec/tcrm0800.600pk></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
-i12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on doktorarbeit.pdf (106 pages, 14995996 bytes).
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+</usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fo
+nts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf/fonts/type1/public/cm-
+super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
+Output written on doktorarbeit.pdf (106 pages, 15019114 bytes).
 PDF statistics:
- 16384 PDF objects out of 18468 (max. 8388607)
- 2929 compressed objects within 30 object streams
+ 16398 PDF objects out of 18468 (max. 8388607)
+ 2942 compressed objects within 30 object streams
  499 named destinations out of 1000 (max. 500000)
  710 words of extra memory for PDF output out of 10000 (max. 10000000)
 
