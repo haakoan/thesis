@@ -36,6 +36,12 @@
 {Abdikamalov} E.,  et~al., 2015, \mn@doi [\apj] {10.1088/0004-637X/808/1/70},
   \href {http://adsabs.harvard.edu/abs/2015ApJ...808...70A} {808, 70}
 
+\bibitem[\protect\citeauthoryear{{Andresen}, {Mueller}, {Mueller}  \&
+  {Janka}}{{Andresen} et~al.}{2016}]{andresen_16}
+{Andresen} H.,  {Mueller} B.,  {Mueller} E.,   {Janka} H.-T.,  2016, preprint,
+  \href {http://adsabs.harvard.edu/abs/2016arXiv160705199A} {} (\mn@eprint
+  {arXiv} {1607.05199})
+
 \bibitem[\protect\citeauthoryear{{Arnett} \& {Meakin}}{{Arnett} \&
   {Meakin}}{2011}]{arnett_11}
 {Arnett} W.~D.,  {Meakin} C.,  2011, \mn@doi [\apj]
@@ -99,11 +105,6 @@
 {Buras} R.,  {Janka} H.-T.,  {Rampp} M.,   {Kifonidis} K.,  2006b, \mn@doi
   [\aap] {10.1051/0004-6361:20054654}, \href
   {http://adsabs.harvard.edu/abs/2006A26A...457..281B} {457, 281}
-
-\bibitem[\protect\citeauthoryear{{Burrows}}{{Burrows}}{2013}]{burrows_13}
-{Burrows} A.,  2013, \mn@doi [Reviews of Modern Physics]
-  {10.1103/RevModPhys.85.245}, \href
-  {http://adsabs.harvard.edu/abs/2013RvMP...85..245B} {85, 245}
 
 \bibitem[\protect\citeauthoryear{{Burrows} \& {Hayes}}{{Burrows} \&
   {Hayes}}{1996}]{burrows_96}
@@ -984,6 +985,12 @@ Oohara K.-i.,  Nakamura T.,   Shibata M.,  1997, \mn@doi [Progress of
   et~al.}{2015}]{yakunin_15}
 {Yakunin} K.~N.,  et~al., 2015, \mn@doi [\prd] {10.1103/PhysRevD.92.084040},
   \href {http://adsabs.harvard.edu/abs/2015PhRvD..92h4040Y} {92, 084040}
+
+\bibitem[\protect\citeauthoryear{{Yakunin} et~al.,}{{Yakunin}
+  et~al.}{2017}]{yakunin_17}
+{Yakunin} K.~N.,  et~al., 2017, preprint, \href
+  {http://adsabs.harvard.edu/abs/2017arXiv170107325Y} {} (\mn@eprint {arXiv}
+  {1701.07325})
 
 \bibitem[\protect\citeauthoryear{{Yamada} \& {Sato}}{{Yamada} \&
   {Sato}}{1995}]{yamada_95}

@@ -1,21 +1,29 @@
-\chapter{First paper} \label{ch:paper1}
+\chapter{Gravitational waves from three-dimensional core-collapse simulations} \label{ch:paper1}
+The content of this chapter has been published in \cite{andresen_16}, with only minor modifications
+being made to the manuscript when adopting it for this thesis. The original manuscript text
+was written together with coauthors Bernhard M\"uller$^{1,2}$, Ewald M\"uller$^{3}$, and Hans-Thomas Janka$^{3}$.\\
+{\tiny
+$^{1}$Astrophysics Research Centre, School of
+   Mathematics and Physics, Queen's University Belfast, Belfast BT7~1NN, United Kingdom\\
+$^{2}$Monash Centre for Astrophysics, School of
+   Physics and Astronomy, Building 79P, Monash University, Victoria
+   3800, Australia
+\\
+$^{1}$Max-Planck-Institut f\"ur Astrophysik,
+   Karl-Schwarzschild-Str.~1, D-85748 Garching, Germany
+}
 \section{Introduction}
-Despite impressive progress during recent years, the explosion
-mechanism powering core-collapse supernovae is still not fully
-understood. For ordinary supernovae with explosion energies up to
-$\mathord{\sim}10^{51} \,\mathrm{erg}$, the prevailing theory is the
-delayed neutrino-driven mechanism (see
-\citealp{janka_12,burrows_13} for current reviews). In this scenario,
-the shock wave formed during the rebound (bounce) of the inner core
-initially stalls and only propagates out to a radius of
-$\mathord{\sim}150 \,\mathrm{km}$. The energy needed to revitalise the
-shock is provided by the partial re-absorption of neutrinos emitted
-from the proto-neutron star (PNS).  
+Over the last few years successful 3D simulations of core-collapse 
+has given credence to the the delayed neutrino driven explosion mechanism.
+Explosions have been obtained in simulations with sophisticated
+transport and neutrino microphysics \citep{melson_15a,melson_15b,lentz_15,suma_models} and
+in models with more approximate prescriptions of the neutrino physics 
+\citep{takiwaki_12,takiwaki_14,mueller_15b,roberts_16}.
 
 Hydrodynamical instabilities operating behind the stalled shock front
 have been found to be crucial for the success of this scenario as they
 help to push the shock further out by generating large Reynolds
-Stresses (or ``turbulent pressure'', see \citealp{burrows_95,murphy_12,couch_15,mueller_15a})
+stresses (or ``turbulent pressure'', see \citealp{burrows_95,murphy_12,couch_15,mueller_15a})
 and transporting neutrino-heated material out from the gain radius, which then
 allows the material to be exposed to neutrino heating over a longer
 ``dwell time'' \citep{buras_06b,murphy_08b}. Moreover, if the
@@ -25,34 +33,12 @@ allow them to rise and expand continuously
 \citep{thompson_00,dolence_13,fernandez_15}. 
 
 Two such instabilities have been identified in simulations,
-namely the more familiar phenomenon of convection driven by the unstable entropy gradient arising due to neutrino heating
+namely the more familiar phenomenon of convection driven by the 
+unstable entropy gradient arising due to neutrino heating
 \citep{bethe_90,herant_94,burrows_95,janka_96,mueller_97}, and the
-so-called standing accretion shock instability (SASI), which manifests
+so-called standing accretion shock instability, which manifests
 itself in large-scale sloshing and spiral motions of the shock
 \citep{blondin_03,blondin_06,foglizzo_07,ohnishi_06,ohnishi_08,scheck_08,guilet_12,foglizzo_15}.
-After initial setbacks in three-dimensional (3D) supernova modelling,
-we are now starting to see the emergence of the first generation
-of successful 3D simulations of explosions with three-flavour
-multi-group neutrino transport, culminating in the recent models
-of the Garching and Oak~Ridge groups
-\citep{melson_15a,melson_15b,lentz_15} with their rigorous treatment
-of the transport and neutrino microphysics in addition to many more
-obtained with more approximate transport schemes,
-as for example the studies of \citet{takiwaki_12,takiwaki_14}, 
-\citet{mueller_15b} and \citet{roberts_16}.\footnote{
-\citet{takiwaki_12,takiwaki_14} employ the isotropic diffusion source 
-approximation \citep{liebendoerfer_09}
-and use further approximations to treat heavy lepton neutrinos.
-\cite{takiwaki_14} employ a leakage scheme to account for heavy lepton
-neutrinos and \cite{takiwaki_12} neglect the effect of these neutrinos 
-altogether. \cite{mueller_15b} utilises the stationary fast multi-group 
-transport scheme of \cite{mueller_15a}, which at high optical depths 
-solves the Boltzmann equation in a two-stream approximation and
-matches the solution to an analytic variable 
-Eddington factor closure at low optical depths.
-\citet{roberts_16} employ a full 3D two-moment (M1) solver in 
-general relativistic simulations, but ignore velocity-dependent
-terms.}
 
 Our means to validate these numerical models by observations are
 limited. Classical photon-based observations of supernovae and their
@@ -138,7 +124,7 @@ predictions of GW amplitudes and spectra, which
 are extremely sensitive to the nature of hydrodynamic instabilities,
 the neutrino heating, and the contraction of the PNS.
 
-In this paper, we present GW waveforms of the
+In this chapter, we present GW waveforms of the
 first few hundred milliseconds of the post-bounce phase computed from 3D
 models with multi-group neutrino transport. Waveforms have been
 analysed for four supernova models of progenitors with zero-age main
@@ -173,7 +159,7 @@ the SASI. We also provide a more critical assessment of the detectability of thi
 suggesting that it may only be detectable with second-generation instruments like Advanced LIGO for a very 
 nearby event at a distance of $2 \, \mathrm{kpc}$ or less.
 
-Our paper is structured as follows: We first give a brief
+Our chapter is structured as follows: We first give a brief
 description of the numerical setup and the extraction of
 GWs in Section~\ref{sec:numerics}.
 In Section~\ref{sec:structure}, we present a short overview
@@ -189,45 +175,13 @@ instrument. We also comment on possible inferences
 from a prospective GW detection. Our
 conclusions and a summary of open questions for
 future research are presented in Section~\ref{sec:con}.
-\section{Setup and Numerical Methods}
-\label{sec:numerics}
-\subsection{Numerical Methods}
-{\comment
-In this paper, we present and analyse the gravitational-wave signals
-from three 3D supernova simulations and one 2D supernova simulation. 
-The simulations were performed with the \textsc{Prometheus-Vertex} code \citep{rampp_02,buras_06a}. }
-The Newtonian hydrodynamics module
-\textsc{Prometheus} \citep{mueller_91,fryxell_91} features a dimensionally-split
-implementation of the piecewise parabolic method of \cite{colella_84}
-in spherical polar coordinates $(r,\theta,\varphi)$. Self-gravity is treated using the monopole
-approximation and the effects of general relativity are accounted for
-in an approximate fashion by means of a pseudo-relativistic
-effective potential (case~A of \citealt{marek_06}). The neutrino transport
-module \textsc{Vertex} \citep{rampp_02} solves the energy-dependent two-moment
-equations for three neutrino species ($\nu_e$, $\bar{\nu}_e$, and a species $\nu_X$ representing
-all heavy flavor neutrinos) using a variable Eddington factor technique.
-The ``ray-by-ray-plus'' approximation of \citet{buras_06a} is applied to make the
-multi-D transport problem tractable. In the high-density regime, the nuclear equation of  state (EoS) of \citet{lattimer_91} with a bulk incompressibility modulus of nuclear matter of $K=220 \,\mathrm{MeV}$
-has been used in all cases. An initial grid resolution of $400\times 88 \times 176$ zones in $r$, $\theta$, and $\varphi$ was used for the 3D model, and more radial grid zones were added
-during the simulations to maintain sufficient resolution around the PNS surface.
-{\comment For the 2D model an initial grid resolution of $400 \times 88$ zones in $r$ and $\theta$ was used.
-In both 2D and 3D, the innermost $10 \, \mathrm{km}$ was simulated in spherical symmetry to avoid
-excessive limitations on the time step.}
 
-{\comment
-In order to compare our results to previous 2D results, we also reanalyse the 2D model presented
-by \citealt{mueller_13}. This model was simulated with \textsc{CoCoNuT-Vertex} \citep{mueller_10}. 
-\textsc{CoCoNuT} \citep{dimmelmeier_02_a,dimmelmeier_04} uses a directionally-unsplit
-implementation of the piecewise parabolic reconstruction method in spherical polar coordinates.
-The general relativistic equations of hydrodynamics are solved in the extended conformal flatness approximation \citep{cordero_09}. The general relativistic 2D model was simulated with an initial grid resolution of $400 \times 128$ zones in $r$ and $\theta$ was used. The innermost $1.6 \, \mathrm{km}$ was simulated in spherical symmetry to time step limitations.}
-\section{Structure and Origin of the Gravitational Wave Signal}
-\label{sec:structure}
-The different 3D models used in our analysis probe distinctly
-different regimes that can be encountered in supernova cores.
-In this section, we will investigate how these dynamical differences are reflected
-in the GW signals.
-\begin{figure}
-\includegraphics[width=0.99\textwidth]{./images/chp1/fig1.pdf}
+\section{Supernova Models}
+\label{sec:numerics}
+
+\begin{figure*}
+\centering
+\includegraphics[width=0.99\textwidth]{./images/paper1/fig1.pdf}
 \caption{GW amplitudes $A_+$ and $A_\times$ as functions of time
   after core bounce.
   From the top: s27, s20, s20s, and s11, respectively. 
@@ -236,10 +190,14 @@ in the GW signals.
   Episodes of strong SASI activity occur between the vertical red lines; dashed and solid lines are used for
   model s27 to distinguish between two different SASI episodes.
 \label{fig:amps}}
-\end{figure}
+\end{figure*}
+\subsection{\comment 3D  Models}
+We study four 3D models based on three solar-metallicity progenitor stars with ZAMS masses of $11.2 M_\odot$ \citep{woosley_02},$20 M_\odot$ \citep{woosley_07} and $27 M_\odot$ \citep{woosley_02}. 
+{An initial grid resolution of $400\times 88 \times 176$ zones in $r$, $\theta$, and $\varphi$ was used for the 3D models, and more radial grid zones were added
+during the simulations to maintain sufficient resolution around the PNS surface.}
+{The innermost $10 \, \mathrm{km}$ were simulated in spherical symmetry to avoid
+excessive limitations on the time step when applying a spherical polar grid.}
 
-\subsection{Supernova Models}
-We study four 3D models based on three solar-metallicity progenitor stars with ZAMS masses of $11.2 M_\odot$ \citep{woosley_02},$20 M_\odot$ \citep{woosley_07} and $27 M_\odot$ \citep{woosley_02}: 
 \begin{itemize}
 \item \textbf{s11.2:} 
 Model s11.2 \citep{tamborra_14a} is based on the solar-metallicity $11.2 M_\odot$ progenitor of \citet{woosley_02}. 
@@ -292,46 +250,110 @@ between $120$ and $260 \, \mathrm{ms}$ post-bounce and the second
 period sets in around $410 \, \mathrm{ms}$ post-bounce and lasts until
 the end of the simulation. 
 \end{itemize}
-{\comment
-In addition to the 3D models, we also analyse two 2D models based as the same progenitor
-as s27. The first 2D model is simulated with the same numerical setup as s27.
+
+\subsection{2D Models}
+{In addition to the 3D models, we also analyse two 2D models based on the same progenitor
+as s27. 
 \begin{itemize}
-\item \textbf{s27-2D:} The 2D version of s27 is based on the same 
-$27 M_\odot$ solar-metallicity progenitor of \citet{woosley_02} and has been
-presented in \citet{hanke_13}. SASI activity sets in about $150 \, \mathrm{ms}$ after
-core bounce. Between $220 \, \mathrm{ms}$ and $240 \, \mathrm{ms}$ after bounce the accretion rate drops significantly, after the Si/O shell interface reaches shock.
-The low accretion rate leads to shock expansion and around $300 \, \mathrm{ms}$ post bounce
-shock revival occurs.
+\item \textbf{s27-2D:} Model s27-2D was simulated with the same numerical setup as s27 (see \citealp{hanke_13}),
+with an initial grid resolution of $400 \times 88$ zones in $r$ and $\theta$ and the 
+innermost $10 \, \mathrm{km}$ being simulated in spherical symmetry to allow for
+optimal comparison with the 3D model.
+SASI activity sets in about $150 \, \mathrm{ms}$ after
+core bounce. Between $220 \, \mathrm{ms}$ and $240 \, \mathrm{ms}$ after bounce the accretion rate drops significantly
+after the Si/O shell interface has crossed the shock.
+The decreasing accretion rate leads to shock expansion, and
+shock revival occurs around $300 \, \mathrm{ms}$ post bounce.
 \end{itemize}
 \begin{itemize}
-\item \textbf{G27-2D:} We also reanalyse the gravitational wave 
-signal from a general relativistic 2D model \citep{mueller_12b} presented 
-by \citealt{mueller_13} and compare our results to this model. This model is based on the same 
-$27 M_\odot$ solar-metallicity progenitor as s27 and s27-2D \citep{woosley_02}.
-An analysis of the gravitational waves from this model can be found in \cite{mueller_13}.
-The model is characterized by strong post-shock convection for the first $50 \, \mathrm{ms}$
-after core bounce. The post-shock convection is followed by a phase of
+\item \textbf{G27-2D:} In order to compare our results to those of a 
+relativistic 2D simulation of the SASI-dominated s27 model, 
+we also reanalyse the 2D model G27-2D presented
+by \cite{mueller_13}, which was simulated with \textsc{CoCoNuT-Vertex} \citep{mueller_10}. 
+\textsc{CoCoNuT} \citep{dimmelmeier_02_a,dimmelmeier_04} uses a
+directionally-unsplit implementation of the piecewise parabolic
+method (with an approximate Riemann solver) for general relativistic hydrodynamics in spherical polar coordinates. 
+The metric equations are solved in the extended conformal flatness approximation \citep{cordero_09}. 
+The model was simulated with an initial grid resolution of $400 \times 128$ zones in $r$ and $\theta$, 
+with the innermost $1.6 \, \mathrm{km}$ being simulated in spherical symmetry to reduce time step limitations.
+For consistency, we recompute the gravitational wave amplitudes for this model based on the relativistic stress formula 
+(Appendix~A of \citealp{mueller_13}) instead of the time-integrated quadrupole formula with centred differences as originally used by \cite{mueller_13}. 
+The stress formula leads to somewhat larger amplitudes particularly at late times when central differencing
+is no longer fully adequate due to the increasing signal frequency.
+
+The model is characterised by strong post-shock convection for the first $50 \, \mathrm{ms}$
+after core bounce, which is followed by a phase of
 strong SASI activity. Around $120 \, \mathrm{ms}$ after core bounce the average
-shock radius starts to steadily increase. The criteria for run away shock expansion is meet
-approximately $180 \, \mathrm{ms}$ after bounce and $\sim 209 \, \mathrm{ms}$ post bounce
-the shock has been successfully revived.
+shock radius starts to increase steadily. The criterion for runaway shock expansion is met
+approximately $180 \, \mathrm{ms}$ after bounce and 
+the shock is successfully revived at $\mathord{\sim 210} \, \mathrm{ms}$ post bounce.
+
+{The evolution of models G27-2D and s27-2D differs
+  significantly during the pre-explosion phase: In G27-2D large-scale
+  deformation of the shock already occurs $\mathord{\sim} 50$ ms after
+  bounce, without a preceding phase of hot-bubble convection
+  \citep{mueller_13}.  s27-2D develops SASI activity later: Since the
+  average shock radius is $\sim$20-30 km larger in model s27-2D than
+  in model G27-2D, conditions favour the development of
+  neutrino-driven convection. Consequently, s27-2D shows an initial
+  phase of convection before SASI activity sets in when the shock
+  starts to retract $\sim$100-150 ms after bounce.  Due to the early
+  development of SASI activity in model G27-2D at a time when the
+  accretion rate is high, particularly strong supersonic downflows
+  onto the PNS develop.
+
+A possible reason for stronger and earlier SASI activity in model
+G27-2D is that, in contrast to model s27-2D, model G27-2D exhibits a
+phase of strong \emph{prompt} post-shock convection (between a few ms
+after bounce and about $50 \, \mathrm{ms}$ after bounce), which leaves
+the shock appreciably deformed with $|a_1|/a_0 \sim 0.01-0.02$ as
+shown in Fig.~7 of \citet{mueller_12b}. Therefore the SASI amplitude
+only needs to grow by a factor of $\mathord{\sim} 30$ to reach the
+non-linear regime. In \citet[][Fig.~2]{hanke_13} the $l = 1$ amplitude
+is much smaller at early times.  Such differences in the post-bounce
+evolution can have a variety of reasons. Besides the pure
+stochasticity of simulations, the initial perturbations may also play
+a role: Model G27-2D was simulated in 2D from the onset of core
+collapse, while model s27-2D was started from a spherical model with
+seed perturbations imposed $15 \, \mathrm{ms}$ after core bounce. The
+presence or absence of strong prompt post-shock convection also
+depends on the details of the entropy and electron fraction profiles,
+which are determined by the exact shock dynamics during the first
+milliseconds after core bounce. Without a very careful analysis of all
+the differences between the two simulations, we are not able to
+localise the origin of the differences between model G27-2D and model
+s27-2D in the different gravity treatment or any of the other
+aforementioned aspects.
+
+Despite (or because of) the differences in the dynamics of the post-shock flow to
+  s27-2D, model G27-2D is useful for illustrating the differences of
+  the 3D model to the extreme end of the spectrum of recent 2D models
+  in terms of peak GW amplitude and illustrates the mechanism of GW
+  emission by stochastic surface g-mode excitation due to overshooting
+  plumes from the gain region \citep{marek_08,murphy_09,mueller_13} in
+  the clearest form. 
+ }
+
 \end{itemize}
 }
+\section{Structure and Origin of the Gravitational Wave Signal}
+\label{sec:structure}
+{The different 3D models used in our analysis probe distinctly
+different regimes that can be encountered in supernova cores.
+In this section, we will investigate how these dynamical differences are reflected
+in the GW signals. We also compare our 3D models to the two 2D models and investigate
+how and why the GW signal changes when going from 2D to 3D.}
 \subsection{Gravitational Wave Extraction}
 In order to extract the GW signal from
 the hydrodynamical simulations, we post-process our simulations using
-the quadrupole stress formula \citep{finn_89,nakamura_89,blanchet_90}.  Here,
-we only give a concise description of the formalism and refer the reader to 
-\cite{mueller_e_12}\footnote{Note, however, that the description of the formalism in
-\cite{mueller_e_12} contains some typos: Their Eq.~(24) is incomplete. The superscript TT is missing from $\ddot{Q}_{ij}$, as is also the case in Eq.~(22) and (23),
-and, more importantly, the trace term is missing.} for a full explanation.
-
-In this work, we disregard the contribution of anisotropic neutrino
+the quadrupole stress formula \citep{finn_89,nakamura_89,blanchet_90}, see
+chapter~\ref{ch:theory}. 
+We disregard the contribution of anisotropic neutrino
 emission \citep{epstein_78} to the GW signal. Due
 to its low-frequency nature, it is of minor relevance for the
 detectability and does not affect the waveforms appreciably
 in the frequency range $\gtrsim 50 \, \mathrm{Hz}$ that is of
-primary interest to us in this work.
+primary interest to us.
 
 \subsection{Overview of Waveforms}
 \subsubsection{Waveforms}
@@ -395,32 +417,33 @@ hundreds of milliseconds for the tail to develop \citep{mueller_13}.
 
 \subsubsection{Energy Spectra}
 \begin{figure}
-\includegraphics[width=0.99\linewidth]{./images/chp1/fig2.pdf}
+\centering
+\includegraphics[width=0.7\linewidth]{./images/paper1/fig2.pdf}
 \caption{Time-integrated GW energy spectra $\ud E/ \ud f$ for models s27,
 s20, s11.2, and s20s (top to bottom). The spectra
 are computed from the Fourier transform of the entire waveform
 without applying a window function. The y-axis is given in a logarithmic scale.
 \label{fig:energy_spectra}}
 \end{figure}
-Time-integrated energy spectra for each of the models are shown
-in Fig.~\ref{fig:energy_spectra}. These are computed according to \eq{eqT:dedf}.
 
-Model m15fr shows a rather flat spectrum, with strong emission over a wide range of frequencies, but
-the model has a clear peak around $\sim 75-100$ Hz. The slower rotating model m15r, which does not
-develop strong SASI ossilations, 
-peak is visible in the more slowly rotating model m15r. The peak is, however, much weaker.
+Time-integrated energy spectra for each of the models are shown
+in Fig.~\ref{fig:energy_spectra}. These are computed according to 
+\eq{eqT:dedf}. 
+The energy spectra of the three SASI-dominated models are relatively flat. 
+This is significantly
+different from 2D models, where the energy spectra
+are dominated by a peak at several hundreds of $\mathrm{Hz}$
+\citep{marek_08,mueller_13,yakunin_15}. Model s11.2, on the other hand, 
+more closely resembles the 2D energy spectra, although
+the total energy emitted in GWs is considerably lower than in typical 2D models. 
+In addition the peak values of $\ud E/\ud f$
+are considerably higher in the SASI models than for s11.2.
 
 \subsubsection{The Signal in the Time-Frequency Domain}
 In order to dissect the signal further, we apply a short-time
 Fourier transform (STFT) to our waveforms. For a discrete time series
 the STFT is obtained by applying the discrete Fourier transform (DFT)
-to the signal with a sliding window.
-In this work, we define the DFT, $\widetilde{X}_k$, as follows: 
-\begin{equation} \label{eq:DFT}
-\widetilde{X}_k (f_k) = \frac{1}{M}  \sum^M_{m=1} x_m e^{-2\pi i k m/N},
-\end{equation}
-Here, $x_m$ is the time series obtained by sampling the underlying continuous signal at $M$ discrete times. 
-$f_k = k/T$ is the frequency of bin $k$, where $T$ is the duration of the signal.
+to the signal with a sliding window (see chapter~\ref{ch:signal}).
 
 The resulting amplitude spectrograms for a sliding window of $50 \, \mathrm{ms}$ are shown in
 Fig.~\ref{fig:spectrograms}. The spectrograms show the sum of the squared Fourier
@@ -474,19 +497,19 @@ operates during this phase.  This calls for a closer investigation of
 the hydrodynamic processes responsible for the emission of the two
 signal components.
 
-\begin{figure}
-%s27,s20,s11                                                                              
-\includegraphics[width=0.99\textwidth]{./images/chp1/fig3.pdf} \\
+\begin{figure*}
+\centering                                                                             
+\includegraphics[width=0.99\textwidth]{./images/paper1/fig3.pdf} \\
 \caption{Amplitude spectrograms for a sliding window of 50 ms and two different observer
   directions, summed over the two polarisation modes 
-  ($|\widetilde{A}_+|^2 + |\widetilde{A}_\times|^2$). The
+  ($|\text{STFT}[{A_+}]|^2 + |\text{STFT}[{A_{\times}}]|^2$). The
   different rows show the results for models s27, s20, s20s, and s11.2. (top to bottom).
   The two columns shows the spectrograms for two different viewing angles, the right and left column represent
   observers situated along the z-axis (pole) and x-axis (equator) of the computational grid, respectively.
   The time is given in ms after core bounce. Vertical lines bracket SASI episodes. All panels have been normalised by the same global factor.
   The colour bar is given in a logarithmic scale.
 \label{fig:spectrograms}}
-\end{figure}
+\end{figure*}
 
 \subsection{Spatial Location of Underlying Hydrodynamical Instabilities} \label{sec:spaceloc}
 Which regions of the simulation volume contribute to the different GW
@@ -498,7 +521,10 @@ signal. While this may not amount to a strict localisation
 of GW emission as coming from  a specific region, such a partitioning
 nevertheless helps to detect fluid motions with the required
 temporal and frequency structure to account for different components
-of the signal.
+of the signal {in conjunction with the temporal
+evolution of the amplitudes and the spectral power. This procedure
+cannot replace a more rigorous identification of GW-emitting modes,
+which must, however, be left to the future.}
 
 In this work, we divide the integration volume into three layers~A, B, and C (see
 Fig.~\ref{fig:PNSski}). The PNS is split into two layers, the
@@ -549,7 +575,8 @@ $192 \, \mathrm{ms}$. Where necessary, we further distinguish between the convec
 by the radius where $f_m=0$.
 
 \begin{figure}
-\includegraphics[width=0.99\linewidth]{./images/chp1/fig4.pdf}
+\centering
+\includegraphics[width=0.7\linewidth]{./images/paper1/fig4.pdf}
 \caption{Schematic overview of the regions of hydrodynamical activity. In
   Section~\ref{sec:spaceloc} we investigate the contribution to
   the total GW signal from three different layers. The PNS, indicated by
@@ -569,8 +596,9 @@ by the radius where $f_m=0$.
   Section~\ref{sec:spaceloc} for details.
 \label{fig:PNSski}}
 \end{figure}
-\begin{figure}                                       
-\includegraphics[width=0.49\textwidth]{./images/chp1/fig5.pdf}
+\begin{figure}
+\centering                                       
+\includegraphics[width=0.7\textwidth]{./images/paper1/fig5.pdf}
 \caption{Turbulent mass flux $f_m$ (blue curve) for model s27, calculated $192 \, \mathrm{ms}$ after core bounce.
 The shaded region indicates the convectively unstable region and the overshooting layer, which
 are lumped together as layer~A  (see Fig.~\ref{fig:PNSski}).
@@ -609,27 +637,44 @@ the fluid motions responsible for GW emission are propagating
 waves in layer~C and perhaps layer~B,
 where the conversion of vorticity perturbations into acoustic
 perturbations occurs in the SASI feedback cycle. 
-\begin{figure}
-\includegraphics[width=0.49\textwidth]{./images/chp1/fig6a.pdf}
-\includegraphics[width=0.49\textwidth]{./images/chp1/fig6b.pdf}
-\\
-\includegraphics[width=0.49\textwidth]{./images/chp1/fig6d.pdf}
-\includegraphics[width=0.49\textwidth]{./images/chp1/fig6c.pdf}
+\begin{figure*}
+\centering
+\includegraphics[width=0.69\textwidth]{./images/paper1/fig6a.pdf}
+\includegraphics[width=0.69\textwidth]{./images/paper1/fig6b.pdf} \\
+%\includegraphics[width=0.65\textwidth]{./images/paper1/fig6d.pdf} \\
+%\includegraphics[width=0.65\textwidth]{./images/paper1/fig6c.pdf} \\
 \caption{Squared Fourier amplitudes of the total volume-integrated GW
   signal and of the signal contributions arising from the three different
   layers of the simulation volume.  
   From the top: Total signal~(T), 
   the PNS convective region and the overshooting layer~(A), the PNS surface layer~(B),
   and the volume between the PNS surface and the outer grid boundary~(C).  
-  Top row: the left and right columns show the
-  results for models s27 and s20,
-  respectively. Bottom row: the left and right columns show the
-  results for models s20s and s11.2.
+  From the top: models s27, and s20.
   See Fig.~\ref{fig:PNSski} for a sketch of the three
   regions used for this analysis. The Fourier amplitudes are calculated according to
-  Eq.~(\ref{eq:DFT}), Eq.~(\ref{eq:aplus}) and Eq.~(\ref{eq:ax}). 
+  Eq.~(\ref{eq:DFT}). 
 \label{fig:cuts}}
-\end{figure}
+\end{figure*}
+
+\begin{figure*}
+\centering
+%\includegraphics[width=0.65\textwidth]{./images/paper1/fig6a.pdf}
+%\includegraphics[width=0.65\textwidth]{./images/paper1/fig6b.pdf} \\
+\includegraphics[width=0.69\textwidth]{./images/paper1/fig6d.pdf} 
+\includegraphics[width=0.69\textwidth]{./images/paper1/fig6c.pdf} \\
+\caption{Squared Fourier amplitudes of the total volume-integrated GW
+  signal and of the signal contributions arising from the three different
+  layers of the simulation volume.  
+  From the top: Total signal~(T), 
+  the PNS convective region and the overshooting layer~(A), the PNS surface layer~(B),
+  and the volume between the PNS surface and the outer grid boundary~(C).  
+  From the top: models s20s, and s11.2.
+  See Fig.~\ref{fig:PNSski} for a sketch of the three
+  regions used for this analysis. The Fourier amplitudes are calculated according to
+  Eq.~(\ref{eq:DFT}). 
+\label{fig:cuts2}}
+\end{figure*}
+
 
 \subsection{Origin of High-Frequency Emission}
 What do these findings imply about the physical mechanisms that give
@@ -688,6 +733,17 @@ The dominant contribution from layer~A rather suggests that
 oscillatory modes are predominantly excited from below by aspherical mass
 motions in the PNS convection zone and are confined mostly to the overshooting layer, which
 acts as frequency stabiliser.
+{\comment This assessment is also compatible with the temporal
+  evolution of the amplitudes and the power in the spectrograms.
+  The amplitudes (Fig.~\ref{fig:amps}) show modest
+  temporal variations after an initial GW-quiet
+  phase of $150 \text{-}200 \, \mathrm{ms}$ and little response
+  to strong activity of SASI and convection, which argues
+  against efficient excitation of surface g-modes by motions
+  in the gain region. The spectrograms
+  (Fig.~\ref{fig:spectrograms}) point to the
+  same conclusion, e.g.\ high-frequency emission is practically
+  absent during the first phase of SASI activity in  s27.}
 
 To confirm the crucial role of layer~A2, we excluded
 this region from our analysis and found a large reduction of the
@@ -706,9 +762,9 @@ frequency for GWs from the bulk of the PNS convection zone as
 $1/T_\mathrm{conv}$) and the Brunt-V\"{a}is\"{a}l\"{a} frequency in
 the overlying stable region.
 
-\subsection{Comparison of high-frequency emission in 2D and 3D}
+\subsection{\comment Comparison of High-Frequency Emission in 2D and 3D}
 To further illustrate the differences between previously published 2D waveforms and our 3D results, we
-re-analyse the GW signal from model G27 (G27-2D) of \citet{mueller_13} using
+re-analyse the GW signal from model G27-2D of \citet{mueller_13} using
 the STFT and the decomposition of the computational volume into three
 different regions. G27-2D is a 2D model based on the same $27 M_\odot$
 progenitor used in our simulations, with the same equation of state
@@ -718,9 +774,11 @@ the ray-by-ray-plus approximation are solved in their general
 relativistic formulation assuming a conformally flat metric, whereas
 the pseudo-Newtonian approach of \citet{marek_06} was used for model s27
 in 3D. The bottom row of Fig.~\ref{fig:s272d} shows the GW signal and amplitude spectrogram for model G27-2D.
-Fourier amplitudes for the signal from the three regions are shown in right panel of Fig.~\ref{fig:2dcut}.
+Fourier amplitudes for the signal from the three regions are shown in right panel of Fig.~\ref{fig:2dcut}
+{for the period up to the onset of the explosion $210 \, \mathrm{ms}$ after bounce}.
 \begin{figure}
-\includegraphics[width=0.45\textwidth]{./images/chp1/fig7.pdf}
+\centering
+\includegraphics[width=0.70\textwidth]{./images/paper1/fig7.pdf}
 \caption{Frequency of strongest GW emission
 above $250 \, \mathrm{Hz}$ in the spectrogram of model s27 as a function of time (blue crosses).
 We also plot the expected characteristic frequency of GW emission excited by buoyancy effects
@@ -730,154 +788,212 @@ but we find similar numerical values within layers~B and A2. Note that the trend
 \label{fig:fpeak}}
 \end{figure}
 
-\begin{figure}
-\includegraphics[width=0.48\textwidth]{./images/chp1/fig8a.pdf}
-\includegraphics[width=0.48\textwidth]{./images/chp1/fig8b.pdf} \\
-\includegraphics[width=0.48\textwidth]{./images/chp1/fig8c.pdf}
-\includegraphics[width=0.48\textwidth]{./images/chp1/fig8d.pdf}
-\caption{The GW amplitude, $\mathrm{A}_{\mathrm\mathrm{E2}}^{\mathrm{20}}$, as a function of time after bounce (left)
-and amplitude spectrograms in in logarithmic scale (right) for the two 2D models s27-2D (top row) and G27-2D (bottom row). 
+\begin{figure*}
+\centering
+\includegraphics[width=0.7\textwidth]{./images/paper1/fig8a.pdf} \\
+\includegraphics[width=0.7\textwidth]{./images/paper1/fig8b.pdf} 
+%\includegraphics[width=0.48\textwidth]{./images/paper1/fig8c.pdf}
+%\includegraphics[width=0.48\textwidth]{./images/paper1/fig8d.pdf}
+\caption{The GW amplitude, $\mathrm{A}_{\mathrm\mathrm{E2}}^{\mathrm{20}}$, as a function of time after bounce (top)
+and amplitude spectrograms in in logarithmic scale (bottom) for the 2D model s27-2D. 
 For a useful comparison with the corresponding non-exploding 3D model, we only
 show the spectrograms for the time between bounce and the onset of the explosion.
 \label{fig:s272d}}
-\end{figure}
+\end{figure*}
 
-\begin{figure}
-\includegraphics[width=0.45\textwidth]{./images/chp1/fig9a.pdf}
-\includegraphics[width=0.45\textwidth]{./images/chp1/fig9b.pdf}
+
+\begin{figure*}
+\centering
+%\includegraphics[width=0.48\textwidth]{./images/paper1/fig8a.pdf}
+%\includegraphics[width=0.48\textwidth]{./images/paper1/fig8b.pdf} \\
+\includegraphics[width=0.7\textwidth]{./images/paper1/fig8c.pdf} \\
+\includegraphics[width=0.7\textwidth]{./images/paper1/fig8d.pdf}
+\caption{The GW amplitude, $\mathrm{A}_{\mathrm\mathrm{E2}}^{\mathrm{20}}$, as a function of time after bounce (top)
+and amplitude spectrograms in in logarithmic scale (bottom) for the 2D model G27-2D. 
+For a useful comparison with the corresponding non-exploding 3D model, we only
+show the spectrograms for the time between bounce and the onset of the explosion.
+\label{fig:s272dg27}}
+\end{figure*}
+
+
+\begin{figure*}
+\centering
+\includegraphics[width=0.7\textwidth]{./images/paper1/fig9a.pdf} \\
+\includegraphics[width=0.7\textwidth]{./images/paper1/fig9b.pdf}
 \caption{Squared Fourier amplitudes of the total volume-integrated GW signal
   and of the signal arising from the three different layers of the simulation volume,
-  for the 2D model G27-2D of \citet{mueller_13} (right) and s27-2D (left). 
+  for the 2D model G27-2D of \citet{mueller_13} (top) and s27-2D (bottom). 
   From the top: total signal (T), layer A, layer B, and layer C. 
   The Fourier amplitudes, $\widetilde{\mathrm{A}_{\mathrm\mathrm{E2}}^{\mathrm{20}}}$, are calculated based on Eq.~(\ref{eq:DFT}) and Eq.~(\ref{eq:2dquad}).
 \label{fig:2dcut}}
-\end{figure}
-Comparing the spectrograms of model G27-2D with those of the 3D models (Figs.~\ref{fig:spectrograms} and
-\ref{fig:s272d}), we find that the ``quiet zone'' between the
-high-frequency and low-frequency components of the signal is not present in model G27-2D,
-which is in agreement with the wavelet analysis of \citet{mueller_13}
-who also found a more broad-banded signal during phases of strong SASI
-and convection, with the Brunt-V\"{a}is\"{a}l\"{a} frequency providing
+\end{figure*}
+Comparing the spectrograms of model G27-2D with those of the 3D models
+(Figs.~\ref{fig:spectrograms} and \ref{fig:s272d}), we find that the
+``quiet zone'' between the high-frequency and low-frequency components
+of the signal is not {visible} in model G27-2D, which is in
+agreement with the wavelet analysis of \citet{mueller_13} who also
+found a more broad-banded signal during phases of strong SASI and
+convection, with the Brunt-V\"{a}is\"{a}l\"{a} frequency providing
 more of an upper limit rather than a sharply defined peak frequency
 during such phases. In model G27-2D, there is strong emission between
-$250 \, \mathrm{Hz}$ and $750 \, \mathrm{Hz}$, and the relative contribution of the
-low-frequency signal below $250 \, \mathrm{Hz}$ is smaller (which will
-be discussed in more detail in Section~\ref{sec:lowfreq}).
-The decomposition of the integration volume into three layers
-(Left panel of Fig.~\ref{fig:2dcut}) reveals that the main contribution to the
-high-frequency signal stems from the PNS surface (layer~B).  
-In addition to the broadband emission between $250 \, \mathrm{Hz}$ and $750 \, \mathrm{Hz}$,
-there are also two narrow emission peaks centred around $800 \, \mathrm{Hz}$ and $900 \, \mathrm{Hz}$.
-This emission is the result of oscillations deep in the PNS core that are excited by PNS convection.
+$250 \, \mathrm{Hz}$ and $750 \, \mathrm{Hz}$, and the relative
+contribution of the low-frequency signal below $250 \, \mathrm{Hz}$ is
+smaller (which will be discussed in more detail in
+Section~\ref{sec:lowfreq}).  The decomposition of the integration
+volume into three layers (Left panel of Fig.~\ref{fig:2dcut}) reveals
+that the main contribution to the high-frequency signal stems from the
+PNS surface (layer~B).  In addition to the broadband emission between
+$250 \, \mathrm{Hz}$ and $750 \, \mathrm{Hz}$, there are also two
+narrow emission peaks centred around $800 \, \mathrm{Hz}$ and $900 \,
+\mathrm{Hz}$.  This emission is the result of oscillations deep in the
+PNS core that are excited by PNS convection.
 
-{\comment
-Compared to model G27-2D and other recent 2D models found in the literature \citep{marek_08,murphy_09,mueller_13}
-a 2D version of model s27 (s27-2D) more closely resembles the 3D models presented in our study.
-Model s27-2D was simulated by \citet{hanke_13} with \textsc{Prometheus-Vertex}.
-The spectrogram of model s27-2D (top left panel of Fig.~\ref{fig:s272d}) show the same two signal components
-as we found in our 3D models. There is a high-frequency, a low-frequency component, and a 
-frequency band where the emission is much weaker (between 250 and 350 Hz) separating the two components.
-The relative contributions, to the total signal, from layer A, B, and C are roughly the same in model s27 and
-s27-2D, see the left panel of Fig.~\ref{fig:2dcut} and the top left panel of Fig.~\ref{fig:cuts}.
-The most noteworthy difference between models s27 and s27-2D is an all over reduction of the GW signal when going from 2D to 3D. 
-The signal strength is about 10 times greater in model s27-2D than in
-s27.}
+{Different from model G27-2D and other recent 2D models found in
+  the literature \citep{marek_08,murphy_09,mueller_13}, a 2D version of
+  model s27 (model s27-2D, simulated with \textsc{Prometheus-Vertex})
+  more closely resembles the 3D models presented in our study during
+  the pre-explosion phase (i.e.\ up to $300\, \mathrm{ms}$ after
+  bounce) in terms of its spectrogram (top right panel in
+  Fig.~\ref{fig:s272d}) and time-integrated spectrum (left panel of
+  Fig.~\ref{fig:2dcut}).  The spectrogram of the model (top right
+  panel of Fig.~\ref{fig:s272d}) shows the same two signal components
+  that we found in our 3D models. There is a high-frequency and a
+  low-frequency component and a frequency band separating the two
+  components where the emission is much weaker (between 250 and $350\,
+  \mathrm{Hz}$).  The \emph{relative} contributions to the total
+  signal from layers A, B, and C are roughly the same in models s27 and
+  s27-2D (see left panel of Fig.~\ref{fig:2dcut} and top left panel of
+  Fig.~\ref{fig:cuts}).  Judging from the time-integrated signals from
+  the pre-explosion phase, the only noteworthy difference between
+  models s27 and s27-2D appears to consist in an overall reduction of
+  the amplitudes by about a factor of ten (or by a factor of 100 in
+  squared amplitudes as shown in Figs.~\ref{fig:cuts} and
+  \ref{fig:2dcut}) in 3D (s27) compared to s27-2D in all regions
+  across the entire spectrum. 
+
+  The fact that the signal from layer~B is not very strong
+  in s27-2D makes it difficult to determine the impact of 2D effects
+  on mode excitations by motions in the gain
+  region as opposed to motions in the PNS convection zone. The
+  modes excited by motions in the gain region need to be very strong for
+  the emission from layer~B to clearly stick out in time-integrated
+  spectra as in G27-2D. The spectrograms, however, show that
+  the excitation of surface g-modes by the SASI is more efficient
+  in s27-2D than in the 3D model s27: In s27, significant emission in
+  the high-frequency band is absent up to $\mathord{\sim} 210\, \mathrm{ms}$
+  after bounce despite strong SASI activity (which shows up
+  in the low-frequency band), whereas s27-2D shows noteworthy
+  emission in the high-frequency band during this phase.
+In 3D, we thus find i) a suppression of the signal originating
+from PNS convection (layer~A) by a factor of $\mathord{\sim 10}$,
+and ii) an even more efficient suppression of
+any high-frequency GW emission due to mode excitation
+by the SASI in the spectrograms. 
 
 There are presumably several reasons why the excitation of
-oscillations in the PNS surface layer is more efficient {\comment G27-2D (and other recent 2D studies) than in
-3D.} First, the inverse turbulent cascade \citep{kraichnan_76} and the
-suppression of the Kelvin-Helmholtz instability at the edge of
-supersonic downflows (see \citealt{mueller_15b} and references
-therein) lead to an artificial accumulation of the turbulent energy on
-large scales in 2D supernova simulations \citep{hanke_12,abdikamalov_15} and
-higher impact velocities of the downflows
-\citep{melson_15a,mueller_15b}. Thus, both the amplitudes as well as
-the mode overlap of the forcing with the excited $l=2$ oscillation modes are higher in 2D. 
-However, while the excitation of g-modes in the surface layer is
-strongly suppressed in 3D, there is still some residual g-mode
-activity \citep{melson_15a,mueller_15b}.  
-To fully understand the absence of high-frequency emission from the surface
-layer, we must also consider the frequency structure of the forcing. 
-Fig.~\ref{fig:post3v2} shows considerable high-frequency emission from layer~C in 2D,
-which is indicative of violent large-scale (i.e.\ with an $l=2$ component)
-mass motions on time-scales considerably \emph{shorter} than the SASI
-period or the convective overturn time-scale. The lack of such high-frequency GW activity from layer~C
-in 3D indicates that the downflows in 3D are not as strongly distorted by
-intermediate-scale eddies and that they vary less on short time-scales.
-Fig.~4 of \citet{melson_15a}, 
-which shows 2D and 3D simulations of a successfully exploding $9.6 M_\odot$ model,
-further illustrates this difference between the frequency structure of the post-shock flow in 2D and 3D:
-In 3D the angle-averaged radial velocity profiles of the infalling 
-material appear smooth. On the other hand, intermediate-scale eddies
-with fast time variations are clearly visible in 2D.
-With a typical time scale on the order of $t \sim 1\ldots 10 \, \mathrm{ms}$, corresponding to a 
-frequency range of $f \sim 100 \ldots \,1000 \, \mathrm{Hz}$, the eddies in 2D cause a more 
-``impulsive'' forcing with a broad frequency spectrum. 
-The different frequency structure of the 
-forcing in 2D and 3D is then reflected in the excited PNS surface oscillations:
-In 2D, where the frequency spectrum of the forcing overlaps with the natural g-mode
-frequency, we see \emph{resonant} excitation of free (high-frequency) g-mode oscillations. 
-This is not the case in 3D, but we still see strong \emph{non-resonant}
-excitation of forced g-modes at low frequencies in the PNS surface (see Section~\ref{sec:lowfreq}).
+oscillations in the PNS surface layer is found to be more efficient
+in 2D than in 3D.}  First, the
+inverse turbulent cascade \citep{kraichnan_76} and the suppression of
+the Kelvin-Helmholtz instability at the edge of supersonic downflows
+(see \citealt{mueller_15b} and references therein) lead to an
+artificial accumulation of the turbulent energy on large scales in 2D
+supernova simulations \citep{hanke_12,abdikamalov_15} and higher
+impact velocities of the downflows
+\citep{melson_15a,mueller_15b}.  Thus, both the amplitudes as well as
+the mode overlap of the forcing with the excited $l=2$ oscillation
+modes are higher in 2D.  However, while the
+excitation of g-modes in the surface layer is strongly suppressed in
+3D, there is still some residual g-mode activity
+\citep{melson_15a,mueller_15b}.  {Furthermore,} we must also
+consider the frequency structure of the forcing.
+Fig.~\ref{fig:post3v2} shows considerable high-frequency emission from
+layer~C in 2D, which is indicative of violent large-scale (i.e.\ with
+an $l=2$ component) mass motions on time-scales considerably
+\emph{shorter} than the SASI period or the convective overturn
+time-scale. The lack of such high-frequency GW activity from layer~C
+in 3D indicates that the downflows in 3D are not as strongly distorted
+by intermediate-scale eddies and that they vary less on short
+time-scales.  Fig.~4 of \citet{melson_15a}, which shows 2D and 3D
+simulations of a successfully exploding $9.6 M_\odot$ model, further
+illustrates this difference between the frequency structure of the
+post-shock flow in 2D and 3D: In 3D the angle-averaged radial velocity
+profiles of the infalling material appear smooth. On the other hand,
+intermediate-scale eddies with fast time variations are clearly
+visible in 2D.  With a typical time scale on the order of $t \sim
+1\ldots 10 \, \mathrm{ms}$, corresponding to a frequency range of $f
+\sim 100 \ldots \,1000 \, \mathrm{Hz}$, the eddies in 2D cause a more
+``impulsive'' forcing with a broad frequency spectrum.  The different
+frequency structure of the forcing in 2D and 3D is then reflected in
+the excited PNS surface oscillations: In 2D, where the frequency
+spectrum of the forcing overlaps with the natural g-mode frequency, we
+see \emph{resonant} excitation of free (high-frequency) g-mode
+oscillations.  This is not the case in 3D, but we still see strong
+\emph{non-resonant} excitation of forced g-modes at low frequencies in
+the PNS surface (see Section~\ref{sec:lowfreq}). 
 
-One particular aspect of model G27-2D is the very early
-development of strong SASI activity. Large-scale deformation of the
-shock already occurs $\mathord{\sim} 50$ ms after bounce, without a
-preceding phase of hot-bubble convection \citep{mueller_13}.  This
-is different from model s27-2D.  At early times the
-average shock radius is $\sim$20-30 km larger in model s27-2D than
-in model G27-2D.  Since a larger shock radius favours neutrino-driven
-convection, model s27-2D shows an initial phase of 
-convection before SASI activity sets in when the shock starts to
-retract $\sim$100-150 ms after bounce.  Due to the early development
-of SASI activity in model G27-2D at a time when the accretion rate is high,
-particularly strong downflows onto the PNS develop. These downflows
-effectively perturb the PNS surface (layer~B) and excite g-modes
-that in turn lead to GW emission. On the other hand, in model s27-2D
-downflows take longer to develop and are weaker, since the accretion
-rate has decreased by the time they form.
+{It is noteworthy that some of these aforementioned effects
+(e.g.\ the different dynamics of supersonic downflows) depend on the Mach number
+of the flow and are therefore
+only relevant for the damping the excitation of surface g-modes by motions from
+the gain region. By contrast, Mach-number dependent effects
+like the inhibition of the Kelvin-Helmholtz instability in 2D
+will not affect the excitation of oscillation modes by PNS convection,
+which is strongly subsonic. This explains why 3D effects
+strongly quench g-mode excitation from SASI and
+hot-bubble convection, but lead to a more
+modest reduction of GW emission due to PNS convection, which
+therefore becomes the dominant source of high-frequency GW emission in
+our 3D models.
+}
 
-The differences in the post-shock conditions of models G27-2D and s27-2D are reflected in the GW signal (Fig.~\ref{fig:s272d}).
-In model s27-2D the high-frequency GW emission from g-modes excited by downflows striking the PNS surface (layer~B) is drastically reduced
-compared to model G27-2D (although it is still roughly as strong as the emission from layer A), and the reduction in emission from layer~B leads to an overall 
-decrease of the GW amplitude. Unlike for model G27-2D, we can clearly see a low-frequency component in the amplitude-spectrogram of model s27-2D.
-This emission component is also present in the GW signal from model G27-2D. In fact, Fig.~\ref{fig:2dcut} shows GW emission at similar frequencies in layers A and C. 
-However, in model G27-2D this signal component is small compared to the GW emission from the resonantly excited surface g-modes of layer~B.
+{Without a 3D model corresponding to G27-2D, it is not yet
+  possible to decide whether the suppression of surface g-mode
+  excitation is \emph{generically} strong enough to make it a
+  subdominant source of GW emission. The critical feature in the
+  post-shock flow that is responsible for strong GW emission from
+  layer~B in G27-2D is the development of very strong non-linear SASI
+  activity with the presence of stable supersonic downflows, which
+  reach Mach numbers of $1.5$ already $110 \, \mathrm{ms}$ after
+  bounce. Since the coupling of perturbations in the gain region to
+  the surface g-modes is more effective for high Mach number flow
+  \citep[cp.][]{goldreich_90,lecoanet_12}, and since the kinetic
+  energy in non-radial motions reaches large values of up to $6 \times
+  10^{49} \, \mathrm{erg}$ (compared to pre-explosion values of
+  $\mathord{\lesssim 1.5} \times 10^{49} \, \mathrm{erg}$ in s27
+and s27-2D,
+  cp.\ \citealp{hanke_13}), the resulting GW amplitudes from surface
+  g-modes in G27-2D are one order of magnitude larger  than in s27-2D
+and two orders of magnituder larger than in s27, which only
+  develops mildly non-linear SASI activity during the pre-explosion
+  phase. The GW emission from layer~B thus clearly dominates the
+  time-integrated spectrum of G27-2D.
 
-A possible reason for stronger and earlier SASI activity in model G27-2D
-is that, in contrast to
-model s27-2D, model G27-2D exhibits a phase of strong \emph{prompt}
-post-shock convection (between a few ms after bounce and about $50 \, \mathrm{ms}$
-after bounce), which leaves the shock appreciably deformed with
-$|a_1|/a_0 \sim 0.01-0.02$ as shown in Fig.~7 of
-\citet{mueller_12b}. Therefore the SASI amplitude only needs to grow by
-a factor of $\mathord{\sim} 30$ to reach the non-linear regime. In
-\citet[][Fig.~2]{hanke_13} the $l = 1$ amplitude is much smaller at early
-times.  Such differences in the post-bounce evolution can have a
-variety of reasons. Besides the pure stochasticity of simulations, the
-initial perturbations may also play a role: Model G27-2D was simulated in
-2D from the onset of core collapse, while model s27-2D was started
-from a spherical model with seed perturbations imposed $15 \, \mathrm{ms}$ after
-core bounce. The presence or absence of strong prompt post-shock
-convection also depends on the details of the entropy and electron
-fraction profiles, which are determined by the exact shock dynamics
-during the first milliseconds after core bounce. Without a very
-careful analysis of all the differences between the two simulations,
-we are not able to localise the origin of the differences
-between model G27-2D and model s27-2D in the different gravity treatment
-or any of the other aforementioned aspects.
+ Under the conditions that obtain in model G27-2D (fully
+  developed non-linear SASI/convection with high Mach numbers), 2D/3D
+  differences in the behaviour of the downflows due to the inhibition
+  of the Kelvin-Helmholtz instability in 2D tend to become more
+  pronounced, which suggests that very little excitation of surface
+  g-mode by the SASI may survive in 3D even for a model with similar
+  dynamics to G27-2D.  This will need to be confirmed by future 3D
+  simulations, however.  }
+
+
+
+
 \begin{figure}
-\includegraphics[width=0.49\textwidth]{./images/chp1/fig10.pdf}
+\centering
+\includegraphics[width=0.7\textwidth]{./images/paper1/fig10.pdf}
 \caption{Normalised Fourier amplitudes of the GW signal from layer~C
 for the 2D model G27-2D and the 3D model s27. Each curve is normalised by its respective maximum to account for
 the difference in magnitude between 2D and 3D. Note that the maxima lie outside of the frequency domain shown in this figure.
 \label{fig:post3v2}}
 \end{figure}
 
-\begin{figure}
-\includegraphics[width=0.99\textwidth]{./images/chp1/fig11.pdf}
+\begin{figure*}
+\centering
+\includegraphics[width=0.99\textwidth]{./images/paper1/fig11.pdf}
 \caption{Amplitude spectrograms, for a sliding window of 50 ms, of the low-frequency GW signal arising from the three different layers,
-  summed over the two polarisation modes ($|\widetilde{A}_+|^2 + |\widetilde{A}_\times|^2$). 
+  summed over the two polarisation modes ($|\text{STFT}[{A_+}]|^2 + |\text{STFT}[{A_{\times}}]|^2$). 
   From the top: total signal (T), layers~A, B, and C. Columns
   are ordered by progenitor (left: s27, middle: s20, right: s20s). 
   See Fig.~\ref{fig:PNSski} for a sketch of the three
@@ -886,19 +1002,21 @@ the difference in magnitude between 2D and 3D. Note that the maxima lie outside 
   The colour scale is logarithmic and all panels have been normalised by the same global factor that has also been used for Fig.~\ref{fig:spectrograms}.
 \label{fig:lowspec}
 }
-\end{figure}
+\end{figure*}
 
 \begin{figure}
-\includegraphics[width=0.48\textwidth]{./images/chp1/fig12.pdf}
+\centering
+\includegraphics[width=0.8\textwidth]{./images/paper1/fig12.pdf}
 \caption{The GW amplitudes $A_+$ and $A_{\times}$ of model s27, for an observer situated along the z-axis of the computational grid,
 after a low-pass filter has been applied. The time axis indicates time since core bounce.
 \label{fig:lowpass}}
 \end{figure}
 
 \begin{figure}
-\includegraphics[width=0.49\textwidth]{./images/chp1/fig13a.pdf}
+\centering
+\includegraphics[width=0.7\textwidth]{./images/paper1/fig13a.pdf}
 \\
-\includegraphics[width=0.49\textwidth]{./images/chp1/fig13b.pdf}
+\includegraphics[width=0.7\textwidth]{./images/paper1/fig13b.pdf}
 \caption{Squared Fourier amplitudes, in logarithmic scale, for the $l=1$ and $l=2$ components of the
   expansion of the shock position into spherical harmonics.  The
   Fourier amplitudes have been calculated for the time window between
@@ -972,7 +1090,7 @@ with the amplitudes (see Fig.~\ref{fig:lowpass}).
 The anisotropic modulation of the accretion by the SASI is further
 communicated to the PNS as material is advected downwards and settles
 onto the PNS surface (something which may also be viewed as
-on-resonant excitation of g-modes far below their
+non-resonant excitation of g-modes far below their
 eigenfrequency). As matter seeps deeper into the outer layer of the PNS (layer~B) and
 then even further down into the interior of the PNS (layer~A), it will still
 emit GWs if the density and entropy perturbations are
@@ -1109,7 +1227,8 @@ fraction, but for the purpose of interpreting the GW
 emission, the ultimate reason is immaterial and left to more detailed future studies of the
 hydrodynamics of PNS convection.
 \begin{figure}
-\includegraphics[width=0.49\textwidth]{./images/chp1/fig14.pdf}
+\centering
+\includegraphics[width=0.7\textwidth]{./images/paper1/fig14.pdf}
 \caption{The $l=2$ and $l=1$ components of the radial
 velocity sampled in the unstable PNS layer for the $20 M_\odot$ models. The radial velocity has been sampled
 at a radius $R$ given by $\rho(R) = 9.5 \times 10^{13}\, \mathrm{g} \, \mathrm{cm}^{-3}$.  The top panel
@@ -1551,10 +1670,29 @@ GW signals in the face of greatly reduced signal amplitudes certainly
 presents a greater challenge, but third-generation instruments will 
 nonetheless make it an effort worth undertaking.
 
-The GW analysis presented in this work is based on
-three nonrotating progenitors.
-However, it is known that rotation can have an impact on the
-GW signal. In rapidly rotating models there is a strong GW burst
+The GW analysis presented in this work is based on three non-rotating
+progenitors, {and it remains to be seen whether the findings
+  from these simulations are generic. For GW detection, it is
+  particularly important to ascertain whether the overall reduction of
+  the signal from SASI and convection in 3D compared to 2D is always
+  as strong as in our models, where the difference is a factor of
+  $\mathord{\sim} 10$. This has recently been questioned by
+  \citet{yakunin_17}, who reported considerably higher
+  amplitudes for a $15 M_\odot$ progenitor than in our models and
+  found the energy emitted in GW to be similar in their 2D and 3D
+  simulations. Considering that we obtain weaker GW signals in 3D in
+  models that probe a variety of different regimes, and that other 3D
+  studies \citep{mueller_e_12,kuroda_16} predict amplitudes in line
+  with our findings (albeit with less rigorous neutrino transport and
+  without a 2D/3D comparison) suggests that small amplitudes
+  $|A|\lesssim 5 \, \mathrm{cm}$ are generic in 3D and that the strong
+  amplitudes in \citet{yakunin_17} are the exception rather than the
+  norm and need further explanation. Nonetheless, the range of variation in GW amplitude in 3D
+deserves to be explored further in the future.
+
+There are various properties of the pre-collapse cores that will
+(or at least could) impact the GW signal. The influence of rotation is well known:}
+ In rapidly rotating models there is a strong GW burst
 associated with the rebound of the core \citep{mueller_82}.
 During the post-bounce phase rotation can lead to a
 bar-like deformation of the core \citep{rampp_98,shibata_05} or the development
@@ -1576,12 +1714,34 @@ spin-down rate and age, suggest that a large fraction of the pulsar population i
 with rotation periods of the order of tens to hundreds of milliseconds \citep{popov_12,noutsos_13}. 
 
 There is also the issue of starting the simulations from spherically symmetric progenitor models.
-It has been found that asymmetries in the burning shells of the progenitor can 
+{Current GW predictions like ours rely on explicitly imposed (this study) or numerical
+seed perturbations to trigger the development of non-radial instabilities, and it needs
+to be explored further whether the level of seed perturbations is partly responsible for
+differences in the GW amplitudes calculated by different groups (e.g.\ this study and \citealt{yakunin_17}).
+Moreover, it} has been found that {physical seed} asymmetries in the burning shells of the progenitor can 
 influence the shock dynamics and even help to ensure a
 successful explosion \citep{burrows_96,fryer_04,arnett_11,couch_13,mueller_15a}. Any change
 in the initial conditions that leads to a significant change in the dynamics of the
 supernova core should be expected to impact the GW signal. Therefore, it will 
 be important to keep improving the predicted GW signals, in hand with the improvement of
 core collapse models.
+
+
+% We thank Maxime Viallet, Jerome Guilet, Gerhard Sch\"afer, Paul Lasky, and Eric Thrane for useful discussions. 
+% At Garching, this work has been supported by the Deutsche Forschungsgemeinschaft through the Excellence Cluster Universe EXC
+% 153 and by the European Research Council through
+% ERC-AdG No. 341157-COCO2CASA. 
+% B.~M. acknowledges support by the Australian Research
+% Council through a Discovery Early Career Researcher Award (grant
+% DE150101145).  The simulations
+% were performed using
+% high-performance computing resources (Tier-0) provided
+% by PRACE on CURIE TN (GENCI@CEA, France) and
+% SuperMUC (GCS@LRZ, Germany).
+
+%\bibliography{paper}
+
+
+%\end{document}
 
 %%  LocalWords:  MeV mueller

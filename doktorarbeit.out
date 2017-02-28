@@ -28,19 +28,19 @@
 \BOOKMARK [1][-]{section.5.2}{The short-time Fourier transform}{chapter.5}% 28
 \BOOKMARK [1][-]{section.5.3}{The Nyquist frequency and aliasing}{chapter.5}% 29
 \BOOKMARK [1][-]{section.5.4}{The spectral energy density of a discrete time signal}{chapter.5}% 30
-\BOOKMARK [0][-]{chapter.6}{First paper}{}% 31
+\BOOKMARK [0][-]{chapter.6}{Gravitational waves from three-dimensional core-collapse simulations}{}% 31
 \BOOKMARK [1][-]{section.6.1}{Introduction}{chapter.6}% 32
-\BOOKMARK [1][-]{section.6.2}{Setup and Numerical Methods}{chapter.6}% 33
-\BOOKMARK [2][-]{subsection.6.2.1}{Numerical Methods}{section.6.2}% 34
-\BOOKMARK [1][-]{section.6.3}{Structure and Origin of the Gravitational Wave Signal}{chapter.6}% 35
-\BOOKMARK [2][-]{subsection.6.3.1}{Supernova Models}{section.6.3}% 36
-\BOOKMARK [2][-]{subsection.6.3.2}{Gravitational Wave Extraction}{section.6.3}% 37
-\BOOKMARK [2][-]{subsection.6.3.3}{Overview of Waveforms}{section.6.3}% 38
-\BOOKMARK [2][-]{subsection.6.3.4}{Spatial Location of Underlying Hydrodynamical Instabilities}{section.6.3}% 39
-\BOOKMARK [2][-]{subsection.6.3.5}{Origin of High-Frequency Emission}{section.6.3}% 40
-\BOOKMARK [2][-]{subsection.6.3.6}{Comparison of high-frequency emission in 2D and 3D}{section.6.3}% 41
-\BOOKMARK [2][-]{subsection.6.3.7}{Origin of the Low-Frequency Signal}{section.6.3}% 42
-\BOOKMARK [2][-]{subsection.6.3.8}{Comparison of the exploding and non-exploding 20 solar mass models}{section.6.3}% 43
+\BOOKMARK [1][-]{section.6.2}{Supernova Models}{chapter.6}% 33
+\BOOKMARK [2][-]{subsection.6.2.1}{red3D Models}{section.6.2}% 34
+\BOOKMARK [2][-]{subsection.6.2.2}{2D Models}{section.6.2}% 35
+\BOOKMARK [1][-]{section.6.3}{Structure and Origin of the Gravitational Wave Signal}{chapter.6}% 36
+\BOOKMARK [2][-]{subsection.6.3.1}{Gravitational Wave Extraction}{section.6.3}% 37
+\BOOKMARK [2][-]{subsection.6.3.2}{Overview of Waveforms}{section.6.3}% 38
+\BOOKMARK [2][-]{subsection.6.3.3}{Spatial Location of Underlying Hydrodynamical Instabilities}{section.6.3}% 39
+\BOOKMARK [2][-]{subsection.6.3.4}{Origin of High-Frequency Emission}{section.6.3}% 40
+\BOOKMARK [2][-]{subsection.6.3.5}{redComparison of High-Frequency Emission in 2D and 3D}{section.6.3}% 41
+\BOOKMARK [2][-]{subsection.6.3.6}{Origin of the Low-Frequency Signal}{section.6.3}% 42
+\BOOKMARK [2][-]{subsection.6.3.7}{Comparison of the exploding and non-exploding 20 solar mass models}{section.6.3}% 43
 \BOOKMARK [1][-]{section.6.4}{Detection Prospects}{chapter.6}% 44
 \BOOKMARK [2][-]{subsection.6.4.1}{General Considerations}{section.6.4}% 45
 \BOOKMARK [2][-]{subsection.6.4.2}{Detection Prospects for Simulated Models}{section.6.4}% 46
@@ -52,13 +52,13 @@
 \BOOKMARK [1][-]{section.7.1}{Supernova Models}{chapter.7}% 52
 \BOOKMARK [1][-]{section.7.2}{Results}{chapter.7}% 53
 \BOOKMARK [2][-]{subsection.7.2.1}{Qualitative description of the gravitational wave signals}{section.7.2}% 54
-\BOOKMARK [2][-]{subsection.7.2.2}{Core bounce signal}{section.7.2}% 55
-\BOOKMARK [1][-]{section.7.3}{Excitation of gravitational waves}{chapter.7}% 56
-\BOOKMARK [1][-]{section.7.4}{The standing accretion shock instability, rotation, and resolution}{chapter.7}% 57
-\BOOKMARK [1][-]{section.7.5}{Detection prospects}{chapter.7}% 58
-\BOOKMARK [1][-]{section.7.6}{Conclusion and discussion}{chapter.7}% 59
+\BOOKMARK [1][-]{section.7.3}{Excitation of gravitational waves}{chapter.7}% 55
+\BOOKMARK [1][-]{section.7.4}{The standing accretion shock instability, rotation, and resolution}{chapter.7}% 56
+\BOOKMARK [1][-]{section.7.5}{Detection prospects}{chapter.7}% 57
+\BOOKMARK [1][-]{section.7.6}{Core bounce signal}{chapter.7}% 58
+\BOOKMARK [1][-]{section.7.7}{Conclusion and discussion}{chapter.7}% 59
 \BOOKMARK [0][-]{chapter.8}{Summary and discussion}{}% 60
 \BOOKMARK [1][-]{section.8.1}{Summary}{chapter.8}% 61
 \BOOKMARK [1][-]{section.8.2}{Uncertainties}{chapter.8}% 62
 \BOOKMARK [1][-]{section.8.3}{Outlook}{chapter.8}% 63
-\BOOKMARK [0][-]{section*.37}{Bibliography}{}% 64
+\BOOKMARK [0][-]{section*.41}{Bibliography}{}% 64
