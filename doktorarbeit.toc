@@ -1,20 +1,20 @@
 \select@language {english}
 \select@language {english}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
-\contentsline {chapter}{\numberline {2}Supernovae}{3}{chapter.2}
-\contentsline {section}{\numberline {2.1}Classifying supernovae}{3}{section.2.1}
-\contentsline {section}{\numberline {2.2}Iron-core supernovae}{4}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Shell burning in massive stars}{4}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Iron-core collapse}{5}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}Shock revival: the neutrino heating mechanism}{6}{subsection.2.2.3}
-\contentsline {section}{\numberline {2.3}The post-bounce phase}{7}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}The gain layer, cooling layer and the three layers of the Proto-neutron star}{7}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}The standing accretion shock instability}{8}{subsection.2.3.2}
-\contentsline {section}{\numberline {2.4}Three-dimensional simulations}{9}{section.2.4}
-\contentsline {chapter}{\numberline {3}Theory}{11}{chapter.3}
-\contentsline {section}{\numberline {3.1}Linearised theory}{11}{section.3.1}
-\contentsline {section}{\numberline {3.2}The transverse-traceless gauge}{12}{section.3.2}
-\contentsline {section}{\numberline {3.3}Generation of gravitational waves}{14}{section.3.3}
+\contentsline {chapter}{\numberline {2}Gravitational waves in a nutshell}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Linearised theory}{3}{section.2.1}
+\contentsline {section}{\numberline {2.2}The transverse-traceless gauge}{4}{section.2.2}
+\contentsline {section}{\numberline {2.3}Generation of gravitational waves}{6}{section.2.3}
+\contentsline {chapter}{\numberline {3}Supernovae}{13}{chapter.3}
+\contentsline {section}{\numberline {3.1}Classifying supernovae}{13}{section.3.1}
+\contentsline {section}{\numberline {3.2}Iron-core supernovae}{14}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Shell burning in massive stars}{14}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Iron-core collapse}{15}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Shock revival: the neutrino heating mechanism}{16}{subsection.3.2.3}
+\contentsline {section}{\numberline {3.3}The post-bounce phase}{16}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}The gain layer, cooling layer, and the three layers of the Proto-neutron star}{17}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}The standing accretion shock instability}{18}{subsection.3.3.2}
+\contentsline {section}{\numberline {3.4}Three-dimensional simulations}{19}{section.3.4}
 \contentsline {chapter}{\numberline {4}Numerical simulations of core-collapse supernovae}{21}{chapter.4}
 \contentsline {section}{\numberline {4.1}\textsc {Prometheus}}{21}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}Hydrodynamics}{22}{subsection.4.1.1}
@@ -35,26 +35,26 @@
 \contentsline {chapter}{\numberline {6}Gravitational waves from three-dimensional core-collapse simulations}{31}{chapter.6}
 \contentsline {section}{\numberline {6.1}Introduction}{31}{section.6.1}
 \contentsline {section}{\numberline {6.2}Supernova Models}{34}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}\bf \color {red}3D Models}{34}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}2D Models}{36}{subsection.6.2.2}
-\contentsline {section}{\numberline {6.3}Structure and Origin of the Gravitational Wave Signal}{38}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Gravitational Wave Extraction}{38}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Overview of Waveforms}{39}{subsection.6.3.2}
+\contentsline {subsection}{\numberline {6.2.1}Three-dimensional models}{34}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Two-dimensional models}{36}{subsection.6.2.2}
+\contentsline {section}{\numberline {6.3}Structure and origin of the gravitational wave signal}{38}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Gravitational wave extraction}{38}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Overview of waveforms}{39}{subsection.6.3.2}
 \contentsline {subsubsection}{\nonumberline Waveforms}{39}{section*.7}
-\contentsline {subsubsection}{\nonumberline Energy Spectra}{40}{section*.8}
-\contentsline {subsubsection}{\nonumberline The Signal in the Time-Frequency Domain}{41}{section*.10}
-\contentsline {subsection}{\numberline {6.3.3}Spatial Location of Underlying Hydrodynamical Instabilities}{42}{subsection.6.3.3}
-\contentsline {subsection}{\numberline {6.3.4}Origin of High-Frequency Emission}{46}{subsection.6.3.4}
-\contentsline {subsection}{\numberline {6.3.5}\bf \color {red}Comparison of High-Frequency Emission in 2D and 3D}{50}{subsection.6.3.5}
+\contentsline {subsubsection}{\nonumberline Energy spectra}{40}{section*.8}
+\contentsline {subsubsection}{\nonumberline The signal in the time-frequency domain}{41}{section*.10}
+\contentsline {subsection}{\numberline {6.3.3}Spatial location of underlying hydrodynamical instabilities}{42}{subsection.6.3.3}
+\contentsline {subsection}{\numberline {6.3.4}Origin of high-frequency emission}{46}{subsection.6.3.4}
+\contentsline {subsection}{\numberline {6.3.5}Comparison of high-frequency emission in two and three dimensions}{50}{subsection.6.3.5}
 \contentsline {subsection}{\numberline {6.3.6}Origin of the Low-Frequency Signal}{55}{subsection.6.3.6}
 \contentsline {subsection}{\numberline {6.3.7}Comparison of the exploding and non-exploding 20 solar mass models}{61}{subsection.6.3.7}
-\contentsline {section}{\numberline {6.4}Detection Prospects}{62}{section.6.4}
-\contentsline {subsection}{\numberline {6.4.1}General Considerations}{63}{subsection.6.4.1}
-\contentsline {subsection}{\numberline {6.4.2}Detection Prospects for Simulated Models}{64}{subsection.6.4.2}
-\contentsline {subsection}{\numberline {6.4.3}Detection Prospects with AdvLIGO}{65}{subsection.6.4.3}
-\contentsline {subsection}{\numberline {6.4.4}Detection Prospects with the Einstein Telescope}{66}{subsection.6.4.4}
-\contentsline {subsection}{\numberline {6.4.5}Interpretation of a Prospective Detection}{66}{subsection.6.4.5}
-\contentsline {section}{\numberline {6.5}Conclusions}{67}{section.6.5}
+\contentsline {section}{\numberline {6.4}Detection prospects}{62}{section.6.4}
+\contentsline {subsection}{\numberline {6.4.1}General considerations}{62}{subsection.6.4.1}
+\contentsline {subsection}{\numberline {6.4.2}Detection prospects for simulated models}{65}{subsection.6.4.2}
+\contentsline {subsection}{\numberline {6.4.3}Detection prospects with AdvLIGO}{66}{subsection.6.4.3}
+\contentsline {subsection}{\numberline {6.4.4}Detection prospects with the Einstein telescope}{66}{subsection.6.4.4}
+\contentsline {subsection}{\numberline {6.4.5}Interpretation of a prospective detection}{67}{subsection.6.4.5}
+\contentsline {section}{\numberline {6.5}Conclusions}{68}{section.6.5}
 \contentsline {chapter}{\numberline {7}The effects of rotation}{73}{chapter.7}
 \contentsline {section}{\numberline {7.1}Supernova Models}{74}{section.7.1}
 \contentsline {section}{\numberline {7.2}Results}{81}{section.7.2}
@@ -68,8 +68,14 @@
 \contentsline {section}{\numberline {7.5}Detection prospects}{89}{section.7.5}
 \contentsline {section}{\numberline {7.6}Core bounce signal}{90}{section.7.6}
 \contentsline {section}{\numberline {7.7}Conclusion and discussion}{91}{section.7.7}
-\contentsline {chapter}{\numberline {8}Summary and discussion}{95}{chapter.8}
-\contentsline {section}{\numberline {8.1}Summary}{95}{section.8.1}
-\contentsline {section}{\numberline {8.2}Uncertainties}{96}{section.8.2}
-\contentsline {section}{\numberline {8.3}Outlook}{97}{section.8.3}
-\contentsline {chapter}{Bibliography}{99}{section*.41}
+\contentsline {chapter}{\numberline {8}Conclusions}{95}{chapter.8}
+\contentsline {section}{\numberline {8.1}Summary and discussion}{95}{section.8.1}
+\contentsline {section}{\numberline {8.2}Uncertainties}{97}{section.8.2}
+\contentsline {section}{\numberline {8.3}Outlook}{99}{section.8.3}
+\contentsline {chapter}{\numberline {A}List of conventions}{101}{appendix.A}
+\contentsline {paragraph}{\nonumberline Indices:}{101}{section*.42}
+\contentsline {paragraph}{\nonumberline Kronecker-delta:}{101}{section*.43}
+\contentsline {paragraph}{\nonumberline Flat space metric:}{101}{section*.44}
+\contentsline {chapter}{\numberline {B}List of acronyms}{103}{appendix.B}
+\contentsline {chapter}{\numberline {C}Acknowledgements}{105}{appendix.C}
+\contentsline {chapter}{Bibliography}{107}{section*.47}

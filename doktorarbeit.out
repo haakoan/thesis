@@ -1,18 +1,18 @@
 \BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
-\BOOKMARK [0][-]{chapter.2}{Supernovae}{}% 2
-\BOOKMARK [1][-]{section.2.1}{Classifying supernovae}{chapter.2}% 3
-\BOOKMARK [1][-]{section.2.2}{Iron-core supernovae}{chapter.2}% 4
-\BOOKMARK [2][-]{subsection.2.2.1}{Shell burning in massive stars}{section.2.2}% 5
-\BOOKMARK [2][-]{subsection.2.2.2}{Iron-core collapse}{section.2.2}% 6
-\BOOKMARK [2][-]{subsection.2.2.3}{Shock revival: the neutrino heating mechanism}{section.2.2}% 7
-\BOOKMARK [1][-]{section.2.3}{The post-bounce phase}{chapter.2}% 8
-\BOOKMARK [2][-]{subsection.2.3.1}{The gain layer, cooling layer and the three layers of the Proto-neutron star}{section.2.3}% 9
-\BOOKMARK [2][-]{subsection.2.3.2}{The standing accretion shock instability}{section.2.3}% 10
-\BOOKMARK [1][-]{section.2.4}{Three-dimensional simulations}{chapter.2}% 11
-\BOOKMARK [0][-]{chapter.3}{Theory}{}% 12
-\BOOKMARK [1][-]{section.3.1}{Linearised theory}{chapter.3}% 13
-\BOOKMARK [1][-]{section.3.2}{The transverse-traceless gauge}{chapter.3}% 14
-\BOOKMARK [1][-]{section.3.3}{Generation of gravitational waves}{chapter.3}% 15
+\BOOKMARK [0][-]{chapter.2}{Gravitational waves in a nutshell}{}% 2
+\BOOKMARK [1][-]{section.2.1}{Linearised theory}{chapter.2}% 3
+\BOOKMARK [1][-]{section.2.2}{The transverse-traceless gauge}{chapter.2}% 4
+\BOOKMARK [1][-]{section.2.3}{Generation of gravitational waves}{chapter.2}% 5
+\BOOKMARK [0][-]{chapter.3}{Supernovae}{}% 6
+\BOOKMARK [1][-]{section.3.1}{Classifying supernovae}{chapter.3}% 7
+\BOOKMARK [1][-]{section.3.2}{Iron-core supernovae}{chapter.3}% 8
+\BOOKMARK [2][-]{subsection.3.2.1}{Shell burning in massive stars}{section.3.2}% 9
+\BOOKMARK [2][-]{subsection.3.2.2}{Iron-core collapse}{section.3.2}% 10
+\BOOKMARK [2][-]{subsection.3.2.3}{Shock revival: the neutrino heating mechanism}{section.3.2}% 11
+\BOOKMARK [1][-]{section.3.3}{The post-bounce phase}{chapter.3}% 12
+\BOOKMARK [2][-]{subsection.3.3.1}{The gain layer, cooling layer, and the three layers of the Proto-neutron star}{section.3.3}% 13
+\BOOKMARK [2][-]{subsection.3.3.2}{The standing accretion shock instability}{section.3.3}% 14
+\BOOKMARK [1][-]{section.3.4}{Three-dimensional simulations}{chapter.3}% 15
 \BOOKMARK [0][-]{chapter.4}{Numerical simulations of core-collapse supernovae}{}% 16
 \BOOKMARK [1][-]{section.4.1}{Prometheus}{chapter.4}% 17
 \BOOKMARK [2][-]{subsection.4.1.1}{Hydrodynamics}{section.4.1}% 18
@@ -31,22 +31,22 @@
 \BOOKMARK [0][-]{chapter.6}{Gravitational waves from three-dimensional core-collapse simulations}{}% 31
 \BOOKMARK [1][-]{section.6.1}{Introduction}{chapter.6}% 32
 \BOOKMARK [1][-]{section.6.2}{Supernova Models}{chapter.6}% 33
-\BOOKMARK [2][-]{subsection.6.2.1}{red3D Models}{section.6.2}% 34
-\BOOKMARK [2][-]{subsection.6.2.2}{2D Models}{section.6.2}% 35
-\BOOKMARK [1][-]{section.6.3}{Structure and Origin of the Gravitational Wave Signal}{chapter.6}% 36
-\BOOKMARK [2][-]{subsection.6.3.1}{Gravitational Wave Extraction}{section.6.3}% 37
-\BOOKMARK [2][-]{subsection.6.3.2}{Overview of Waveforms}{section.6.3}% 38
-\BOOKMARK [2][-]{subsection.6.3.3}{Spatial Location of Underlying Hydrodynamical Instabilities}{section.6.3}% 39
-\BOOKMARK [2][-]{subsection.6.3.4}{Origin of High-Frequency Emission}{section.6.3}% 40
-\BOOKMARK [2][-]{subsection.6.3.5}{redComparison of High-Frequency Emission in 2D and 3D}{section.6.3}% 41
+\BOOKMARK [2][-]{subsection.6.2.1}{Three-dimensional models}{section.6.2}% 34
+\BOOKMARK [2][-]{subsection.6.2.2}{Two-dimensional models}{section.6.2}% 35
+\BOOKMARK [1][-]{section.6.3}{Structure and origin of the gravitational wave signal}{chapter.6}% 36
+\BOOKMARK [2][-]{subsection.6.3.1}{Gravitational wave extraction}{section.6.3}% 37
+\BOOKMARK [2][-]{subsection.6.3.2}{Overview of waveforms}{section.6.3}% 38
+\BOOKMARK [2][-]{subsection.6.3.3}{Spatial location of underlying hydrodynamical instabilities}{section.6.3}% 39
+\BOOKMARK [2][-]{subsection.6.3.4}{Origin of high-frequency emission}{section.6.3}% 40
+\BOOKMARK [2][-]{subsection.6.3.5}{Comparison of high-frequency emission in two and three dimensions}{section.6.3}% 41
 \BOOKMARK [2][-]{subsection.6.3.6}{Origin of the Low-Frequency Signal}{section.6.3}% 42
 \BOOKMARK [2][-]{subsection.6.3.7}{Comparison of the exploding and non-exploding 20 solar mass models}{section.6.3}% 43
-\BOOKMARK [1][-]{section.6.4}{Detection Prospects}{chapter.6}% 44
-\BOOKMARK [2][-]{subsection.6.4.1}{General Considerations}{section.6.4}% 45
-\BOOKMARK [2][-]{subsection.6.4.2}{Detection Prospects for Simulated Models}{section.6.4}% 46
-\BOOKMARK [2][-]{subsection.6.4.3}{Detection Prospects with AdvLIGO}{section.6.4}% 47
-\BOOKMARK [2][-]{subsection.6.4.4}{Detection Prospects with the Einstein Telescope}{section.6.4}% 48
-\BOOKMARK [2][-]{subsection.6.4.5}{Interpretation of a Prospective Detection}{section.6.4}% 49
+\BOOKMARK [1][-]{section.6.4}{Detection prospects}{chapter.6}% 44
+\BOOKMARK [2][-]{subsection.6.4.1}{General considerations}{section.6.4}% 45
+\BOOKMARK [2][-]{subsection.6.4.2}{Detection prospects for simulated models}{section.6.4}% 46
+\BOOKMARK [2][-]{subsection.6.4.3}{Detection prospects with AdvLIGO}{section.6.4}% 47
+\BOOKMARK [2][-]{subsection.6.4.4}{Detection prospects with the Einstein telescope}{section.6.4}% 48
+\BOOKMARK [2][-]{subsection.6.4.5}{Interpretation of a prospective detection}{section.6.4}% 49
 \BOOKMARK [1][-]{section.6.5}{Conclusions}{chapter.6}% 50
 \BOOKMARK [0][-]{chapter.7}{The effects of rotation}{}% 51
 \BOOKMARK [1][-]{section.7.1}{Supernova Models}{chapter.7}% 52
@@ -57,8 +57,11 @@
 \BOOKMARK [1][-]{section.7.5}{Detection prospects}{chapter.7}% 57
 \BOOKMARK [1][-]{section.7.6}{Core bounce signal}{chapter.7}% 58
 \BOOKMARK [1][-]{section.7.7}{Conclusion and discussion}{chapter.7}% 59
-\BOOKMARK [0][-]{chapter.8}{Summary and discussion}{}% 60
-\BOOKMARK [1][-]{section.8.1}{Summary}{chapter.8}% 61
+\BOOKMARK [0][-]{chapter.8}{Conclusions}{}% 60
+\BOOKMARK [1][-]{section.8.1}{Summary and discussion}{chapter.8}% 61
 \BOOKMARK [1][-]{section.8.2}{Uncertainties}{chapter.8}% 62
 \BOOKMARK [1][-]{section.8.3}{Outlook}{chapter.8}% 63
-\BOOKMARK [0][-]{section*.41}{Bibliography}{}% 64
+\BOOKMARK [0][-]{appendix.A}{List of conventions}{}% 64
+\BOOKMARK [0][-]{appendix.B}{List of acronyms}{}% 65
+\BOOKMARK [0][-]{appendix.C}{Acknowledgements}{}% 66
+\BOOKMARK [0][-]{section*.47}{Bibliography}{}% 67

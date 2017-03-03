@@ -2,12 +2,12 @@
  "body"
  (lambda ()
    (LaTeX-add-labels
-    "ch:numer"
+    "ch:numerics"
     "eqN:cont"
     "eqN:contxi"
     "eqN:contye"
     "eqN:intns"
     "eqN:boltz"
-    "eqT:pij"))
+    "eqN:pij"))
  :latex)
 

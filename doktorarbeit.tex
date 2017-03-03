@@ -22,6 +22,7 @@
 \usepackage{mdframed}
 \usepackage[bf,small,sf]{caption}
 \usepackage[super, square]{natbib}
+\usepackage{acro}
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{amsfonts}
@@ -30,6 +31,7 @@
 \usepackage{graphicx}
 \usepackage{exscale}
 \usepackage{latexsym}
+\usepackage{longtable}
 \usepackage{rotate}
 \usepackage{textcomp}
 \usepackage{mathbbol}
@@ -100,7 +102,7 @@
 \cfoot{}
 
 
-\newcommand{\thesistitle}{\mbox{Gravitational waves from} \mbox{core-collapse supernovae}}
+\newcommand{\thesistitle}{\mbox{The Study of Gravitational Waves from} \mbox{Three-Dimensional Simulations of} \mbox{Core-Collapse Supernovae}}
 
 
 %Schriftgroessen fuer die Titelseite
@@ -256,7 +258,7 @@
 \begin{document}
 \thispagestyle{empty}
 \begin{center}
-
+%\hypersetup{pageanchor=false}
 \bgroup
 \tabcolsep=10mm
 \makebox[\linewidth]{
@@ -297,7 +299,7 @@
 
   \begin{tabular}{lll}
   Vorsitzender: & & Univ.-Prof. Dr. \\
-  Pr\"ufer der Dissertation: & 1. & Priv.-Doz.  \\
+  Pr\"ufer der Dissertation: & 1. & Priv.-Doz. Ewald M\"uller  \\
 			     & 2. & Univ.-Prof.  \\
                              & 3. & Univ.-Prof. 
   \end{tabular}
@@ -316,8 +318,8 @@
   \tableofcontents
 
   \newpage\null\thispagestyle{empty}\newpage
-
   \mainmatter
+  %\hypersetup{pageanchor=true}
   \pagenumbering{arabic}
   \setcounter{page}{1}
 
@@ -334,11 +336,11 @@
 
   \cleardoublepage
   \thispagestyle{empty}
-  \input{chapters/ccsn/body.tex}
+  \input{chapters/theory/body.tex}
   
   \cleardoublepage
   \thispagestyle{empty}
-  \input{chapters/theory/body.tex}
+  \input{chapters/ccsn/body.tex}
 
   \cleardoublepage
   \thispagestyle{empty}
@@ -362,11 +364,25 @@
 
 
   \appendix
-  \cleardoublepage
+  \cleardoublepage  
+  \phantomsection
   \thispagestyle{empty}
-  % \input{chapter/abbreviations.tex}
+  \input{listofconv.tex}
 
   \cleardoublepage
+  \thispagestyle{empty}
+  \phantomsection
+  \thispagestyle{empty}
+  \input{listofabvr.tex}
+
+    \cleardoublepage
+  \thispagestyle{empty}
+  \phantomsection
+  \input{chapters/ack/body.tex}
+ 
+  \cleardoublepage
+  \thispagestyle{empty}
+ 
   \phantomsection
   \addcontentsline{toc}{chapter}{Bibliography}
 

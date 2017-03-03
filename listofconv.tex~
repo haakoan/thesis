@@ -1,0 +1,35 @@
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: "../doktorarbeit"
+%%% End:
+\chapter{List of conventions}
+Here we list the mathematical and physical 
+conventions that are used in this thesis.
+
+\paragraph{Indices:} When Greek characters are used for indices it is understood that the indices runs from
+zero to three. When Latin characters are used the indices runs from one to three.   
+We use the Einstein summation convention, which means that repeated indexes
+are implicitly summed over. For example, in the expression 
+\begin{equation}
+$f_\mu = x^i x_i y_\mu$, \nonumber
+\end{equation} one should sum over $i$ from one to three and $\mu = (0,1,2,3)$     
+\paragraph{Kronecker-delta:} The symbol $\delta^{ij}$ represents the Kronecker-delta,
+which is defined as follows
+\begin{equation}
+\delta^{ij} = \begin{cases} \nonumber
+1 & \text{ if } i=j \\ \nonumber
+0 & \text{ if } i \neq j \nonumber 
+\end{cases}
+\end{equation}
+\paragraph{Flat space metric:} we use the following signature for the metric tensor of flat space
+\begin{equation}
+\munu{\eta} = 
+\begin{pmatrix}
+-1 & 0 & 0 & 0\\ 
+ 0& 1 & 0 & 0\\ 
+0 & 0 & 1 & 0\\ 
+0 & 0 & 0 & 1
+\end{pmatrix}. \nonumber 
+\end{equation}      
+ 
+

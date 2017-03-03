@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.1.11)  28 FEB 2017 10:39
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.1.11)  2 MAR 2017 19:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -865,9 +865,321 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count141
 )
+(/usr/share/texlive/texmf-dist/tex/latex/acro/acro.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3experimental/l3sort/l3sort.sty
+Package: l3sort 2013/12/14 v4623 L3 Experimental sorting functions
+\l__sort_length_int=\count142
+\l__sort_block_int=\count143
+\l__sort_begin_int=\count144
+\l__sort_end_int=\count145
+\l__sort_A_int=\count146
+\l__sort_B_int=\count147
+\l__sort_C_int=\count148
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2013/12/31 v4634 LaTeX2e option processing using LaTeX3 keys
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.sty
+Package: xtemplate 2013/12/31 v4634 L3 Experimental prototype document function
+s
+\l__xtemplate_tmp_dim=\dimen148
+\l__xtemplate_tmp_int=\count149
+\l__xtemplate_tmp_muskip=\muskip17
+\l__xtemplate_tmp_skip=\skip133
+Variant \prop_get:NoNTF already defined; not changing it on line 106
+Variant \prop_get:NoNT already defined; not changing it on line 107
+Variant \prop_get:NoNF already defined; not changing it on line 108
+)
+Package: acro 2013/12/18 v1.5 Typeset Acronyms
+\l__acro_tmpa_int=\count150
+\l__acro_tmpb_int=\count151
+\l__acro_tmpc_int=\count152
+\l__acro_tmpd_int=\count153
+Variant \tl_put_right:NV already defined; not changing it on line 124
+Variant \seq_use:cnnn already defined; not changing it on line 127
+\l__acro_table_width_dim=\dimen149
+\l__acro_page_space_dim=\dimen150
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \acfirstupper with arg. spec. 'm' on line 299.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \acsetup with arg. spec. 'm' on line 426.
+.................................................
+.................................................
+. xtemplate info: "declare-object-type"
+. 
+. Declaring object type 'acro-first' taking 3 argument(s) on line 528.
+.................................................
+.................................................
+. xtemplate info: "declare-object-type"
+. 
+. Declaring object type 'acro-extra' taking 1 argument(s) on line 712.
+.................................................
+.................................................
+. xtemplate info: "declare-object-type"
+. 
+. Declaring object type 'acro-page-number' taking 1 argument(s) on line 932.
+.................................................
+.................................................
+. xtemplate info: "declare-object-type"
+. 
+. Declaring object type 'acro-title' taking 1 argument(s) on line 983.
+.................................................
+.................................................
+. xtemplate info: "declare-object-type"
+. 
+. Declaring object type 'acro-list' taking 3 argument(s) on line 1019.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \ac with arg. spec. 'sm' on line 1858.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \iac with arg. spec. 'sm' on line 1870.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \Iac with arg. spec. 'sm' on line 1882.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \Ac with arg. spec. 'sm' on line 1894.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \acp with arg. spec. 'sm' on line 1906.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \Acp with arg. spec. 'sm' on line 1919.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \acs with arg. spec. 'sm' on line 1931.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \iacs with arg. spec. 'sm' on line 1943.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \Iacs with arg. spec. 'sm' on line 1955.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \acsp with arg. spec. 'sm' on line 1967.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \aca with arg. spec. 'sm' on line 1979.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \iaca with arg. spec. 'sm' on line 1991.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \Iaca with arg. spec. 'sm' on line 2003.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \acap with arg. spec. 'sm' on line 2015.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \acl with arg. spec. 'sm' on line 2027.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \iacl with arg. spec. 'sm' on line 2039.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \Iacl with arg. spec. 'sm' on line 2051.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \Acl with arg. spec. 'sm' on line 2063.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \aclp with arg. spec. 'sm' on line 2075.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \Aclp with arg. spec. 'sm' on line 2088.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \acf with arg. spec. 'sm' on line 2100.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \iacf with arg. spec. 'sm' on line 2112.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \Iacf with arg. spec. 'sm' on line 2124.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \Acf with arg. spec. 'sm' on line 2136.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \acfp with arg. spec. 'sm' on line 2148.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \Acfp with arg. spec. 'sm' on line 2161.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \acflike with arg. spec. 'smm' on line 2173.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \iacflike with arg. spec. 'smm' on line 2185.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \Iacflike with arg. spec. 'smm' on line 2197.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \acfplike with arg. spec. 'smm' on line 2209.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \acifused with arg. spec. 'm' on line 2246.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \acresetall with arg. spec. '' on line 2260.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \acuseall with arg. spec. '' on line 2263.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \acreset with arg. spec. '>{\SplitList {,}}m' on
+. line 2266.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \acuse with arg. spec. '>{\SplitList {,}}m' on
+. line 2269.
+.................................................
+
+(/usr/share/texlive/texmf-dist/tex/latex/translations/translations.sty
+Package: translations 2014/01/23 v1.2a internationalization of LaTeX2e packages
+ (CN)
+
+(/usr/share/texlive/texmf-dist/tex/latex/cnltx/cnltx-base.sty
+Package: cnltx-base 2014/01/05 v0.10 LaTeX tools and documenting facilities (CN
+)
+
+(/usr/share/texlive/texmf-dist/tex/latex/pgfopts/pgfopts.sty
+Package: pgfopts 2011/06/02 v2.1 LaTeX package options with pgfkeys
+
+(/usr/share/texmf/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks17
+\pgfkeys@temptoks=\toks18
+
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks19
+)))
+\pgfopts@list@add@a@toks=\toks20
+\pgfopts@list@add@b@toks=\toks21
+)
+\c@cnltx@tmpa=\count154
+\c@cnltx@tmpb=\count155
+\c@cnltx@tmpc=\count156
+\cnltx@tmpa@length=\skip134
+\cnltx@tmpb@length=\skip135
+\cnltx@tmpc@length=\skip136
+
+(/usr/share/texmf/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+LaTeX Info: Redefining \color on input line 702.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+)))
+\g__file_internal_ior=\read1
+
+(/usr/share/texlive/texmf-dist/tex/latex/acro/acro1.def
+File: acro1.def 
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \DeclareAcronym with arg. spec. 'mm' on line 451.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \printacronyms with arg. spec. 'O{}' on line 506.
+.................................................
+))
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2013/01/14 v2.14 AMS math features
-\@mathmargin=\skip133
+\@mathmargin=\skip137
 
 For additional information on amsmath, use the `?' option.
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -875,51 +1187,51 @@ Package: amstext 2000/06/29 v2.01
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks17
-\ex@=\dimen148
+\@emptytoks=\toks22
+\ex@=\dimen151
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen149
+\pmbraise@=\dimen152
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count142
+\inf@bad=\count157
 LaTeX Info: Redefining \frac on input line 210.
-\uproot@=\count143
-\leftroot@=\count144
+\uproot@=\count158
+\leftroot@=\count159
 LaTeX Info: Redefining \overline on input line 306.
-\classnum@=\count145
-\DOTSCASE@=\count146
+\classnum@=\count160
+\DOTSCASE@=\count161
 LaTeX Info: Redefining \ldots on input line 378.
 LaTeX Info: Redefining \dots on input line 381.
 LaTeX Info: Redefining \cdots on input line 466.
 \Mathstrutbox@=\box48
 \strutbox@=\box49
-\big@size=\dimen150
+\big@size=\dimen153
 LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
-\macc@depth=\count147
-\c@MaxMatrixCols=\count148
-\dotsspace@=\muskip17
-\c@parentequation=\count149
-\dspbrk@lvl=\count150
-\tag@help=\toks18
-\row@=\count151
-\column@=\count152
-\maxfields@=\count153
-\andhelp@=\toks19
-\eqnshift@=\dimen151
-\alignsep@=\dimen152
-\tagshift@=\dimen153
-\tagwidth@=\dimen154
-\totwidth@=\dimen155
-\lineht@=\dimen156
-\@envbody=\toks20
-\multlinegap=\skip134
-\multlinetaggap=\skip135
-\mathdisplay@stack=\toks21
+\macc@depth=\count162
+\c@MaxMatrixCols=\count163
+\dotsspace@=\muskip18
+\c@parentequation=\count164
+\dspbrk@lvl=\count165
+\tag@help=\toks23
+\row@=\count166
+\column@=\count167
+\maxfields@=\count168
+\andhelp@=\toks24
+\eqnshift@=\dimen154
+\alignsep@=\dimen155
+\tagshift@=\dimen156
+\tagwidth@=\dimen157
+\totwidth@=\dimen158
+\lineht@=\dimen159
+\@envbody=\toks25
+\multlinegap=\skip138
+\multlinetaggap=\skip139
+\mathdisplay@stack=\toks26
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
@@ -934,23 +1246,23 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count154
+\lst@mode=\count169
 \lst@gtempboxa=\box50
-\lst@token=\toks22
-\lst@length=\count155
-\lst@currlwidth=\dimen157
-\lst@column=\count156
-\lst@pos=\count157
-\lst@lostspace=\dimen158
-\lst@width=\dimen159
-\lst@newlines=\count158
-\lst@lineno=\count159
-\lst@maxwidth=\dimen160
+\lst@token=\toks27
+\lst@length=\count170
+\lst@currlwidth=\dimen160
+\lst@column=\count171
+\lst@pos=\count172
+\lst@lostspace=\dimen161
+\lst@width=\dimen162
+\lst@newlines=\count173
+\lst@lineno=\count174
+\lst@maxwidth=\dimen163
 
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2013/08/26 1.5b (Carsten Heinz)
-\c@lstnumber=\count160
-\lst@skipnumbers=\count161
+\c@lstnumber=\count175
+\lst@skipnumbers=\count176
 \lst@framebox=\box51
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
@@ -965,7 +1277,7 @@ LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
 (Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 52.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 52.
-\big@size=\dimen161
+\big@size=\dimen164
 )
 (/usr/share/texlive/texmf-dist/tex/latex/base/latexsym.sty
 Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
@@ -973,9 +1285,29 @@ Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
 LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
 (Font)                  U/lasy/m/n --> U/lasy/b/n on input line 47.
 )
+(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip140
+\LTright=\skip141
+\LTpre=\skip142
+\LTpost=\skip143
+\LTchunksize=\count177
+\LTcapwidth=\dimen165
+\LT@head=\box52
+\LT@firsthead=\box53
+\LT@foot=\box54
+\LT@lastfoot=\box55
+\LT@cols=\count178
+\LT@rows=\count179
+\c@LT@tables=\count180
+\c@LT@chunks=\count181
+\LT@p@ftn=\toks28
+)
+Class scrbook Info: longtable captions redefined on input line 35.
+
 (/usr/share/texlive/texmf-dist/tex/generic/dvips/rotate.sty
-\@rotdimen=\dimen162
-\@rotbox=\box52
+\@rotdimen=\dimen166
+\@rotbox=\box56
 )
 (/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
@@ -1138,8 +1470,8 @@ Package: mathbbol 1995/01/01
 )
 (/usr/share/texlive/texmf-dist/tex/latex/psfrag/psfrag.sty
 Package: psfrag 1998/04/11 v3.04 PSfrag (MCG)
-\pfg@pcount=\count162
-\pfg@scount=\count163
+\pfg@pcount=\count182
+\pfg@scount=\count183
 \pfg@temp=\write5
 )
 (/usr/share/texlive/texmf-dist/tex/generic/xypic/xy.sty
@@ -1152,51 +1484,51 @@ catcodes, docmode, (/usr/share/texlive/texmf-dist/tex/generic/xypic/xyrecat.tex
  Xy-pic is free software: see the User's Guide for details.
 
 Loading kernel: messages; fonts; allocations: state,
-\X@c=\dimen163
-\Y@c=\dimen164
-\U@c=\dimen165
-\D@c=\dimen166
-\L@c=\dimen167
-\R@c=\dimen168
-\Edge@c=\toks23
-\X@p=\dimen169
-\Y@p=\dimen170
-\U@p=\dimen171
-\D@p=\dimen172
-\L@p=\dimen173
-\R@p=\dimen174
-\Edge@p=\toks24
-\X@origin=\dimen175
-\Y@origin=\dimen176
-\X@xbase=\dimen177
-\Y@xbase=\dimen178
-\X@ybase=\dimen179
-\Y@ybase=\dimen180
-\X@min=\dimen181
-\Y@min=\dimen182
-\X@max=\dimen183
-\Y@max=\dimen184
-\lastobjectbox@=\box53
-\zerodotbox@=\box54
-\almostz@=\dimen185
+\X@c=\dimen167
+\Y@c=\dimen168
+\U@c=\dimen169
+\D@c=\dimen170
+\L@c=\dimen171
+\R@c=\dimen172
+\Edge@c=\toks29
+\X@p=\dimen173
+\Y@p=\dimen174
+\U@p=\dimen175
+\D@p=\dimen176
+\L@p=\dimen177
+\R@p=\dimen178
+\Edge@p=\toks30
+\X@origin=\dimen179
+\Y@origin=\dimen180
+\X@xbase=\dimen181
+\Y@xbase=\dimen182
+\X@ybase=\dimen183
+\Y@ybase=\dimen184
+\X@min=\dimen185
+\Y@min=\dimen186
+\X@max=\dimen187
+\Y@max=\dimen188
+\lastobjectbox@=\box57
+\zerodotbox@=\box58
+\almostz@=\dimen189
  direction,
-\d@X=\dimen186
-\d@Y=\dimen187
-\K@=\count164
-\KK@=\count165
-\Direction=\count166
-\K@dXdY=\dimen188
-\K@dYdX=\dimen189
-\xyread@=\read1
+\d@X=\dimen190
+\d@Y=\dimen191
+\K@=\count184
+\KK@=\count185
+\Direction=\count186
+\K@dXdY=\dimen192
+\K@dYdX=\dimen193
+\xyread@=\read2
 \xywrite@=\write6
-\csp@=\count167
-\quotPTK@=\dimen190
+\csp@=\count187
+\quotPTK@=\dimen194
 
 utility macros; pictures: \xy, positions,
-\swaptoks@@=\toks25
-\connectobjectbox@@=\box55
+\swaptoks@@=\toks31
+\connectobjectbox@@=\box59
  objects,
-\styletoks@=\toks26
+\styletoks@=\toks32
  decorations;
 kernel objects: directionals, circles, text; options; algorithms: directions,
 edges, connections;  Xy-pic loaded)
@@ -1206,15 +1538,15 @@ Package: xy 2013/10/06 Xy-pic version 3.8.9
  Xy-pic option: All features v.3.8
 (/usr/share/texlive/texmf-dist/tex/generic/xypic/xycurve.tex
  Xy-pic option: Curve and Spline extension v.3.12 curve,
-\crv@cnt@=\count168
-\crvpts@=\toks27
-\splinebox@=\box56
-\splineval@=\dimen191
-\splinedepth@=\dimen192
-\splinetol@=\dimen193
-\splinelength@=\dimen194
+\crv@cnt@=\count188
+\crvpts@=\toks33
+\splinebox@=\box60
+\splineval@=\dimen195
+\splinedepth@=\dimen196
+\splinetol@=\dimen197
+\splinelength@=\dimen198
  circles,
-\L@=\dimen195
+\L@=\dimen199
  loaded)
 (/usr/share/texlive/texmf-dist/tex/generic/xypic/xyframe.tex
  Xy-pic option: Frame and Bracket extension v.3.14 loaded)
@@ -1224,7 +1556,7 @@ Package: xy 2013/10/06 Xy-pic version 3.8.9
  Xy-pic option: More Tips extension v.3.11 loaded) loaded)
 (/usr/share/texlive/texmf-dist/tex/generic/xypic/xyline.tex
  Xy-pic option: Line styles extension v.3.10
-\xylinethick@=\dimen196
+\xylinethick@=\dimen200
  loaded)
 (/usr/share/texlive/texmf-dist/tex/generic/xypic/xyrotate.tex
  Xy-pic option: Rotate and Scale extension v.3.8 loaded)
@@ -1232,13 +1564,13 @@ Package: xy 2013/10/06 Xy-pic version 3.8.9
  Xy-pic option: Colour extension v.3.11 loaded)
 (/usr/share/texlive/texmf-dist/tex/generic/xypic/xymatrix.tex
  Xy-pic option: Matrix feature v.3.14
-\Row=\count169
-\Col=\count170
-\queue@=\toks28
-\queue@@=\toks29
-\qcount@=\count171
-\qcount@@=\count172
-\matrixsize@=\count173
+\Row=\count189
+\Col=\count190
+\queue@=\toks34
+\queue@@=\toks35
+\qcount@=\count191
+\qcount@@=\count192
+\matrixsize@=\count193
  loaded)
 (/usr/share/texlive/texmf-dist/tex/generic/xypic/xyarrow.tex
  Xy-pic option: Arrow and Path feature v.3.9 path, \ar, loaded)
@@ -1266,25 +1598,25 @@ LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
 )
 (/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
-\c@subfigure=\count174
-\c@subtable=\count175
+\c@subfigure=\count194
+\c@subtable=\count195
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2009/10/20 v1.13 Space after command names (DPC,MH)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/rotating/rotating.sty
 Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
-\c@r@tfl@t=\count176
-\rotFPtop=\skip136
-\rotFPbot=\skip137
-\rot@float@box=\box57
-\rot@mess@toks=\toks30
+\c@r@tfl@t=\count196
+\rotFPtop=\skip144
+\rotFPbot=\skip145
+\rot@float@box=\box61
+\rot@mess@toks=\toks36
 )
 (/usr/share/texlive/texmf-dist/tex/latex/footmisc/footmisc.sty
 Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
-\FN@temptoken=\toks31
-\footnotemargin=\dimen197
-\c@pp@next@reset=\count177
+\FN@temptoken=\toks37
+\footnotemargin=\dimen201
+\c@pp@next@reset=\count197
 Package footmisc Info: Declaring symbol style bringhurst on input line 855.
 Package footmisc Info: Declaring symbol style chicago on input line 863.
 Package footmisc Info: Declaring symbol style wiley on input line 872.
@@ -1299,36 +1631,36 @@ Package: perpage 2006/07/15 1.12 Reset/sort counters per page
 )
 (/usr/share/texlive/texmf-dist/tex/latex/threeparttable/threeparttable.sty
 Package: threeparttable 2003/06/13  v 3.0
-\@tempboxb=\box58
+\@tempboxb=\box62
 )
 (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
-\heavyrulewidth=\dimen198
-\lightrulewidth=\dimen199
-\cmidrulewidth=\dimen200
-\belowrulesep=\dimen201
 Normal \dimen register pool exhausted, switching to extended pool.
-\belowbottomsep=\dimen256
-\aboverulesep=\dimen257
-\abovetopsep=\dimen258
-\cmidrulesep=\dimen259
-\cmidrulekern=\dimen260
-\defaultaddspace=\dimen261
-\@cmidla=\count178
-\@cmidlb=\count179
-\@aboverulesep=\dimen262
-\@belowrulesep=\dimen263
-\@thisruleclass=\count180
-\@lastruleclass=\count181
-\@thisrulewidth=\dimen264
+\heavyrulewidth=\dimen256
+\lightrulewidth=\dimen257
+\cmidrulewidth=\dimen258
+\belowrulesep=\dimen259
+\belowbottomsep=\dimen260
+\aboverulesep=\dimen261
+\abovetopsep=\dimen262
+\cmidrulesep=\dimen263
+\cmidrulekern=\dimen264
+\defaultaddspace=\dimen265
+\@cmidla=\count198
+\@cmidlb=\count199
+\@aboverulesep=\dimen266
+\@belowrulesep=\dimen267
+\@thisruleclass=\count200
+\@lastruleclass=\count201
+\@thisrulewidth=\dimen268
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
 Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
-\col@sep=\dimen265
-\extrarowheight=\dimen266
-\NC@list=\toks32
-\extratabsurround=\skip138
-\backup@length=\skip139
+\col@sep=\dimen269
+\extrarowheight=\dimen270
+\NC@list=\toks38
+\extratabsurround=\skip146
+\backup@length=\skip147
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/bm.sty
 Package: bm 2004/02/26 v1.1c Bold Symbol Support (DPC/FMi)
@@ -1340,7 +1672,7 @@ LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 138.
 LaTeX Info: Redefining \bm on input line 204.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
-\bigstrutjot=\dimen267
+\bigstrutjot=\dimen271
 )
 (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjustbox.sty
 Package: adjustbox 2012/05/21 v1.0 Adjusting TeX boxes (trim, clip, ...)
@@ -1349,9 +1681,10 @@ Package: adjustbox 2012/05/21 v1.0 Adjusting TeX boxes (trim, clip, ...)
 Package: xkeyval 2012/10/14 v2.6b package option processing (HA)
 
 (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-\XKV@toks=\toks33
-\XKV@tempa@toks=\toks34
-\XKV@depth=\count182
+\XKV@toks=\toks39
+\XKV@tempa@toks=\toks40
+Normal \count register pool exhausted, switching to extended pool.
+\XKV@depth=\count277
 File: xkeyval.tex 2012/10/14 v2.6b key=value parser (HA)
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjcalc.sty
@@ -1363,42 +1696,42 @@ Package: trimclip 2012/05/16 v1.0 Trim and clip general TeX material
 
 (/usr/share/texlive/texmf-dist/tex/latex/collectbox/collectbox.sty
 Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
-\collectedbox=\box59
+\collectedbox=\box63
 )
-\tc@llx=\dimen268
-\tc@lly=\dimen269
-\tc@urx=\dimen270
-\tc@ury=\dimen271
+\tc@llx=\dimen272
+\tc@lly=\dimen273
+\tc@urx=\dimen274
+\tc@ury=\dimen275
 Package trimclip Info: Using driver 'tc-pdftex.def'.
 
 (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
 File: tc-pdftex.def 2012/05/13 v1.0 Clipping driver for pdftex
 ))
-\adjbox@Width=\dimen272
-\adjbox@Height=\dimen273
-\adjbox@Depth=\dimen274
-\adjbox@Totalheight=\dimen275
+\adjbox@Width=\dimen276
+\adjbox@Height=\dimen277
+\adjbox@Depth=\dimen278
+\adjbox@Totalheight=\dimen279
 
 (/usr/share/texlive/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
 Package: ifoddpage 2011/09/13 v1.0 Conditionals for odd/even page detection
-\c@checkoddpage=\count183
+\c@checkoddpage=\count278
 )
 (/usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box60
-\sift@deathcycles=\count184
-\@vwid@loff=\dimen276
-\@vwid@roff=\dimen277
+\@vwid@box=\box64
+\sift@deathcycles=\count279
+\@vwid@loff=\dimen280
+\@vwid@roff=\dimen281
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2011/10/22 v5.1d context-sensitive quotations
-\csq@reset=\count185
-\csq@gtype=\count186
-\csq@glevel=\count187
-\csq@qlevel=\count188
-\csq@maxlvl=\count189
-\csq@tshold=\count190
-\csq@ltx@everypar=\toks35
+\csq@reset=\count280
+\csq@gtype=\count281
+\csq@glevel=\count282
+\csq@qlevel=\count283
+\csq@maxlvl=\count284
+\csq@tshold=\count285
+\csq@ltx@everypar=\toks41
 
 (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.def
 File: csquotes.def 2011/10/22 v5.1d csquotes generic definitions
@@ -1410,11 +1743,11 @@ Package csquotes Info: ... configuration file loaded successfully.
 File: csquotes.cfg 
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty
-\wrapoverhang=\dimen278
-\WF@size=\dimen279
-\c@WF@wrappedlines=\count191
-\WF@box=\box61
-\WF@everypar=\toks36
+\wrapoverhang=\dimen282
+\WF@size=\dimen283
+\c@WF@wrappedlines=\count286
+\WF@box=\box65
+\WF@everypar=\toks42
 Package: wrapfig 2003/01/31  v 3.6
 )
 (/usr/share/texlive/texmf-dist/tex/generic/genmisc/nth.sty
@@ -1422,24 +1755,24 @@ Package: nth 2002/02/27
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
-\TX@col@width=\dimen280
-\TX@old@table=\dimen281
-\TX@old@col=\dimen282
-\TX@target=\dimen283
-\TX@delta=\dimen284
-\TX@cols=\count192
-\TX@ftn=\toks37
+\TX@col@width=\dimen284
+\TX@old@table=\dimen285
+\TX@old@col=\dimen286
+\TX@target=\dimen287
+\TX@delta=\dimen288
+\TX@cols=\count287
+\TX@ftn=\toks43
 )
-\c@pp@a@footnote=\count193
+\c@pp@a@footnote=\count288
 
 (/usr/share/texmf/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/share/texmf/tex/latex/pgf/basiclayer/pgf.sty
 (/usr/share/texmf/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/share/texmf/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks38
+\pgfutil@everybye=\toks44
 )
 (/usr/share/texmf/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box62
+\pgfutil@abb=\box66
 
 (/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
@@ -1454,27 +1787,21 @@ Package: pgf 2008/01/15 v2.10 (rcs-revision 1.12)
 (/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2010/06/30 v2.10 (rcs-revision 1.37)
 
-(/usr/share/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks39
-\pgfkeys@temptoks=\toks40
-
-(/usr/share/texmf/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
-\pgfkeys@tmptoks=\toks41
-))
-\pgf@x=\dimen285
-\pgf@y=\dimen286
-\pgf@xa=\dimen287
-\pgf@ya=\dimen288
-\pgf@xb=\dimen289
-\pgf@yb=\dimen290
-\pgf@xc=\dimen291
-\pgf@yc=\dimen292
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex)
+\pgf@x=\dimen289
+\pgf@y=\dimen290
+\pgf@xa=\dimen291
+\pgf@ya=\dimen292
+\pgf@xb=\dimen293
+\pgf@yb=\dimen294
+\pgf@xc=\dimen295
+\pgf@yc=\dimen296
 \w@pgf@writea=\write7
-\r@pgf@reada=\read2
-\c@pgf@counta=\count194
-\c@pgf@countb=\count195
-\c@pgf@countc=\count196
-\c@pgf@countd=\count197
+\r@pgf@reada=\read3
+\c@pgf@counta=\count289
+\c@pgf@countb=\count290
+\c@pgf@countc=\count291
+\c@pgf@countd=\count292
 
 (/usr/share/texmf/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
@@ -1489,30 +1816,12 @@ File: pgfsys-common-pdf.def 2008/05/19  (rcs-revision 1.10)
 )))
 (/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2008/07/18  (rcs-revision 1.7)
-\pgfsyssoftpath@smallbuffer@items=\count198
-\pgfsyssoftpath@bigbuffer@items=\count199
+\pgfsyssoftpath@smallbuffer@items=\count293
+\pgfsyssoftpath@bigbuffer@items=\count294
 )
 (/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
 ))
-(/usr/share/texmf/tex/latex/xcolor/xcolor.sty
-Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
-
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
-File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
-)
-Package xcolor Info: Driver file: pdftex.def on input line 225.
-LaTeX Info: Redefining \color on input line 702.
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
-Package xcolor Info: Model `RGB' extended on input line 1353.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
-)
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcore.code.tex
 Package: pgfcore 2010/04/11 v2.10 (rcs-revision 1.7)
 
@@ -1520,12 +1829,12 @@ Package: pgfcore 2010/04/11 v2.10 (rcs-revision 1.7)
 (/usr/share/texmf/tex/generic/pgf/math/pgfmathcalc.code.tex
 (/usr/share/texmf/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/share/texmf/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen293
-\pgfmath@count=\count200
-\pgfmath@box=\box63
-\pgfmath@toks=\toks42
-\pgfmath@stack@operand=\toks43
-\pgfmath@stack@operation=\toks44
+\pgfmath@dimen=\dimen297
+\pgfmath@count=\count295
+\pgfmath@box=\box67
+\pgfmath@toks=\toks45
+\pgfmath@stack@operand=\toks46
+\pgfmath@stack@operation=\toks47
 )
 (/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.code.tex
 (/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex)
@@ -1536,52 +1845,51 @@ Package: pgfcore 2010/04/11 v2.10 (rcs-revision 1.7)
 (/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.round.code.tex)
 (/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex)))
 (/usr/share/texmf/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count201
+\c@pgfmathroundto@lastzeros=\count296
 ))
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2010/04/09  (rcs-revision 1.20)
-\pgf@picminx=\dimen294
-\pgf@picmaxx=\dimen295
-\pgf@picminy=\dimen296
-\pgf@picmaxy=\dimen297
-\pgf@pathminx=\dimen298
-\pgf@pathmaxx=\dimen299
-\pgf@pathminy=\dimen300
-\pgf@pathmaxy=\dimen301
-\pgf@xx=\dimen302
-\pgf@xy=\dimen303
-\pgf@yx=\dimen304
-\pgf@yy=\dimen305
-\pgf@zx=\dimen306
-\pgf@zy=\dimen307
+\pgf@picminx=\dimen298
+\pgf@picmaxx=\dimen299
+\pgf@picminy=\dimen300
+\pgf@picmaxy=\dimen301
+\pgf@pathminx=\dimen302
+\pgf@pathmaxx=\dimen303
+\pgf@pathminy=\dimen304
+\pgf@pathmaxy=\dimen305
+\pgf@xx=\dimen306
+\pgf@xy=\dimen307
+\pgf@yx=\dimen308
+\pgf@yy=\dimen309
+\pgf@zx=\dimen310
+\pgf@zy=\dimen311
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2010/08/03  (rcs-revision 1.24)
-\pgf@path@lastx=\dimen308
-\pgf@path@lasty=\dimen309
+\pgf@path@lastx=\dimen312
+\pgf@path@lasty=\dimen313
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2008/04/22  (rcs-revision 1.12)
-\pgf@shorten@end@additional=\dimen310
-\pgf@shorten@start@additional=\dimen311
+\pgf@shorten@end@additional=\dimen314
+\pgf@shorten@start@additional=\dimen315
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2010/09/08  (rcs-revision 1.34)
-\pgfpic=\box64
-\pgf@hbox=\box65
-\pgf@layerbox@main=\box66
-Normal \count register pool exhausted, switching to extended pool.
-\pgf@picture@serial@count=\count277
+\pgfpic=\box68
+\pgf@hbox=\box69
+\pgf@layerbox@main=\box70
+\pgf@picture@serial@count=\count297
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2008/04/22  (rcs-revision 1.9)
-\pgflinewidth=\dimen312
+\pgflinewidth=\dimen316
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2009/06/10  (rcs-revision 1.11)
-\pgf@pt@x=\dimen313
-\pgf@pt@y=\dimen314
-\pgf@pt@temp=\dimen315
+\pgf@pt@x=\dimen317
+\pgf@pt@y=\dimen318
+\pgf@pt@temp=\dimen319
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
@@ -1597,15 +1905,15 @@ File: pgfcorearrows.code.tex 2008/04/23  (rcs-revision 1.11)
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2008/11/23  (rcs-revision 1.13)
-\pgf@max=\dimen316
-\pgf@sys@shading@range@num=\count278
+\pgf@max=\dimen320
+\pgf@sys@shading@range@num=\count298
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2010/03/25  (rcs-revision 1.16)
 
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2010/09/01  (rcs-revision 1.17)
-\pgfexternal@startupbox=\box67
+\pgfexternal@startupbox=\box71
 ))
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2010/08/27  (rcs-revision 1.2)
@@ -1618,57 +1926,55 @@ File: pgfcorepatterns.code.tex 2009/07/02  (rcs-revision 1.3)
 )))
 (/usr/share/texmf/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2010/09/09  (rcs-revision 1.13)
-\pgfnodeparttextbox=\box68
+\pgfnodeparttextbox=\box72
 )
 (/usr/share/texmf/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2010/10/22  (rcs-revision 1.8)
 )
 (/usr/share/texmf/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2007/07/03 v2.10 (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen317
-\pgf@nodesepend=\dimen318
+\pgf@nodesepstart=\dimen321
+\pgf@nodesepend=\dimen322
 )
 (/usr/share/texmf/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2007/07/23 v2.10 (rcs-revision 1.1)
 ))
 (/usr/share/texmf/tex/latex/pgf/utilities/pgffor.sty
-(/usr/share/texmf/tex/latex/pgf/utilities/pgfkeys.sty
-(/usr/share/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex))
 (/usr/share/texmf/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2010/03/23 v2.10 (rcs-revision 1.18)
-\pgffor@iter=\dimen319
-\pgffor@skip=\dimen320
-\pgffor@stack=\toks45
-\pgffor@toks=\toks46
+\pgffor@iter=\dimen323
+\pgffor@skip=\dimen324
+\pgffor@stack=\toks48
+\pgffor@toks=\toks49
 ))
 (/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2010/10/13 v2.10 (rcs-revision 1.76)
 
 (/usr/share/texmf/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2010/05/31 v2.10 (rcs-revision 1.15)
-\pgf@plot@mark@count=\count279
-\pgfplotmarksize=\dimen321
+\pgf@plot@mark@count=\count299
+\pgfplotmarksize=\dimen325
 )
-\tikz@lastx=\dimen322
-\tikz@lasty=\dimen323
-\tikz@lastxsaved=\dimen324
-\tikz@lastysaved=\dimen325
-\tikzleveldistance=\dimen326
-\tikzsiblingdistance=\dimen327
-\tikz@figbox=\box69
-\tikz@tempbox=\box70
-\tikztreelevel=\count280
-\tikznumberofchildren=\count281
-\tikznumberofcurrentchild=\count282
-\tikz@fig@count=\count283
+\tikz@lastx=\dimen326
+\tikz@lasty=\dimen327
+\tikz@lastxsaved=\dimen328
+\tikz@lastysaved=\dimen329
+\tikzleveldistance=\dimen330
+\tikzsiblingdistance=\dimen331
+\tikz@figbox=\box73
+\tikz@tempbox=\box74
+\tikztreelevel=\count300
+\tikznumberofchildren=\count301
+\tikznumberofcurrentchild=\count302
+\tikz@fig@count=\count303
 
 (/usr/share/texmf/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2010/08/24  (rcs-revision 1.4)
-\pgfmatrixcurrentrow=\count284
-\pgfmatrixcurrentcolumn=\count285
-\pgf@matrix@numberofcolumns=\count286
+\pgfmatrixcurrentrow=\count304
+\pgfmatrixcurrentcolumn=\count305
+\pgf@matrix@numberofcolumns=\count306
 )
-\tikz@expandcount=\count287
+\tikz@expandcount=\count307
 
 (/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopat
 hs.code.tex
@@ -1677,16 +1983,16 @@ File: tikzlibrarytopaths.code.tex 2008/06/17 v2.10 (rcs-revision 1.2)
 (/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecor
 ations.code.tex
 (/usr/share/texmf/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
-\pgfdecoratedcompleteddistance=\dimen328
-\pgfdecoratedremainingdistance=\dimen329
-\pgfdecoratedinputsegmentcompleteddistance=\dimen330
-\pgfdecoratedinputsegmentremainingdistance=\dimen331
-\pgf@decorate@distancetomove=\dimen332
-\pgf@decorate@repeatstate=\count288
-\pgfdecorationsegmentamplitude=\dimen333
-\pgfdecorationsegmentlength=\dimen334
+\pgfdecoratedcompleteddistance=\dimen332
+\pgfdecoratedremainingdistance=\dimen333
+\pgfdecoratedinputsegmentcompleteddistance=\dimen334
+\pgfdecoratedinputsegmentremainingdistance=\dimen335
+\pgf@decorate@distancetomove=\dimen336
+\pgf@decorate@repeatstate=\count308
+\pgfdecorationsegmentamplitude=\dimen337
+\pgfdecorationsegmentlength=\dimen338
 )
-\tikz@lib@dec@box=\box71
+\tikz@lib@dec@box=\box75
 )
 (/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecor
 ations.pathmorphing.code.tex
@@ -1696,51 +2002,45 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'english'.
- (./doktorarbeit.aux
-
-LaTeX Warning: Label `eqT:pjz' multiply defined.
-
-
-LaTeX Warning: Label `eqT:pij' multiply defined.
-
-)
+ (./doktorarbeit.aux)
 \openout1 = `doktorarbeit.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 256.
-LaTeX Font Info:    ... okay on input line 256.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 256.
-LaTeX Font Info:    ... okay on input line 256.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 256.
-LaTeX Font Info:    ... okay on input line 256.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 256.
-LaTeX Font Info:    ... okay on input line 256.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 256.
-LaTeX Font Info:    ... okay on input line 256.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 256.
-LaTeX Font Info:    ... okay on input line 256.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 256.
-LaTeX Font Info:    ... okay on input line 256.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 256.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 256.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 258.
+LaTeX Font Info:    ... okay on input line 258.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 258.
+LaTeX Font Info:    ... okay on input line 258.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 258.
+LaTeX Font Info:    ... okay on input line 258.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 258.
+LaTeX Font Info:    ... okay on input line 258.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 258.
+LaTeX Font Info:    ... okay on input line 258.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 258.
+LaTeX Font Info:    ... okay on input line 258.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 258.
+LaTeX Font Info:    ... okay on input line 258.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 258.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 258.
 
- (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 256.
+LaTeX Font Info:    ... okay on input line 258.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count289
-\scratchdimen=\dimen335
-\scratchbox=\box72
-\nofMPsegments=\count290
-\nofMParguments=\count291
-\everyMPshowfont=\toks47
-\MPscratchCnt=\count292
-\MPscratchDim=\dimen336
-\MPnumerator=\count293
-\makeMPintoPDFobject=\count294
-\everyMPtoPDFconversion=\toks48
+\scratchcounter=\count309
+\scratchdimen=\dimen339
+\scratchbox=\box76
+\nofMPsegments=\count310
+\nofMParguments=\count311
+\everyMPshowfont=\toks50
+\MPscratchCnt=\count312
+\MPscratchDim=\dimen340
+\MPnumerator=\count313
+\makeMPintoPDFobject=\count314
+\everyMPtoPDFconversion=\toks51
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -1756,8 +2056,8 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\AtBeginShipoutBox=\box73
-Package hyperref Info: Link coloring OFF on input line 256.
+\AtBeginShipoutBox=\box77
+Package hyperref Info: Link coloring OFF on input line 258.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1765,11 +2065,11 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count295
+\c@section@level=\count315
 )
-LaTeX Info: Redefining \ref on input line 256.
-LaTeX Info: Redefining \pageref on input line 256.
-LaTeX Info: Redefining \nameref on input line 256.
+LaTeX Info: Redefining \ref on input line 258.
+LaTeX Info: Redefining \pageref on input line 258.
+LaTeX Info: Redefining \nameref on input line 258.
 
 (./doktorarbeit.out) (./doktorarbeit.out)
 \@outlinefile=\write8
@@ -1777,42 +2077,52 @@ LaTeX Info: Redefining \nameref on input line 256.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
+Package caption Info: longtable package is loaded.
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2013/02/03 v1.3-62 longtable captions (AR)
+)
 Package caption Info: rotating package is loaded.
 Package caption Info: threeparttable package is loaded.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count296
-LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <6> on input line 256.
-LaTeX Font Info:    Try loading font information for U+msa on input line 256.
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+(/usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictio
+nary-english.trsl
+File: translations-basic-dictionary-english.trsl (english translation file `tra
+nslations-basic-dictionary')
+)
+\c@lstlisting=\count316
+LaTeX Font Info:    External font `cmex7' loaded for size
+(Font)              <6> on input line 258.
+LaTeX Font Info:    Try loading font information for U+msa on input line 258.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 256.
+LaTeX Font Info:    Try loading font information for U+msb on input line 258.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 256.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 258.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for U+bbold on input line 256.
+LaTeX Font Info:    Try loading font information for U+bbold on input line 258.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/bbold/Ubbold.fd)
-LaTeX Font Info:    Try loading font information for U+wasy on input line 256.
+LaTeX Font Info:    Try loading font information for U+wasy on input line 258.
 
 (/usr/share/texlive/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 )
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <8> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 256.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 258.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <6> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 256.
-Package xypdf Info: Line width: 0.47998pt on input line 256.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 258.
+Package xypdf Info: Line width: 0.47998pt on input line 258.
 
 ABD: EveryShipout initializing macros
 Package epstopdf Info: Source file: <front_page/tum.eps>
@@ -1823,15 +2133,15 @@ Package epstopdf Info: Source file: <front_page/tum.eps>
 (epstopdf)                    size: 2705 bytes
 (epstopdf)             Command: <repstopdf --outfile=front_page/tum-eps-convert
 ed-to.pdf front_page/tum.eps>
-(epstopdf)             \includegraphics on input line 267.
+(epstopdf)             \includegraphics on input line 269.
 Package epstopdf Info: Output file is already uptodate.
 
-<front_page/tum-eps-converted-to.pdf, id=264, 54.2025pt x 29.10875pt>
+<front_page/tum-eps-converted-to.pdf, id=276, 54.2025pt x 29.10875pt>
 File: front_page/tum-eps-converted-to.pdf Graphic file (type pdf)
 
 <use front_page/tum-eps-converted-to.pdf>
 Package pdftex.def Info: front_page/tum-eps-converted-to.pdf used on input line
- 267.
+ 269.
 (pdftex.def)             Requested size: 113.81102pt x 61.12839pt.
 Package epstopdf Info: Source file: <front_page/mpa.eps>
 (epstopdf)                    date: 2017-01-11 14:55:59
@@ -1841,18 +2151,23 @@ Package epstopdf Info: Source file: <front_page/mpa.eps>
 (epstopdf)                    size: 6836 bytes
 (epstopdf)             Command: <repstopdf --outfile=front_page/mpa-eps-convert
 ed-to.pdf front_page/mpa.eps>
-(epstopdf)             \includegraphics on input line 267.
+(epstopdf)             \includegraphics on input line 269.
 Package epstopdf Info: Output file is already uptodate.
 
-<front_page/mpa-eps-converted-to.pdf, id=265, 286.06876pt x 129.48375pt>
+<front_page/mpa-eps-converted-to.pdf, id=277, 286.06876pt x 129.48375pt>
 File: front_page/mpa-eps-converted-to.pdf Graphic file (type pdf)
 
 <use front_page/mpa-eps-converted-to.pdf>
 Package pdftex.def Info: front_page/mpa-eps-converted-to.pdf used on input line
- 267.
+ 269.
 (pdftex.def)             Requested size: 113.81102pt x 51.51399pt.
 
-Overfull \hbox (5.59755pt too wide) in paragraph at lines 285--288
+Overfull \hbox (25.97643pt too wide) in paragraph at lines 276--277
+ [][] 
+ []
+
+
+Overfull \hbox (5.59755pt too wide) in paragraph at lines 287--290
 \OT1/cmr/m/n/12 Vollst^^?andi-ger Ab-druck der von der Fakult^^?at f^^?ur Physi
 k der Tech-nis-chen Uni-ver-sit^^?at M^^?unchen
  []
@@ -1868,36 +2183,7 @@ rted-to.pdf> <./front_page/mpa-eps-converted-to.pdf>]
 ] (./doktorarbeit.toc [3
 
 
-]
-
-Class scrbook Warning: Usage of deprecated font command `\bf'!
-(scrbook)              You should note, that in 1994 font command `\bf' has
-(scrbook)              been defined for compatiblitiy to Script 2.0 only.
-(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
-(scrbook)              shouldn't use such commands any longer and within
-(scrbook)              KOMA-Script usage of `\bf' is definitely deprecated.
-(scrbook)              See `fntguide.pdf' for more information about
-(scrbook)              recommended font commands.
-(scrbook)              Note also, that KOMA-Script will remove the definition
-(scrbook)              of `\bf' anytime until release of about version 3.20.
-(scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrbook)              by `\normalfont \bfseries ' on input line 38.
-
-
-Class scrbook Warning: Usage of deprecated font command `\bf'!
-(scrbook)              You should note, that in 1994 font command `\bf' has
-(scrbook)              been defined for compatiblitiy to Script 2.0 only.
-(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
-(scrbook)              shouldn't use such commands any longer and within
-(scrbook)              KOMA-Script usage of `\bf' is definitely deprecated.
-(scrbook)              See `fntguide.pdf' for more information about
-(scrbook)              recommended font commands.
-(scrbook)              Note also, that KOMA-Script will remove the definition
-(scrbook)              of `\bf' anytime until release of about version 3.20.
-(scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrbook)              by `\normalfont \bfseries ' on input line 48.
-
-)
+])
 \tf@toc=\write9
 \openout9 = `doktorarbeit.toc'.
 
@@ -1921,71 +2207,85 @@ Class scrbook Warning: \float@addtolists detected!
 (scrbook)              a package that still implements the
 (scrbook)              deprecated \float@addtolist interface .
 
-)pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
- been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.335   \cleardoublepage
-                         [1
+l.37 \newpage
+              [1
 
 
-]pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
- been already used, duplicate ignored
+])pdfTeX warning (ext4): destination with the same identifier (name{page.2}) ha
+s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.335   \cleardoublepage
-                         [2
-
-
-] (./chapters/ccsn/body.tex
+l.337   \cleardoublepage
+                         [2] (./chapters/theory/body.tex
 Chapter 2.
 pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.38 
-      [3
+l.53 \begin{equation}
+                      \label{eqT:lor} [3
+
+
+
+
+]pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.99 \begin{equation}
+                      \label{eqT:ct} [4]pdfTeX warning (ext4): destination with
+ the same identifier (name{page.5}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.144 \end{equation}
+                     [5]pdfTeX warning (ext4): destination with the same identi
+fier (name{page.6}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.183 \end{equation}
+                     [6]
+Overfull \hbox (5.04527pt too wide) in paragraph at lines 197--204
+\OT1/cmr/m/n/12 Now con-sider a wave prop-a-gat-ing in the di-rec-tion given by
+ $[] = ([] \OML/cmm/m/it/12 ^^R [] ^^^;  [] ^^R [] ^^^;  [] ^^R\OT1/cmr/m/n/12 
+)$.
+ []
+
+[7]
+Underfull \vbox (badness 1874) has occurred while \output is active []
+
+ [8]
+[9] [10]) [11] [12
+
+
+] (./chapters/ccsn/body.tex
+Chapter 3.
+[13
 
 
 ]
-Overfull \hbox (6.36705pt too wide) in paragraph at lines 65--68
+Overfull \hbox (6.36705pt too wide) in paragraph at lines 64--67
 [][] 
  []
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.87 
-      [4]pdfTeX warning (ext4): destination with the same identifier (name{page
-.5}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.124 
-       [5]
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.163 
-       [6] [7] [8]) [9] [10
-
-
-] (./chapters/theory/body.tex
-Chapter 3.
-[11
-
-
-] [12] [13] [14]
-Overfull \hbox (1.04533pt too wide) in paragraph at lines 201--206
-\OT1/cmr/m/n/12 Now con-sider a wave prop-a-gat-ing in the di-rec-tion given by
- $[] = ([] \OML/cmm/m/it/12 ^^R [] ^^^; [] ^^R [] ^^^; [] ^^R\OT1/cmr/m/n/12 )$
-.
+Underfull \hbox (badness 3333) in paragraph at lines 67--67
+[][]|\OT1/cmr/m/n/10.95 Schematic rep-re-sen-ta-tion of the
  []
 
-[15] [16] [17] [18]) [19] [20
+
+Underfull \hbox (badness 2418) in paragraph at lines 67--67
+\OT1/cmr/m/n/10.95 right be-fore the on-set of core-
+ []
+
+[14] [15] [16] [17]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [18])
+[19] [20
 
 
 ] (./chapters/numerics/body.tex
@@ -2024,7 +2324,7 @@ Chapter 5.
 ]
 Package mdframed Info: mdframed works in twoside mode on input line 72.
  [28]
-Package mdframed Info: mdframed works in twoside mode on input line 105.
+Package mdframed Info: mdframed works in twoside mode on input line 102.
  [29]) [30] (./chapters/paper1/body.tex
 Chapter 6.
 LaTeX Font Info:    External font `cmex7' loaded for size
@@ -2037,7 +2337,7 @@ LaTeX Font Info:    Font shape `U/lasy/b/n' in size <5> not available
 
 
 ] [32] [33]
-<./images/paper1/fig1.pdf, id=1077, 1578.86125pt x 1791.23819pt>
+<./images/paper1/fig1.pdf, id=1098, 1578.86125pt x 1791.23819pt>
 File: ./images/paper1/fig1.pdf Graphic file (type pdf)
 
 <use ./images/paper1/fig1.pdf>
@@ -2047,34 +2347,16 @@ Package pdftex.def Info: ./images/paper1/fig1.pdf used on input line 184.
 
 LaTeX Warning: Float too large for page by 1.65056pt on input line 193.
 
-
-Class scrbook Warning: Usage of deprecated font command `\bf'!
-(scrbook)              You should note, that in 1994 font command `\bf' has
-(scrbook)              been defined for compatiblitiy to Script 2.0 only.
-(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
-(scrbook)              shouldn't use such commands any longer and within
-(scrbook)              KOMA-Script usage of `\bf' is definitely deprecated.
-(scrbook)              See `fntguide.pdf' for more information about
-(scrbook)              recommended font commands.
-(scrbook)              Note also, that KOMA-Script will remove the definition
-(scrbook)              of `\bf' anytime until release of about version 3.20.
-(scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrbook)              by `\normalfont \bfseries ' on input line 194.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@ifnextchar' on input line 194.
-
 [34] [35 <./images/paper1/fig1.pdf>] [36] [37]
 LaTeX Font Info:    External font `cmex7' loaded for size
 (Font)              <7> on input line 371.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <7> not available
 (Font)              Font shape `U/lasy/m/n' tried instead on input line 371.
 
-Underfull \vbox (badness 2229) has occurred while \output is active []
+Underfull \vbox (badness 3884) has occurred while \output is active []
 
  [38]
-[39] <./images/paper1/fig2.pdf, id=1270, 1250.93349pt x 1039.54376pt>
+[39] <./images/paper1/fig2.pdf, id=1290, 1250.93349pt x 1039.54376pt>
 File: ./images/paper1/fig2.pdf Graphic file (type pdf)
 
 <use ./images/paper1/fig2.pdf>
@@ -2084,313 +2366,259 @@ Package pdftex.def Info: ./images/paper1/fig2.pdf used on input line 421.
 Underfull \vbox (badness 5832) has occurred while \output is active []
 
  [40 <./images/paper1/fig2.pdf>] [41]
-<./images/paper1/fig3.pdf, id=1319, 1531.8693pt x 1565.73347pt>
+<./images/paper1/fig3.pdf, id=1339, 1531.8693pt x 1565.73347pt>
 File: ./images/paper1/fig3.pdf Graphic file (type pdf)
 
 <use ./images/paper1/fig3.pdf>
 Package pdftex.def Info: ./images/paper1/fig3.pdf used on input line 502.
 (pdftex.def)             Requested size: 456.11655pt x 466.18779pt.
-
-
-LaTeX Warning: Reference `eq:STFQ' on page 42 undefined on input line 518.
-
-[42] [43 <./images/paper1/fig3.pdf>]
-<./images/paper1/fig4.pdf, id=13688, 247.92625pt x 206.7725pt>
+ [42] [43 <./images/paper1/fig3.pdf>]
+<./images/paper1/fig4.pdf, id=13709, 247.92625pt x 206.7725pt>
 File: ./images/paper1/fig4.pdf Graphic file (type pdf)
 
 <use ./images/paper1/fig4.pdf>
 Package pdftex.def Info: ./images/paper1/fig4.pdf used on input line 579.
 (pdftex.def)             Requested size: 322.50345pt x 268.99036pt.
 
-<./images/paper1/fig5.pdf, id=13693, 678.535pt x 675.52374pt>
+<./images/paper1/fig5.pdf, id=13714, 678.535pt x 675.52374pt>
 File: ./images/paper1/fig5.pdf Graphic file (type pdf)
 
 <use ./images/paper1/fig5.pdf>
 Package pdftex.def Info: ./images/paper1/fig5.pdf used on input line 601.
 (pdftex.def)             Requested size: 322.50345pt x 321.07295pt.
 
-
-LaTeX Warning: Reference `eq:STFQ' on page 44 undefined on input line 622.
-
-<./images/paper1/fig6a.pdf, id=13705, 1036.72316pt x 632.39264pt>
+<./images/paper1/fig6a.pdf, id=13728, 1036.72316pt x 632.39264pt>
 File: ./images/paper1/fig6a.pdf Graphic file (type pdf)
 
 <use ./images/paper1/fig6a.pdf>
 Package pdftex.def Info: ./images/paper1/fig6a.pdf used on input line 642.
 (pdftex.def)             Requested size: 317.89877pt x 193.90714pt.
 
-<./images/paper1/fig6b.pdf, id=13706, 1036.72316pt x 632.39264pt>
+<./images/paper1/fig6b.pdf, id=13729, 1036.72316pt x 632.39264pt>
 File: ./images/paper1/fig6b.pdf Graphic file (type pdf)
 
 <use ./images/paper1/fig6b.pdf>
 Package pdftex.def Info: ./images/paper1/fig6b.pdf used on input line 643.
 (pdftex.def)             Requested size: 317.89877pt x 193.90714pt.
 
-<./images/paper1/fig6d.pdf, id=13711, 1036.72316pt x 632.39264pt>
+<./images/paper1/fig6d.pdf, id=13734, 1036.72316pt x 632.39264pt>
 File: ./images/paper1/fig6d.pdf Graphic file (type pdf)
 
 <use ./images/paper1/fig6d.pdf>
 Package pdftex.def Info: ./images/paper1/fig6d.pdf used on input line 663.
 (pdftex.def)             Requested size: 317.89877pt x 193.90714pt.
 
-<./images/paper1/fig6c.pdf, id=13712, 1036.72316pt x 632.39264pt>
+<./images/paper1/fig6c.pdf, id=13735, 1036.72316pt x 632.39264pt>
 File: ./images/paper1/fig6c.pdf Graphic file (type pdf)
 
 <use ./images/paper1/fig6c.pdf>
 Package pdftex.def Info: ./images/paper1/fig6c.pdf used on input line 664.
 (pdftex.def)             Requested size: 317.89877pt x 193.90714pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 3861) has occurred while \output is active []
 
  [44]
 [45 <./images/paper1/fig4.pdf>] [46 <./images/paper1/fig5.pdf>] [47 <./images/p
 aper1/fig6a.pdf> <./images/paper1/fig6b.pdf>] [48 <./images/paper1/fig6d.pdf> <
 ./images/paper1/fig6c.pdf>]
-
-Class scrbook Warning: Usage of deprecated font command `\bf'!
-(scrbook)              You should note, that in 1994 font command `\bf' has
-(scrbook)              been defined for compatiblitiy to Script 2.0 only.
-(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
-(scrbook)              shouldn't use such commands any longer and within
-(scrbook)              KOMA-Script usage of `\bf' is definitely deprecated.
-(scrbook)              See `fntguide.pdf' for more information about
-(scrbook)              recommended font commands.
-(scrbook)              Note also, that KOMA-Script will remove the definition
-(scrbook)              of `\bf' anytime until release of about version 3.20.
-(scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrbook)              by `\normalfont \bfseries ' on input line 736.
-
-[49]
-
-Class scrbook Warning: Usage of deprecated font command `\bf'!
-(scrbook)              You should note, that in 1994 font command `\bf' has
-(scrbook)              been defined for compatiblitiy to Script 2.0 only.
-(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
-(scrbook)              shouldn't use such commands any longer and within
-(scrbook)              KOMA-Script usage of `\bf' is definitely deprecated.
-(scrbook)              See `fntguide.pdf' for more information about
-(scrbook)              recommended font commands.
-(scrbook)              Note also, that KOMA-Script will remove the definition
-(scrbook)              of `\bf' anytime until release of about version 3.20.
-(scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrbook)              by `\normalfont \bfseries ' on input line 765.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@ifnextchar' on input line 765.
-
-<./images/paper1/fig7.pdf, id=13867, 1229.59375pt x 817.0525pt>
+<./images/paper1/fig7.pdf, id=13878, 1229.59375pt x 817.0525pt>
 File: ./images/paper1/fig7.pdf Graphic file (type pdf)
 
 <use ./images/paper1/fig7.pdf>
-Package pdftex.def Info: ./images/paper1/fig7.pdf used on input line 781.
+Package pdftex.def Info: ./images/paper1/fig7.pdf used on input line 766.
 (pdftex.def)             Requested size: 322.50345pt x 214.29872pt.
-
-<./images/paper1/fig8a.pdf, id=13872, 1061.24483pt x 562.83272pt>
-File: ./images/paper1/fig8a.pdf Graphic file (type pdf)
-
-<use ./images/paper1/fig8a.pdf>
-Package pdftex.def Info: ./images/paper1/fig8a.pdf used on input line 793.
-(pdftex.def)             Requested size: 322.50345pt x 171.04108pt.
-
-<./images/paper1/fig8b.pdf, id=13873, 962.79701pt x 539.7967pt>
-File: ./images/paper1/fig8b.pdf Graphic file (type pdf)
-
-<use ./images/paper1/fig8b.pdf>
-Package pdftex.def Info: ./images/paper1/fig8b.pdf used on input line 794.
-(pdftex.def)             Requested size: 322.50345pt x 180.81036pt.
-
-<./images/paper1/fig8c.pdf, id=13874, 1061.24483pt x 562.83272pt>
+ [49]
+<./images/paper1/fig8c.pdf, id=13896, 1061.24483pt x 562.83272pt>
 File: ./images/paper1/fig8c.pdf Graphic file (type pdf)
 
 <use ./images/paper1/fig8c.pdf>
-Package pdftex.def Info: ./images/paper1/fig8c.pdf used on input line 809.
+Package pdftex.def Info: ./images/paper1/fig8c.pdf used on input line 794.
 (pdftex.def)             Requested size: 322.50345pt x 171.04108pt.
 
-<./images/paper1/fig8d.pdf, id=13875, 962.79701pt x 534.79799pt>
+<./images/paper1/fig8d.pdf, id=13897, 962.79701pt x 534.79799pt>
 File: ./images/paper1/fig8d.pdf Graphic file (type pdf)
 
 <use ./images/paper1/fig8d.pdf>
-Package pdftex.def Info: ./images/paper1/fig8d.pdf used on input line 810.
+Package pdftex.def Info: ./images/paper1/fig8d.pdf used on input line 795.
 (pdftex.def)             Requested size: 322.50345pt x 179.13599pt.
-
-<./images/paper1/fig9a.pdf, id=13876, 1029.34563pt x 628.82928pt>
+ [50 <./images/paper1/fig7.pdf>]
+<./images/paper1/fig9a.pdf, id=13911, 1029.34563pt x 628.82928pt>
 File: ./images/paper1/fig9a.pdf Graphic file (type pdf)
 
 <use ./images/paper1/fig9a.pdf>
-Package pdftex.def Info: ./images/paper1/fig9a.pdf used on input line 821.
+Package pdftex.def Info: ./images/paper1/fig9a.pdf used on input line 805.
 (pdftex.def)             Requested size: 322.50345pt x 197.01721pt.
 
-<./images/paper1/fig9b.pdf, id=13877, 1030.19879pt x 629.42152pt>
+<./images/paper1/fig9b.pdf, id=13912, 1030.19879pt x 629.42152pt>
 File: ./images/paper1/fig9b.pdf Graphic file (type pdf)
 
 <use ./images/paper1/fig9b.pdf>
-Package pdftex.def Info: ./images/paper1/fig9b.pdf used on input line 822.
+Package pdftex.def Info: ./images/paper1/fig9b.pdf used on input line 806.
 (pdftex.def)             Requested size: 322.50345pt x 197.03949pt.
- [50] [51 <./images/paper1/fig7.pdf>] [52 <./images/paper1/fig8a.pdf> <./images
-/paper1/fig8b.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [53 <./images/paper1/fig8c.pdf> <./images/paper1/fig8d.pdf>] [54 <./images/pap
+<./images/paper1/fig8a.pdf, id=13921, 1061.24483pt x 562.83272pt>
+File: ./images/paper1/fig8a.pdf Graphic file (type pdf)
+
+<use ./images/paper1/fig8a.pdf>
+Package pdftex.def Info: ./images/paper1/fig8a.pdf used on input line 818.
+(pdftex.def)             Requested size: 322.50345pt x 171.04108pt.
+
+<./images/paper1/fig8b.pdf, id=13922, 962.79701pt x 539.7967pt>
+File: ./images/paper1/fig8b.pdf Graphic file (type pdf)
+
+<use ./images/paper1/fig8b.pdf>
+Package pdftex.def Info: ./images/paper1/fig8b.pdf used on input line 819.
+(pdftex.def)             Requested size: 322.50345pt x 180.81036pt.
+ [51 <./images/paper1/fig8c.pdf> <./images/paper1/fig8d.pdf>] [52 <./images/pap
 er1/fig9a.pdf> <./images/paper1/fig9b.pdf>]
-<./images/paper1/fig10.pdf, id=14021, 955.57pt x 617.30624pt>
+[53 <./images/paper1/fig8a.pdf> <./images/paper1/fig8b.pdf>] [54]
+<./images/paper1/fig10.pdf, id=14046, 955.57pt x 617.30624pt>
 File: ./images/paper1/fig10.pdf Graphic file (type pdf)
 
 <use ./images/paper1/fig10.pdf>
-Package pdftex.def Info: ./images/paper1/fig10.pdf used on input line 985.
+Package pdftex.def Info: ./images/paper1/fig10.pdf used on input line 982.
 (pdftex.def)             Requested size: 322.50345pt x 208.33658pt.
 
-<./images/paper1/fig11.pdf, id=14022, 1694.00885pt x 700.58975pt>
+<./images/paper1/fig11.pdf, id=14047, 1694.00885pt x 700.58975pt>
 File: ./images/paper1/fig11.pdf Graphic file (type pdf)
 
 <use ./images/paper1/fig11.pdf>
-Package pdftex.def Info: ./images/paper1/fig11.pdf used on input line 994.
+Package pdftex.def Info: ./images/paper1/fig11.pdf used on input line 991.
 (pdftex.def)             Requested size: 456.11655pt x 188.62726pt.
 
-<./images/paper1/fig12.pdf, id=14031, 990.30977pt x 509.00163pt>
+<./images/paper1/fig12.pdf, id=14056, 990.30977pt x 509.00163pt>
 File: ./images/paper1/fig12.pdf Graphic file (type pdf)
 
 <use ./images/paper1/fig12.pdf>
-Package pdftex.def Info: ./images/paper1/fig12.pdf used on input line 1009.
+Package pdftex.def Info: ./images/paper1/fig12.pdf used on input line 1006.
 (pdftex.def)             Requested size: 368.57838pt x 189.44606pt.
 
-<./images/paper1/fig13a.pdf, id=14032, 646.415pt x 483.8075pt>
+<./images/paper1/fig13a.pdf, id=14057, 646.415pt x 483.8075pt>
 File: ./images/paper1/fig13a.pdf Graphic file (type pdf)
 
 <use ./images/paper1/fig13a.pdf>
-Package pdftex.def Info: ./images/paper1/fig13a.pdf used on input line 1017.
+Package pdftex.def Info: ./images/paper1/fig13a.pdf used on input line 1014.
 (pdftex.def)             Requested size: 322.50345pt x 241.37901pt.
 
-<./images/paper1/fig13b.pdf, id=14033, 646.415pt x 496.85625pt>
+<./images/paper1/fig13b.pdf, id=14058, 646.415pt x 496.85625pt>
 File: ./images/paper1/fig13b.pdf Graphic file (type pdf)
 
 <use ./images/paper1/fig13b.pdf>
-Package pdftex.def Info: ./images/paper1/fig13b.pdf used on input line 1019.
+Package pdftex.def Info: ./images/paper1/fig13b.pdf used on input line 1016.
 (pdftex.def)             Requested size: 322.50345pt x 247.88922pt.
- [55] [56 <./images/paper1/fig10.pdf> <./images/paper1/fig11.pdf>]
-
-LaTeX Warning: Reference `eq:STFQ' on page 57 undefined on input line 1051.
-
-
-LaTeX Warning: Reference `eq:STFQ' on page 57 undefined on input line 1056.
-
-
-LaTeX Warning: Reference `eq:STFQ' on page 57 undefined on input line 1062.
-
-[57 <./images/paper1/fig12.pdf>] [58 <./images/paper1/fig13a.pdf> <./images/pap
-er1/fig13b.pdf>] [59] [60]
-<./images/paper1/fig14.pdf, id=36470, 794.97pt x 449.68pt>
+ [55] [56 <./images/paper1/fig10.pdf> <./images/paper1/fig11.pdf>] [57 <./image
+s/paper1/fig12.pdf>] [58 <./images/paper1/fig13a.pdf> <./images/paper1/fig13b.p
+df>] [59] [60]
+<./images/paper1/fig14.pdf, id=36497, 794.97pt x 449.68pt>
 File: ./images/paper1/fig14.pdf Graphic file (type pdf)
 
 <use ./images/paper1/fig14.pdf>
-Package pdftex.def Info: ./images/paper1/fig14.pdf used on input line 1231.
+Package pdftex.def Info: ./images/paper1/fig14.pdf used on input line 1228.
 (pdftex.def)             Requested size: 322.50345pt x 182.42816pt.
- [61]
-Overfull \hbox (249.55977pt too wide) in paragraph at lines 1261--1269
- [][] 
- []
+ [61] [62 <./images/paper1/fig14.pdf>] [63]
+[64] [65] [66]
+Underfull \vbox (badness 1874) has occurred while \output is active []
 
-[62 <./images/paper1/fig14.pdf>] [63] [64] [65] [66] [67] [68] [69] [70])
-[71] [72
-
-
-] (./chapters/paper2/body.tex
+ [67]
+[68] [69] [70] [71]) [72] (./chapters/paper2/body.tex
 Chapter 7.
 [73
 
 
-] [74] <./images/paper2/rot.pdf, id=36880, 865.36342pt x 568.29582pt>
+
+
+] [74] <./images/paper2/rot.pdf, id=36906, 865.36342pt x 568.29582pt>
 File: ./images/paper2/rot.pdf Graphic file (type pdf)
 
 <use ./images/paper2/rot.pdf>
-Package pdftex.def Info: ./images/paper2/rot.pdf used on input line 108.
+Package pdftex.def Info: ./images/paper2/rot.pdf used on input line 107.
 (pdftex.def)             Requested size: 456.11655pt x 299.5391pt.
 
-<./images/paper2/rsh.pdf, id=36881, 870.83356pt x 589.4471pt>
+<./images/paper2/rsh.pdf, id=36907, 870.83356pt x 589.4471pt>
 File: ./images/paper2/rsh.pdf Graphic file (type pdf)
 
 <use ./images/paper2/rsh.pdf>
-Package pdftex.def Info: ./images/paper2/rsh.pdf used on input line 114.
+Package pdftex.def Info: ./images/paper2/rsh.pdf used on input line 113.
 (pdftex.def)             Requested size: 456.11655pt x 308.73582pt.
 
-<./images/paper2/sasi_fr.pdf, id=36884, 892.70679pt x 412.70035pt>
+<./images/paper2/sasi_fr.pdf, id=36910, 892.70679pt x 412.70035pt>
 File: ./images/paper2/sasi_fr.pdf Graphic file (type pdf)
 
 <use ./images/paper2/sasi_fr.pdf>
-Package pdftex.def Info: ./images/paper2/sasi_fr.pdf used on input line 121.
+Package pdftex.def Info: ./images/paper2/sasi_fr.pdf used on input line 120.
 (pdftex.def)             Requested size: 414.6463pt x 191.68956pt.
 
-<./images/paper2/sasi_r.pdf, id=36885, 862.43794pt x 412.70035pt>
+<./images/paper2/sasi_r.pdf, id=36911, 862.43794pt x 412.70035pt>
 File: ./images/paper2/sasi_r.pdf Graphic file (type pdf)
 
 <use ./images/paper2/sasi_r.pdf>
-Package pdftex.def Info: ./images/paper2/sasi_r.pdf used on input line 122.
+Package pdftex.def Info: ./images/paper2/sasi_r.pdf used on input line 121.
 (pdftex.def)             Requested size: 414.6463pt x 198.42137pt.
 
-<./images/paper2/sasi_nr.pdf, id=36886, 877.57236pt x 412.70035pt>
+<./images/paper2/sasi_nr.pdf, id=36912, 877.57236pt x 412.70035pt>
 File: ./images/paper2/sasi_nr.pdf Graphic file (type pdf)
 
 <use ./images/paper2/sasi_nr.pdf>
-Package pdftex.def Info: ./images/paper2/sasi_nr.pdf used on input line 123.
+Package pdftex.def Info: ./images/paper2/sasi_nr.pdf used on input line 122.
 (pdftex.def)             Requested size: 414.6463pt x 194.99565pt.
 
 
-LaTeX Warning: Float too large for page by 16.90659pt on input line 126.
+LaTeX Warning: Float too large for page by 16.90659pt on input line 125.
 
-<./images/paper2/m15fr1.png, id=36889, 2409.0pt x 2409.0pt>
+<./images/paper2/m15fr1.png, id=36915, 2409.0pt x 2409.0pt>
 File: ./images/paper2/m15fr1.png Graphic file (type png)
 
 <use ./images/paper2/m15fr1.png>
-Package pdftex.def Info: ./images/paper2/m15fr1.png used on input line 130.
+Package pdftex.def Info: ./images/paper2/m15fr1.png used on input line 129.
 (pdftex.def)             Requested size: 225.75594pt x 225.73293pt.
 
-<./images/paper2/m15fr2.png, id=36890, 2409.0pt x 2409.0pt>
+<./images/paper2/m15fr2.png, id=36916, 2409.0pt x 2409.0pt>
 File: ./images/paper2/m15fr2.png Graphic file (type png)
 
 <use ./images/paper2/m15fr2.png>
-Package pdftex.def Info: ./images/paper2/m15fr2.png used on input line 131.
+Package pdftex.def Info: ./images/paper2/m15fr2.png used on input line 130.
 (pdftex.def)             Requested size: 225.75594pt x 225.73293pt.
 
-<./images/paper2/m15fr3.png, id=36891, 2409.0pt x 2409.0pt>
+<./images/paper2/m15fr3.png, id=36917, 2409.0pt x 2409.0pt>
 File: ./images/paper2/m15fr3.png Graphic file (type png)
 
 <use ./images/paper2/m15fr3.png>
-Package pdftex.def Info: ./images/paper2/m15fr3.png used on input line 132.
+Package pdftex.def Info: ./images/paper2/m15fr3.png used on input line 131.
 (pdftex.def)             Requested size: 225.75594pt x 225.73293pt.
 
-<./images/paper2/m15fr4.png, id=36892, 2409.0pt x 2409.0pt>
+<./images/paper2/m15fr4.png, id=36918, 2409.0pt x 2409.0pt>
 File: ./images/paper2/m15fr4.png Graphic file (type png)
 
 <use ./images/paper2/m15fr4.png>
-Package pdftex.def Info: ./images/paper2/m15fr4.png used on input line 133.
+Package pdftex.def Info: ./images/paper2/m15fr4.png used on input line 132.
 (pdftex.def)             Requested size: 225.75594pt x 225.73293pt.
 
-<./images/paper2/m15r1.png, id=36893, 2409.0pt x 2409.0pt>
+<./images/paper2/m15r1.png, id=36919, 2409.0pt x 2409.0pt>
 File: ./images/paper2/m15r1.png Graphic file (type png)
 
 <use ./images/paper2/m15r1.png>
-Package pdftex.def Info: ./images/paper2/m15r1.png used on input line 144.
+Package pdftex.def Info: ./images/paper2/m15r1.png used on input line 143.
 (pdftex.def)             Requested size: 225.75594pt x 225.73293pt.
 
-<./images/paper2/m15r2.png, id=36894, 2409.0pt x 2409.0pt>
+<./images/paper2/m15r2.png, id=36920, 2409.0pt x 2409.0pt>
 File: ./images/paper2/m15r2.png Graphic file (type png)
 
 <use ./images/paper2/m15r2.png>
-Package pdftex.def Info: ./images/paper2/m15r2.png used on input line 145.
+Package pdftex.def Info: ./images/paper2/m15r2.png used on input line 144.
 (pdftex.def)             Requested size: 225.75594pt x 225.73293pt.
 
-<./images/paper2/m15r3.png, id=36895, 2409.0pt x 2409.0pt>
+<./images/paper2/m15r3.png, id=36921, 2409.0pt x 2409.0pt>
 File: ./images/paper2/m15r3.png Graphic file (type png)
 
 <use ./images/paper2/m15r3.png>
-Package pdftex.def Info: ./images/paper2/m15r3.png used on input line 146.
+Package pdftex.def Info: ./images/paper2/m15r3.png used on input line 145.
 (pdftex.def)             Requested size: 225.75594pt x 225.73293pt.
 
-<./images/paper2/m15r4.png, id=36896, 2409.0pt x 2409.0pt>
+<./images/paper2/m15r4.png, id=36922, 2409.0pt x 2409.0pt>
 File: ./images/paper2/m15r4.png Graphic file (type png)
 
 <use ./images/paper2/m15r4.png>
-Package pdftex.def Info: ./images/paper2/m15r4.png used on input line 147.
+Package pdftex.def Info: ./images/paper2/m15r4.png used on input line 146.
 (pdftex.def)             Requested size: 225.75594pt x 225.73293pt.
  [75] [76 <./images/paper2/rot.pdf>] [77 <./images/paper2/rsh.pdf>] [78 <./imag
 es/paper2/sasi_fr.pdf> <./images/paper2/sasi_r.pdf
@@ -2404,40 +2632,25 @@ tiple pdfs with page group included in a single page
 >] [79 <./images/paper2/m15fr1.png> <./images/paper2/m15fr2.png> <./images/pape
 r2/m15fr3.png> <./images/paper2/m15fr4.png>] [80 <./images/paper2/m15r1.png> <.
 /images/paper2/m15r2.png> <./images/paper2/m15r3.png> <./images/paper2/m15r4.pn
-g>]
-
-Class scrbook Warning: Usage of deprecated font command `\bf'!
-(scrbook)              You should note, that in 1994 font command `\bf' has
-(scrbook)              been defined for compatiblitiy to Script 2.0 only.
-(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
-(scrbook)              shouldn't use such commands any longer and within
-(scrbook)              KOMA-Script usage of `\bf' is definitely deprecated.
-(scrbook)              See `fntguide.pdf' for more information about
-(scrbook)              recommended font commands.
-(scrbook)              Note also, that KOMA-Script will remove the definition
-(scrbook)              of `\bf' anytime until release of about version 3.20.
-(scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrbook)              by `\normalfont \bfseries ' on input line 159.
-
-<./images/paper2/amps.pdf, id=37013, 1579.30873pt x 1464.38792pt>
+g>] <./images/paper2/amps.pdf, id=37039, 1579.30873pt x 1464.38792pt>
 File: ./images/paper2/amps.pdf Graphic file (type pdf)
 
 <use ./images/paper2/amps.pdf>
-Package pdftex.def Info: ./images/paper2/amps.pdf used on input line 187.
+Package pdftex.def Info: ./images/paper2/amps.pdf used on input line 186.
 (pdftex.def)             Requested size: 456.11655pt x 422.91873pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./images/paper2/rotspec.pdf, id=37014, 1469.26234pt x 1689.46269pt>
+<./images/paper2/rotspec.pdf, id=37040, 1469.26234pt x 1689.46269pt>
 File: ./images/paper2/rotspec.pdf Graphic file (type pdf)
 
 <use ./images/paper2/rotspec.pdf>
-Package pdftex.def Info: ./images/paper2/rotspec.pdf used on input line 196.
+Package pdftex.def Info: ./images/paper2/rotspec.pdf used on input line 195.
 (pdftex.def)             Requested size: 456.11655pt x 524.47562pt.
 
 
-LaTeX Warning: Float too large for page by 22.27565pt on input line 205.
+LaTeX Warning: Float too large for page by 22.27565pt on input line 204.
 
 [81
 
@@ -2445,111 +2658,112 @@ LaTeX Warning: Float too large for page by 22.27565pt on input line 205.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [82 <./images/paper2/amps.pdf>] [83 <./images/paper2/rotspec.pdf>]
-<./images/paper2/dedv_rot.pdf, id=50257, 885.16225pt x 941.71176pt>
+<./images/paper2/dedv_rot.pdf, id=50283, 885.16225pt x 941.71176pt>
 File: ./images/paper2/dedv_rot.pdf Graphic file (type pdf)
 
 <use ./images/paper2/dedv_rot.pdf>
-Package pdftex.def Info: ./images/paper2/dedv_rot.pdf used on input line 238.
+Package pdftex.def Info: ./images/paper2/dedv_rot.pdf used on input line 236.
 (pdftex.def)             Requested size: 363.96667pt x 387.21075pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [84] [85 <./images/paper2/dedv_rot.pdf>]
-<./images/paper2/1.png, id=50293, 1027.84pt x 734.745pt>
+<./images/paper2/1.png, id=50320, 1027.84pt x 734.745pt>
 File: ./images/paper2/1.png Graphic file (type png)
 
 <use ./images/paper2/1.png>
-Package pdftex.def Info: ./images/paper2/1.png used on input line 308.
+Package pdftex.def Info: ./images/paper2/1.png used on input line 303.
 (pdftex.def)             Requested size: 225.75594pt x 161.37532pt.
 
-<./images/paper2/2.png, id=50294, 1027.84pt x 734.745pt>
+<./images/paper2/2.png, id=50321, 1027.84pt x 734.745pt>
 File: ./images/paper2/2.png Graphic file (type png)
 
 <use ./images/paper2/2.png>
-Package pdftex.def Info: ./images/paper2/2.png used on input line 309.
+Package pdftex.def Info: ./images/paper2/2.png used on input line 304.
 (pdftex.def)             Requested size: 225.75594pt x 161.37532pt.
 
-<./images/paper2/3.png, id=50295, 1027.84pt x 734.745pt>
+<./images/paper2/3.png, id=50322, 1027.84pt x 734.745pt>
 File: ./images/paper2/3.png Graphic file (type png)
 
 <use ./images/paper2/3.png>
-Package pdftex.def Info: ./images/paper2/3.png used on input line 310.
+Package pdftex.def Info: ./images/paper2/3.png used on input line 305.
 (pdftex.def)             Requested size: 225.75594pt x 161.37532pt.
-
-
-LaTeX Warning: Reference `fig2:3dpics2' on page 86 undefined on input line 326.
-
-
-[86] [87 <./images/paper2/1.png (PNG copy)> <./images/paper2/2.png (PNG copy)> 
-<./images/paper2/3.png (PNG copy)>]
+ [86] [87 <./images/paper2/1.png (PNG copy)> <./images/paper2/2.png (PNG copy)>
+ <./images/paper2/3.png (PNG copy)>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 378.
+               Default added (so using `tbp') on input line 372.
 
 
 Underfull \vbox (badness 3547) has occurred while \output is active []
 
  [88]
-[89]
-
-Class scrbook Warning: Usage of deprecated font command `\bf'!
-(scrbook)              You should note, that in 1994 font command `\bf' has
-(scrbook)              been defined for compatiblitiy to Script 2.0 only.
-(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
-(scrbook)              shouldn't use such commands any longer and within
-(scrbook)              KOMA-Script usage of `\bf' is definitely deprecated.
-(scrbook)              See `fntguide.pdf' for more information about
-(scrbook)              recommended font commands.
-(scrbook)              Note also, that KOMA-Script will remove the definition
-(scrbook)              of `\bf' anytime until release of about version 3.20.
-(scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrbook)              by `\normalfont \bfseries ' on input line 439.
-
-<./images/paper2/bounce_fr.pdf, id=50349, 883.6655pt x 412.70035pt>
+[89] <./images/paper2/bounce_fr.pdf, id=50376, 883.6655pt x 412.70035pt>
 File: ./images/paper2/bounce_fr.pdf Graphic file (type pdf)
 
 <use ./images/paper2/bounce_fr.pdf>
-Package pdftex.def Info: ./images/paper2/bounce_fr.pdf used on input line 448.
+Package pdftex.def Info: ./images/paper2/bounce_fr.pdf used on input line 441.
 (pdftex.def)             Requested size: 414.6463pt x 193.65433pt.
 
-<./images/paper2/bounce_r.pdf, id=50350, 883.6655pt x 412.70035pt>
+<./images/paper2/bounce_r.pdf, id=50377, 883.6655pt x 412.70035pt>
 File: ./images/paper2/bounce_r.pdf Graphic file (type pdf)
 
 <use ./images/paper2/bounce_r.pdf>
-Package pdftex.def Info: ./images/paper2/bounce_r.pdf used on input line 449.
+Package pdftex.def Info: ./images/paper2/bounce_r.pdf used on input line 442.
 (pdftex.def)             Requested size: 414.6463pt x 193.65433pt.
  [90] [91 <./images/paper2/bounce_fr.pdf> <./images/paper2/bounce_r.pdf
 
 pdfTeX warning: pdflatex (file ./images/paper2/bounce_r.pdf): PDF inclusion: mu
 ltiple pdfs with page group included in a single page
->]
+>] [92]) [93] [94
 
-Class scrbook Warning: Usage of deprecated font command `\bf'!
-(scrbook)              You should note, that in 1994 font command `\bf' has
-(scrbook)              been defined for compatiblitiy to Script 2.0 only.
-(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
-(scrbook)              shouldn't use such commands any longer and within
-(scrbook)              KOMA-Script usage of `\bf' is definitely deprecated.
-(scrbook)              See `fntguide.pdf' for more information about
-(scrbook)              recommended font commands.
-(scrbook)              Note also, that KOMA-Script will remove the definition
-(scrbook)              of `\bf' anytime until release of about version 3.20.
-(scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrbook)              by `\normalfont \bfseries ' on input line 484.
 
-[92]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [93])
-[94] (./chapters/sum/body.tex
+] (./chapters/sum/body.tex
 Chapter 8.
 [95
 
 
+] [96] [97] [98]) [99] [100
 
 
-] [96] [97]) [98] (./doktorarbeit.bbl
+] (./listofconv.tex
+Appendix A.
+) [101
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{equation.A.0.
+1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.372   \cleardoublepage
+                        pdfTeX warning (ext4): destination with the same identi
+fier (name{equation.A.0.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.372   \cleardoublepage
+                        ] [102
+
+
+] (./listofabvr.tex
+Appendix B.
+) [103
+
+
+] [104
+
+
+] (./chapters/ack/body.tex
+Appendix C.
+) [105
+
+
+] [106
+
+
+] (./doktorarbeit.bbl
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              You should note, that in 1994 font command `\rm' has
@@ -2805,11 +3019,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
 (scrbook)              by `\normalfont \rmfamily ' on input line 140.
 
-[99
-
-
-
-
+[107
 
 
 
@@ -3053,7 +3263,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
 (scrbook)              by `\normalfont \rmfamily ' on input line 247.
 
-[100]
+[108]
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              You should note, that in 1994 font command `\rm' has
@@ -3337,7 +3547,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
 (scrbook)              by `\normalfont \rmfamily ' on input line 393.
 
-[101]
+[109]
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              You should note, that in 1994 font command `\rm' has
@@ -3585,7 +3795,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
 (scrbook)              by `\normalfont \rmfamily ' on input line 526.
 
-[102]
+[110]
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              You should note, that in 1994 font command `\rm' has
@@ -3612,7 +3822,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\normalfont \rmfamily ' on input line 538.
+(scrbook)              by `\normalfont \rmfamily ' on input line 542.
 
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
@@ -3626,7 +3836,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\normalfont \rmfamily ' on input line 544.
+(scrbook)              by `\normalfont \rmfamily ' on input line 548.
 
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
@@ -3640,21 +3850,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\normalfont \rmfamily ' on input line 553.
-
-
-Class scrbook Warning: Usage of deprecated font command `\rm'!
-(scrbook)              You should note, that in 1994 font command `\rm' has
-(scrbook)              been defined for compatiblitiy to Script 2.0 only.
-(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
-(scrbook)              shouldn't use such commands any longer and within
-(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
-(scrbook)              See `fntguide.pdf' for more information about
-(scrbook)              recommended font commands.
-(scrbook)              Note also, that KOMA-Script will remove the definition
-(scrbook)              of `\rm' anytime until release of about version 3.20.
-(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\normalfont \rmfamily ' on input line 559.
+(scrbook)              by `\normalfont \rmfamily ' on input line 557.
 
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
@@ -3682,7 +3878,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\normalfont \rmfamily ' on input line 569.
+(scrbook)              by `\normalfont \rmfamily ' on input line 567.
 
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
@@ -3738,7 +3934,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\normalfont \rmfamily ' on input line 586.
+(scrbook)              by `\normalfont \rmfamily ' on input line 585.
 
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
@@ -3752,7 +3948,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\normalfont \rmfamily ' on input line 592.
+(scrbook)              by `\normalfont \rmfamily ' on input line 590.
 
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
@@ -3766,7 +3962,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\normalfont \rmfamily ' on input line 598.
+(scrbook)              by `\normalfont \rmfamily ' on input line 596.
 
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
@@ -3780,7 +3976,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\normalfont \rmfamily ' on input line 603.
+(scrbook)              by `\normalfont \rmfamily ' on input line 602.
 
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
@@ -3794,7 +3990,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\normalfont \rmfamily ' on input line 609.
+(scrbook)              by `\normalfont \rmfamily ' on input line 607.
 
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
@@ -3808,7 +4004,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\normalfont \rmfamily ' on input line 615.
+(scrbook)              by `\normalfont \rmfamily ' on input line 613.
 
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
@@ -3822,7 +4018,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\normalfont \rmfamily ' on input line 621.
+(scrbook)              by `\normalfont \rmfamily ' on input line 619.
 
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
@@ -3836,7 +4032,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\normalfont \rmfamily ' on input line 627.
+(scrbook)              by `\normalfont \rmfamily ' on input line 625.
 
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
@@ -3850,7 +4046,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\normalfont \rmfamily ' on input line 633.
+(scrbook)              by `\normalfont \rmfamily ' on input line 631.
 
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
@@ -3864,7 +4060,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\normalfont \rmfamily ' on input line 638.
+(scrbook)              by `\normalfont \rmfamily ' on input line 637.
 
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
@@ -3878,7 +4074,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\normalfont \rmfamily ' on input line 643.
+(scrbook)              by `\normalfont \rmfamily ' on input line 642.
 
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
@@ -3892,7 +4088,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\normalfont \rmfamily ' on input line 649.
+(scrbook)              by `\normalfont \rmfamily ' on input line 647.
 
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
@@ -3906,23 +4102,9 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\normalfont \rmfamily ' on input line 655.
+(scrbook)              by `\normalfont \rmfamily ' on input line 653.
 
-[103]
-
-Class scrbook Warning: Usage of deprecated font command `\rm'!
-(scrbook)              You should note, that in 1994 font command `\rm' has
-(scrbook)              been defined for compatiblitiy to Script 2.0 only.
-(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
-(scrbook)              shouldn't use such commands any longer and within
-(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
-(scrbook)              See `fntguide.pdf' for more information about
-(scrbook)              recommended font commands.
-(scrbook)              Note also, that KOMA-Script will remove the definition
-(scrbook)              of `\rm' anytime until release of about version 3.20.
-(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\normalfont \rmfamily ' on input line 667.
-
+[111]
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              You should note, that in 1994 font command `\rm' has
@@ -3935,7 +4117,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\normalfont \rmfamily ' on input line 673.
+(scrbook)              by `\normalfont \rmfamily ' on input line 659.
 
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
@@ -3949,7 +4131,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\normalfont \rmfamily ' on input line 685.
+(scrbook)              by `\normalfont \rmfamily ' on input line 671.
 
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
@@ -3963,7 +4145,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\normalfont \rmfamily ' on input line 695.
+(scrbook)              by `\normalfont \rmfamily ' on input line 677.
 
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
@@ -3977,7 +4159,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\normalfont \rmfamily ' on input line 701.
+(scrbook)              by `\normalfont \rmfamily ' on input line 689.
 
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
@@ -3991,7 +4173,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\normalfont \rmfamily ' on input line 723.
+(scrbook)              by `\normalfont \rmfamily ' on input line 699.
 
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
@@ -4005,7 +4187,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\normalfont \rmfamily ' on input line 729.
+(scrbook)              by `\normalfont \rmfamily ' on input line 705.
 
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
@@ -4019,7 +4201,21 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\normalfont \rmfamily ' on input line 736.
+(scrbook)              by `\normalfont \rmfamily ' on input line 727.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\normalfont \rmfamily ' on input line 733.
 
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
@@ -4047,7 +4243,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\normalfont \rmfamily ' on input line 745.
+(scrbook)              by `\normalfont \rmfamily ' on input line 744.
 
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
@@ -4061,7 +4257,21 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\normalfont \rmfamily ' on input line 751.
+(scrbook)              by `\normalfont \rmfamily ' on input line 749.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\normalfont \rmfamily ' on input line 755.
 
 
 Class scrbook Warning: Usage of deprecated font command `\it'!
@@ -4075,7 +4285,7 @@ Class scrbook Warning: Usage of deprecated font command `\it'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\it' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\it'
-(scrbook)              by `\normalfont \itshape ' on input line 756.
+(scrbook)              by `\normalfont \itshape ' on input line 760.
 
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
@@ -4089,7 +4299,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\normalfont \rmfamily ' on input line 761.
+(scrbook)              by `\normalfont \rmfamily ' on input line 765.
 
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
@@ -4103,7 +4313,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\normalfont \rmfamily ' on input line 768.
+(scrbook)              by `\normalfont \rmfamily ' on input line 772.
 
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
@@ -4117,10 +4327,10 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\normalfont \rmfamily ' on input line 774.
+(scrbook)              by `\normalfont \rmfamily ' on input line 778.
 
 
-Package hyperref Warning: Suppressing empty link on input line 781.
+Package hyperref Warning: Suppressing empty link on input line 785.
 
 
 Class scrbook Warning: Usage of deprecated font command `\tt'!
@@ -4134,23 +4344,9 @@ Class scrbook Warning: Usage of deprecated font command `\tt'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\tt' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\tt'
-(scrbook)              by `\normalfont \ttfamily ' on input line 782.
+(scrbook)              by `\normalfont \ttfamily ' on input line 786.
 
-[104]
-
-Class scrbook Warning: Usage of deprecated font command `\rm'!
-(scrbook)              You should note, that in 1994 font command `\rm' has
-(scrbook)              been defined for compatiblitiy to Script 2.0 only.
-(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
-(scrbook)              shouldn't use such commands any longer and within
-(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
-(scrbook)              See `fntguide.pdf' for more information about
-(scrbook)              recommended font commands.
-(scrbook)              Note also, that KOMA-Script will remove the definition
-(scrbook)              of `\rm' anytime until release of about version 3.20.
-(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\normalfont \rmfamily ' on input line 786.
-
+[112]
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              You should note, that in 1994 font command `\rm' has
@@ -4163,7 +4359,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\normalfont \rmfamily ' on input line 791.
+(scrbook)              by `\normalfont \rmfamily ' on input line 790.
 
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
@@ -4177,7 +4373,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\normalfont \rmfamily ' on input line 796.
+(scrbook)              by `\normalfont \rmfamily ' on input line 795.
 
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
@@ -4205,7 +4401,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\normalfont \rmfamily ' on input line 812.
+(scrbook)              by `\normalfont \rmfamily ' on input line 804.
 
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
@@ -4219,7 +4415,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\normalfont \rmfamily ' on input line 818.
+(scrbook)              by `\normalfont \rmfamily ' on input line 816.
 
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
@@ -4233,7 +4429,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\normalfont \rmfamily ' on input line 824.
+(scrbook)              by `\normalfont \rmfamily ' on input line 822.
 
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
@@ -4247,7 +4443,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\normalfont \rmfamily ' on input line 835.
+(scrbook)              by `\normalfont \rmfamily ' on input line 828.
 
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
@@ -4275,7 +4471,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\normalfont \rmfamily ' on input line 845.
+(scrbook)              by `\normalfont \rmfamily ' on input line 843.
 
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
@@ -4289,7 +4485,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\normalfont \rmfamily ' on input line 852.
+(scrbook)              by `\normalfont \rmfamily ' on input line 849.
 
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
@@ -4303,7 +4499,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\normalfont \rmfamily ' on input line 859.
+(scrbook)              by `\normalfont \rmfamily ' on input line 856.
 
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
@@ -4317,7 +4513,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\normalfont \rmfamily ' on input line 873.
+(scrbook)              by `\normalfont \rmfamily ' on input line 863.
 
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
@@ -4331,7 +4527,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\normalfont \rmfamily ' on input line 879.
+(scrbook)              by `\normalfont \rmfamily ' on input line 877.
 
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
@@ -4345,7 +4541,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\normalfont \rmfamily ' on input line 885.
+(scrbook)              by `\normalfont \rmfamily ' on input line 883.
 
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
@@ -4359,7 +4555,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\normalfont \rmfamily ' on input line 891.
+(scrbook)              by `\normalfont \rmfamily ' on input line 889.
 
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
@@ -4373,7 +4569,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\normalfont \rmfamily ' on input line 903.
+(scrbook)              by `\normalfont \rmfamily ' on input line 895.
 
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
@@ -4387,22 +4583,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\normalfont \rmfamily ' on input line 909.
-
-[105]
-
-Class scrbook Warning: Usage of deprecated font command `\rm'!
-(scrbook)              You should note, that in 1994 font command `\rm' has
-(scrbook)              been defined for compatiblitiy to Script 2.0 only.
-(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
-(scrbook)              shouldn't use such commands any longer and within
-(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
-(scrbook)              See `fntguide.pdf' for more information about
-(scrbook)              recommended font commands.
-(scrbook)              Note also, that KOMA-Script will remove the definition
-(scrbook)              of `\rm' anytime until release of about version 3.20.
-(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\normalfont \rmfamily ' on input line 919.
+(scrbook)              by `\normalfont \rmfamily ' on input line 907.
 
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
@@ -4416,7 +4597,22 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\normalfont \rmfamily ' on input line 924.
+(scrbook)              by `\normalfont \rmfamily ' on input line 913.
+
+[113]
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\normalfont \rmfamily ' on input line 923.
 
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
@@ -4430,7 +4626,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\normalfont \rmfamily ' on input line 930.
+(scrbook)              by `\normalfont \rmfamily ' on input line 928.
 
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
@@ -4444,7 +4640,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\normalfont \rmfamily ' on input line 935.
+(scrbook)              by `\normalfont \rmfamily ' on input line 934.
 
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
@@ -4458,7 +4654,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\normalfont \rmfamily ' on input line 945.
+(scrbook)              by `\normalfont \rmfamily ' on input line 939.
 
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
@@ -4472,7 +4668,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\normalfont \rmfamily ' on input line 951.
+(scrbook)              by `\normalfont \rmfamily ' on input line 949.
 
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
@@ -4486,7 +4682,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\normalfont \rmfamily ' on input line 957.
+(scrbook)              by `\normalfont \rmfamily ' on input line 955.
 
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
@@ -4500,7 +4696,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\normalfont \rmfamily ' on input line 963.
+(scrbook)              by `\normalfont \rmfamily ' on input line 961.
 
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
@@ -4514,7 +4710,21 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\normalfont \rmfamily ' on input line 969.
+(scrbook)              by `\normalfont \rmfamily ' on input line 967.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\normalfont \rmfamily ' on input line 973.
 
 
 Class scrbook Warning: Usage of deprecated font command `\it'!
@@ -4528,7 +4738,7 @@ Class scrbook Warning: Usage of deprecated font command `\it'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\it' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\it'
-(scrbook)              by `\normalfont \itshape ' on input line 975.
+(scrbook)              by `\normalfont \itshape ' on input line 979.
 
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
@@ -4542,10 +4752,10 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\normalfont \rmfamily ' on input line 986.
+(scrbook)              by `\normalfont \rmfamily ' on input line 990.
 
 
-Package hyperref Warning: Suppressing empty link on input line 992.
+Package hyperref Warning: Suppressing empty link on input line 996.
 
 
 Class scrbook Warning: Usage of deprecated font command `\tt'!
@@ -4559,7 +4769,7 @@ Class scrbook Warning: Usage of deprecated font command `\tt'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\tt' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\tt'
-(scrbook)              by `\normalfont \ttfamily ' on input line 993.
+(scrbook)              by `\normalfont \ttfamily ' on input line 997.
 
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
@@ -4573,7 +4783,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\normalfont \rmfamily ' on input line 997.
+(scrbook)              by `\normalfont \rmfamily ' on input line 1001.
 
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
@@ -4587,7 +4797,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\normalfont \rmfamily ' on input line 1002.
+(scrbook)              by `\normalfont \rmfamily ' on input line 1006.
 
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
@@ -4601,7 +4811,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\normalfont \rmfamily ' on input line 1007.
+(scrbook)              by `\normalfont \rmfamily ' on input line 1011.
 
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
@@ -4615,36 +4825,30 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\normalfont \rmfamily ' on input line 1012.
+(scrbook)              by `\normalfont \rmfamily ' on input line 1016.
 
-) [106]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 389.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 389.
+) [114]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 405.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 405.
  (./doktorarbeit.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 389.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 389.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 405.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 405.
 Package rerunfilecheck Info: File `doktorarbeit.out' has not changed.
-(rerunfilecheck)             Checksum: E71F1BB9C860136940FC4B12FA0FA32B;4863.
+(rerunfilecheck)             Checksum: A995B4B5CBF3336153B6A7582296CE84;5094.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 389.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 405.
  ) 
 Here is how much of TeX's memory you used:
- 33791 strings out of 494208
- 589001 string characters out of 6160797
- 757294 words of memory out of 5000000
- 35849 multiletter control sequences out of 15000+600000
- 30252 words of font info for 124 fonts, out of 8000000 for 9000
+ 36197 strings out of 494208
+ 649412 string characters out of 6160797
+ 811171 words of memory out of 5000000
+ 38180 multiletter control sequences out of 15000+600000
+ 29945 words of font info for 123 fonts, out of 8000000 for 9000
  416 hyphenation exceptions out of 8191
- 65i,14n,75p,10459b,833s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 73i,14n,77p,10459b,865s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.4} has been referenced but does not exi
 st, replaced by a fixed one
 
@@ -4660,32 +4864,31 @@ pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
  </home/haakoan/.texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0700.600pk> </home/h
 aakoan/.texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0800.600pk> </home/haakoan/.t
 exmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti
-10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on doktorarbeit.pdf (112 pages, 68445319 bytes).
+ist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti
+12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
+Output written on doktorarbeit.pdf (120 pages, 68444398 bytes).
 PDF statistics:
- 51151 PDF objects out of 55141 (max. 8388607)
- 2981 compressed objects within 30 object streams
- 507 named destinations out of 1000 (max. 500000)
- 750 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 51212 PDF objects out of 55141 (max. 8388607)
+ 3034 compressed objects within 31 object streams
+ 527 named destinations out of 1000 (max. 500000)
+ 774 words of extra memory for PDF output out of 10000 (max. 10000000)
 

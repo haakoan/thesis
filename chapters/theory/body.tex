@@ -4,13 +4,9 @@
 %%% TeX-master: "../../doktorarbeit"
 %%% End:
 
-\chapter{Theory} \label{ch:theory}
-% \section{General relativity}
-% The total gravitational action is given by the sum of the 
-% Einstein action, $S_E$, and the matter action, $S_M$.
-% \begin{equation}
-% S_E = \frac{c^3}{16 \pi G} \int \mathrm{d}^4 x \sqrt{-g} R
-% \end{equation}
+\chapter{Gravitational waves in a nutshell} \label{ch:theory}
+In this chapter we will discuss the theory of 
+gravitational waves (GWs). The derivations largely follow \cite{gw_book}.
 \section{Linearised theory}
 One of the most straightforward ways to understand 
 GWs is to expand the Einstein equations around 
@@ -146,9 +142,9 @@ we can also construct the functions
 \begin{equation}
 \munu{\epsilon} \equiv \partial_{\mu} \epsilon_{\nu} + \partial_{\nu} \epsilon_{\mu} - \munu{\eta}\partial_{\gamma} \epsilon^{\gamma}
 \end{equation}
-from our four independent functions $\epsilon_mu$ and are free to subtract these functions from $\munu{\bar{h}}$ without breaking the gauge condition set by Eq.~\ref{eqT:lor}.
+from our four independent functions $\epsilon_\mu$ and are free to subtract these functions from $\munu{\bar{h}}$ without breaking the gauge condition set by Eq.~\ref{eqT:lor}.
 The tool we use to impose these four conditions is the coordinate transform given by \eq{eqT:ct}, with the constraints
-on $\epsilon_{mu}$ and its derivatives specified above.
+on $\epsilon_{\mu}$ and its derivatives specified above.
 With this freedom, we can now choose the four functions such that they impose four simplifying conditions on  $\munu{h}$.
 In the TT-gauge the four functions are chosen in such a way that the trace of $\munu{\bar{h}}$ is zero and
  $h^{0i} = 0$. Note that if the trace of $\munu{\bar{h}}$ vanishes $\munu{\bar{h}} = \munu{h}$, and
@@ -162,7 +158,7 @@ we start by writing down the solution of Eq.~\ref{eqT:wave} for a generic source
 
 As for any wave equation, the solution of \eq{eqT:wave} can be found by integrating over the source
 \begin{equation} \label{eqT:sol}
-\munu{\bar{h}}(t,\mathbf{x}) = \frac{4G}{c^4} \int \mathrm{d}^3 x' \frac{\munu{T}(t-|\mathbf{x}-\mathbf{x'}|/c}{|\mathbf{x}-\mathbf{x'}|}.
+\munu{\bar{h}}(t,\mathbf{x}) = \frac{4G}{c^4} \int \mathrm{d}^3 x' \frac{\munu{T}(t-|\mathbf{x}-\mathbf{x'}|/c)}{|\mathbf{x}-\mathbf{x'}|}.
 \end{equation}
 Far way from the source at a distance $D$, if the velocities, $v$, within the source are small compared to the speed of light, \eq{eqT:sol} reduces to the famous Einstein quadrupole formula. In the TT-gauge the quadrupole formula can be written as follows  
 \begin{equation} \label{eqT:equad}
@@ -174,8 +170,8 @@ Q_{ij} = \int \mathrm{d}^3 x \rho(t,\mathbf{x})\left [x_i x_j - \frac{1}{3} \del
 \end{equation}
 $P_{ij} = \delta_{ij} -\hat{n}_i \hat{n}_j$ is the projection operator onto the plane transverse to the direction the wave is propagating,
 $\hat{n}_i = x_i / \sqrt{x_j x^j}$. To find the equation describing $h_{+}$ and $h_{\times}$ for a wave propagating in the general direction
-$\hat{n}$ we first consider a wave propagating along the z-axis in a coordinate system with Cartesian coordinates $(x,y,z)$ and
-spherical polar coordinates $(r,\theta,\phi)$. 
+$\hat{n}$ we first consider a wave propagating along the z-axis in a coordinate system with Cartesian coordinates $(x, \, y, \, z)$ and
+spherical polar coordinates $(r, \, \theta, \, \phi)$. 
 If $\hat{n} = \hat{z}$ then $P_{ij}$ becomes
 \begin{equation} \label{eqT:pij}
 P_{ij}  = 
@@ -199,11 +195,13 @@ By comparing \eq{eqT:hzdir} and \eq{eqT:pjz} we see that
 h_{+}^{TT} &= \frac{G}{c^4 D} (\ddot{Q}_{11}-\ddot{Q}_{22}) \\ \nonumber
 h_{\times}^{TT} &= \frac{2G}{c^4 D} \ddot{Q}_{12}.
 \end{align}
-Now consider a wave propagating in the direction given by $\hat{n'} = (\sin{\theta} \sin{\phi}, \sin{\theta} \cos{\phi},\cos{\theta})$.
-We can view this as a wave propagating along the $z'$-axis of a coordinate system, with axes $(x',y',z')$, that has been constructed  
+Now consider a wave propagating in the direction given by 
+$\hat{n'} = (\sin{\theta} \sin{\phi}, \, \sin{\theta} \cos{\phi}, \, \cos{\theta})$.
+We can view this as a wave propagating along the $z'$-axis of a coordinate system, with axes $(x', \, y', \, z')$, 
+that has been constructed  
 by rotating the original system about the $z$-axis by an angle $\phi$ and then about the $x$-axis by an angle $\theta$.
 The rotation matrix R of the two consecutive rotations is
-\begin{equation} \label{eqT:pjz}
+\begin{equation} \label{eqT:pjz2}
 R = 
   \begin{pmatrix}
     \cos{\phi} & \sin{\phi} & 0  \\
@@ -217,8 +215,8 @@ R =
   \end{pmatrix}.
 \end{equation}
 Since $\hat{n'} = \hat{z'}$ we can use the result from \eq{eqT:zhchx}, but we have to
-transform the components of $\ddot{Q}$ from the old system (x,y,z) into our new coordinate system (x',y',z').
-Under the rotations described by \eq{eqT:pjz} the quadrupole moment transforms as follows
+transform the components of $\ddot{Q}$ from the old system $(x, \, y, \, z)$ into our new coordinate system $(x', \, y', \, z')$.
+Under the rotations described by \eq{eqT:pjz2} the quadrupole moment transforms as follows
 \begin{equation}
 \ddot{Q}_{ij} \rightarrow \ddot{Q}_{ij}' = (R Q R^T)_{ij},
 \end{equation}
@@ -238,20 +236,19 @@ h_{\times}^{TT} = \frac{G}{c^4 D} & \Big[ (\ddot{Q}_{11} - \ddot{Q}_{22}) \sin{2
 & +\ddot{Q}_{12} \cos{\theta} \cos{2\phi} - \ddot{Q}_{13} \cos{\phi} \sin{\theta} \\ \nonumber
 & +  2\ddot{Q}_{23} \sin{\phi} \sin{\theta} \Big]. 
 \end{align}
-\eq{eqT:hc} and \eq{eqT:hp} tell us is how the waveforms of the emitted GW signal depend on 
+\eq{eqT:hc} and \eq{eqT:hp} tell us is how the waveforms of the emitted gravitational wave (GW) signal depend on 
 the observers location relative to the source.
 If we calculate $\ddot{Q}_{ij}$ in a given coordinate system, 
 when dealing with simulations it is often convenient to calculate the quadrupole moment
-in the coordinate system of the simulations. We can then use \eq{eqT:hc} and \eq{eqT:hp} to compute the signal for an observer situated along the direction $\hat{n} = (\sin{\theta} \sin{\phi}, \sin{\theta} \cos{\phi},\cos{\theta})$.
+in the coordinate system of the simulations. We can then use \eq{eqT:hc} and \eq{eqT:hp} to compute the signal for an observer situated along the direction $\hat{n} = (\sin{\theta} \sin{\phi}, \, \sin{\theta} \cos{\phi}, \, \cos{\theta})$.
 
-In principle, we have all the ingredients we need to calculate the gravitational quadrupole radiation as observed by a distant observer 
-for a slow-moving source. However, we are required to calculate the second time derivative of $Q_{ij}$. In theory this is not a problem, but
+In principle, we have all the ingredients we need to calculate the gravitational quadrupole radiation as observed by a distant observer for a slow-moving source. However, we are required to calculate the second time derivative of $Q_{ij}$. In theory this is not a problem, but
 when dealing with simulations it is difficult to achieve accurate result when performing direct numerical differentiation of the
 quadrupole moment. 
 Furthermore, in \eq{eqT:quad} the terms $\rho x_i x_j \mathrm{d} V$ will give large weight to
-slow moving low density fluid elements far away from the regions where GWs are actually produced. 
+slow moving low-density fluid elements far away from the regions where GWs are actually produced. 
 On the other hand, the second time derivative of these contributions
-will be small, because faster moving and denser matter will contribute more to the GW amplitudes.  
+will be small, because faster moving and the denser matter will contribute more to the GW amplitudes.  
 Again, this is not problematic in theory, but when numerically computing the integral and second-order time derivatives 
 the exact cancellation of the large average value and the rate of change of the quadrupole moment is hard to achieve.
 We can circumvent these problems by using the Euler equations to rewrite \eq{eqT:quad}. This allows us to
@@ -300,7 +297,7 @@ Now we use \eq{eqT:mom} to remove $\partial_t \rho v_i$ and we get
 &+ x_j (-\partial_i p - \rho \partial_i \Phi - \partial_k (\rho v_i v_k)) \nonumber \\
 &- \frac{2}{3} \delta^{ij} x^l (-\partial_l p - \rho \partial_l \Phi - \partial_k (\rho v_l v_k)) \bigg].
 \end{align}
-After integrating by parts terms of the form $\partial_i p$ and $\partial_k (\rho v_i v_k))$
+After integrating by parts terms of the form $\partial_i p$ and $\partial_k (\rho v_i v_k)$
 we are left with
 \begin{align} \label{eqT:quaddtt3}
 \frac{\mathrm{d}^2}{\mathrm{dt}^2} Q_{ij} & = \int \mathrm{d}^3 x \rho \bigg[ 2 v_i v_j  - x_i \partial_j \Phi -  x_j \partial_i \Phi \nonumber \\
